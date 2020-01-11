@@ -1,0 +1,980 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Bernabé Borrero <bernabeborrero@gmail.com>, 2012
+# Cristina Gil Rodríguez <crisgil79@hotmail.com>, 2006
+# Josep Puigdemont <josep.puigdemont@gmail.com>, 2006, 2007
+# Robert Antoni Buj i Gelonch, 2010
+# Robert Antoni Buj i Gelonch, 2014
+# Xavier Conde Rueda <xavi.conde@gmail.com>, 2006
+# Chris Lumens <clumens@redhat.com>, 2015. #zanata
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015. #zanata
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017. #zanata
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-03 15:45-0700\n"
+"PO-Revision-Date: 2018-02-24 11:27+0000\n"
+"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
+"Language-Team: Catalan (http://www.transifex.com/projects/p/pykickstart/language/ca/)\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Zanata 4.6.2\n"
+
+#: ../pykickstart/base.py:187
+#, python-format
+msgid ""
+"Ignoring deprecated command on line %(lineno)s:  The %(cmd)s command has "
+"been deprecated and no longer has any effect.  It may be removed from future"
+" releases, which will result in a fatal error from kickstart.  Please modify"
+" your kickstart file to remove this command."
+msgstr ""
+"S'ha ignorat l'ordre en desús a la línia %(lineno)s:  L'ordre %(cmd)s està "
+"en desús i no tindrà cap efecte. S'eliminarà en futures versions, i "
+"provocarà un error fatal del kickstart. Modifiqueu el vostre fitxer "
+"kickstart per eliminar aquesta opció."
+
+#: ../pykickstart/base.py:418
+#, python-format
+msgid "Unknown command: %s"
+msgstr "No es coneix l'ordre: %s"
+
+#: ../pykickstart/parser.py:88
+#, python-format
+msgid "Illegal url for %%ksappend: %s"
+msgstr "L'url per a %%ksappend no és vàlida: %s"
+
+#: ../pykickstart/parser.py:93
+#, python-format
+msgid "Unable to open %%ksappend file: %s"
+msgstr "No es pot obrir el fitxer %%ksappend: %s"
+
+#: ../pykickstart/parser.py:99 ../pykickstart/parser.py:101
+#, python-format
+msgid "Unable to open %%ksappend file"
+msgstr "No es pot obrir el fitxer %%ksappend"
+
+#: ../pykickstart/parser.py:134 ../pykickstart/parser.py:762
+#, python-format
+msgid "Unable to open input kickstart file: %s"
+msgstr "No es pot obrir el fitxer d'entrada de kickstart: %s"
+
+#: ../pykickstart/parser.py:385
+msgid "Group cannot specify both --nodefaults and --optional"
+msgstr "El grup no pot especificar --nodefaults i --optional alhora"
+
+#: ../pykickstart/parser.py:566 ../pykickstart/parser.py:607
+#, python-format
+msgid "Section %s does not end with %%end."
+msgstr "La secció %s no finalitza amb %%end."
+
+#: ../pykickstart/parser.py:701
+#, python-format
+msgid "Unknown kickstart section: %s"
+msgstr "Secció kickstart desconeguda: %s"
+
+#. If we are ignoring unknown section errors, just create a new
+#. NullSection for the header we just saw.  Then nothing else
+#. needs to change.  You can turn this warning into an error via
+#. ksvalidator, or the warnings module.
+#: ../pykickstart/parser.py:707
+#, python-format
+msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
+msgstr ""
+"Possible secció desconeguda vista a la línia %(lineno)s: %(sectionName)s"
+
+#. If nothing else worked, we're out of options.
+#: ../pykickstart/version.py:114 ../pykickstart/version.py:123
+#: ../pykickstart/version.py:126 ../pykickstart/version.py:142
+#: ../pykickstart/version.py:196
+#, python-format
+msgid "Unsupported version specified: %s"
+msgstr "La versió especificada no és compatible: %s"
+
+#: ../pykickstart/options.py:82
+#, python-format
+msgid "Option %s is required"
+msgstr "Es requereix l'opció %s"
+
+#: ../pykickstart/options.py:86
+#, python-format
+msgid ""
+"The %(option)s option was introduced in version %(intro)s, but you are using"
+" kickstart syntax version %(version)s."
+msgstr ""
+"L'opció %(option)s es va introduir en la versió %(intro)s, no obstant esteu "
+"utilitzant la versió %(version)s de la sintaxi del kickstart."
+
+#: ../pykickstart/options.py:92
+#, python-format
+msgid "The %(option)s option is no longer supported."
+msgstr "L'opció %(option)s ja no està suportada."
+
+#: ../pykickstart/options.py:94
+#, python-format
+msgid ""
+"The %(option)s option was removed in version %(removed)s, but you are using "
+"kickstart syntax version %(version)s."
+msgstr ""
+"L'opció %(option)s es va eliminar en la versió %(removed)s, no obstant esteu"
+" utilitzant la versió %(version)s de la sintaxi del kickstart."
+
+#: ../pykickstart/options.py:97
+#, python-format
+msgid ""
+"Ignoring deprecated option on line %(lineno)s:  The %(option)s option has "
+"been deprecated and no longer has any effect.  It may be removed from future"
+" releases, which will result in a fatal error from kickstart.  Please modify"
+" your kickstart file to remove this option."
+msgstr ""
+"S'ha ignorat l'opció en desús a la línia %(lineno)s:  L'opció %(option)s "
+"està en desús i no tindrà cap efecte. S'eliminarà en futures versions, i "
+"provocarà un error fatal del kickstart. Modifiqueu el vostre fitxer "
+"kickstart per eliminar aquesta opció."
+
+#: ../pykickstart/options.py:136
+#, python-format
+msgid "Option %(opt)s: invalid boolean value: %(value)r"
+msgstr "Opció %(opt)s: el valor del booleà no és vàlid: %(value)r"
+
+#: ../pykickstart/options.py:141
+#, python-format
+msgid "Option %(opt)s: invalid string value: %(value)r"
+msgstr "Opció %(opt)s: el valor de la cadena no és vàlid: %(value)r"
+
+#: ../pykickstart/options.py:178
+msgid "Required flag set for option that doesn't take a value"
+msgstr ""
+"Es va demanar l'establiment de l'indicador per a una opció que no pren cap "
+"valor"
+
+#: ../pykickstart/sections.py:270
+msgid "--default and --nobase cannot be used together"
+msgstr "--default i --nobase no poden utilitzar-se alhora"
+
+#: ../pykickstart/sections.py:272
+msgid "--default and --nocore cannot be used together"
+msgstr "--default i --nocore no poden utilitzar-se alhora"
+
+#: ../pykickstart/errors.py:46
+#, python-format
+msgid ""
+"The following problem occurred on line %(lineno)s of the kickstart file:\n"
+"\n"
+"%(msg)s\n"
+msgstr ""
+"S'ha produït el següent problema a la línia %(lineno)s del fitxer del kickstart:\n"
+"\n"
+"%(msg)s\n"
+
+#: ../pykickstart/errors.py:48
+#, python-format
+msgid "There was a problem reading from line %s of the kickstart file"
+msgstr ""
+"Hi va haver un problema en llegir el fitxer del kickstart a la línia %s"
+
+#: ../pykickstart/commands/snapshot.py:101
+msgid "Snapshot origin must be specified!"
+msgstr "S'ha d'especificar l'origen de la instantània!"
+
+#: ../pykickstart/commands/snapshot.py:104
+msgid "Snapshot origin can be specified only once!"
+msgstr "Només es pot especificar una vegada l'origen de la instantània!"
+
+#: ../pykickstart/commands/snapshot.py:114
+#, python-format
+msgid "Snapshot with the name %s has been already defined!"
+msgstr "Ja ha estat definida una instantània amb el nom %s!"
+
+#: ../pykickstart/commands/snapshot.py:118
+msgid "Snapshot \"when\" parameter must be specified!"
+msgstr "S'ha d'especificar el paràmetre «when» de la instantània!"
+
+#: ../pykickstart/commands/snapshot.py:123
+#, python-format
+msgid "Snapshot origin %s must be specified by VG/LV!"
+msgstr "L'origen de la instantània %s ha d'estar especificat pel VG/LV!"
+
+#: ../pykickstart/commands/snapshot.py:128
+#, python-format
+msgid "Snapshot when param must have one of these values %s!"
+msgstr ""
+"El paràmetre «when» de la instantània ha de tenir un d'aquests valors %s!"
+
+#: ../pykickstart/commands/repo.py:206 ../pykickstart/commands/fcoe.py:116
+#: ../pykickstart/commands/iscsi.py:145 ../pykickstart/commands/xconfig.py:99
+#: ../pykickstart/commands/firewall.py:118
+#, python-format
+msgid "Unexpected arguments to %(command)s command: %(options)s"
+msgstr "Arguments inesperats per a l'ordre %(command)s: %(options)s"
+
+#: ../pykickstart/commands/repo.py:211
+msgid ""
+"Only one of --baseurl and --mirrorlist may be specified for repo command."
+msgstr ""
+"En l'ordre de repo tan sols se'n pot especificar un dels següents --baseurl "
+"o --mirrorlist."
+
+#: ../pykickstart/commands/repo.py:214
+msgid "One of --baseurl or --mirrorlist must be specified for repo command."
+msgstr ""
+"En l'ordre de repo se n'ha d'especificar un dels següents --baseurl  o "
+"--mirrorlist."
+
+#: ../pykickstart/commands/repo.py:222
+#, python-format
+msgid "A repo with the name %s has already been defined."
+msgstr "Ja s'ha definit un dipòsit amb el nom %s."
+
+#: ../pykickstart/commands/repo.py:255
+msgid "Method must be a url to be added to the repo list."
+msgstr "El mètode ha de ser una URL que s'afegeix a la llista dels dipòsits."
+
+#: ../pykickstart/commands/iscsiname.py:52 ../pykickstart/commands/key.py:60
+#: ../pykickstart/commands/keyboard.py:52 ../pykickstart/commands/mouse.py:63
+#: ../pykickstart/commands/lang.py:51
+#, python-format
+msgid "Kickstart command %s requires one argument"
+msgstr "L'ordre %s de Kickstart requereix un argument"
+
+#: ../pykickstart/commands/group.py:87
+#, python-format
+msgid "A group with the name %s has already been defined."
+msgstr "Ja s'ha definit un grup amb el nom %s."
+
+#: ../pykickstart/commands/skipx.py:51 ../pykickstart/commands/upgrade.py:57
+#: ../pykickstart/commands/upgrade.py:94 ../pykickstart/commands/eula.py:64
+#: ../pykickstart/commands/autopart.py:46
+#: ../pykickstart/commands/zerombr.py:67
+#: ../pykickstart/commands/unsupported_hardware.py:52
+#: ../pykickstart/commands/hmc.py:52 ../pykickstart/commands/cdrom.py:51
+#: ../pykickstart/commands/displaymode.py:60
+#: ../pykickstart/commands/mediacheck.py:50
+#: ../pykickstart/commands/interactive.py:51
+#: ../pykickstart/commands/lilocheck.py:51
+#, python-format
+msgid "Kickstart command %s does not take any arguments"
+msgstr "L'ordre de Kickstart %s no pren cap argument"
+
+#: ../pykickstart/commands/harddrive.py:76
+msgid "One of biospart or partition options must be specified."
+msgstr "S'ha d'especificar una de les opcions biospart o partition."
+
+#: ../pykickstart/commands/sshkey.py:90
+#: ../pykickstart/commands/keyboard.py:124
+#: ../pykickstart/commands/rootpw.py:65 ../pykickstart/commands/rootpw.py:112
+#: ../pykickstart/commands/timezone.py:63 ../pykickstart/commands/sshpw.py:128
+#, python-format
+msgid "A single argument is expected for the %s command"
+msgstr "S'espera un argument individual per a l'ordre %s"
+
+#: ../pykickstart/commands/sshkey.py:94 ../pykickstart/commands/sshpw.py:133
+#, python-format
+msgid "An ssh user with the name %s has already been defined."
+msgstr "Ja s'ha definit un usuari ssh amb el nom %s."
+
+#: ../pykickstart/commands/volgroup.py:133
+msgid "volgroup must be given a VG name"
+msgstr "volgroup ha d'indicar un nom del grup de volums"
+
+#: ../pykickstart/commands/volgroup.py:136
+msgid "volgroup must be given a list of partitions"
+msgstr "volgroup ha d'indicar una llista de particions"
+
+#: ../pykickstart/commands/volgroup.py:138
+msgid "Members may not be specified for preexisting volgroup"
+msgstr ""
+"Els membres no poden especificar-se per als grups de volums preexistents"
+
+#: ../pykickstart/commands/volgroup.py:147
+#, python-format
+msgid "A volgroup with the name %s has already been defined."
+msgstr "Ja s'ha definit un grup de volums amb el nom %s"
+
+#: ../pykickstart/commands/volgroup.py:183
+#: ../pykickstart/commands/volgroup.py:196
+msgid "The volgroup and autopart commands can't be used at the same time"
+msgstr "No poden utilitzar-se alhora les ordres de volgroup i d'autopart"
+
+#: ../pykickstart/commands/volgroup.py:200
+msgid "The volgroup and mount commands can't be used at the same time"
+msgstr "No poden utilitzar-se alhora les ordres volgroup i mount"
+
+#: ../pykickstart/commands/ignoredisk.py:84
+msgid ""
+"One of --drives or --only-use must be specified for ignoredisk command."
+msgstr ""
+"En l'ordre d'ignoredisk se n'ha d'especificar un dels següents --drives  o "
+"--only-use."
+
+#: ../pykickstart/commands/ignoredisk.py:139
+msgid ""
+"One of --drives , --only-use , or --interactive must be specified for "
+"ignoredisk command."
+msgstr ""
+"En l'ordre d'ignoredisk se n'ha d'especificar un dels següents --drives , "
+"--only-use o --interactive."
+
+#: ../pykickstart/commands/rescue.py:64
+msgid ""
+"Only one of --nomount and --romount may be specified for rescue command."
+msgstr ""
+"En l'ordre de rescue tan sols se'n pot especificar un dels següents "
+"--nomount o --romount"
+
+#: ../pykickstart/commands/upgrade.py:97
+#, python-format
+msgid "Kickstart command %s does not accept empty parameter %s"
+msgstr ""
+"L'orde %s de Kickstart no accepta que el paràmetre %s estigui en blanc"
+
+#: ../pykickstart/commands/eula.py:67
+msgid "Kickstart command eula expects the --agreed option"
+msgstr "L'orde eula de Kickstart espera l'opció --agreed"
+
+#. allow for translation of the error message
+#: ../pykickstart/commands/autopart.py:181
+#: ../pykickstart/commands/autopart.py:341
+#, python-format
+msgid "The %s and autopart commands can't be used at the same time"
+msgstr "No poden utilitzar-se alhora les ordres de %s i d'autopart"
+
+#: ../pykickstart/commands/autopart.py:379
+msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
+msgstr ""
+"autopart --fstype=btrfs no és tipus vàlid de sistema de fitxers, en lloc seu"
+" utilitzeu --type=btrfs"
+
+#: ../pykickstart/commands/autopart.py:383
+msgid "autopart --fstype cannot be used with --type=btrfs"
+msgstr "autopart --fstype no pot utilitzar-se amb --type=btrfs"
+
+#. allow for translation of the error message
+#: ../pykickstart/commands/mount.py:124
+#, python-format
+msgid "The '%s' and 'mount' commands can't be used at the same time"
+msgstr "No poden utilitzar-se alhora les ordres «%s» i «mount»"
+
+#: ../pykickstart/commands/mount.py:132
+#, python-format
+msgid "Device and mount point required for %s"
+msgstr "Punt de muntatge necessari per %s"
+
+#: ../pykickstart/commands/mount.py:136
+#, python-format
+msgid "Invalid mount point '%s' given"
+msgstr "El punt de muntatge indicat «%s» no és vàlid"
+
+#: ../pykickstart/commands/mount.py:140
+msgid "'--mkfsoptions' requires --reformat"
+msgstr "«--mkfsoptions» requereix --reformat"
+
+#: ../pykickstart/commands/monitor.py:67
+#, python-format
+msgid "Unexpected arguments to %(cmd)s command: %(options)s"
+msgstr "Arguments inesperats per a l'ordre %(cmd)s: %(options)s"
+
+#: ../pykickstart/commands/zerombr.py:54
+#, python-format
+msgid ""
+"Ignoring deprecated option on line %s:  The zerombr command no longer takes "
+"any options.  In future releases, this will result in a fatal error from "
+"kickstart.  Please modify your kickstart file to remove any options."
+msgstr ""
+"S'ignora l'opció en desús a la línia %s: L'ordre zerombr ja no té pren cap "
+"opció. En futures versions, això resultarà en un error fatal de kickstart. "
+"Modifiqueu el vostre fitxer kickstart per eliminar qualsevol opció."
+
+#: ../pykickstart/commands/bootloader.py:248
+msgid "--boot-drive accepts only one argument"
+msgstr "--boot-drive tan sols accepta un argument"
+
+#: ../pykickstart/commands/user.py:170
+#, python-format
+msgid "A user with the name %s has already been defined."
+msgstr "Ja s'ha definit un usuari amb el nom %s."
+
+#: ../pykickstart/commands/vnc.py:125
+msgid "VNC password must be six to eight characters long"
+msgstr ""
+
+#: ../pykickstart/commands/services.py:69
+msgid "One of --disabled or --enabled must be provided."
+msgstr "S'ha de proporcionar --disabled o --enabled."
+
+#: ../pykickstart/commands/dmraid.py:91
+#, python-format
+msgid ""
+"A DM RAID device with the name %s and devices %s has already been defined."
+msgstr ""
+"Ja s'ha definit un dispositiu RAID DM RAID amb el nom %s i els dispositius "
+"%s."
+
+#: ../pykickstart/commands/nvdimm.py:118
+#, python-format
+msgid "Unexpected arguments to nvdimm command: %(arguments)s"
+msgstr ""
+
+#: ../pykickstart/commands/nvdimm.py:122
+msgid "Action argument is required for nvdimm command"
+msgstr ""
+
+#: ../pykickstart/commands/nvdimm.py:128
+#, python-format
+msgid "Invalid action argument (choose from '%(valid_arguments)s')"
+msgstr ""
+
+#: ../pykickstart/commands/nvdimm.py:138
+msgid ""
+"Only one of --namespace and --blockdevs device specifications can be used"
+msgstr ""
+
+#: ../pykickstart/commands/nvdimm.py:144
+#, python-format
+msgid ""
+"An action %(action)s on namespace %(namespace)s has already been defined."
+msgstr ""
+
+#: ../pykickstart/commands/nvdimm.py:147
+#, python-format
+msgid ""
+"An action %(action)s on devices %(blockdevs)s has already been defined."
+msgstr ""
+
+#: ../pykickstart/commands/nvdimm.py:152
+#, python-format
+msgid "Action %(action)s requires --namespace argument to be set"
+msgstr ""
+
+#: ../pykickstart/commands/nvdimm.py:156
+#, python-format
+msgid ""
+"Action %(action)s with mode %(mode)s requires --sectorsize argument to be "
+"set"
+msgstr ""
+
+#: ../pykickstart/commands/nvdimm.py:161
+#, python-format
+msgid ""
+"Action %(action)s requires --namespace or --blockdevs argument to be set"
+msgstr ""
+
+#: ../pykickstart/commands/keyboard.py:129
+msgid ""
+"One of --xlayouts, --vckeymap options with value(s) or argument is expected "
+"for the keyboard command"
+msgstr ""
+"Una de les opcions --xlayouts o --vckeymap, amb els seus valors o arguments,"
+" s'esperava en l'ordre keyboard"
+
+#: ../pykickstart/commands/driverdisk.py:117
+#: ../pykickstart/commands/driverdisk.py:149
+msgid "Only one partition may be specified for driverdisk command."
+msgstr "Tan sols es pot especificar una partició per a l'ordre driverdisk."
+
+#: ../pykickstart/commands/driverdisk.py:120
+#: ../pykickstart/commands/driverdisk.py:152
+msgid ""
+"Only one of --source and partition may be specified for driverdisk command."
+msgstr ""
+"En l'ordre de driverdisk tan sols se'n pot especificar un dels següents "
+"--source o partition."
+
+#: ../pykickstart/commands/driverdisk.py:123
+msgid "One of --source or partition must be specified for driverdisk command."
+msgstr ""
+"En l'ordre de driverdisk se n'ha d'especificar un dels següents --source  o "
+"partition."
+
+#: ../pykickstart/commands/driverdisk.py:154
+msgid ""
+"Only one of --biospart and partition may be specified for driverdisk "
+"command."
+msgstr ""
+"En l'ordre de driverdisk tan sols se'n pot especificar un dels següents "
+"--biospart o partition."
+
+#: ../pykickstart/commands/driverdisk.py:156
+msgid ""
+"Only one of --biospart and --source may be specified for driverdisk command."
+msgstr ""
+"En l'ordre de driverdisk tan sols se'n pot especificar un dels següents "
+"--biospart o --source."
+
+#: ../pykickstart/commands/driverdisk.py:159
+msgid ""
+"One of --source, --biospart, or partition must be specified for driverdisk "
+"command."
+msgstr ""
+"En l'ordre de driverdisk se n'ha d'especificar un dels següents --source, "
+"--biospart o partition."
+
+#: ../pykickstart/commands/zfcp.py:111
+msgid "A zfcp with this information has already been defined."
+msgstr "Ja s'ha definit un zfcp amb aquesta informació."
+
+#: ../pykickstart/commands/url.py:170
+msgid "Only one of --url and --mirrorlist may be specified for url command."
+msgstr ""
+"En l'ordre d'url tan sols se'n pot especificar un dels següents --url o "
+"--mirrorlist."
+
+#: ../pykickstart/commands/url.py:173
+msgid "One of --url or --mirrorlist must be specified for url command."
+msgstr ""
+"En l'ordre d'url se n'ha d'especificar un dels següents --url o "
+"--mirrorlist."
+
+#: ../pykickstart/commands/raid.py:322 ../pykickstart/commands/logvol.py:350
+#: ../pykickstart/commands/partition.py:314
+#, python-format
+msgid "Mount point required for %s"
+msgstr "Punt de muntatge necessari per %s"
+
+#: ../pykickstart/commands/raid.py:325
+#, python-format
+msgid "Partitions required for %s"
+msgstr "Les particions necessàries per %s"
+
+#: ../pykickstart/commands/raid.py:327
+msgid "Members may not be specified for preexisting RAID device"
+msgstr ""
+"Els membres no poden especificar-se per als dispositius RAID preexistents"
+
+#: ../pykickstart/commands/raid.py:345
+#, python-format
+msgid "A RAID device with the name %s has already been defined."
+msgstr "Ja s'ha definit un dispositiu RAID amb el nom %s."
+
+#: ../pykickstart/commands/raid.py:447 ../pykickstart/commands/raid.py:489
+msgid "The raid and autopart commands can't be used at the same time"
+msgstr "No poden utilitzar-se alhora les ordres de raid i d'autopart"
+
+#: ../pykickstart/commands/raid.py:493
+msgid "The raid and mount commands can't be used at the same time"
+msgstr "No poden utilitzar-se alhora les ordres raid i mount"
+
+#: ../pykickstart/commands/raid.py:511 ../pykickstart/commands/logvol.py:569
+#: ../pykickstart/commands/partition.py:507
+msgid "--mkfsoptions with --noformat has no effect."
+msgstr "--mkfsoptions amb --noformat no té cap efecte."
+
+#: ../pykickstart/commands/raid.py:514 ../pykickstart/commands/logvol.py:572
+#: ../pykickstart/commands/partition.py:510
+msgid "--mkfsoptions and --fsprofile cannot be used together."
+msgstr "--mkfsoptions i --fsprofile no es poden utilitzar alhora."
+
+#: ../pykickstart/commands/device.py:98
+msgid "device command requires two arguments: module type and name"
+msgstr "l'ordre device requereix dos arguments: el tipus de mòdul i el nom"
+
+#: ../pykickstart/commands/device.py:124
+#, python-format
+msgid "%s command requires a single argument: %s"
+msgstr "l'ordre %s requereix un arguments individual: %s"
+
+#: ../pykickstart/commands/device.py:133
+#, python-format
+msgid "A module with the name %s has already been defined."
+msgstr "Ja s'ha definit un mòdul amb el nom %s."
+
+#: ../pykickstart/commands/logvol.py:359
+#, python-format
+msgid ""
+"A logical volume with the name %s has already been defined in volume group "
+"%s."
+msgstr ""
+"Un volum lògic amb el nom %s ja ha estat definit en el grup de volums %s."
+
+#: ../pykickstart/commands/logvol.py:428 ../pykickstart/commands/logvol.py:511
+msgid "The logvol and autopart commands can't be used at the same time"
+msgstr "No poden utilitzar-se alhora les ordres de logvol i d'autopart"
+
+#: ../pykickstart/commands/logvol.py:460
+msgid "--resize can only be used in conjunction with --useexisting"
+msgstr "--resize tan sols pot utilitzar-se amb la conjunció de --useexisting"
+
+#: ../pykickstart/commands/logvol.py:463
+msgid "--resize requires --size to indicate new size"
+msgstr "--resize requereix --size per a indicar la nova mida"
+
+#: ../pykickstart/commands/logvol.py:491
+msgid "--thin and --thinpool cannot both be specified for the same logvol"
+msgstr ""
+"--thin i --thinpool no poden especificar-se ambdós per al mateix volum lògic"
+
+#: ../pykickstart/commands/logvol.py:497
+msgid "--thin requires --poolname to specify pool name"
+msgstr "--thin requereix --poolname per a especificar el nom de l'agrupació"
+
+#: ../pykickstart/commands/logvol.py:504
+msgid "--chunksize and --metadatasize are for thin pools only"
+msgstr ""
+"--chunksize i --metadatasize tan sols són per a les agrupacions lleugeres"
+
+#: ../pykickstart/commands/logvol.py:515
+msgid "The logvol and mount commands can't be used at the same time"
+msgstr "No poden utilitzar-se alhora les ordres logvol i mount"
+
+#: ../pykickstart/commands/logvol.py:519
+msgid "Size required"
+msgstr ""
+
+#: ../pykickstart/commands/logvol.py:523
+msgid "Percentage must be between 0 and 100."
+msgstr "El percentatge ha d'estar entre 0 i 100."
+
+#: ../pykickstart/commands/logvol.py:540
+msgid "--size and --percent cannot both be specified for the same logvol"
+msgstr ""
+"--size i --percent no poden especificar-se ambdós per al mateix volum lògic"
+
+#: ../pykickstart/commands/logvol.py:576
+msgid "Adding a cache to an existing logical volume is not supported"
+msgstr "No s'admet l'addició d'una memòria cau a un volum lògic existent"
+
+#: ../pykickstart/commands/logvol.py:580
+msgid "Thin volumes cannot be cached"
+msgstr "Els volums disgregats no poden estar en memòria cau"
+
+#: ../pykickstart/commands/logvol.py:584
+msgid "Cache needs to have a list of (fast) PVs specified"
+msgstr ""
+"La memòria cau requereix que tingui especificada una llista de volums físics"
+" (fast)"
+
+#: ../pykickstart/commands/logvol.py:588
+msgid "Cache needs to have size specified"
+msgstr "La memòria cau requereix que tingui especificada una mida"
+
+#: ../pykickstart/commands/logvol.py:592
+#, python-format
+msgid "Invalid cache mode given: %s"
+msgstr "S'ha donat un mode no vàlid de memòria cau: %s"
+
+#: ../pykickstart/commands/fcoe.py:123
+#, python-format
+msgid "A FCOE device with the name %s has already been defined."
+msgstr "Ja s'ha definit un dispositiu FCOE amb el nom %s."
+
+#: ../pykickstart/commands/reqpart.py:60
+#, python-format
+msgid "The %s and reqpart commands can't be used at the same time"
+msgstr "No poden utilitzar-se alhora les ordres %s i reqpart"
+
+#: ../pykickstart/commands/reqpart.py:65
+msgid "The mount and reqpart commands can't be used at the same time"
+msgstr "No poden utilitzar-se alhora les ordres mount i reqpart"
+
+#: ../pykickstart/commands/partition.py:323
+#, python-format
+msgid "A partition with the mountpoint %s has already been defined."
+msgstr "Ja s'ha definit una partició amb el punt de muntatge %s."
+
+#: ../pykickstart/commands/partition.py:431
+#: ../pykickstart/commands/partition.py:478
+msgid ""
+"The part/partition and autopart commands can't be used at the same time"
+msgstr ""
+"No poden utilitzar-se alhora les ordres de part/partition i d'autopart"
+
+#: ../pykickstart/commands/partition.py:456
+msgid "--resize can only be used in conjunction with --onpart"
+msgstr "--resize tan sols pot utilitzar-se amb la conjunció de --onpart"
+
+#: ../pykickstart/commands/partition.py:459
+msgid "--resize requires --size to specify new size"
+msgstr "--resize requereix --size per a especificar la nova mida"
+
+#: ../pykickstart/commands/partition.py:482
+msgid "The part/partition and mount commands can't be used at the same time"
+msgstr "No poden utilitzar-se alhora les ordres part/partition i mount"
+
+#: ../pykickstart/commands/partition.py:488
+msgid ""
+"The --fstype=tmpfs option can't be used together with --grow or --maxsize"
+msgstr ""
+"L'opció --fstype=tmpfs no pot utilitzar-se juntament amb l'opció --grow o "
+"amb l'opció --maxsize"
+
+#: ../pykickstart/commands/logging.py:69
+msgid "Can't specify --port without --host."
+msgstr "No es pot especificar --port sense --host."
+
+#: ../pykickstart/commands/updates.py:54
+#, python-format
+msgid "Kickstart command %s only takes one argument"
+msgstr "l'ordre de Kickstart %s tan sols pren un argument"
+
+#: ../pykickstart/commands/network.py:379
+#, python-format
+msgid "A network device with the name %s has already been defined."
+msgstr "Ja s'ha definit un dispositiu de xarxa amb el nom %s."
+
+#: ../pykickstart/commands/network.py:542
+#: ../pykickstart/commands/network.py:669
+msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgstr "L'opció --bridgeopts requereix que s'especifiqui --bridgeslaves"
+
+#: ../pykickstart/commands/network.py:549
+#: ../pykickstart/commands/network.py:676
+msgid ""
+"Bad format of --bridgeopts, expecting key=value options separated by ','"
+msgstr ""
+"Format dolent de --bridgeopts, s'esperaven opcions clau=valor separades amb "
+"','"
+
+#: ../pykickstart/commands/network.py:617
+msgid ""
+"When using the <prefix>.<vlan id> interface name notation, <prefix> can't be"
+" equal to 'vlan'."
+msgstr ""
+"Quan s'utilitzi la notació del nom de la interfície <prefix>.<id vlan>, "
+"<prefix> no pot ser igual a 'vlan'."
+
+#: ../pykickstart/commands/network.py:621
+msgid ""
+"If network --interfacename contains a '.', valid vlan id should follow."
+msgstr ""
+"Si network --interfacename conté un '.', a continuació hi ha d'haver un id. "
+"vlan vàlid."
+
+#: ../pykickstart/commands/network.py:630
+msgid ""
+"If network --interfacename starts with 'vlan', valid vlan id should follow."
+msgstr ""
+"Si network --interfacename comença amb 'vlan', a continuació hi ha d'haver "
+"un id. vlan vàlid."
+
+#: ../pykickstart/commands/network.py:635
+#, python-format
+msgid "The vlan id out of the %d-%d vlan id range."
+msgstr "L'id. de vlan està fora del rang de l'id. de vlan %d-%d."
+
+#: ../pykickstart/commands/network.py:681
+#, python-format
+msgid "--bindto=%s is not supported for this type of device"
+msgstr "--bindto=%s no està admès per a aquest tipus de dispositiu"
+
+#: ../pykickstart/commands/multipath.py:98
+#, python-format
+msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
+msgstr ""
+"El dispositiu '%(device)s' ja està utilitzat en el multicamí "
+"'%(multipathdev)s'"
+
+#: ../pykickstart/commands/btrfs.py:162
+msgid "btrfs must be given a mountpoint"
+msgstr "btrfs ha d'indicar un punt de muntatge"
+
+#: ../pykickstart/commands/btrfs.py:165
+msgid "btrfs must be given a list of partitions"
+msgstr "btrfs ha d'indicar una llista de particions"
+
+#: ../pykickstart/commands/btrfs.py:167
+msgid "btrfs subvol requires specification of parent volume"
+msgstr "btrfs subvol requereix l'especificació del volum primari"
+
+#: ../pykickstart/commands/btrfs.py:170
+msgid "btrfs subvolume requires a name"
+msgstr "el subvolum de btrfs requereix un nom"
+
+#: ../pykickstart/commands/btrfs.py:177
+#, python-format
+msgid "A btrfs volume with the mountpoint %s has already been defined."
+msgstr "Ja s'ha definit un volum btrfs  amb el punt de muntatge %s."
+
+#: ../pykickstart/commands/btrfs.py:198
+msgid "--mkfsoptions with --noformat or --useexisting has no effect."
+msgstr "--mkfsoptions amb --noformat o --useexisting no té cap efecte."
+
+#: ../pykickstart/commands/timezone.py:140
+#: ../pykickstart/commands/timezone.py:175
+msgid "Options --nontp and --ntpservers are mutually exclusive"
+msgstr "Les opcions --nontp i --ntpservers són mútuament excloents"
+
+#: ../pykickstart/commands/timezone.py:157
+#, python-format
+msgid ""
+"At least one option and/or an argument are expected for the  %s command"
+msgstr "S'espera almenys una opció i/o un argument per a l'ordre %s"
+
+#: ../pykickstart/commands/timezone.py:168
+#, python-format
+msgid "One or zero arguments are expected for the %s command"
+msgstr "S'espera un o cap argument per a l'ordre %s"
+
+#: ../pykickstart/commands/realm.py:44
+msgid "The realm command 'join' should only be specified once"
+msgstr "Tan sols es pot especificar un cop l'ordre 'join' de realm"
+
+#: ../pykickstart/commands/realm.py:48
+msgid "Missing realm command arguments"
+msgstr "Falten arguments en l'ordre realm"
+
+#: ../pykickstart/commands/realm.py:54
+#, python-format
+msgid "Unsupported realm '%s' command"
+msgstr "L'ordre '%s' de realm no està suportada"
+
+#: ../pykickstart/commands/realm.py:67
+#, python-format
+msgid "Invalid realm arguments: %s"
+msgstr "Arguments no vàlids de realm: %s"
+
+#: ../pykickstart/commands/realm.py:71
+msgid "Specify only one realm to join"
+msgstr "Especifiqueu tan sols un reialme a unir-se."
+
+#: ../tools/ksflatten:38
+msgid "Path to kickstart config file"
+msgstr "Camí al fitxer de configuració de kickstart"
+
+#: ../tools/ksflatten:40
+msgid "Kickstart version to use for interpreting config"
+msgstr ""
+"La versió de Kickstart per utilitzar en la interpretació de la configuració"
+
+#: ../tools/ksflatten:42
+msgid "Write flattened config to OUTPUT"
+msgstr "Escriu la sortida aplanada a OUTPUT"
+
+#: ../tools/ksflatten:49
+msgid "Need to specify a config to flatten"
+msgstr "Cal especificar una configuració a aplanar"
+
+#: ../tools/ksflatten:57
+#, python-format
+msgid "Failed to read kickstart file '%s' : %s"
+msgstr "S'ha produït un error en llegir el fitxer kickstart «%s»: %s"
+
+#: ../tools/ksflatten:60
+#, python-format
+msgid "Failed to parse kickstart file '%s' : %s"
+msgstr "S'ha produït un error en analitzar el fitxer kickstart «%s»: %s"
+
+#: ../tools/ksflatten:67
+#, python-format
+msgid "Failed to open output file '%s' : %s"
+msgstr "S'ha produït un error en obrir el fitxer de sortida «%s»: %s"
+
+#: ../tools/ksshell:147
+msgid "a basis file to use for seeding the kickstart data (optional)"
+msgstr ""
+"un fitxer base a utilitzar com a model de dades de kickstart (opcional)"
+
+#: ../tools/ksshell:149
+msgid ""
+"the location to write the finished kickstart file, or stdout if not given"
+msgstr ""
+"la ubicació on escriure el fitxer kickstart resultant, o a la sortida "
+"estàndard si no es proporciona"
+
+#: ../tools/ksshell:151 ../tools/ksvalidator:61
+msgid "version of kickstart syntax to validate against"
+msgstr "la versió de la sintaxi del kickstart a validar"
+
+#: ../tools/ksshell:162 ../tools/ksverdiff:67 ../tools/ksvalidator:85
+#, python-format
+msgid "The version %s is not supported by pykickstart"
+msgstr "El pykickstart no és compatible amb la versió %s"
+
+#. Errors should just dump you to the prompt anyway.
+#: ../tools/ksshell:174
+#, python-format
+msgid ""
+"Warning:  The following error occurred when processing the input file:\n"
+"%s\n"
+msgstr ""
+"Advertència: S'ha produït un error mentre es processava el fitxer d'entrada:\n"
+"%s\n"
+
+#: ../tools/ksshell:219
+#, python-format
+msgid "Internal command %s not recognized."
+msgstr "No s'ha reconegut l'ordre interna %s."
+
+#: ../tools/ksverdiff:49 ../tools/ksvalidator:59
+msgid "list the available versions of kickstart syntax"
+msgstr "enumera totes les versions disponibles de la sintaxi kickstart"
+
+#: ../tools/ksverdiff:60
+msgid "You must specify two syntax versions."
+msgstr "Heu d'especificar dues versions de la sintaxi."
+
+#: ../tools/ksverdiff:74
+#, python-format
+msgid "The following commands were removed in %s:"
+msgstr "Les següents comandes van ser eliminades en %s:"
+
+#: ../tools/ksverdiff:77
+#, python-format
+msgid "The following commands were deprecated in %s:"
+msgstr "Les següents comandes es van considerar en desús en %s:"
+
+#: ../tools/ksverdiff:80
+#, python-format
+msgid "The following commands were added in %s:"
+msgstr "Les següents comandes es van afegir en %s:"
+
+#: ../tools/ksverdiff:106
+#, python-format
+msgid "The following options were added to the %s command in %s:"
+msgstr "Les següents opcions es van afegir en l'ordre %s en %s:"
+
+#: ../tools/ksverdiff:111
+#, python-format
+msgid "The following options were deprecated from the %s command in %s:"
+msgstr "Les següents opcions van considerar-se en desús a l'ordre %s en %s:"
+
+#: ../tools/ksverdiff:116
+#, python-format
+msgid "The following options were removed from the %s command in %s:"
+msgstr "Les següents opcions van eliminar-se de l'ordre %s en %s:"
+
+#: ../tools/ksvalidator:51
+msgid "filename or URL to read from"
+msgstr "nom de fitxer o URL d'on llegir"
+
+#: ../tools/ksvalidator:53
+msgid "halt after the first error or warning"
+msgstr "atura't al primer error o advertència"
+
+#: ../tools/ksvalidator:56
+#, python-format
+msgid "parse include files when %%include is seen"
+msgstr "analitza fitxers d'inclusió quan es trobi %%include"
+
+#: ../tools/ksvalidator:79
+#, python-format
+msgid ""
+"Error reading %s:\n"
+"%s"
+msgstr ""
+"S'ha produït un error mentre es llegia %s:\n"
+"%s"
+
+#: ../tools/ksvalidator:101
+#, python-format
+msgid ""
+"File uses a deprecated option or command.\n"
+"%s"
+msgstr ""
+"El fitxer utilitza una opció o una ordre en desús.\n"
+"%s"
+
+#: ../tools/ksvalidator:107
+msgid "General kickstart error in input file"
+msgstr "S'ha produït un error general del kickstart en el fitxer d'entrada"
+
+#: ../tools/ksvalidator:110
+#, python-format
+msgid "General error in input file:  %s"
+msgstr "Hi ha un error general al fitxer d'entrada: %s"
