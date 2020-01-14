@@ -7,12 +7,13 @@
 # eukim <eukim@redhat.com>, 2006, 2007, 2008
 # eukim <eukim@redhat.com>, 2012
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2018-11-20 10:57+0000\n"
+"PO-Revision-Date: 2020-01-14 11:01+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/pykickstart/language/ko/)\n"
 "Language: ko\n"
@@ -218,10 +219,12 @@ msgid ""
 "fatal error from kickstart. Please modify your kickstart file to remove the "
 "option."
 msgstr ""
+"온라인에서 더 이상 사용되지 않는 옵션을 무시합니다 %s: ignoredisk 명령은 더 이상 --interactive 옵션을 지원하지 "
+"않습니다. 향후 릴리스에서는 킥스타트에서 치명적인 오류가 발생합니다. 킥스타트 파일을 수정하여 옵션을 제거하십시오."
 
 #: ../pykickstart/commands/ignoredisk.py:172
 msgid "--interactive option of ignoredisk command is no longer supported."
-msgstr ""
+msgstr "ignoredisk 명령의 --interactive 옵션은 더 이상 지원되지 않습니다."
 
 #: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
 #, python-format
@@ -492,12 +495,12 @@ msgstr "오직 하나의 %(options_list)s 옵션은 url 명령에 대해 지정 
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "빈 문자열은 유효한 활성화 키가 아닙니다."
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
 msgid "Invalid raid level: %s"
-msgstr "유효하지 않은 공격 레벨 : %s"
+msgstr "유효하지 않은 RAID 레벨 : %s"
 
 #: ../pykickstart/commands/raid.py:438
 #, python-format

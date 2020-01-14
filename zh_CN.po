@@ -12,13 +12,14 @@
 # cheng ye <18969068329@163.com>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Tony Fu <tfu@redhat.com>, 2019. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2019-06-14 02:22+0000\n"
-"Last-Translator: Tony Fu <tfu@redhat.com>\n"
+"PO-Revision-Date: 2020-01-14 11:01+0000\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/pykickstart/language/zh_CN/)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -493,7 +494,7 @@ msgstr "url 命令只能使用 %(options_list)s 选项中的一个。"
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "空字符串不是有效的激活码。"
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
