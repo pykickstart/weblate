@@ -14,15 +14,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2019-12-18 05:32+0000\n"
+"PO-Revision-Date: 2020-01-17 02:24+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish (http://www.transifex.com/projects/p/pykickstart/language/pl/)\n"
+"Language-Team: Polish <https://translate.stg.fedoraproject.org/projects/"
+"pykickstart/rhel8-branch/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.10.1\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -479,7 +481,7 @@ msgstr ""
 #: ../pykickstart/commands/driverdisk.py:129
 #: ../pykickstart/commands/driverdisk.py:170
 msgid "Only one partition may be specified for driverdisk command."
-msgstr "Dla polecenia „driverdisk” można podać tylko jedną partycję"
+msgstr "Dla polecenia „driverdisk” można podać tylko jedną partycję."
 
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
@@ -487,7 +489,7 @@ msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
 msgstr ""
 "Dla polecenia „driverdisk” można podać tylko jedną opcję --source lub jedną "
-"partycję"
+"partycję."
 
 #: ../pykickstart/commands/driverdisk.py:138
 msgid "One of --source or partition must be specified for driverdisk command."
