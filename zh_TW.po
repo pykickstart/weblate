@@ -14,15 +14,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2018-11-20 10:57+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/pykickstart/language/zh_TW/)\n"
+"PO-Revision-Date: 2020-01-17 02:24+0000\n"
+"Last-Translator: Peter Pan <pan93412@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.stg.fedoraproject."
+"org/projects/pykickstart/rhel8-branch/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 3.10.1\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -115,7 +116,7 @@ msgstr "指定了不支援的版本：%s"
 #: ../pykickstart/options.py:66 ../pykickstart/options.py:68
 #, python-format
 msgid "invalid boolean value: %r"
-msgstr "無效的布爾值： %r"
+msgstr "無效的布林值： %r"
 
 #: ../pykickstart/options.py:179
 #, python-format
@@ -150,11 +151,11 @@ msgstr ""
 
 #: ../pykickstart/sections.py:625
 msgid "--default and --nobase cannot be used together"
-msgstr "--default和--nobase不能一起使用"
+msgstr "--default 及 --nobase 不得同時使用"
 
 #: ../pykickstart/sections.py:627
 msgid "--default and --nocore cannot be used together"
-msgstr "--default和--nocore不能一起使用"
+msgstr "--default 及 --nocore 不得同時使用"
 
 #: ../pykickstart/errors.py:70
 #, python-format
