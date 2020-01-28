@@ -14,15 +14,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2018-08-21 07:56+0000\n"
+"PO-Revision-Date: 2020-01-29 20:16+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
-"Language-Team: Dutch (http://www.transifex.com/projects/p/pykickstart/language/nl/)\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
+"pykickstart/rhel8-branch/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.10.3\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -128,7 +129,7 @@ msgid ""
 " kickstart syntax version %(version)s."
 msgstr ""
 "De %(option)s optie werd geïntroduceerd in versie %(intro)s, maar je "
-"gebruikt kickstart syntaxis versie %(version)s"
+"gebruikt kickstart syntaxis versie %(version)s."
 
 #: ../pykickstart/options.py:185
 #, python-format
@@ -142,7 +143,7 @@ msgid ""
 "kickstart syntax version %(version)s."
 msgstr ""
 "De %(option)s optie werd verwijderd in versie %(removed)s, maar je gebruikt "
-"kickstart syntaxis versie %(version)s"
+"kickstart syntaxis versie %(version)s."
 
 #: ../pykickstart/options.py:190
 #, python-format
@@ -218,7 +219,7 @@ msgid ""
 "One of --drives , --only-use , or --interactive must be specified for "
 "ignoredisk command."
 msgstr ""
-"Slechts een van --drives , --only-use  of --interactive moet gespecificeerd "
+"Slechts een van --drives , --only-use of --interactive moet gespecificeerd "
 "worden voor ignoredisk commando."
 
 #: ../pykickstart/commands/ignoredisk.py:165
@@ -229,10 +230,15 @@ msgid ""
 "fatal error from kickstart. Please modify your kickstart file to remove the "
 "option."
 msgstr ""
+"Verouderde optie op regel %s negeren:  Het commando ignoredisk ondersteunt "
+"niet langer de --interactieve optie. In toekomstige releases zal dit "
+"resulteren in een fatale fout van kickstart. Pas je kickstart-bestand aan om "
+"de optie te verwijderen."
 
 #: ../pykickstart/commands/ignoredisk.py:172
 msgid "--interactive option of ignoredisk command is no longer supported."
 msgstr ""
+"--interactive optie van ignoredisk commando wordt niet meer ondersteund."
 
 #: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
 #, python-format
@@ -347,7 +353,7 @@ msgstr "autopart --type=btrfs wordt niet ondersteund"
 #, python-format
 msgid "The '%s' and 'mount' commands can't be used at the same time"
 msgstr ""
-"De  '%s' en 'mount' commando's kunnen niet tegelijkertijd gebruikt worden"
+"De '%s' en 'mount' commando's kunnen niet tegelijkertijd gebruikt worden"
 
 #: ../pykickstart/commands/mount.py:184
 #, python-format
@@ -360,7 +366,7 @@ msgstr "'--mkfsoptions' vereist --reformat"
 
 #: ../pykickstart/commands/syspurpose.py:86
 msgid "The syspurpose command does not take positional arguments!"
-msgstr ""
+msgstr "Het syspurpose commando neemt geen positionele argumenten aan!"
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -545,7 +551,7 @@ msgstr ""
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "Een lege string is geen geldige activeringssleutel."
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
@@ -710,7 +716,7 @@ msgstr ""
 
 #: ../pykickstart/commands/module.py:134
 msgid "The enable module command does not take position arguments!"
-msgstr "Het enable module commando  accepeteert geen positie argumenten!"
+msgstr "Het enable module commando accepeteert geen positie argumenten!"
 
 #: ../pykickstart/commands/partition.py:448
 #, python-format
@@ -789,8 +795,8 @@ msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be"
 " equal to 'vlan'."
 msgstr ""
-"Als de <prefix>.<vlan id> interfacenaam notatie gebruikt wordt, <prefix>  "
-"kan het niet gelijk zijn aan 'vlan'."
+"Als de <prefix>.<vlan id> interfacenaam notatie gebruikt wordt, <prefix> kan "
+"het niet gelijk zijn aan 'vlan'."
 
 #: ../pykickstart/commands/network.py:954
 msgid ""
@@ -995,7 +1001,7 @@ msgstr "Schrijf platgeslagen configuratie naar OUTPUT"
 
 #: ../tools/ksflatten.py:47
 msgid "Need to specify a config to flatten"
-msgstr "Specificeer een configuratie om plat te slaan "
+msgstr "Specificeer een configuratie om plat te slaan"
 
 #: ../tools/ksflatten.py:60
 #, python-format
