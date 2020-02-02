@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-08 16:32-0800\n"
-"PO-Revision-Date: 2020-01-29 20:16+0000\n"
+"PO-Revision-Date: 2020-02-02 20:16+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/nl/>\n"
@@ -196,16 +196,16 @@ msgstr "Een enkel argument wordt verwacht voor het %s commando"
 #: ../pykickstart/commands/key.py:64 ../pykickstart/commands/logvol.py:470
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
-msgstr "Onverwachte argumenten for %(command)s commando: %(options)s"
+msgstr "Onverwachte argumenten voor %(command)s commando: %(options)s"
 
 #: ../pykickstart/commands/sshpw.py:170 ../pykickstart/commands/sshkey.py:109
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
-msgstr "Een ssh gebruiker met de naam %s is al gedefinieerd."
+msgstr "Een ssh-gebruiker met de naam %s is al gedefinieerd."
 
 #: ../pykickstart/commands/harddrive.py:88
 msgid "One of biospart or partition options must be specified."
-msgstr "Slechts biospart of partitie opties kan gespecificeerd worden."
+msgstr "Alleen de biospart of de partitie optie kan gespecificeerd worden."
 
 #: ../pykickstart/commands/ignoredisk.py:88
 msgid "One of --drives or --only-use must be specified for ignoredisk command."
@@ -533,7 +533,7 @@ msgstr "Ongeldig raid niveau: %s"
 #: ../pykickstart/commands/raid.py:438
 #, python-format
 msgid "Partitions required for %s"
-msgstr "Partities zijn vereist voor %s"
+msgstr "Partitie vereist voor %s"
 
 #: ../pykickstart/commands/raid.py:440
 msgid "Members may not be specified for preexisting RAID device"
@@ -679,19 +679,19 @@ msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."
 msgstr ""
-"Als de <prefix>.<vlan id> interfacenaam notatie gebruikt wordt, <prefix> kan "
-"het niet gelijk zijn aan 'vlan'."
+"Als de <prefix>.<vlan id> interfacenaam notatie gebruikt wordt, kan <prefix> "
+"niet gelijk zijn aan 'vlan'."
 
 #: ../pykickstart/commands/network.py:954
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
-"Als network --interfacename een a '.' bevat, moet een geldige vlan id volgen."
+"Als network --interfacename een a '.' bevat, moet een geldig vlan-id volgen."
 
 #: ../pykickstart/commands/network.py:963
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
-"Als network --interfacename begint met 'vlan', moet een geldige vlan id "
+"Als network --interfacename begint met 'vlan', moet een geldig vlan-id "
 "volgen."
 
 #: ../pykickstart/commands/network.py:968
@@ -774,11 +774,11 @@ msgstr ""
 #: ../pykickstart/commands/logvol.py:629 ../pykickstart/commands/logvol.py:739
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
 msgstr ""
-"--thin en --thinpool kuunen niet gespecificeerd worden voor dezelfde logvol"
+"--thin en --thinpool kunnen niet gespecificeerd worden voor dezelfde logvol"
 
 #: ../pykickstart/commands/logvol.py:634 ../pykickstart/commands/logvol.py:743
 msgid "--thin requires --poolname to specify pool name"
-msgstr "--thin vereist --poolname voor het specificeren van de poel naam"
+msgstr "--thin vereist --poolname voor het specificeren van de poolnaam"
 
 #: ../pykickstart/commands/logvol.py:639 ../pykickstart/commands/logvol.py:748
 msgid "--chunksize and --metadatasize are for thin pools only"
@@ -988,7 +988,7 @@ msgstr "na de eerste fout of waarschuwing stoppen"
 #: ../tools/ksvalidator.py:57
 #, python-format
 msgid "parse include files when %%include is seen"
-msgstr "Ontleed include bestanden als %%include is opgemerkt"
+msgstr "ontleed include bestanden als %%include is opgemerkt"
 
 #: ../tools/ksvalidator.py:62 ../tools/ksshell.py:152
 msgid "version of kickstart syntax to validate against"
