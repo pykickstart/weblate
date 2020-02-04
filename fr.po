@@ -20,9 +20,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2020-01-24 09:16+0000\n"
+"PO-Revision-Date: 2020-02-05 04:16+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
-"Language-Team: French <https://translate.stg.fedoraproject.org/projects/"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -39,8 +39,8 @@ msgid ""
 " releases, which will result in a fatal error from kickstart.  Please modify"
 " your kickstart file to remove this command."
 msgstr ""
-"Commande obsolète sur la ligne %(lineno)s ignorée : la commande %(cmd)s est "
-"obsolète et n'a plus d'effet. Elle pourra être supprimée lors de futures "
+"Commande obsolète sur la ligne %(lineno)s ignorée : la commande %(cmd)s est "
+"obsolète et n’a plus d’effet. Elle pourra être supprimée lors de futures "
 "versions, ce qui provoquera une erreur fatale de kickstart. Merci de "
 "modifier votre fichier kickstart et de retirer cette commande."
 
@@ -52,23 +52,23 @@ msgstr "Commande inconnue : %s"
 #: ../pykickstart/load.py:66
 #, python-format
 msgid "Error writing file \"%s\":"
-msgstr "Erreur lors de l'écriture du fichier \"%s\" :"
+msgstr "Erreur lors de l’écriture du fichier « %s » :"
 
 #: ../pykickstart/load.py:79
 #, python-format
 msgid "Error securely accessing URL \"%s\""
-msgstr "Erreur lors de l'accès sécurisé à l'URL \"%s\""
+msgstr "Erreur lors de l’accès sécurisé à l’URL « %s »"
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:81 ../pykickstart/load.py:84
 #, python-format
 msgid "Error accessing URL \"%s\""
-msgstr "Erreur lors de l'accès à l'URL \"%s\""
+msgstr "Erreur lors de l’accès à l’URL « %s »"
 
 #: ../pykickstart/load.py:99
 #, python-format
 msgid "Error opening file: %s"
-msgstr "Erreur lors de l'ouverture du fichier : %s"
+msgstr "Erreur lors de l’ouverture du fichier : %s"
 
 #: ../pykickstart/load.py:109
 #, python-format
@@ -83,12 +83,12 @@ msgstr "URL illégale pour %%ksappend : %s"
 #: ../pykickstart/parser.py:97
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
-msgstr "Impossible d'ouvrir le fichier %%ksappend : %s"
+msgstr "Impossible d’ouvrir le fichier %%ksappend : %s"
 
 #: ../pykickstart/parser.py:125 ../pykickstart/parser.py:815
 #, python-format
 msgid "Unable to open input kickstart file: %s"
-msgstr "Impossible d'ouvrir le fichier d'entrée kickstart : %s"
+msgstr "Impossible d’ouvrir le fichier d’entrée kickstart : %s"
 
 #: ../pykickstart/parser.py:439
 msgid "Group cannot specify both --nodefaults and --optional"
@@ -133,13 +133,13 @@ msgid ""
 "The %(option)s option was introduced in version %(intro)s, but you are using"
 " kickstart syntax version %(version)s."
 msgstr ""
-"L'option %(option)s a été implémentée dans la version %(intro)s, mais vous "
+"L’option %(option)s a été implémentée dans la version %(intro)s, mais vous "
 "utilisez la syntaxe de kickstart correspondant à la version %(version)s."
 
 #: ../pykickstart/options.py:185
 #, python-format
 msgid "The %(option)s option is no longer supported."
-msgstr "L'option %(option)s n'est plus prise en charge."
+msgstr "L’option %(option)s n’est plus prise en charge."
 
 #: ../pykickstart/options.py:187
 #, python-format
@@ -147,7 +147,7 @@ msgid ""
 "The %(option)s option was removed in version %(removed)s, but you are using "
 "kickstart syntax version %(version)s."
 msgstr ""
-"L'option %(option)s a été supprimée dans la version %(removed)s, mais vous "
+"L’option %(option)s a été supprimée dans la version %(removed)s, mais vous "
 "utilisez la syntaxe de kickstart correspondant à la version %(version)s."
 
 #: ../pykickstart/options.py:190
@@ -158,8 +158,8 @@ msgid ""
 " releases, which will result in a fatal error from kickstart.  Please modify"
 " your kickstart file to remove this option."
 msgstr ""
-"Option obsolète sur la ligne %(lineno)s ignorée : l'option %(option)s est "
-"obsolète et n'a plus d'effet. Elle pourra être supprimée lors de futures "
+"Option obsolète sur la ligne %(lineno)s ignorée : l’option %(option)s est "
+"obsolète et n’a plus d’effet. Elle pourra être supprimée lors de futures "
 "versions, ce qui provoquera une erreur fatale de kickstart. Merci de "
 "modifier votre fichier kickstart et de retirer cette option."
 
@@ -178,7 +178,8 @@ msgid ""
 "\n"
 "%(msg)s\n"
 msgstr ""
-"Le problème suivant s'est produit sur la ligne %(lineno)s du fichier kickstart :\n"
+"Le problème suivant s’est produit sur la ligne %(lineno)s du fichier "
+"kickstart :\n"
 "\n"
 "%(msg)s\n"
 
@@ -234,10 +235,10 @@ msgid ""
 "fatal error from kickstart. Please modify your kickstart file to remove the "
 "option."
 msgstr ""
-"Option déconseillée ignorée à la ligne %s : la commande ignoredisk ne prend "
-"plus en charge l'option --interactive. Dans les versions suivantes, cela "
+"Option déconseillée ignorée à la ligne %s : la commande ignoredisk ne prend "
+"plus en charge l’option --interactive. Dans les versions suivantes, cela "
 "causera une erreur fatale de la part de kickstart. Veuillez modifier votre "
-"fichier kickstart pour supprimer l'option."
+"fichier kickstart pour supprimer l’option."
 
 #: ../pykickstart/commands/ignoredisk.py:172
 msgid "--interactive option of ignoredisk command is no longer supported."
@@ -283,7 +284,7 @@ msgstr ""
 #: ../pykickstart/commands/timezone.py:283
 #: ../pykickstart/commands/timezone.py:358
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr "Les options --nontp et --ntpservers sont mutuellements exclusives"
+msgstr "Les options --nontp et --ntpservers sont mutuellement exclusives"
 
 #: ../pykickstart/commands/timezone.py:266
 #: ../pykickstart/commands/timezone.py:341
@@ -303,7 +304,7 @@ msgstr "La commande %s attend un seul ou aucun argument"
 msgid ""
 "Kickstart command %(command)s does not accept empty parameter %(parameter)s"
 msgstr ""
-"La commande Kickstart %(command)s n'accepte pas les paramètres vides "
+"La commande Kickstart %(command)s n’accepte pas les paramètres vides "
 "%(parameter)s"
 
 #: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/autopart.py:47
@@ -314,7 +315,7 @@ msgstr "La commande Kickstart %s ne prend aucun argument"
 
 #: ../pykickstart/commands/eula.py:68
 msgid "Kickstart command eula expects the --agreed option"
-msgstr "La commande Kickstart eula attend l'option --agreed"
+msgstr "La commande Kickstart eula attend l’option --agreed"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:212
@@ -329,7 +330,7 @@ msgstr ""
 #: ../pykickstart/commands/autopart.py:285
 #, python-format
 msgid "Invalid autopart type: %s"
-msgstr "Type d'autopart invalide : %s"
+msgstr "Type d’autopart invalide : %s"
 
 #: ../pykickstart/commands/autopart.py:420
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
@@ -368,7 +369,7 @@ msgstr "--mkfsoptions nécessite --reformat"
 
 #: ../pykickstart/commands/syspurpose.py:86
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "La commande syspurpose n'accepte pas d'arguments positionnels !"
+msgstr "La commande syspurpose n’accepte pas d’arguments positionnels !"
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -378,14 +379,14 @@ msgid ""
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
 "Option déconseillée ignorée à la ligne %s : la commande zerombr ne prend "
-"plus d'options. Dans les versions suivantes, cela causera une erreur fatale "
+"plus d’options. Dans les versions suivantes, cela causera une erreur fatale "
 "de la part de kickstart. Veuillez modifier votre fichier kickstart pour "
 "supprimer toute option."
 
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:323
 msgid "--boot-drive accepts only one argument"
-msgstr "--boot-drive n'accepte qu'un argument"
+msgstr "--boot-drive n’accepte qu’un argument"
 
 #: ../pykickstart/commands/user.py:202
 #, python-format
@@ -413,7 +414,7 @@ msgstr "Commande inconnue %s"
 #: ../pykickstart/commands/displaymode.py:108
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
 msgstr ""
-"La commande Kickstart cmdline n'accepte pas le paramètre --non-interactive"
+"La commande Kickstart cmdline n’accepte pas le paramètre --non-interactive"
 
 #: ../pykickstart/commands/nvdimm.py:132
 #, python-format
@@ -432,19 +433,19 @@ msgstr ""
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
 msgstr ""
-"Une action %(action)s sur l'espace-nom %(namespace)s a déjà été définie."
+"Une action %(action)s sur l’espace-nom %(namespace)s a déjà été définie."
 
 #: ../pykickstart/commands/nvdimm.py:150
 #, python-format
 msgid ""
 "An action %(action)s on devices %(blockdevs)s has already been defined."
 msgstr ""
-"Une action %(action)s sur l'espace-nom %(blockdevs)s a déjà été définie."
+"Une action %(action)s sur l’espace-nom %(blockdevs)s a déjà été définie."
 
 #: ../pykickstart/commands/nvdimm.py:155
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr "L'action %(action)s exige que l'argument --namespace soit défini"
+msgstr "L’action %(action)s exige que l’argument --namespace soit défini"
 
 #: ../pykickstart/commands/nvdimm.py:158
 #, python-format
@@ -452,15 +453,15 @@ msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be "
 "set"
 msgstr ""
-"L'action %(action)s ayant pour mode %(mode)s exige que l'argument "
-"--sectorsize soit défini"
+"L’action %(action)s ayant pour mode %(mode)s exige que l’argument --"
+"sectorsize soit défini"
 
 #: ../pykickstart/commands/nvdimm.py:162
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
 msgstr ""
-"L'action %(action)s exige que l'argument --namespace ou --blockdevs soit "
+"L’action %(action)s exige que l’argument --namespace ou --blockdevs soit "
 "défini"
 
 #: ../pykickstart/commands/rescue.py:77
@@ -486,7 +487,7 @@ msgid ""
 "One of --xlayouts, --vckeymap options with value(s) or argument is expected "
 "for the keyboard command"
 msgstr ""
-"L'option --xlayouts ou --vckeymap avec valeur(s) ou argument doit être "
+"L’option --xlayouts ou --vckeymap avec valeur(s) ou argument doit être "
 "utilisée pour la commande keyboard"
 
 #: ../pykickstart/commands/driverdisk.py:129
@@ -502,7 +503,7 @@ msgstr "--source ou partition peut être spécifié pour la commande driverdisk.
 
 #: ../pykickstart/commands/driverdisk.py:138
 msgid "One of --source or partition must be specified for driverdisk command."
-msgstr "--source ou partition peut être spécifié pour la commande driverdisk."
+msgstr "--source ou partition doit être spécifié pour la commande driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:178
 msgid ""
@@ -542,7 +543,7 @@ msgstr ""
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr "Une chaîne vide n'est pas une clé d'activation valide."
+msgstr "Une chaîne vide n’est pas une clé d’activation valide."
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
@@ -590,7 +591,7 @@ msgstr "--mkfsoptions et --fsprofile ne peuvent pas être utilisés ensemble."
 #: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/logvol.py:929
 #: ../pykickstart/commands/partition.py:749
 msgid "Btrfs file system is not supported"
-msgstr "Le système de fichiers btrfs n'est pas pris en charge"
+msgstr "Le système de fichiers btrfs n’est pas pris en charge"
 
 #: ../pykickstart/commands/device.py:115
 msgid "device command requires two arguments: module type and name"
@@ -643,7 +644,7 @@ msgstr "--resize peut uniquement être utilisé avec --useexisting"
 
 #: ../pykickstart/commands/logvol.py:684
 msgid "--resize requires --size to indicate new size"
-msgstr "--resize nécessite --size d'indiquer une nouvelle taille"
+msgstr "--resize nécessite --size d’indiquer une nouvelle taille"
 
 #: ../pykickstart/commands/logvol.py:756
 msgid "The logvol and mount commands can't be used at the same time"
@@ -655,8 +656,8 @@ msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, "
 "--size, --percent, or --hibernation."
 msgstr ""
-"Aucune taille n'a été donnée pour le volume logique. Utiliser soit "
-"--useexisting, --noformat, --size, --percent, ou --hibernation."
+"Aucune taille n’a été donnée pour le volume logique. Utiliser soit --"
+"useexisting, --noformat, --size, --percent, ou --hibernation."
 
 #: ../pykickstart/commands/logvol.py:764
 msgid "Percentage must be between 0 and 100."
@@ -671,7 +672,7 @@ msgstr ""
 #: ../pykickstart/commands/logvol.py:847
 msgid "Adding a cache to an existing logical volume is not supported"
 msgstr ""
-"L'ajout d'un cache à un volume logique existant n'est pas pris en charge"
+"L’ajout d’un cache à un volume logique existant n’est pas pris en charge"
 
 #: ../pykickstart/commands/logvol.py:851
 msgid "Thin volumes cannot be cached"
@@ -679,8 +680,7 @@ msgstr "Les volumes dynamiques ne peuvent pas être masqués"
 
 #: ../pykickstart/commands/logvol.py:855
 msgid "Cache needs to have a list of (fast) PVs specified"
-msgstr ""
-"Le cache nécessite une liste de valeurs d'analyseur (rapides) spécifiée"
+msgstr "Le cache nécessite une liste de valeurs d’analyseur (rapides) spécifiée"
 
 #: ../pykickstart/commands/logvol.py:859
 msgid "Cache needs to have size specified"
@@ -709,7 +709,7 @@ msgstr ""
 
 #: ../pykickstart/commands/module.py:134
 msgid "The enable module command does not take position arguments!"
-msgstr "La commande enable module n'accepte pas d'arguments positionnels !"
+msgstr "La commande enable module n’accepte pas d’arguments positionnels !"
 
 #: ../pykickstart/commands/partition.py:448
 #, python-format
@@ -730,7 +730,7 @@ msgstr "--resize peut uniquement être utilisé avec --onpart"
 
 #: ../pykickstart/commands/partition.py:614
 msgid "--resize requires --size to specify new size"
-msgstr "--resize nécessite --size d'indiquer une nouvelle taille"
+msgstr "--resize nécessite --size d’indiquer une nouvelle taille"
 
 #: ../pykickstart/commands/partition.py:649
 msgid "The part/partition and mount commands can't be used at the same time"
@@ -742,7 +742,7 @@ msgstr ""
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr ""
-"L'option --fstype=tmpfs ne peut pas être utilisée avec --grow ou --maxsize"
+"L’option --fstype=tmpfs ne peut pas être utilisée avec --grow ou --maxsize"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
@@ -766,7 +766,7 @@ msgstr "Un périphérique de réseau avec le nom %s a déjà été défini."
 #: ../pykickstart/commands/network.py:746
 #: ../pykickstart/commands/network.py:1049
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr "L'option --bridgeopts nécessite de spécifier --bridgeslaves"
+msgstr "L’option --bridgeopts nécessite de spécifier --bridgeslaves"
 
 #: ../pykickstart/commands/network.py:752
 #: ../pykickstart/commands/network.py:1055
@@ -774,7 +774,7 @@ msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr ""
 "Mauvais format de --bridgeopts, les options key=value doivent être séparées "
-"par ','"
+"par « , »"
 
 #: ../pykickstart/commands/network.py:834
 #: ../pykickstart/commands/network.py:1060
@@ -787,8 +787,8 @@ msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be"
 " equal to 'vlan'."
 msgstr ""
-"Si la notation de nom d'interface <prefix>.<vlan id> est utilisée,<prefix> "
-"ne peut être égal à 'vlan'."
+"Si la notation de nom d’interface <prefix>.<vlan id> est utilisée,<prefix> "
+"ne peut être égal à « vlan »."
 
 #: ../pykickstart/commands/network.py:954
 msgid ""
@@ -814,8 +814,8 @@ msgstr ""
 #, python-format
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
 msgstr ""
-"Le périphérique '%(device)s' est déjà utilisé dans le périphérique sur "
-"chemins multiples '%(multipathdev)s'"
+"Le périphérique « %(device)s » est déjà utilisé dans le périphérique sur "
+"chemins multiples « %(multipathdev)s »"
 
 #: ../pykickstart/commands/btrfs.py:129
 #, python-format
@@ -850,7 +850,7 @@ msgstr "--mkfsoptions avec --noformat ou --useexisting n’a aucun effet."
 #: ../pykickstart/commands/realm.py:43
 msgid "The realm command 'join' should only be specified once"
 msgstr ""
-"La commande 'join' du domaine ne doit être spécifiée qu'une seule fois"
+"La commande « join » du domaine ne doit être spécifiée qu’une seule fois"
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
@@ -859,7 +859,7 @@ msgstr "Arguments de commande de domaine manquants"
 #: ../pykickstart/commands/realm.py:51
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Commande '%s' de domaine non pris en charge"
+msgstr "Commande « %s » de domaine non pris en charge"
 
 #: ../pykickstart/commands/realm.py:63
 #, python-format
@@ -939,7 +939,7 @@ msgstr "Vous devez spécifier deux versions de syntaxe."
 #: ../tools/ksvalidator.py:93 ../tools/ksshell.py:161
 #, python-format
 msgid "The version %s is not supported by pykickstart"
-msgstr "La version %s n'est pas prise en charge par pykickstart"
+msgstr "La version %s n’est pas prise en charge par pykickstart"
 
 #: ../tools/ksverdiff.py:75
 #, python-format
@@ -1003,19 +1003,19 @@ msgstr "Spécifier une configuration à aplatir"
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
 msgstr ""
-"Impossible de lire le fichier kickstart '%(filename)s' : %(error_msg)s"
+"Impossible de lire le fichier kickstart « %(filename)s » : %(error_msg)s"
 
 #: ../tools/ksflatten.py:63
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
 msgstr ""
-"Impossible d'analyser le fichier kickstart '%(filename)s' : %(error_msg)s"
+"Impossible d’analyser le fichier kickstart « %(filename)s » : %(error_msg)s"
 
 #: ../tools/ksflatten.py:70
 #, python-format
 msgid "Failed to open output file '%(filename)s' : %(error_msg)s"
 msgstr ""
-"Impossible d'ouvrir le fichier de sortie '%(filename)s' : %(error_msg)s"
+"Impossible d’ouvrir le fichier de sortie « %(filename)s » : %(error_msg)s"
 
 #: ../tools/ksvalidator.py:52
 msgid "filename or URL to read from"
@@ -1023,7 +1023,7 @@ msgstr "fichier ou URL à lire"
 
 #: ../tools/ksvalidator.py:54
 msgid "halt after the first error or warning"
-msgstr "arrêt après le premier message d'avertissement ou d'erreur"
+msgstr "arrêt après le premier message d’avertissement ou d’erreur"
 
 #: ../tools/ksvalidator.py:57
 #, python-format
@@ -1036,7 +1036,7 @@ msgstr "Version de la syntaxe de kickstart à valider"
 
 #: ../tools/ksvalidator.py:64
 msgid "show this help message and exit"
-msgstr "afficher ce message d'aide et quitter"
+msgstr "afficher ce message d’aide et quitter"
 
 #: ../tools/ksvalidator.py:87
 #, python-format
@@ -1074,8 +1074,8 @@ msgstr ""
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
-"l'emplacement où écrire le fichier kickstart finalisé, ou la sortie standard"
-" si non indiqué"
+"l’emplacement où écrire le fichier kickstart finalisé, ou la sortie standard "
+"si non indiqué"
 
 #. Errors should just dump you to the prompt anyway.
 #: ../tools/ksshell.py:173
@@ -1084,7 +1084,8 @@ msgid ""
 "Warning:  The following error occurred when processing the input file:\n"
 "%s\n"
 msgstr ""
-"Avertissement :  L'erreur suivante est survenue lors du traitement du fichier fourni :\n"
+"Avertissement : L’erreur suivante est survenue lors du traitement du fichier "
+"fourni :\n"
 "%s\n"
 
 #: ../tools/ksshell.py:218
