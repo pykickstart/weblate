@@ -12,15 +12,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2015-04-10 10:54+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Turkish (http://www.transifex.com/projects/p/pykickstart/language/tr/)\n"
+"PO-Revision-Date: 2020-02-12 16:16+0000\n"
+"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"Language-Team: Turkish <https://translate.stg.fedoraproject.org/projects/"
+"pykickstart/rhel7-branch/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"X-Generator: Weblate 3.10.3\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -146,7 +147,7 @@ msgstr "%(opt)s seçeneği: geçersiz dizge değeri: %(value)r"
 
 #: ../pykickstart/options.py:178
 msgid "Required flag set for option that doesn't take a value"
-msgstr "Değer almayan seçenek gerekli olarak işaretlendi."
+msgstr "Değer almayan seçenek gerekli olarak işaretlendi"
 
 #: ../pykickstart/sections.py:270
 msgid "--default and --nobase cannot be used together"
@@ -170,7 +171,7 @@ msgstr ""
 #: ../pykickstart/errors.py:48
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr "Kickstart dosyasının %s . satırını okurken hata ile karşılaşıldı."
+msgstr "Kickstart dosyasının %s . satırını okurken bir sorun oluştu"
 
 #: ../pykickstart/commands/snapshot.py:101
 msgid "Snapshot origin must be specified!"
