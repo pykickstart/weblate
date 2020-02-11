@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2020-01-25 20:16+0000\n"
+"PO-Revision-Date: 2020-02-12 16:16+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/tr/>\n"
@@ -178,7 +178,7 @@ msgstr ""
 #: ../pykickstart/errors.py:73
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr "Kickstart dosyasının %s. satırı okunurken bir sorun oluştu"
+msgstr "Kickstart dosyasının %s . satırını okurken bir sorun oluştu"
 
 #: ../pykickstart/commands/iscsiname.py:61
 #: ../pykickstart/commands/sshkey.py:102
