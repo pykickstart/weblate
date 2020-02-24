@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-08 16:32-0800\n"
-"PO-Revision-Date: 2020-02-05 03:16+0000\n"
+"PO-Revision-Date: 2020-02-24 04:38+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fr/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 3.11.2\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -119,7 +119,7 @@ msgstr ""
 #: ../pykickstart/version.py:210
 #, python-format
 msgid "Unsupported version specified: %s"
-msgstr "La version spécifiée non prise en charge : %s"
+msgstr "La version spécifiée n’est pas prise en charge : %s"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
@@ -509,14 +509,14 @@ msgstr "Un zfcp avec ces informations a déjà été défini."
 #, python-format
 msgid "One of -%(options_list)s options must be specified for url command."
 msgstr ""
-"Une des options -%(options_list)s doit être définie pour la command url."
+"Une des options -%(options_list)s doit être définie pour la commande url."
 
 #: ../pykickstart/commands/url.py:197
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for url command."
 msgstr ""
 "Une des options -%(options_list)s uniquement peut être définie pour la "
-"command url."
+"commande url."
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
@@ -674,7 +674,7 @@ msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."
 msgstr ""
-"Si la notation de nom d’interface <prefix>.<vlan id> est utilisée,<prefix> "
+"Si la notation de nom d’interface <prefix>.<vlan id> est utilisée, <prefix> "
 "ne peut être égal à « vlan »."
 
 #: ../pykickstart/commands/network.py:954
@@ -848,34 +848,34 @@ msgstr "Arguments de domaine non valides : %s"
 #: ../pykickstart/commands/snapshot.py:122
 #, python-format
 msgid "Snapshot with the name %s has been already defined!"
-msgstr "Le snapshot intitulé %s a déjà été défini !"
+msgstr "L’instantané intitulé %s a déjà été défini !"
 
 #: ../pykickstart/commands/snapshot.py:126
 msgid "Snapshot \"when\" parameter must be specified!"
-msgstr "Le paramètre « when » (quand) du snapshot doit être spécifié !"
+msgstr "Le paramètre « when » (quand) de l’instantané doit être spécifié !"
 
 #: ../pykickstart/commands/snapshot.py:131
 #, python-format
 msgid "Snapshot origin %s must be specified by VG/LV!"
-msgstr "L’origine du snapshot %s doit être spécifiée par les VG/LV !"
+msgstr "L’origine de l’instantané %s doit être spécifiée par les VG/LV !"
 
 #: ../pykickstart/commands/snapshot.py:136
 #, python-format
 msgid "Snapshot when param must have one of these values %s!"
-msgstr "Snapshot quand le param doit avoir une de ces valeurs %s !"
+msgstr "Le paramètre when de l’instantané doit avoir une de ces valeurs %s !"
 
 #: ../pykickstart/commands/repo.py:280
 #, python-format
 msgid "One of -%(options_list)s options must be specified for repo command."
 msgstr ""
-"Une des options -%(options_list)s doit être définie pour la command repo."
+"Une des options -%(options_list)s doit être définie pour la commande repo."
 
 #: ../pykickstart/commands/repo.py:283
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for repo command."
 msgstr ""
 "Une des options -%(options_list)s uniquement peut être définie pour la "
-"command repo."
+"commande repo."
 
 #: ../pykickstart/commands/repo.py:291
 #, python-format
