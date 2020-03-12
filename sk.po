@@ -13,15 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2019-07-22 09:56+0000\n"
-"Last-Translator: feonsu <feonsu@gmail.com>\n"
-"Language-Team: Slovak (http://www.transifex.com/projects/p/pykickstart/language/sk/)\n"
+"PO-Revision-Date: 2020-03-13 22:38+0000\n"
+"Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
+"Language-Team: Slovak <https://translate.fedoraproject.org/projects/"
+"pykickstart/rhel8-branch/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 3.11.2\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -522,7 +523,7 @@ msgstr "V príkaze url je možné použiť iba jednu z volieb -%(options_list)s.
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "Prázdny reťazec nie je platný aktivačný kľúč."
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
