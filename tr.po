@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-08 16:32-0800\n"
-"PO-Revision-Date: 2020-03-16 13:38+0000\n"
+"PO-Revision-Date: 2020-03-22 09:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/tr/>\n"
@@ -317,7 +317,7 @@ msgstr "autopart --fstype ile --type=btrfs birlikte kullanılamaz"
 #: ../pykickstart/commands/logvol.py:919
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
-"--pbkdf-time ve --pbkdf-iterations ögelerinden yalnızca biri belirtilebilir."
+"--pbkdf-time ve --pbkdf-iterations ögelerinden sadece biri belirtilebilir."
 
 #: ../pykickstart/commands/autopart.py:630
 msgid "autopart --type=btrfs is not supported"
@@ -361,7 +361,7 @@ msgstr ""
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:325
 msgid "--boot-drive accepts only one argument"
-msgstr "--boot-drive yalnızca bir argüman kabul etmektedir"
+msgstr "--boot-drive sadece bir argüman kabul etmektedir"
 
 #: ../pykickstart/commands/user.py:202
 #, python-format
@@ -400,8 +400,7 @@ msgstr "nvdimm komutu için beklenmeyen argümanlar: %(arguments)s"
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
-"--namespace ve --blockdevs aygıt belirtimlerinden yalnızca biri "
-"kullanılabilir"
+"--namespace ve --blockdevs aygıt belirtimlerinden sadece biri kullanılabilir"
 
 #: ../pykickstart/commands/nvdimm.py:147
 #, python-format
@@ -440,7 +439,7 @@ msgstr ""
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
 msgstr ""
-"rescue komutu için --nomount ve --romount seçeneklerinden yalnızca biri "
+"rescue komutu için --nomount ve --romount seçeneklerinden sadece biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/mouse.py:65
@@ -460,14 +459,14 @@ msgstr ""
 #: ../pykickstart/commands/driverdisk.py:129
 #: ../pykickstart/commands/driverdisk.py:170
 msgid "Only one partition may be specified for driverdisk command."
-msgstr "driverdisk komutu için yalnızca bir bölüm belirtilebilir."
+msgstr "driverdisk komutu için sadece bir bölüm belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
 msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
 msgstr ""
-"driverdisk komutu için --source seçeneği ve bölümden yalnızca biri "
+"driverdisk komutu için --source seçeneği ve bölümden sadece biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:138
@@ -479,14 +478,14 @@ msgstr ""
 msgid ""
 "Only one of --biospart and partition may be specified for driverdisk command."
 msgstr ""
-"driverdisk komutu için --biospart seçeneği veya bölümden yalnızca biri "
+"driverdisk komutu için --biospart seçeneği veya bölümden sadece biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:180
 msgid ""
 "Only one of --biospart and --source may be specified for driverdisk command."
 msgstr ""
-"driverdisk komutu için --biospart ve --source seçeneklerinden yalnızca biri "
+"driverdisk komutu için --biospart ve --source seçeneklerinden sadece biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:183
@@ -510,8 +509,7 @@ msgstr "url komutu için -%(options_list)s seçeneklerinden biri belirtilmelidir
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for url command."
 msgstr ""
-"url komutu için %(options_list)s seçeneklerinden yalnızca biri "
-"belirtilebilir."
+"url komutu için %(options_list)s seçeneklerinden sadece biri belirtilebilir."
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
@@ -600,7 +598,7 @@ msgstr "part/partition ve autopart komutları aynı anda kullanılamaz"
 
 #: ../pykickstart/commands/partition.py:611
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr "--resize yalnızca --onpart ile birlikte kullanılabilir"
+msgstr "--resize, sadece --onpart ile birlikte kullanılabilir"
 
 #: ../pykickstart/commands/partition.py:614
 msgid "--resize requires --size to specify new size"
@@ -622,7 +620,7 @@ msgstr "--host olmadan --port belirtilemez."
 #: ../pykickstart/commands/updates.py:64
 #, python-format
 msgid "Kickstart command %s only takes one argument"
-msgstr "%s kickstart komutu yalnızca bir argüman almaktadır"
+msgstr "%s kickstart komutu sadece bir argüman almaktadır"
 
 #: ../pykickstart/commands/group.py:95
 #, python-format
@@ -719,7 +717,7 @@ msgstr ""
 
 #: ../pykickstart/commands/realm.py:43
 msgid "The realm command 'join' should only be specified once"
-msgstr "'join' realm komutu yalnızca bir kez belirtilmelidir"
+msgstr "'join' realm komutu sadece bir kez belirtilmelidir"
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
@@ -737,7 +735,7 @@ msgstr "Geçersiz realm argümanları: %s"
 
 #: ../pykickstart/commands/realm.py:66
 msgid "Specify only one realm to join"
-msgstr "Katılmak için yalnızca bir erişim alanı belirtin"
+msgstr "Katılmak için sadece bir erişim alanı belirtin"
 
 #: ../pykickstart/commands/logvol.py:482
 #, python-format
@@ -762,12 +760,11 @@ msgstr "--thin, havuz adını belirtmek için --poolname gerektirmektedir"
 
 #: ../pykickstart/commands/logvol.py:639 ../pykickstart/commands/logvol.py:748
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr ""
-"--chunksize ve --medadatasize yalnızca ince havuzlar (thin pool) içindir"
+msgstr "--chunksize ve --medadatasize sadece ince havuzlar (thin pool) içindir"
 
 #: ../pykickstart/commands/logvol.py:683
 msgid "--resize can only be used in conjunction with --useexisting"
-msgstr "--resize yalnızca --useexisting ile birlikte kullanılabilir"
+msgstr "--resize, sadece --useexisting ile birlikte kullanılabilir"
 
 #: ../pykickstart/commands/logvol.py:686
 msgid "--resize requires --size to indicate new size"
@@ -851,8 +848,7 @@ msgstr ""
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for repo command."
 msgstr ""
-"repo komutu için %(options_list)s seçeneklerinden yalnızca biri "
-"belirtilebilir."
+"repo komutu için %(options_list)s seçeneklerinden sadece biri belirtilebilir."
 
 #: ../pykickstart/commands/repo.py:291
 #, python-format
