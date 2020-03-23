@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2020-03-22 09:38+0000\n"
+"PO-Revision-Date: 2020-03-25 11:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/tr/>\n"
@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "%(lineno)s. satırdaki kullanımı artık önerilmeyen komut gözardı ediliyor:  "
 "%(cmd)s komutunun kullanımı artık önerilmemektedir ve hiçbir etkisi yoktur.  "
-"Gelecek sürümlerden kaldırılabileceği için, kickstart'ta kritik hatalara "
+"Gelecek sürümlerden kaldırılabileceği için, kickstart'ta ölümcül hatalara "
 "sebep olabilir.  Lütfen kickstart dosyanızı, bu komutu içermeyecek şekilde "
 "yeniden düzenleyin."
 
@@ -154,7 +154,7 @@ msgid ""
 msgstr ""
 "%(lineno)s. satırdaki kullanımı artık önerilmeyen seçenek gözardı ediliyor:  "
 "%(option)s seçeneğinin kullanımı artık önerilmemektedir ve hiçbir etkisi "
-"yoktur.  Gelecek sürümlerden kaldırılabileceği için, kickstart'ta kritik "
+"yoktur.  Gelecek sürümlerden kaldırılabileceği için, kickstart'ta ölümcül "
 "hatalara sebep olabilir.  Lütfen kickstart dosyanızı, bu seçeneği "
 "içermeyecek şekilde yeniden düzenleyin."
 
@@ -369,8 +369,8 @@ msgid ""
 msgstr ""
 "%s. satırdaki kullanımı artık önerilmeyen seçenek yok sayılıyor:  zerombr "
 "komutu artık herhangi bir seçenek almamaktadır.  Gelecek sürümlerde bu, "
-"kickstart'ta kritik hatalara sebep olabilir.  Lütfen kickstart dosyanızı, bu "
-"seçenekleri kaldıracak şekilde yeniden düzenleyin."
+"kickstart'ta ölümcül hatalara sebep olabilir.  Lütfen kickstart dosyanızı, "
+"bu seçenekleri kaldıracak şekilde yeniden düzenleyin."
 
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:323
@@ -542,7 +542,7 @@ msgstr "Boş dize geçerli bir etkinleştirme anahtarı değildir."
 #: ../pykickstart/commands/raid.py:348
 #, python-format
 msgid "Invalid raid level: %s"
-msgstr "Geçersiz raid düzeyi: %s"
+msgstr "Geçersiz raid seviyesi: %s"
 
 #: ../pykickstart/commands/raid.py:438
 #, python-format
@@ -792,7 +792,7 @@ msgstr ""
 #: ../pykickstart/commands/btrfs.py:129
 #, python-format
 msgid "Invalid btrfs level: %s"
-msgstr "Geçersiz btrfs düzeyi: %s"
+msgstr "Geçersiz btrfs seviyesi: %s"
 
 #: ../pykickstart/commands/btrfs.py:215
 msgid "btrfs must be given a mountpoint"
