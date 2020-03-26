@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-08 16:32-0800\n"
-"PO-Revision-Date: 2020-03-25 11:38+0000\n"
+"PO-Revision-Date: 2020-03-26 21:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/tr/>\n"
@@ -31,11 +31,11 @@ msgid ""
 "releases, which will result in a fatal error from kickstart.  Please modify "
 "your kickstart file to remove this command."
 msgstr ""
-"%(lineno)s. satırdaki kullanımı artık önerilmeyen komut gözardı ediliyor:  "
-"%(cmd)s komutunun kullanımı artık önerilmemektedir ve hiçbir etkisi yoktur.  "
-"Gelecek sürümlerden kaldırılabileceği için, kickstart'ta ölümcül hatalara "
-"sebep olabilir.  Lütfen kickstart dosyanızı, bu komutu içermeyecek şekilde "
-"yeniden düzenleyin."
+"%(lineno)s. satırdaki kullanımdan kaldırılan komut gözardı ediliyor:  %(cmd)"
+"s komutu kullanımdan kaldırılmıştır ve artık hiçbir etkisi yoktur.  Gelecek "
+"sürümlerden kaldırılabileceği için, kickstart'ta ölümcül hatalara sebep "
+"olabilir.  Lütfen kickstart dosyanızı, bu komutu içermeyecek şekilde yeniden "
+"düzenleyin."
 
 #: ../pykickstart/base.py:372
 #, python-format
@@ -353,8 +353,8 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
-"%s. satırdaki kullanımı artık önerilmeyen seçenek yok sayılıyor:  zerombr "
-"komutu artık herhangi bir seçenek almamaktadır.  Gelecek sürümlerde bu, "
+"%s. satırdaki kullanımdan kaldırılan seçenek yok sayılıyor:  zerombr komutu "
+"artık herhangi bir seçenek almamaktadır.  Gelecek sürümlerde bu, "
 "kickstart'ta ölümcül hatalara sebep olabilir.  Lütfen kickstart dosyanızı, "
 "bu seçenekleri kaldıracak şekilde yeniden düzenleyin."
 
@@ -881,7 +881,7 @@ msgstr "Aşağıdaki komutlar %s sürümünden çıkarıldı:"
 #: ../tools/ksverdiff.py:75
 #, python-format
 msgid "The following commands were deprecated in %s:"
-msgstr "Aşağıdaki komutların %s sürümü içinde kullanımı artık önerilmiyor:"
+msgstr "Aşağıdaki komutlar %s sürümünde kullanımdan kaldırıldı:"
 
 #: ../tools/ksverdiff.py:78
 #, python-format
@@ -902,8 +902,8 @@ msgid ""
 "The following options were deprecated from the %(command_name)s command in "
 "%(version)s:"
 msgstr ""
-"%(command_name)s komutu için aşağıdaki seçeneklerin kullanımı %(version)s "
-"sürümünden itibaren artık önerilmemektedir:"
+"%(command_name)s komutu için aşağıdaki seçenekler %(version)s sürümünde "
+"kullanımdan kaldırıldı:"
 
 #: ../tools/ksverdiff.py:108
 #, python-format
@@ -981,7 +981,7 @@ msgid ""
 "File uses a deprecated option or command.\n"
 "%s"
 msgstr ""
-"Dosya, kullanımı artık önerilmeyen bir seçenek veya komut kullanıyor.\n"
+"Dosya, kullanımdan kaldırılan bir seçenek veya komut kullanıyor.\n"
 "%s"
 
 #: ../tools/ksvalidator.py:114
