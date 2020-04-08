@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2020-03-26 21:38+0000\n"
+"PO-Revision-Date: 2020-04-09 13:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/tr/>\n"
@@ -145,7 +145,7 @@ msgstr "%(opt)s seçeneği: geçersiz mantıksal değer: %(value)r"
 #: ../pykickstart/options.py:141
 #, python-format
 msgid "Option %(opt)s: invalid string value: %(value)r"
-msgstr "%(opt)s seçeneği: geçersiz dizge değeri: %(value)r"
+msgstr "%(opt)s seçeneği: geçersiz dizgi değeri: %(value)r"
 
 #: ../pykickstart/options.py:178
 msgid "Required flag set for option that doesn't take a value"
