@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2020-03-26 21:38+0000\n"
+"PO-Revision-Date: 2020-04-09 13:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/tr/>\n"
@@ -537,7 +537,7 @@ msgstr ""
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr "Boş dize geçerli bir etkinleştirme anahtarı değildir."
+msgstr "Boş dizgi geçerli bir etkinleştirme anahtarı değildir."
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
