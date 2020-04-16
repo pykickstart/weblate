@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-08 16:32-0800\n"
-"PO-Revision-Date: 2020-03-26 21:38+0000\n"
+"PO-Revision-Date: 2020-04-16 14:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/tr/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -861,7 +861,7 @@ msgstr "Yöntem, depo listesine eklenecek bir URL olmalıdır."
 
 #: ../tools/ksverdiff.py:48 ../tools/ksvalidator.py:60
 msgid "list the available versions of kickstart syntax"
-msgstr "mevcut kickstart söz dizimi sürümlerini listele"
+msgstr "kickstart söz diziminin kullanılabilir sürümlerini listele"
 
 #: ../tools/ksverdiff.py:58
 msgid "You must specify two syntax versions."
