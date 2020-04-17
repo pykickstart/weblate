@@ -31,11 +31,11 @@ msgid ""
 "releases, which will result in a fatal error from kickstart.  Please modify "
 "your kickstart file to remove this command."
 msgstr ""
-"%(lineno)s. satırdaki kullanımdan kaldırılan komut gözardı ediliyor:  %(cmd)"
-"s komutu kullanımdan kaldırılmıştır ve artık hiçbir etkisi yoktur.  Gelecek "
-"sürümlerden kaldırılabileceği için, kickstart'ta ölümcül hatalara sebep "
-"olabilir.  Lütfen kickstart dosyanızı, bu komutu içermeyecek şekilde yeniden "
-"düzenleyin."
+"%(lineno)s. satırdaki kullanımdan kaldırılan komut gözardı ediliyor:  "
+"%(cmd)s komutu kullanımdan kaldırılmıştır ve artık hiçbir etkisi yoktur.  "
+"Gelecek sürümlerden kaldırılabileceği için, kickstart'ta ölümcül hatalara "
+"sebep olabilir.  Lütfen kickstart dosyanızı, bu komutu içermeyecek şekilde "
+"yeniden düzenleyin."
 
 #: ../pykickstart/base.py:372
 #, python-format
@@ -305,8 +305,8 @@ msgstr "Geçersiz autopart türü: %s"
 #: ../pykickstart/commands/autopart.py:420
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr ""
-"autopart --fstype=btrfs geçerli bir fstype değildir, onun yerine --type="
-"btrfs kullanın"
+"autopart --fstype=btrfs geçerli bir fstype değildir, onun yerine --"
+"type=btrfs kullanın"
 
 #: ../pykickstart/commands/autopart.py:423
 msgid "autopart --fstype cannot be used with --type=btrfs"
@@ -503,7 +503,8 @@ msgstr "Bu bilgileri içeren bir zfcp zaten tanımlanmış."
 #: ../pykickstart/commands/url.py:194
 #, python-format
 msgid "One of -%(options_list)s options must be specified for url command."
-msgstr "url komutu için -%(options_list)s seçeneklerinden biri belirtilmelidir."
+msgstr ""
+"url komutu için -%(options_list)s seçeneklerinden biri belirtilmelidir."
 
 #: ../pykickstart/commands/url.py:197
 #, python-format
@@ -611,7 +612,8 @@ msgstr "part/partition ve mount komutları aynı anda kullanılamaz"
 #: ../pykickstart/commands/partition.py:655
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
-msgstr "--fstype=tmpfs seçeneği --grow veya --maxsize ile birlikte kullanılamaz"
+msgstr ""
+"--fstype=tmpfs seçeneği --grow veya --maxsize ile birlikte kullanılamaz"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
