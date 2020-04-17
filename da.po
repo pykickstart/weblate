@@ -13,15 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2015-04-14 01:52+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/pykickstart/language/da/)\n"
+"PO-Revision-Date: 2020-04-18 11:40+0000\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
+"Language-Team: Danish <https://translate.fedoraproject.org/projects/"
+"pykickstart/rhel8-branch/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -31,10 +32,10 @@ msgid ""
 " releases, which will result in a fatal error from kickstart.  Please modify"
 " your kickstart file to remove this command."
 msgstr ""
-"Ignorerer forældet kommando på linje %(lineno)s: %(cmd)s-kommandoen er "
+"Ignorerer forældet kommando på linje %(lineno)s: Kommandoen %(cmd)s er "
 "forældet og har ikke længere nogen effekt. Den bliver muligvis fjernet fra "
-"fremtidige udgaver, hvilket vil resultere i en fatal fejl fra \"kickstart\"."
-" Redigér venligst din kickstart-fil for at fjerne denne kommando."
+"fremtidige udgivelser, hvilket vil resultere i en fatal fejl fra kickstart. "
+"Rediger venligst din kickstart-fil for at fjerne kommandoen."
 
 #: ../pykickstart/base.py:372
 #, python-format
@@ -44,7 +45,7 @@ msgstr "Ukendt kommando: %s"
 #: ../pykickstart/load.py:66
 #, python-format
 msgid "Error writing file \"%s\":"
-msgstr ""
+msgstr "Fejl ved skrivning af filen \"%s\":"
 
 #: ../pykickstart/load.py:79
 #, python-format
@@ -75,26 +76,26 @@ msgstr "Ugyldig url til %%ksappend: %s"
 #: ../pykickstart/parser.py:97
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
-msgstr "Kunne ikke åbne %%ksappend fil: %s"
+msgstr "Kan ikke åbne %%ksappend-filen: %s"
 
 #: ../pykickstart/parser.py:125 ../pykickstart/parser.py:815
 #, python-format
 msgid "Unable to open input kickstart file: %s"
-msgstr "Kunne ikke åbne %%ksappend fil: %s"
+msgstr "Kan ikke åbne input-%%ksappend-filen: %s"
 
 #: ../pykickstart/parser.py:439
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr "Gruppe kan ikke angive både --nodefaults og --optional"
+msgstr "Gruppen kan ikke både angive --nodefaults og --optional"
 
 #: ../pykickstart/parser.py:618 ../pykickstart/parser.py:659
 #, python-format
 msgid "Section %s does not end with %%end."
-msgstr "Sektion %s ender ikke med %%end."
+msgstr "Afsnittet %s ender ikke med %%end."
 
 #: ../pykickstart/parser.py:754
 #, python-format
 msgid "Unknown kickstart section: %s"
-msgstr "Ukendt kickstart-sektion: %s"
+msgstr "Ukendt kickstart-afsnit: %s"
 
 #. If we are ignoring unknown section errors, just create a new
 #. NullSection for the header we just saw.  Then nothing else
@@ -170,14 +171,14 @@ msgid ""
 "\n"
 "%(msg)s\n"
 msgstr ""
-"Følgende fejl opstod på linje %(lineno)s i kickstart-filen:\n"
+"Følgende problem opstod på linje %(lineno)s i kickstart-filen:\n"
 "\n"
 "%(msg)s\n"
 
 #: ../pykickstart/errors.py:73
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr "Der opstod et problem med læsning fra linje %s af kickstart-filen"
+msgstr "Der opstod et problem ved læsning fra linje %s i kickstart-filen"
 
 #: ../pykickstart/commands/iscsiname.py:61
 #: ../pykickstart/commands/sshkey.py:102
@@ -376,7 +377,7 @@ msgstr ""
 #: ../pykickstart/commands/displaymode.py:64
 #, python-format
 msgid "Unknown command %s"
-msgstr ""
+msgstr "Ukendt kommando %s"
 
 #: ../pykickstart/commands/displaymode.py:108
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
@@ -838,17 +839,17 @@ msgstr ""
 
 #: ../tools/ksverdiff.py:45 ../tools/ksvalidator.py:60
 msgid "list the available versions of kickstart syntax"
-msgstr "oplist de tilgængelige versioner af kickstart-syntax"
+msgstr "vis de tilgængelige versioner af kickstart-syntaks"
 
 #: ../tools/ksverdiff.py:56
 msgid "You must specify two syntax versions."
-msgstr "Du sḱal angive to syntaxversioner."
+msgstr "Du skal angive to syntaksversioner."
 
 #: ../tools/ksverdiff.py:62 ../tools/ksverdiff.py:68 ../tools/ksflatten.py:53
 #: ../tools/ksvalidator.py:93 ../tools/ksshell.py:161
 #, python-format
 msgid "The version %s is not supported by pykickstart"
-msgstr "Versionen %s er ikke understøttet af pykickstart"
+msgstr "Versionen %s understøttes ikke af pykickstart"
 
 #: ../tools/ksverdiff.py:75
 #, python-format
@@ -858,7 +859,7 @@ msgstr "Følgende kommandoer blev fjernet i %s:"
 #: ../tools/ksverdiff.py:78
 #, python-format
 msgid "The following commands were deprecated in %s:"
-msgstr "Følgende kommandoer blev forældret i %s:"
+msgstr "Følgende kommandoer blev forældet i %s:"
 
 #: ../tools/ksverdiff.py:81
 #, python-format
@@ -932,7 +933,7 @@ msgstr ""
 
 #: ../tools/ksvalidator.py:62 ../tools/ksshell.py:150
 msgid "version of kickstart syntax to validate against"
-msgstr "version af kickstart-syntaks der skal valideres imod"
+msgstr "version af kickstart-syntaks der skal valideres mod"
 
 #: ../tools/ksvalidator.py:64
 msgid "show this help message and exit"
@@ -951,27 +952,28 @@ msgid ""
 "File uses a deprecated option or command.\n"
 "%s"
 msgstr ""
-"Filen bruger en forældet indstilling eller en forældet kommando.\n"
+"Filen bruger et forældet tilvalg eller en forældet kommando.\n"
 "%s"
 
 #: ../tools/ksvalidator.py:114
 msgid "General kickstart error in input file"
-msgstr "Generel kickstart-fejl i inddatafil"
+msgstr "Generel fejl ved kickstart i inputfil"
 
 #: ../tools/ksvalidator.py:117
 #, python-format
 msgid "General error in input file:  %s"
-msgstr "Generel fejl i inddatafil: %s"
+msgstr "Generel fejl i inputfil: %s"
 
 #: ../tools/ksshell.py:146
 msgid "a basis file to use for seeding the kickstart data (optional)"
-msgstr "en basis-fil til brug af seedning af kickstart-data (valgfri)"
+msgstr "en grundfil som bruges til at udfylde kickstart-dataene (valgfri)"
 
 #: ../tools/ksshell.py:148
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
-"stedet hvor kickstart-filen skrives til, eller stdout hvis intet er angivet"
+"placeringen som den færdige kickstart-fil skal skrives til, eller stdout "
+"hvis det ikke er angivet"
 
 #. Errors should just dump you to the prompt anyway.
 #: ../tools/ksshell.py:173
@@ -980,7 +982,7 @@ msgid ""
 "Warning:  The following error occurred when processing the input file:\n"
 "%s\n"
 msgstr ""
-"Advarsel: Følgende fejl opstod under behandling af input-filen:\n"
+"Advarsel: Følgende fejl opstod under behandling af inputfilen:\n"
 "%s\n"
 
 #: ../tools/ksshell.py:218
