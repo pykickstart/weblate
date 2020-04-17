@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Damien Durand <splinux@fedoraproject.org>, 2006
 # Decroux Fabien <fdecroux@redhat.com>, 2006
@@ -316,8 +316,8 @@ msgstr "Type d’autopart invalide : %s"
 #: ../pykickstart/commands/autopart.py:420
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr ""
-"autopart --fstype=btrfs n’est pas un fstype valide, utilisez plutôt "
-"--type=btrfs"
+"autopart --fstype=btrfs n’est pas un fstype valide, utilisez plutôt --"
+"type=btrfs"
 
 #: ../pykickstart/commands/autopart.py:423
 msgid "autopart --fstype cannot be used with --type=btrfs"
@@ -390,8 +390,8 @@ msgid ""
 "A DM RAID device with the name %(name)s and devices %(devices)s has already "
 "been defined."
 msgstr ""
-"Un périphérique RAID DM avec le nom %(name)s et les périphériques %(devices)"
-"s a déjà été défini."
+"Un périphérique RAID DM avec le nom %(name)s et les périphériques "
+"%(devices)s a déjà été défini."
 
 #: ../pykickstart/commands/displaymode.py:64
 #, python-format
@@ -452,7 +452,8 @@ msgstr ""
 #: ../pykickstart/commands/rescue.py:77
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
-msgstr "Seul --nomount ou --romount peut être spécifié pour la commande rescue."
+msgstr ""
+"Seul --nomount ou --romount peut être spécifié pour la commande rescue."
 
 #: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/mouse.py:65
 #: ../pykickstart/commands/key.py:61
@@ -486,12 +487,14 @@ msgstr "--source ou partition doit être spécifié pour la commande driverdisk.
 #: ../pykickstart/commands/driverdisk.py:178
 msgid ""
 "Only one of --biospart and partition may be specified for driverdisk command."
-msgstr "--biospart ou partition peut être spécifie pour la commande driverdisk."
+msgstr ""
+"--biospart ou partition peut être spécifie pour la commande driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:180
 msgid ""
 "Only one of --biospart and --source may be specified for driverdisk command."
-msgstr "--biospart and --source peut être spécifié pour la commande driverdisk."
+msgstr ""
+"--biospart and --source peut être spécifié pour la commande driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:183
 msgid ""
@@ -828,7 +831,8 @@ msgstr "Les volumes dynamiques ne peuvent pas être masqués"
 
 #: ../pykickstart/commands/logvol.py:857
 msgid "Cache needs to have a list of (fast) PVs specified"
-msgstr "Le cache nécessite une liste de valeurs d’analyseur (rapides) spécifiée"
+msgstr ""
+"Le cache nécessite une liste de valeurs d’analyseur (rapides) spécifiée"
 
 #: ../pykickstart/commands/logvol.py:861
 msgid "Cache needs to have size specified"
