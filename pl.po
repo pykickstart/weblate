@@ -14,9 +14,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2020-01-17 02:24+0000\n"
+"PO-Revision-Date: 2020-05-25 10:40+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://translate.stg.fedoraproject.org/projects/"
+"Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -481,15 +481,15 @@ msgstr ""
 #: ../pykickstart/commands/driverdisk.py:129
 #: ../pykickstart/commands/driverdisk.py:170
 msgid "Only one partition may be specified for driverdisk command."
-msgstr "Dla polecenia „driverdisk” można podać tylko jedną partycję."
+msgstr "Dla polecenia \"driverdisk\" można podać tylko jedną partycję."
 
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
 msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
 msgstr ""
-"Dla polecenia „driverdisk” można podać tylko jedną opcję --source lub jedną "
-"partycję."
+"Dla polecenia \"driverdisk\" można podać tylko jedną opcję --source lub "
+"jedną partycję."
 
 #: ../pykickstart/commands/driverdisk.py:138
 msgid "One of --source or partition must be specified for driverdisk command."
@@ -726,8 +726,7 @@ msgstr ""
 #: ../pykickstart/commands/partition.py:655
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
-msgstr ""
-"Opcja --fstype=tmpfs nie może być używana razem z --grow lub --maxsize"
+msgstr "Opcja --fstype=tmpfs nie może być używana razem z --grow lub --maxsize"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
