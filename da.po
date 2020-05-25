@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Christian Rose <menthos@menthos.com>, 2006
 # Keld Simonsen <keld@dkuug.dk>, 2006
@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-08 16:32-0800\n"
-"PO-Revision-Date: 2020-04-17 11:18+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-04-18 11:40+0000\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/da/>\n"
 "Language: da\n"
@@ -34,7 +34,7 @@ msgid ""
 "releases, which will result in a fatal error from kickstart.  Please modify "
 "your kickstart file to remove this command."
 msgstr ""
-"Ignorerer forældet kommando på linje %(lineno)s: %(cmd)s-kommandoen er "
+"Ignorerer forældet kommando på linje %(lineno)s: Kommandoen %(cmd)s er "
 "forældet og har ikke længere nogen effekt. Den bliver muligvis fjernet fra "
 "fremtidige udgivelser, hvilket vil resultere i en fatal fejl fra kickstart. "
 "Rediger venligst din kickstart-fil for at fjerne kommandoen."
@@ -47,7 +47,7 @@ msgstr "Ukendt kommando: %s"
 #: ../pykickstart/load.py:66
 #, python-format
 msgid "Error writing file \"%s\":"
-msgstr ""
+msgstr "Fejl ved skrivning af filen \"%s\":"
 
 #: ../pykickstart/load.py:79
 #, python-format
@@ -122,22 +122,17 @@ msgid "invalid boolean value: %r"
 msgstr ""
 
 #: ../pykickstart/options.py:183
-#, fuzzy, python-format
-#| msgid ""
-#| "Ignoring deprecated option on line %(lineno)s:  The %(option)s option has "
-#| "been deprecated and no longer has any effect.  It may be removed from "
-#| "future releases, which will result in a fatal error from kickstart.  "
-#| "Please modify your kickstart file to remove this option."
+#, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
 "been deprecated and no longer has any effect. It may be removed from future "
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"Ignorerer forældet indstilling på linje %(lineno)s: %(option)s-indstillingen "
-"er forældet og har ikke længre nogen effekt. Den bliver muligvis fjernet fra "
-"fremtidige udgaver, hvilket vil resultere i en fatal fejl fra \"kickstart\". "
-"Redigér venligst din kickstart-fil for at fjerne denne indstilling."
+"Ignorerer forældet tilvalg på linje %(lineno)s: Tilvalget %(option)s er "
+"forældet og har ikke længere nogen effekt. Den bliver muligvis fjernet fra "
+"fremtidige udgivelser, hvilket vil resultere i en fatal fejl fra kickstart. "
+"Rediger venligst din kickstart-fil for at fjerne tilvalget."
 
 #: ../pykickstart/sections.py:735
 msgid "--default and --nobase cannot be used together"
@@ -368,7 +363,7 @@ msgstr ""
 #: ../pykickstart/commands/displaymode.py:64
 #, python-format
 msgid "Unknown command %s"
-msgstr "Ukendt kommando: %s"
+msgstr "Ukendt kommando %s"
 
 #: ../pykickstart/commands/displaymode.py:108
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
