@@ -12,15 +12,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2017-11-07 11:14+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Korean (http://www.transifex.com/projects/p/pykickstart/language/ko/)\n"
+"PO-Revision-Date: 2020-07-14 14:28+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"pykickstart/rhel7-branch/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -66,7 +67,7 @@ msgstr "그룹은 --nodefaults 및 --optional을 지정할 수 없음"
 #: ../pykickstart/parser.py:566 ../pykickstart/parser.py:607
 #, python-format
 msgid "Section %s does not end with %%end."
-msgstr "섹션 %s은(는) %%end로 종료하지 않습니다. "
+msgstr "섹션 %s은(는) %%end로 종료하지 않습니다."
 
 #: ../pykickstart/parser.py:701
 #, python-format
@@ -101,8 +102,8 @@ msgid ""
 "The %(option)s option was introduced in version %(intro)s, but you are using"
 " kickstart syntax version %(version)s."
 msgstr ""
-"%(option)s 옵션은 버전 %(intro)s에서 소개되었지만  kickstart 구문 버전 %(version)s을(를) 사용하고 "
-"있습니다. "
+"%(option)s 옵션은 버전 %(intro)s에서 소개되었지만 kickstart 구문 버전 %(version)s을(를) 사용하고 "
+"있습니다."
 
 #: ../pykickstart/options.py:92
 #, python-format
@@ -116,7 +117,7 @@ msgid ""
 "kickstart syntax version %(version)s."
 msgstr ""
 "%(option)s 옵션은 버전 %(removed)s에서 제거되었지만 kickstart 구문 버전 %(version)s을(를) 사용하고 "
-"있습니다. "
+"있습니다."
 
 #: ../pykickstart/options.py:97
 #, python-format
@@ -577,7 +578,7 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:523
 msgid "Percentage must be between 0 and 100."
-msgstr ""
+msgstr "0에서 100 사이의 백분율이어야 합니다."
 
 #: ../pykickstart/commands/logvol.py:540
 msgid "--size and --percent cannot both be specified for the same logvol"
@@ -833,22 +834,22 @@ msgstr "사용 가능한 kickstart 구문 목록을 표시합니다."
 
 #: ../tools/ksverdiff:60
 msgid "You must specify two syntax versions."
-msgstr "두 가지 구문 버전을 지정해야 합니다. "
+msgstr "두 가지 구문 버전을 지정해야 합니다."
 
 #: ../tools/ksverdiff:74
 #, python-format
 msgid "The following commands were removed in %s:"
-msgstr "다음 명령은 %s에서 제거되었습니다:  "
+msgstr "다음 명령은 %s에서 제거되었습니다:"
 
 #: ../tools/ksverdiff:77
 #, python-format
 msgid "The following commands were deprecated in %s:"
-msgstr "다음 명령은 %s에서 삭제되었습니다: "
+msgstr "다음 명령은 %s에서 삭제되었습니다:"
 
 #: ../tools/ksverdiff:80
 #, python-format
 msgid "The following commands were added in %s:"
-msgstr "다음 명령은 %s에 추가되었습니다: "
+msgstr "다음 명령은 %s에 추가되었습니다:"
 
 #: ../tools/ksverdiff:106
 #, python-format
