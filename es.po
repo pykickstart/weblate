@@ -16,15 +16,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2018-06-25 11:38+0000\n"
-"Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/pykickstart/language/es/)\n"
+"PO-Revision-Date: 2020-07-20 13:28+0000\n"
+"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
+"pykickstart/rhel7-branch/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -34,11 +35,10 @@ msgid ""
 " releases, which will result in a fatal error from kickstart.  Please modify"
 " your kickstart file to remove this command."
 msgstr ""
-"Se ignora comando descartado en línea %(lineno)s: El comando %(cmd)s fue "
-"descartado y ya no produce efecto. Puede ser eliminado de versiones futuras,"
-" lo que resultará en un error fatal desde el archivo de respuestas "
-"(kickstart). Por favor, modifique su archivo de respuestas (kickstart) y "
-"elimine este comando."
+"Se descarta un comando obsoleto de la línea %(lineno)s: El comando %(cmd)s "
+"está obsoleto y ya no tiene efecto. Podría desaparecer de nuevas versiones y "
+"provocar un error fatal de kickstart.  Por favor, modifique su archivo "
+"kickstart y elimine ese comando."
 
 #: ../pykickstart/base.py:418
 #, python-format
@@ -373,9 +373,9 @@ msgstr "El comando %s necesita que el parámetro %s tenga algún valor"
 msgid "Kickstart command eula expects the --agreed option"
 msgstr "El comando eula necesita la opción --agreed"
 
-#. allow for translation of the error message
 # auto translated by TM merge from project: Pykickstart, version: master,
 # DocId: pykickstart
+#. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:181
 #: ../pykickstart/commands/autopart.py:341
 #, python-format
