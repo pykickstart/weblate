@@ -272,8 +272,8 @@ msgid ""
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
 "La opción --isUtc será obsoleta en futuras revisiones. Por favor modifique "
-"su fichero kickstart para reemplazar esta opción con su alias preferido "
-"--utc."
+"su fichero kickstart para reemplazar esta opción con su alias preferido --"
+"utc."
 
 #: ../pykickstart/commands/upgrade.py:104
 #, python-format
