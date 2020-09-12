@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2020-02-21 21:38+0000\n"
+"PO-Revision-Date: 2020-09-13 10:29+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/sv/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -131,7 +131,7 @@ msgid ""
 " kickstart syntax version %(version)s."
 msgstr ""
 "Flaggan %(option)s introducerades i version %(intro)s, men du använder "
-"kickstart-syntax version %(version)s."
+"version %(version)s av kickstart-syntaxen."
 
 #: ../pykickstart/options.py:185
 #, python-format
@@ -144,8 +144,8 @@ msgid ""
 "The %(option)s option was removed in version %(removed)s, but you are using "
 "kickstart syntax version %(version)s."
 msgstr ""
-"Flaggan %(option)s togs bort i version %(removed)s, men du använder "
-"kickstart-syntax version %(version)s."
+"Flaggan %(option)s togs bort i version %(removed)s, men du använder version "
+"%(version)s av kickstart-syntaxen."
 
 #: ../pykickstart/options.py:190
 #, python-format
@@ -356,7 +356,7 @@ msgstr "”--mkfsoptions” kräver --reformat"
 
 #: ../pykickstart/commands/syspurpose.py:86
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "Kommandot syspurpose tar inte positionsargument!"
+msgstr "Kommandot syspurpose tar inga positionsargument!"
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -411,8 +411,7 @@ msgstr "Oväntade argument till kommandot nvdimm: %(arguments)s"
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
-"Endast en av enhetsspecifikationerna --namespace och --blockdevs kan "
-"användas.ges för kommandot url."
+"Endast en av enhetsspecifikationerna --namespace och --blockdevs kan användas"
 
 #: ../pykickstart/commands/nvdimm.py:147
 #, python-format
@@ -631,8 +630,8 @@ msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, "
 "--size, --percent, or --hibernation."
 msgstr ""
-"Ingen storlek angiven för den logiska volymen.  Använd en av --useexisting, "
-"--noformat, --size, --percent eller --hibernation."
+"Ingen storlek angiven för den logiska volymen. Använd en av --useexisting, --"
+"noformat, --size, --percent eller --hibernation."
 
 #: ../pykickstart/commands/logvol.py:764
 msgid "Percentage must be between 0 and 100."
@@ -951,7 +950,7 @@ msgstr "Kickstart-version som skall användas för att tolka konfigurationen"
 
 #: ../tools/ksflatten.py:40
 msgid "Write flattened config to OUTPUT"
-msgstr "Skriv en utslätad konfiguration till UTDATA"
+msgstr "Skriv en tillplattad konfiguration till UTDATA"
 
 #: ../tools/ksflatten.py:47
 msgid "Need to specify a config to flatten"
