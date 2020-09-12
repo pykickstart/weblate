@@ -6,27 +6,27 @@
 # Christian Rose <menthos@menthos.com>, 2006
 # denka <dennis@dennis.se>, 2014
 # denka <dennis@dennis.se>, 2014
-# Göran Uddeborg <goeran@uddeborg.se>, 2008,2010-2011,2013-2014
+# Göran Uddeborg <goeran@uddeborg.se>, 2008,2010-2011,2013-2014, 2020.
 # fedoratrans <fedoratrans@gmail.com>, 2007-2008
-# Göran Uddeborg <goeran@uddeborg.se>, 2015. #zanata
-# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata
-# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata
+# Göran Uddeborg <goeran@uddeborg.se>, 2015. #zanata, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-08 16:32-0800\n"
-"PO-Revision-Date: 2018-08-17 06:45+0000\n"
+"PO-Revision-Date: 2020-09-12 16:29+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/pykickstart/"
-"language/sv/)\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
+"pykickstart/master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -124,12 +124,7 @@ msgid "invalid boolean value: %r"
 msgstr "otillåtet booleskt värde: %r"
 
 #: ../pykickstart/options.py:183
-#, fuzzy, python-format
-#| msgid ""
-#| "Ignoring deprecated option on line %(lineno)s:  The %(option)s option has "
-#| "been deprecated and no longer has any effect.  It may be removed from "
-#| "future releases, which will result in a fatal error from kickstart.  "
-#| "Please modify your kickstart file to remove this option."
+#, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
 "been deprecated and no longer has any effect. It may be removed from future "
@@ -156,6 +151,9 @@ msgid ""
 "releases. Please modify your kickstart file to replacethis option with its "
 "preferred alias %(new_option)s."
 msgstr ""
+"Flaggan %(option)s på rad %(lineno)s kommer undanbes i framtida utgåvor. "
+"Ändra din kickstart-fil och ersätt denna flagga med dess rekommenderade "
+"alias %(new_option)s."
 
 #: ../pykickstart/errors.py:70
 #, python-format
@@ -253,9 +251,7 @@ msgstr "Flaggorna --nontp och --ntpservers är ömsesidigt uteslutande"
 
 #: ../pykickstart/commands/timezone.py:267
 #: ../pykickstart/commands/timezone.py:368
-#, fuzzy, python-format
-#| msgid ""
-#| "At least one option and/or an argument are expected for the  %s command"
+#, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr "Åtminstone en flagga och/eller argument förväntades till kommandot %s"
 
@@ -270,6 +266,8 @@ msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
+"Flaggan --isUtc kommer undanbes i framtida utgåvor. Ändra din kickstart-fil "
+"och ersätt denna flagga med dess rekommenderade alias --utc."
 
 #: ../pykickstart/commands/upgrade.py:104
 #, python-format
@@ -324,7 +322,7 @@ msgstr "autopart --type=btrfs stödjs inte"
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "En tom sträng är inte en giltig aktiveringsnyckel."
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/mount.py:167
@@ -342,10 +340,8 @@ msgid "'--mkfsoptions' requires --reformat"
 msgstr "”--mkfsoptions” kräver --reformat"
 
 #: ../pykickstart/commands/syspurpose.py:86
-#, fuzzy
-#| msgid "The enable module command does not take position arguments!"
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "Kommandot enable module tar inga positionsargument!"
+msgstr "Kommandot syspurpose tar inga positionsargument!"
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -400,8 +396,7 @@ msgstr "Oväntade argument till kommandot nvdimm: %(arguments)s"
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
-"Endast en av enhetsspecifikationerna --namespace och --blockdevs kan "
-"användas.ges för kommandot url."
+"Endast en av enhetsspecifikationerna --namespace och --blockdevs kan användas"
 
 #: ../pykickstart/commands/nvdimm.py:147
 #, python-format
@@ -771,8 +766,8 @@ msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, --"
 "size, --percent, or --hibernation."
 msgstr ""
-"Ingen storlek angiven för den logiska volymen.  Använd en av --useexisting, "
-"--noformat, --size, --percent eller --hibernation."
+"Ingen storlek angiven för den logiska volymen. Använd en av --useexisting, --"
+"noformat, --size, --percent eller --hibernation."
 
 #: ../pykickstart/commands/logvol.py:766
 msgid "Percentage must be between 0 and 100."
@@ -804,10 +799,9 @@ msgid "Invalid cache mode given: %s"
 msgstr "Felaktigt cache-läge angivet: %s"
 
 #: ../pykickstart/commands/snapshot.py:90
-#, fuzzy, python-format
-#| msgid "Invalid realm arguments: %s"
+#, python-format
 msgid "Invalid parameter to --when= argument: %s"
-msgstr "Felaktiga rikesargument: %s"
+msgstr "Felaktiga parametrar till argumentet --when=: %s"
 
 #: ../pykickstart/commands/snapshot.py:122
 #, python-format
@@ -910,7 +904,7 @@ msgstr "Kickstart-version som skall användas för att tolka konfigurationen"
 
 #: ../tools/ksflatten.py:40
 msgid "Write flattened config to OUTPUT"
-msgstr "Skriv en utslätad konfiguration till UTDATA"
+msgstr "Skriv en tillplattad konfiguration till UTDATA"
 
 #: ../tools/ksflatten.py:47
 msgid "Need to specify a config to flatten"
