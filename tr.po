@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-08 16:32-0800\n"
-"PO-Revision-Date: 2020-04-16 14:40+0000\n"
+"PO-Revision-Date: 2020-10-10 05:30+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/tr/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.0.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -31,11 +31,11 @@ msgid ""
 "releases, which will result in a fatal error from kickstart.  Please modify "
 "your kickstart file to remove this command."
 msgstr ""
-"%(lineno)s. satırdaki kullanımdan kaldırılan komut gözardı ediliyor:  "
-"%(cmd)s komutu kullanımdan kaldırılmıştır ve artık hiçbir etkisi yoktur.  "
-"Gelecek sürümlerden kaldırılabileceği için, kickstart'ta ölümcül hatalara "
-"sebep olabilir.  Lütfen kickstart dosyanızı, bu komutu içermeyecek şekilde "
-"yeniden düzenleyin."
+"%(lineno)s. satırdaki kullanımdan kaldırılan komut yok sayılıyor:  %(cmd)s "
+"komutu kullanımdan kaldırılmıştır ve artık hiçbir etkisi yoktur.  "
+"Gelecekteki sürümlerden kaldırılabilir ve bu da kickstart'ta ölümcül bir "
+"hataya neden olur.  Bu komutu kaldırmak için lütfen kickstart dosyanızı "
+"değiştirin."
 
 #: ../pykickstart/base.py:372
 #, python-format
@@ -122,23 +122,17 @@ msgid "invalid boolean value: %r"
 msgstr "geçersiz boolean değeri: %r"
 
 #: ../pykickstart/options.py:183
-#, fuzzy, python-format
-#| msgid ""
-#| "Ignoring deprecated option on line %(lineno)s:  The %(option)s option has "
-#| "been deprecated and no longer has any effect.  It may be removed from "
-#| "future releases, which will result in a fatal error from kickstart.  "
-#| "Please modify your kickstart file to remove this option."
+#, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
 "been deprecated and no longer has any effect. It may be removed from future "
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"%(lineno)s satırındaki kullanımı artık önerilmeyen seçenek gözardı "
-"ediliyor:  %(option)s seçeneğinin kullanımı artık önerilmemektedir ve hiçbir "
-"etkisi yoktur.  Gelecek sürümlerden kaldırılabileceği için, kickstart'da "
-"ciddi hatalara sebep olabilir.  Lütfen kickstart dosyanızı, bu seçeneği "
-"içermeyecek şekilde yeniden düzenleyin."
+"%(lineno)s. satırdaki kullanımdan kaldırılan seçenek yok sayılıyor: %(option)"
+"s seçeneği kullanımdan kaldırıldı ve artık hiçbir etkisi yok. Gelecekteki "
+"sürümlerden kaldırılabilir ve bu da kickstart'ta ölümcül bir hataya neden "
+"olur. Bu seçeneği kaldırmak için lütfen kickstart dosyanızı değiştirin."
 
 #: ../pykickstart/sections.py:735
 msgid "--default and --nobase cannot be used together"
@@ -155,6 +149,9 @@ msgid ""
 "releases. Please modify your kickstart file to replacethis option with its "
 "preferred alias %(new_option)s."
 msgstr ""
+"%(lineno)s. satırdaki %(option)s seçeneği sonraki sürümlerde kullanımdan "
+"kaldırılacaktır. Lütfen kickstart dosyanızı bu seçeneği tercih edilen "
+"%(new_option)s takma adıyla değiştirecek şekilde değiştirin."
 
 #: ../pykickstart/errors.py:70
 #, python-format
@@ -163,7 +160,7 @@ msgid ""
 "\n"
 "%(msg)s\n"
 msgstr ""
-"Kickstart dosyasının %(lineno)s . satırında aşağıdaki sorun oluştu:\n"
+"Kickstart dosyasının %(lineno)s. satırında aşağıdaki sorun oluştu:\n"
 "\n"
 "%(msg)s\n"
 
@@ -256,7 +253,7 @@ msgstr "--nontp ve --ntpservers seçenekleri aynı anda kullanılamaz"
 #: ../pykickstart/commands/timezone.py:368
 #, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
-msgstr ""
+msgstr "%s komutu için en az bir seçenek ve/veya argüman bekleniyor"
 
 #: ../pykickstart/commands/timezone.py:280
 #: ../pykickstart/commands/timezone.py:381
@@ -269,6 +266,9 @@ msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
+"--isUtc seçeneği gelecekteki sürümlerde kullanımdan kaldırılacaktır. Lütfen "
+"kickstart dosyanızı bu seçeneği tercih edilen --utc takma adıyla "
+"değiştirecek şekilde değiştirin."
 
 #: ../pykickstart/commands/upgrade.py:104
 #, python-format
@@ -325,7 +325,7 @@ msgstr "autopart --type=btrfs desteklenmemektedir"
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "Boş dizge geçerli bir etkinleştirme anahtarı değildir."
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/mount.py:167
@@ -344,7 +344,7 @@ msgstr "'--mkfsoptions' --reformat gerektirmektedir"
 
 #: ../pykickstart/commands/syspurpose.py:86
 msgid "The syspurpose command does not take positional arguments!"
-msgstr ""
+msgstr "syspurpose komutu konumsal argümanlar almamaktadır!"
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -816,7 +816,7 @@ msgstr "Geçersiz önbellek modu belirtildi: %s"
 #: ../pykickstart/commands/snapshot.py:90
 #, python-format
 msgid "Invalid parameter to --when= argument: %s"
-msgstr ""
+msgstr "--when= argümanına geçersiz parametre: %s"
 
 #: ../pykickstart/commands/snapshot.py:122
 #, python-format
