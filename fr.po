@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-09 08:13-0700\n"
-"PO-Revision-Date: 2020-02-24 04:38+0000\n"
+"PO-Revision-Date: 2020-10-24 07:15+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fr/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.2\n"
+"X-Generator: Weblate 4.3.1\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -236,9 +236,7 @@ msgstr "Un utilisateur ssh avec le nom %s a déjà été défini."
 
 #: ../pykickstart/commands/timezone.py:267
 #: ../pykickstart/commands/timezone.py:368
-#, fuzzy, python-format
-#| msgid ""
-#| "At least one option and/or an argument are expected for the  %s command"
+#, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr "La commande %s attend au moins une option ou un argument"
 
@@ -277,7 +275,7 @@ msgstr ""
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "Une chaîne vide n’est pas une clé d’activation valide."
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:81 ../pykickstart/load.py:84
@@ -381,20 +379,15 @@ msgstr ""
 "modifier votre fichier kickstart et de retirer cette commande."
 
 #: ../pykickstart/options.py:183
-#, fuzzy, python-format
-#| msgid ""
-#| "Ignoring deprecated option on line %(lineno)s:  The %(option)s option has "
-#| "been deprecated and no longer has any effect.  It may be removed from "
-#| "future releases, which will result in a fatal error from kickstart.  "
-#| "Please modify your kickstart file to remove this option."
+#, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
 "been deprecated and no longer has any effect. It may be removed from future "
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"Option obsolète sur la ligne %(lineno)s ignorée : l'option %(option)s est "
-"obsolète et n'a plus d'effet. Elle pourra être supprimée lors de futures "
+"Option obsolète sur la ligne %(lineno)s ignorée : l’option %(option)s est "
+"obsolète et n’a plus d’effet. Elle pourra être supprimée lors de futures "
 "versions, ce qui provoquera une erreur fatale de kickstart. Merci de "
 "modifier votre fichier kickstart et de retirer cette option."
 
@@ -441,10 +434,9 @@ msgid "Invalid mount point '%s' given"
 msgstr "Le point de montage %s est invalide"
 
 #: ../pykickstart/commands/snapshot.py:90
-#, fuzzy, python-format
-#| msgid "Invalid realm arguments: %s"
+#, python-format
 msgid "Invalid parameter to --when= argument: %s"
-msgstr "Arguments de domaine non valides : %s"
+msgstr "Paramètre invalide pour l’argument --when= : %s"
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
@@ -833,6 +825,9 @@ msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
+"L’option --isUtc sera dépréciée dans les versions ultérieure. Veuillez "
+"modifier votre fichier kickstart pour remplacer cette options avec son alias "
+"--utc."
 
 #: ../pykickstart/commands/timezone.py:441
 msgid ""
@@ -877,10 +872,8 @@ msgstr ""
 "La commande « join » du domaine ne doit être spécifiée qu’une seule fois"
 
 #: ../pykickstart/commands/syspurpose.py:86
-#, fuzzy
-#| msgid "The enable module command does not take position arguments!"
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "La commande enable module n'accepte pas d'arguments positionnels !"
+msgstr "La commande syspurpose n’accepte pas d’arguments positionnels !"
 
 #: ../tools/ksverdiff.py:66 ../tools/ksflatten.py:52 ../tools/ksvalidator.py:94
 #: ../tools/ksshell.py:167
