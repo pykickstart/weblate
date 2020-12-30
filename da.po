@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2020-04-18 11:40+0000\n"
+"PO-Revision-Date: 2020-12-31 06:36+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/da/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.1\n"
+"X-Generator: Weblate 4.4\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -117,7 +117,7 @@ msgstr "Ikke-understøttet version angivet: %s"
 #: ../pykickstart/options.py:66 ../pykickstart/options.py:68
 #, python-format
 msgid "invalid boolean value: %r"
-msgstr ""
+msgstr "ugyldig boolesk værdi %r"
 
 #: ../pykickstart/options.py:179
 #, python-format
@@ -335,7 +335,7 @@ msgstr ""
 #: ../pykickstart/commands/mount.py:184
 #, python-format
 msgid "Invalid mount point '%s' given"
-msgstr ""
+msgstr "Ugyldigt monteringspunkt '%s' givet"
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
@@ -539,7 +539,7 @@ msgstr ""
 #: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/logvol.py:929
 #: ../pykickstart/commands/partition.py:749
 msgid "Btrfs file system is not supported"
-msgstr ""
+msgstr "Btrfs-filsystemet understøttes ikke"
 
 #: ../pykickstart/commands/device.py:115
 msgid "device command requires two arguments: module type and name"
