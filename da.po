@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-09 08:13-0700\n"
-"PO-Revision-Date: 2020-04-18 11:40+0000\n"
+"PO-Revision-Date: 2020-12-31 06:36+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/da/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.1\n"
+"X-Generator: Weblate 4.4\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -228,7 +228,7 @@ msgstr ""
 #: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/logvol.py:931
 #: ../pykickstart/commands/partition.py:749
 msgid "Btrfs file system is not supported"
-msgstr ""
+msgstr "Btrfs-filsystemet understøttes ikke"
 
 #: ../pykickstart/commands/logvol.py:857
 msgid "Cache needs to have a list of (fast) PVs specified"
@@ -392,7 +392,7 @@ msgstr ""
 #: ../pykickstart/commands/mount.py:184
 #, python-format
 msgid "Invalid mount point '%s' given"
-msgstr ""
+msgstr "Ugyldigt monteringspunkt '%s' givet"
 
 #: ../pykickstart/commands/snapshot.py:90
 #, python-format
@@ -943,7 +943,7 @@ msgstr "stop efter den første fejl eller den første advarsel"
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
 msgid "invalid boolean value: %r"
-msgstr ""
+msgstr "ugyldig boolesk værdi %r"
 
 #: ../tools/ksverdiff.py:49 ../tools/ksvalidator.py:61
 msgid "list the available versions of kickstart syntax"
