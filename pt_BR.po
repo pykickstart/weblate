@@ -18,15 +18,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2018-11-20 10:57+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/pykickstart/language/pt_BR/)\n"
+"PO-Revision-Date: 2021-01-18 00:39+0000\n"
+"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
+"projects/pykickstart/rhel8-branch/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -205,7 +206,7 @@ msgstr "Argumento inesperado para %(command)s comando: %(options)s"
 
 #: ../pykickstart/commands/harddrive.py:88
 msgid "One of biospart or partition options must be specified."
-msgstr "Um dos biospart ou opções de partition deve ser especificado. "
+msgstr "Um dos biospart ou opções de partition deve ser especificado."
 
 #: ../pykickstart/commands/ignoredisk.py:90
 #: ../pykickstart/commands/ignoredisk.py:175
@@ -247,21 +248,21 @@ msgstr "volgroup deve ser dado um nome VG"
 
 #: ../pykickstart/commands/volgroup.py:170
 msgid "volgroup must be given a list of partitions"
-msgstr "volgroup deve ser dado uma lista de partições. "
+msgstr "volgroup deve ser dado uma lista de partições."
 
 #: ../pykickstart/commands/volgroup.py:172
 msgid "Members may not be specified for preexisting volgroup"
-msgstr "Os membros não podem ser especificados por volgroup pré-existente. "
+msgstr "Os membros não podem ser especificados por volgroup pré-existente."
 
 #: ../pykickstart/commands/volgroup.py:180
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
-msgstr "Um volgroup com nome %s já foi definido. "
+msgstr "Um volgroup com nome %s já foi definido."
 
 #: ../pykickstart/commands/volgroup.py:219
 msgid "The volgroup and autopart commands can't be used at the same time"
 msgstr ""
-"Os comandos volgroup e autopart não podem ser utilizados ao mesmo tempo. "
+"Os comandos volgroup e autopart não podem ser utilizados ao mesmo tempo."
 
 #: ../pykickstart/commands/volgroup.py:223
 msgid "The volgroup and mount commands can't be used at the same time"
@@ -299,7 +300,7 @@ msgstr ""
 #: ../pykickstart/commands/hmc.py:46 ../pykickstart/commands/cdrom.py:41
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
-msgstr "O comando Kickstart %s não aceita quaisquer argumentos "
+msgstr "O comando Kickstart %s não aceita quaisquer argumentos"
 
 #: ../pykickstart/commands/eula.py:68
 msgid "Kickstart command eula expects the --agreed option"
@@ -459,14 +460,14 @@ msgstr ""
 #: ../pykickstart/commands/key.py:61
 #, python-format
 msgid "Kickstart command %s requires one argument"
-msgstr "O comando Kickstart %s requer um argumento "
+msgstr "O comando Kickstart %s requer um argumento"
 
 #: ../pykickstart/commands/keyboard.py:163
 #: ../pykickstart/commands/rootpw.py:85 ../pykickstart/commands/rootpw.py:142
 #: ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr "Um argumento único está previsto para o comando %s "
+msgstr "Um argumento único está previsto para o comando %s"
 
 #: ../pykickstart/commands/keyboard.py:169
 msgid ""
@@ -740,7 +741,7 @@ msgstr "O comando Kickstart %s aceita somente um argumento"
 #: ../pykickstart/commands/group.py:95
 #, python-format
 msgid "A group with the name %s has already been defined."
-msgstr "Um grupo com nome %s já foi definido. "
+msgstr "Um grupo com nome %s já foi definido."
 
 #: ../pykickstart/commands/network.py:478
 #, python-format
@@ -901,7 +902,7 @@ msgstr ""
 #: ../pykickstart/commands/repo.py:291
 #, python-format
 msgid "A repo with the name %s has already been defined."
-msgstr "Um repo com o mesmo nome %s já foi definido.  "
+msgstr "Um repo com o mesmo nome %s já foi definido."
 
 #: ../pykickstart/commands/repo.py:337
 msgid "Method must be a url to be added to the repo list."
