@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-09 08:13-0700\n"
+"POT-Creation-Date: 2021-01-18 11:11-0800\n"
 "PO-Revision-Date: 2020-10-10 05:30+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -28,6 +28,11 @@ msgstr ""
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "%(command)s komutu tek bir argüman gerektirmektedir: %(argument)s"
 
+#: ../pykickstart/base.py:252
+#, python-format
+msgid "%s has been removed."
+msgstr ""
+
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "'--mkfsoptions' --reformat gerektirmektedir"
@@ -39,7 +44,7 @@ msgid "--bindto=%s is not supported for this type of device"
 msgstr "--bindto=%s bu tür bir aygıt için desteklenmemektedir"
 
 #. pylint: disable=no-member
-#: ../pykickstart/commands/bootloader.py:325
+#: ../pykickstart/commands/bootloader.py:330
 msgid "--boot-drive accepts only one argument"
 msgstr "--boot-drive sadece bir argüman kabul etmektedir"
 
@@ -47,23 +52,21 @@ msgstr "--boot-drive sadece bir argüman kabul etmektedir"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize ve --medadatasize sadece ince havuzlar (thin pool) içindir"
 
-#: ../pykickstart/sections.py:735
+#: ../pykickstart/sections.py:746
 msgid "--default and --nobase cannot be used together"
 msgstr "--default ve --nobase birlikte kullanılamaz"
 
-#: ../pykickstart/sections.py:748
+#: ../pykickstart/sections.py:759
 msgid "--default and --nocore cannot be used together"
 msgstr "--default ve --nocore birlikte kullanılamaz"
 
-#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/logvol.py:815
-#: ../pykickstart/commands/logvol.py:872
-#: ../pykickstart/commands/partition.py:685
+#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/partition.py:685
+#: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr "--mkfsoptions ve --fsprofile birlikte kullanılamaz."
 
-#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/logvol.py:812
-#: ../pykickstart/commands/logvol.py:869
-#: ../pykickstart/commands/partition.py:682
+#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
+#: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr ""
 "--mkfsoptions ile --noformat birlikte kullanıldığında bir etkisi yoktur."
@@ -236,8 +239,8 @@ msgstr ""
 "Hatalı --bridgeopts biçimi, virgül ile ayrılmış şekilde anahtar=değer "
 "seçenekleri bekleniyor"
 
-#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/logvol.py:931
-#: ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/logvol.py:931
 msgid "Btrfs file system is not supported"
 msgstr "Btrfs dosya sistemi desteklenmemektedir"
 
@@ -348,7 +351,7 @@ msgstr ""
 "Ağ --interfacename 'vlan' ile başlıyorsa, sonrasında geçerli bir vlan "
 "kimliği belirtilmelidir."
 
-#: ../pykickstart/base.py:216
+#: ../pykickstart/base.py:221
 #, python-format
 msgid ""
 "Ignoring deprecated command on line %(lineno)s:  The %(cmd)s command has "
@@ -447,13 +450,13 @@ msgstr ""
 msgid "Kickstart command %s does not take any arguments"
 msgstr "%s kickstart komutu herhangi bir argüman almamaktadır"
 
-#: ../pykickstart/commands/updates.py:64
+#: ../pykickstart/commands/updates.py:66
 #, python-format
 msgid "Kickstart command %s only takes one argument"
 msgstr "%s kickstart komutu sadece bir argüman almaktadır"
 
-#: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/mouse.py:65
-#: ../pykickstart/commands/key.py:61
+#: ../pykickstart/commands/key.py:61 ../pykickstart/commands/keyboard.py:56
+#: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
 msgstr "%s kickstart komutu bir tane argüman gerektirmektedir"
@@ -617,8 +620,8 @@ msgstr ""
 "belirtilebilir."
 
 #: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
-#: ../pykickstart/commands/logvol.py:919
 #: ../pykickstart/commands/partition.py:737
+#: ../pykickstart/commands/logvol.py:919
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
 "--pbkdf-time ve --pbkdf-iterations ögelerinden sadece biri belirtilebilir."
@@ -703,7 +706,7 @@ msgstr "%s adıyla anlık görüntü zaten tanımlanmış!"
 msgid "Specify only one realm to join"
 msgstr "Katılmak için sadece bir erişim alanı belirtin"
 
-#: ../pykickstart/sections.py:774
+#: ../pykickstart/sections.py:785
 #, fuzzy, python-format
 #| msgid ""
 #| "The %(option)s option on line %(lineno)s will be deprecated infuture "
@@ -748,12 +751,12 @@ msgstr ""
 msgid "The enable module command does not take position arguments!"
 msgstr "enable module komutu konum argümanları almamaktadır!"
 
-#: ../tools/ksverdiff.py:79
+#: ../tools/ksverdiff.py:84
 #, python-format
 msgid "The following commands were added in %s:"
 msgstr "Aşağıdaki komutlar %s sürümüne eklendi:"
 
-#: ../tools/ksverdiff.py:76
+#: ../tools/ksverdiff.py:79
 #, python-format
 msgid "The following commands were deprecated in %s:"
 msgstr "Aşağıdaki komutlar %s sürümünde kullanımdan kaldırıldı:"
@@ -763,7 +766,7 @@ msgstr "Aşağıdaki komutlar %s sürümünde kullanımdan kaldırıldı:"
 msgid "The following commands were removed in %s:"
 msgstr "Aşağıdaki komutlar %s sürümünden çıkarıldı:"
 
-#: ../tools/ksverdiff.py:101
+#: ../tools/ksverdiff.py:106
 #, python-format
 msgid ""
 "The following options were added to the %(command_name)s command in "
@@ -771,7 +774,7 @@ msgid ""
 msgstr ""
 "Aşağıdaki seçenekler %(command_name)s komutuna %(version)s sürümünde eklendi:"
 
-#: ../tools/ksverdiff.py:105
+#: ../tools/ksverdiff.py:110
 #, python-format
 msgid ""
 "The following options were deprecated from the %(command_name)s command in "
@@ -780,7 +783,7 @@ msgstr ""
 "%(command_name)s komutu için aşağıdaki seçenekler %(version)s sürümünde "
 "kullanımdan kaldırıldı:"
 
-#: ../tools/ksverdiff.py:109
+#: ../tools/ksverdiff.py:114
 #, python-format
 msgid ""
 "The following options were removed from the %(command_name)s command in "
@@ -912,7 +915,7 @@ msgstr "%%ksappend dosyası açılamıyor: %s"
 msgid "Unable to open input kickstart file: %s"
 msgstr "Kickstart girdi dosyası açılamıyor: %s"
 
-#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/key.py:64
 #: ../pykickstart/commands/mount.py:175
 #: ../pykickstart/commands/langsupport.py:59
 #: ../pykickstart/commands/keyboard.py:59
@@ -920,12 +923,13 @@ msgstr "Kickstart girdi dosyası açılamıyor: %s"
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/device.py:118
-#: ../pykickstart/commands/device.py:147 ../pykickstart/commands/logvol.py:470
+#: ../pykickstart/commands/device.py:147
 #: ../pykickstart/commands/partition.py:439
-#: ../pykickstart/commands/updates.py:67 ../pykickstart/commands/mouse.py:68
+#: ../pykickstart/commands/updates.py:69 ../pykickstart/commands/mouse.py:68
 #: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/btrfs.py:218
 #: ../pykickstart/commands/rootpw.py:88 ../pykickstart/commands/rootpw.py:145
-#: ../pykickstart/commands/key.py:64 ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/timezone.py:82 ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/logvol.py:470
 #: ../pykickstart/commands/iscsiname.py:61
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
@@ -941,7 +945,7 @@ msgstr "nvdimm komutu için beklenmeyen argümanlar: %(arguments)s"
 msgid "Unknown command %s"
 msgstr "Bilinmeyen komut: %s"
 
-#: ../pykickstart/base.py:373
+#: ../pykickstart/base.py:409
 #, python-format
 msgid "Unknown command: %s"
 msgstr "Bilinmeyen komut: %s"

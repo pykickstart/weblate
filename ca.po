@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-09 08:13-0700\n"
+"POT-Creation-Date: 2021-01-18 11:11-0800\n"
 "PO-Revision-Date: 2018-08-20 10:50+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/pykickstart/"
@@ -34,6 +34,11 @@ msgstr ""
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "l'ordre %(command)s requereix un sol argument: %(argument)s"
 
+#: ../pykickstart/base.py:252
+#, python-format
+msgid "%s has been removed."
+msgstr ""
+
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "«--mkfsoptions» requereix --reformat"
@@ -45,7 +50,7 @@ msgid "--bindto=%s is not supported for this type of device"
 msgstr "--bindto=%s no està admès per a aquest tipus de dispositiu"
 
 #. pylint: disable=no-member
-#: ../pykickstart/commands/bootloader.py:325
+#: ../pykickstart/commands/bootloader.py:330
 msgid "--boot-drive accepts only one argument"
 msgstr "--boot-drive tan sols accepta un argument"
 
@@ -54,23 +59,21 @@ msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr ""
 "--chunksize i --metadatasize tan sols són per als agrupaments de disgregats"
 
-#: ../pykickstart/sections.py:735
+#: ../pykickstart/sections.py:746
 msgid "--default and --nobase cannot be used together"
 msgstr "--default i --nobase no poden utilitzar-se alhora"
 
-#: ../pykickstart/sections.py:748
+#: ../pykickstart/sections.py:759
 msgid "--default and --nocore cannot be used together"
 msgstr "--default i --nocore no poden utilitzar-se alhora"
 
-#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/logvol.py:815
-#: ../pykickstart/commands/logvol.py:872
-#: ../pykickstart/commands/partition.py:685
+#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/partition.py:685
+#: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr "--mkfsoptions i --fsprofile no es poden utilitzar alhora."
 
-#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/logvol.py:812
-#: ../pykickstart/commands/logvol.py:869
-#: ../pykickstart/commands/partition.py:682
+#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
+#: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr "--mkfsoptions amb --noformat no té cap efecte."
 
@@ -239,8 +242,8 @@ msgstr ""
 "Format dolent de --bridgeopts, s'esperaven opcions clau=valor separades amb "
 "','"
 
-#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/logvol.py:931
-#: ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/logvol.py:931
 msgid "Btrfs file system is not supported"
 msgstr "El sistema de fitxers btrfs no està suportat."
 
@@ -360,7 +363,7 @@ msgstr ""
 "Si network --interfacename comença amb 'vlan', a continuació hi ha d'haver "
 "un id. vlan vàlid."
 
-#: ../pykickstart/base.py:216
+#: ../pykickstart/base.py:221
 #, python-format
 msgid ""
 "Ignoring deprecated command on line %(lineno)s:  The %(cmd)s command has "
@@ -462,13 +465,13 @@ msgstr ""
 msgid "Kickstart command %s does not take any arguments"
 msgstr "L'ordre de Kickstart %s no pren cap argument"
 
-#: ../pykickstart/commands/updates.py:64
+#: ../pykickstart/commands/updates.py:66
 #, python-format
 msgid "Kickstart command %s only takes one argument"
 msgstr "l'ordre de Kickstart %s tan sols pren un argument"
 
-#: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/mouse.py:65
-#: ../pykickstart/commands/key.py:61
+#: ../pykickstart/commands/key.py:61 ../pykickstart/commands/keyboard.py:56
+#: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
 msgstr "L'ordre %s de Kickstart requereix un argument"
@@ -641,8 +644,8 @@ msgstr ""
 "nomount o --romount."
 
 #: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
-#: ../pykickstart/commands/logvol.py:919
 #: ../pykickstart/commands/partition.py:737
+#: ../pykickstart/commands/logvol.py:919
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
 "Tan sols se'n pot especificar un dels següents ---pbkdf-time o --pbkdf-"
@@ -725,7 +728,7 @@ msgstr "Ja ha estat definida una instantània amb el nom %s!"
 msgid "Specify only one realm to join"
 msgstr "Especifiqueu tan sols un reialme a unir-se."
 
-#: ../pykickstart/sections.py:774
+#: ../pykickstart/sections.py:785
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -764,12 +767,12 @@ msgstr ""
 msgid "The enable module command does not take position arguments!"
 msgstr ""
 
-#: ../tools/ksverdiff.py:79
+#: ../tools/ksverdiff.py:84
 #, python-format
 msgid "The following commands were added in %s:"
 msgstr "Les següents comandes es van afegir en %s:"
 
-#: ../tools/ksverdiff.py:76
+#: ../tools/ksverdiff.py:79
 #, python-format
 msgid "The following commands were deprecated in %s:"
 msgstr "Les següents comandes es van considerar en desús en %s:"
@@ -779,7 +782,7 @@ msgstr "Les següents comandes es van considerar en desús en %s:"
 msgid "The following commands were removed in %s:"
 msgstr "Les següents comandes van ser eliminades en %s:"
 
-#: ../tools/ksverdiff.py:101
+#: ../tools/ksverdiff.py:106
 #, python-format
 msgid ""
 "The following options were added to the %(command_name)s command in "
@@ -787,7 +790,7 @@ msgid ""
 msgstr ""
 "Les següents opcions van afegir-se a l'ordre %(command_name)s en %(version)s:"
 
-#: ../tools/ksverdiff.py:105
+#: ../tools/ksverdiff.py:110
 #, python-format
 msgid ""
 "The following options were deprecated from the %(command_name)s command in "
@@ -796,7 +799,7 @@ msgstr ""
 "Les següents opcions van considerar-se en desús a l'ordre %(command_name)s "
 "en %(version)s:"
 
-#: ../tools/ksverdiff.py:109
+#: ../tools/ksverdiff.py:114
 #, python-format
 msgid ""
 "The following options were removed from the %(command_name)s command in "
@@ -916,7 +919,7 @@ msgstr "No es pot obrir el fitxer %%ksappend: %s"
 msgid "Unable to open input kickstart file: %s"
 msgstr "No es pot obrir el fitxer d'entrada de kickstart: %s"
 
-#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/key.py:64
 #: ../pykickstart/commands/mount.py:175
 #: ../pykickstart/commands/langsupport.py:59
 #: ../pykickstart/commands/keyboard.py:59
@@ -924,12 +927,13 @@ msgstr "No es pot obrir el fitxer d'entrada de kickstart: %s"
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/device.py:118
-#: ../pykickstart/commands/device.py:147 ../pykickstart/commands/logvol.py:470
+#: ../pykickstart/commands/device.py:147
 #: ../pykickstart/commands/partition.py:439
-#: ../pykickstart/commands/updates.py:67 ../pykickstart/commands/mouse.py:68
+#: ../pykickstart/commands/updates.py:69 ../pykickstart/commands/mouse.py:68
 #: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/btrfs.py:218
 #: ../pykickstart/commands/rootpw.py:88 ../pykickstart/commands/rootpw.py:145
-#: ../pykickstart/commands/key.py:64 ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/timezone.py:82 ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/logvol.py:470
 #: ../pykickstart/commands/iscsiname.py:61
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
@@ -945,7 +949,7 @@ msgstr "Arguments inesperats per a l'ordre nvdimm: %(arguments)s"
 msgid "Unknown command %s"
 msgstr "No es coneix l'ordre %s"
 
-#: ../pykickstart/base.py:373
+#: ../pykickstart/base.py:409
 #, python-format
 msgid "Unknown command: %s"
 msgstr "No es coneix l'ordre: %s"
