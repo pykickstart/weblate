@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-09 08:13-0700\n"
+"POT-Creation-Date: 2021-01-18 11:11-0800\n"
 "PO-Revision-Date: 2018-09-11 02:08+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/pykickstart/"
@@ -34,6 +34,11 @@ msgstr ""
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "%(command)s コマンドには、引数が 1 つ必要です: %(argument)s"
 
+#: ../pykickstart/base.py:252
+#, python-format
+msgid "%s has been removed."
+msgstr ""
+
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "'--mkfsoptions' には --reformat が必要です。"
@@ -45,7 +50,7 @@ msgid "--bindto=%s is not supported for this type of device"
 msgstr "このタイプのデバイスでは、--bindto=%s がサポートされていません。"
 
 #. pylint: disable=no-member
-#: ../pykickstart/commands/bootloader.py:325
+#: ../pykickstart/commands/bootloader.py:330
 msgid "--boot-drive accepts only one argument"
 msgstr "--boot-drive は、引数を 1 つだけ受け入れます。"
 
@@ -53,23 +58,21 @@ msgstr "--boot-drive は、引数を 1 つだけ受け入れます。"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize と --metadatasize は、シンプールにしか使用しません。"
 
-#: ../pykickstart/sections.py:735
+#: ../pykickstart/sections.py:746
 msgid "--default and --nobase cannot be used together"
 msgstr "--default と --nobase は併用できません"
 
-#: ../pykickstart/sections.py:748
+#: ../pykickstart/sections.py:759
 msgid "--default and --nocore cannot be used together"
 msgstr "--default と --nocore は併用できません"
 
-#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/logvol.py:815
-#: ../pykickstart/commands/logvol.py:872
-#: ../pykickstart/commands/partition.py:685
+#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/partition.py:685
+#: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr "--mkfsoptions と --fsprofile を併用することはできません。"
 
-#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/logvol.py:812
-#: ../pykickstart/commands/logvol.py:869
-#: ../pykickstart/commands/partition.py:682
+#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
+#: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr "--mkfsoptions を、--noformat と併用しても影響はありません。"
 
@@ -250,8 +253,8 @@ msgstr ""
 "--bridgeopts の不正なフォーマット。key=value オプションは ',' で区切る必要が"
 "あります。 "
 
-#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/logvol.py:931
-#: ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/logvol.py:931
 msgid "Btrfs file system is not supported"
 msgstr "Btrfs ファイルシステムはサポートしていません"
 
@@ -366,7 +369,7 @@ msgstr ""
 "'vlan' でネットワーク --interfacename を開始した場合は、その後に有効な vlan "
 "id が必要です。"
 
-#: ../pykickstart/base.py:216
+#: ../pykickstart/base.py:221
 #, python-format
 msgid ""
 "Ignoring deprecated command on line %(lineno)s:  The %(cmd)s command has "
@@ -468,13 +471,13 @@ msgstr ""
 msgid "Kickstart command %s does not take any arguments"
 msgstr "キックスタートコマンド %s は、引数を取りません。"
 
-#: ../pykickstart/commands/updates.py:64
+#: ../pykickstart/commands/updates.py:66
 #, python-format
 msgid "Kickstart command %s only takes one argument"
 msgstr "キックスタートコマンド %s は、引数を 1 つだけ取ります。"
 
-#: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/mouse.py:65
-#: ../pykickstart/commands/key.py:61
+#: ../pykickstart/commands/key.py:61 ../pykickstart/commands/keyboard.py:56
+#: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
 msgstr "キックスタートコマンド %s には、引数が 1 つ必要です。"
@@ -643,8 +646,8 @@ msgstr ""
 "ます。"
 
 #: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
-#: ../pykickstart/commands/logvol.py:919
 #: ../pykickstart/commands/partition.py:737
+#: ../pykickstart/commands/logvol.py:919
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr "--pbkdf-time と --pbkdf-iterations のいずれか 1 つを指定できます。"
 
@@ -729,7 +732,7 @@ msgstr "%s という名前のスナップショットはすでに定義されて
 msgid "Specify only one realm to join"
 msgstr "参加するレルムを 1 つだけ指定します"
 
-#: ../pykickstart/sections.py:774
+#: ../pykickstart/sections.py:785
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -768,12 +771,12 @@ msgstr ""
 msgid "The enable module command does not take position arguments!"
 msgstr "有効なモジュールコマンドは、位置引数を取りません。"
 
-#: ../tools/ksverdiff.py:79
+#: ../tools/ksverdiff.py:84
 #, python-format
 msgid "The following commands were added in %s:"
 msgstr "次のコマンドは、%s で追加されました。"
 
-#: ../tools/ksverdiff.py:76
+#: ../tools/ksverdiff.py:79
 #, python-format
 msgid "The following commands were deprecated in %s:"
 msgstr "次のコマンドは、%s で廃止予定になりました。"
@@ -783,7 +786,7 @@ msgstr "次のコマンドは、%s で廃止予定になりました。"
 msgid "The following commands were removed in %s:"
 msgstr "次のコマンドは %s で削除されました。"
 
-#: ../tools/ksverdiff.py:101
+#: ../tools/ksverdiff.py:106
 #, python-format
 msgid ""
 "The following options were added to the %(command_name)s command in "
@@ -791,7 +794,7 @@ msgid ""
 msgstr ""
 "次のオプションは、%(command_name)s コマンドに %(version)s で追加されました。"
 
-#: ../tools/ksverdiff.py:105
+#: ../tools/ksverdiff.py:110
 #, python-format
 msgid ""
 "The following options were deprecated from the %(command_name)s command in "
@@ -800,7 +803,7 @@ msgstr ""
 "次のオプションは、%(command_name)s コマンドから %(version)s で廃止となりまし"
 "た。"
 
-#: ../tools/ksverdiff.py:109
+#: ../tools/ksverdiff.py:114
 #, python-format
 msgid ""
 "The following options were removed from the %(command_name)s command in "
@@ -922,7 +925,7 @@ msgstr "%%ksappend ファイルを開けません: %s"
 msgid "Unable to open input kickstart file: %s"
 msgstr "指定された kickstart ファイルを開けません: %s"
 
-#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/key.py:64
 #: ../pykickstart/commands/mount.py:175
 #: ../pykickstart/commands/langsupport.py:59
 #: ../pykickstart/commands/keyboard.py:59
@@ -930,12 +933,13 @@ msgstr "指定された kickstart ファイルを開けません: %s"
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/device.py:118
-#: ../pykickstart/commands/device.py:147 ../pykickstart/commands/logvol.py:470
+#: ../pykickstart/commands/device.py:147
 #: ../pykickstart/commands/partition.py:439
-#: ../pykickstart/commands/updates.py:67 ../pykickstart/commands/mouse.py:68
+#: ../pykickstart/commands/updates.py:69 ../pykickstart/commands/mouse.py:68
 #: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/btrfs.py:218
 #: ../pykickstart/commands/rootpw.py:88 ../pykickstart/commands/rootpw.py:145
-#: ../pykickstart/commands/key.py:64 ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/timezone.py:82 ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/logvol.py:470
 #: ../pykickstart/commands/iscsiname.py:61
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
@@ -951,7 +955,7 @@ msgstr "nvdimm コマンドで予期せぬ引数: %(arguments)s"
 msgid "Unknown command %s"
 msgstr "不明のコマンド %s"
 
-#: ../pykickstart/base.py:373
+#: ../pykickstart/base.py:409
 #, python-format
 msgid "Unknown command: %s"
 msgstr "不明なコマンド: %s"

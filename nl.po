@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-09 08:13-0700\n"
+"POT-Creation-Date: 2021-01-18 11:11-0800\n"
 "PO-Revision-Date: 2020-02-02 20:16+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
@@ -30,6 +30,11 @@ msgstr ""
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "%(command)s commando vereisr een enkel argument: %(argument)s"
 
+#: ../pykickstart/base.py:252
+#, python-format
+msgid "%s has been removed."
+msgstr ""
+
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "'--mkfsoptions' vereist --reformat"
@@ -41,7 +46,7 @@ msgid "--bindto=%s is not supported for this type of device"
 msgstr "--bindto=%s wordt niet ondersteund voor dit type apparaat"
 
 #. pylint: disable=no-member
-#: ../pykickstart/commands/bootloader.py:325
+#: ../pykickstart/commands/bootloader.py:330
 msgid "--boot-drive accepts only one argument"
 msgstr "--boot-drive accepteert slechts een argument"
 
@@ -49,24 +54,22 @@ msgstr "--boot-drive accepteert slechts een argument"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize en --metadatasize zijn alleen bestemd voor thin pools"
 
-#: ../pykickstart/sections.py:735
+#: ../pykickstart/sections.py:746
 msgid "--default and --nobase cannot be used together"
 msgstr "--default en --nobase kunnen niet tegelijkertijd gebruikt worden"
 
-#: ../pykickstart/sections.py:748
+#: ../pykickstart/sections.py:759
 msgid "--default and --nocore cannot be used together"
 msgstr "--default en --nocore kunnen niet tegelijkertijd gebruikt worden"
 
-#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/logvol.py:815
-#: ../pykickstart/commands/logvol.py:872
-#: ../pykickstart/commands/partition.py:685
+#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/partition.py:685
+#: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr ""
 "--mkfsoptions en --fsprofile kunnen niet tegelijkertijd gebruikt worden."
 
-#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/logvol.py:812
-#: ../pykickstart/commands/logvol.py:869
-#: ../pykickstart/commands/partition.py:682
+#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
+#: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr "--mkfsoptions met --noformat heeft geen effect."
 
@@ -245,8 +248,8 @@ msgstr ""
 "Verkeerd formaat voor --bridgeopts, verwacht wordt key=value opties "
 "gescheiden door ','"
 
-#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/logvol.py:931
-#: ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/logvol.py:931
 msgid "Btrfs file system is not supported"
 msgstr "Btrfs bestandssysteem wordt niet ondersteund"
 
@@ -358,7 +361,7 @@ msgstr ""
 "Als network --interfacename begint met 'vlan', moet een geldig vlan-id "
 "volgen."
 
-#: ../pykickstart/base.py:216
+#: ../pykickstart/base.py:221
 #, python-format
 msgid ""
 "Ignoring deprecated command on line %(lineno)s:  The %(cmd)s command has "
@@ -460,13 +463,13 @@ msgstr ""
 msgid "Kickstart command %s does not take any arguments"
 msgstr "Kickstart commando %s accepteert geen argumenten"
 
-#: ../pykickstart/commands/updates.py:64
+#: ../pykickstart/commands/updates.py:66
 #, python-format
 msgid "Kickstart command %s only takes one argument"
 msgstr "Kickstart commando %s accepteert slechts een argument"
 
-#: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/mouse.py:65
-#: ../pykickstart/commands/key.py:61
+#: ../pykickstart/commands/key.py:61 ../pykickstart/commands/keyboard.py:56
+#: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
 msgstr "Kickstart commando %s vereist één argument"
@@ -639,8 +642,8 @@ msgstr ""
 "rescue commando."
 
 #: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
-#: ../pykickstart/commands/logvol.py:919
 #: ../pykickstart/commands/partition.py:737
+#: ../pykickstart/commands/logvol.py:919
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
 "Slechts een van --pbkdf-time en --pbkdf-iterations kan gespecificeerd worden."
@@ -722,7 +725,7 @@ msgstr "Snapshot met de naam %s is al gedefinieerd!"
 msgid "Specify only one realm to join"
 msgstr "Specificeer slechts een gebied om bij te horen"
 
-#: ../pykickstart/sections.py:774
+#: ../pykickstart/sections.py:785
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -763,12 +766,12 @@ msgstr ""
 msgid "The enable module command does not take position arguments!"
 msgstr "Het enable module commando accepeteert geen positie argumenten!"
 
-#: ../tools/ksverdiff.py:79
+#: ../tools/ksverdiff.py:84
 #, python-format
 msgid "The following commands were added in %s:"
 msgstr "De volgende commando's zijn toegevoegd in %s:"
 
-#: ../tools/ksverdiff.py:76
+#: ../tools/ksverdiff.py:79
 #, python-format
 msgid "The following commands were deprecated in %s:"
 msgstr "De volgende commando's zijn verouderd in %s:"
@@ -778,7 +781,7 @@ msgstr "De volgende commando's zijn verouderd in %s:"
 msgid "The following commands were removed in %s:"
 msgstr "De volgende commando's zijn verwijderd in %s:"
 
-#: ../tools/ksverdiff.py:101
+#: ../tools/ksverdiff.py:106
 #, python-format
 msgid ""
 "The following options were added to the %(command_name)s command in "
@@ -787,7 +790,7 @@ msgstr ""
 "De volgende opties zijn toegevoegd aan het %(command_name)s commando in "
 "%(version)s:"
 
-#: ../tools/ksverdiff.py:105
+#: ../tools/ksverdiff.py:110
 #, python-format
 msgid ""
 "The following options were deprecated from the %(command_name)s command in "
@@ -796,7 +799,7 @@ msgstr ""
 "De volgende opties zijn verouderd voor het %(command_name)s commando in "
 "%(version)s:"
 
-#: ../tools/ksverdiff.py:109
+#: ../tools/ksverdiff.py:114
 #, python-format
 msgid ""
 "The following options were removed from the %(command_name)s command in "
@@ -925,7 +928,7 @@ msgstr "Niet in staat om %%ksappend bestand %s te openen"
 msgid "Unable to open input kickstart file: %s"
 msgstr "Niet in staat om kickstart bestand %s te openen"
 
-#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/key.py:64
 #: ../pykickstart/commands/mount.py:175
 #: ../pykickstart/commands/langsupport.py:59
 #: ../pykickstart/commands/keyboard.py:59
@@ -933,12 +936,13 @@ msgstr "Niet in staat om kickstart bestand %s te openen"
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/device.py:118
-#: ../pykickstart/commands/device.py:147 ../pykickstart/commands/logvol.py:470
+#: ../pykickstart/commands/device.py:147
 #: ../pykickstart/commands/partition.py:439
-#: ../pykickstart/commands/updates.py:67 ../pykickstart/commands/mouse.py:68
+#: ../pykickstart/commands/updates.py:69 ../pykickstart/commands/mouse.py:68
 #: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/btrfs.py:218
 #: ../pykickstart/commands/rootpw.py:88 ../pykickstart/commands/rootpw.py:145
-#: ../pykickstart/commands/key.py:64 ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/timezone.py:82 ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/logvol.py:470
 #: ../pykickstart/commands/iscsiname.py:61
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
@@ -954,7 +958,7 @@ msgstr "Onverwachte argumenten voor nvdimm commando: %(arguments)s"
 msgid "Unknown command %s"
 msgstr "Onbekend commando %s"
 
-#: ../pykickstart/base.py:373
+#: ../pykickstart/base.py:409
 #, python-format
 msgid "Unknown command: %s"
 msgstr "Onbekend commando: %s"

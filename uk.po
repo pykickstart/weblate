@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-09 08:13-0700\n"
+"POT-Creation-Date: 2021-01-18 11:11-0800\n"
 "PO-Revision-Date: 2020-10-10 05:30+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -29,6 +29,11 @@ msgstr ""
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "Команді %(command)s слід передати один аргумент: %(argument)s"
 
+#: ../pykickstart/base.py:252
+#, python-format
+msgid "%s has been removed."
+msgstr ""
+
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "--mkfsoptions потребує --reformat"
@@ -40,7 +45,7 @@ msgid "--bindto=%s is not supported for this type of device"
 msgstr "підтримки --bindto=%s для цього типу пристроїв не передбачено"
 
 #. pylint: disable=no-member
-#: ../pykickstart/commands/bootloader.py:325
+#: ../pykickstart/commands/bootloader.py:330
 msgid "--boot-drive accepts only one argument"
 msgstr "--boot-drive приймає лише один аргумент"
 
@@ -48,24 +53,22 @@ msgstr "--boot-drive приймає лише один аргумент"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize і --metadatasize лише для тонких буферів"
 
-#: ../pykickstart/sections.py:735
+#: ../pykickstart/sections.py:746
 msgid "--default and --nobase cannot be used together"
 msgstr "параметри --default і --nobase не можна використовувати одночасно"
 
-#: ../pykickstart/sections.py:748
+#: ../pykickstart/sections.py:759
 msgid "--default and --nocore cannot be used together"
 msgstr "параметри --default і --nocore не можна використовувати одночасно"
 
-#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/logvol.py:815
-#: ../pykickstart/commands/logvol.py:872
-#: ../pykickstart/commands/partition.py:685
+#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/partition.py:685
+#: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr ""
 "параметри --mkfsoptions і --fsprofile не можна використовувати одночасно."
 
-#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/logvol.py:812
-#: ../pykickstart/commands/logvol.py:869
-#: ../pykickstart/commands/partition.py:682
+#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
+#: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr "--mkfsoptions без --noformat не працюватиме."
 
@@ -234,8 +237,8 @@ msgstr ""
 "Помилковий формат --bridgeopts, мало бути вказано параметри ключ=значення, "
 "відокремлені «,»"
 
-#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/logvol.py:931
-#: ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/logvol.py:931
 msgid "Btrfs file system is not supported"
 msgstr "Підтримки файлової системи BTRFS не передбачено"
 
@@ -347,7 +350,7 @@ msgstr ""
 "Якщо network --interfacename починається з «vlan», слід вказати коректний "
 "ідентифікатор vlan."
 
-#: ../pykickstart/base.py:216
+#: ../pykickstart/base.py:221
 #, python-format
 msgid ""
 "Ignoring deprecated command on line %(lineno)s:  The %(cmd)s command has "
@@ -444,13 +447,13 @@ msgstr ""
 msgid "Kickstart command %s does not take any arguments"
 msgstr "Команді Kickstart %s не слід передавати жодних аргументів"
 
-#: ../pykickstart/commands/updates.py:64
+#: ../pykickstart/commands/updates.py:66
 #, python-format
 msgid "Kickstart command %s only takes one argument"
 msgstr "Команді Kickstart %s можна передавати лише один аргумент"
 
-#: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/mouse.py:65
-#: ../pykickstart/commands/key.py:61
+#: ../pykickstart/commands/key.py:61 ../pykickstart/commands/keyboard.py:56
+#: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
 msgstr "Команді Kickstart %s має бути передано один аргумент"
@@ -615,8 +618,8 @@ msgstr ""
 "або --romount."
 
 #: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
-#: ../pykickstart/commands/logvol.py:919
 #: ../pykickstart/commands/partition.py:737
+#: ../pykickstart/commands/logvol.py:919
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
 "Можна вказувати лише один з параметрів: --pbkdf-time або --pbkdf-iterations."
@@ -695,7 +698,7 @@ msgstr "Знімок із назвою %s вже визначено!"
 msgid "Specify only one realm to join"
 msgstr "Вкажіть лише одну область для долучення"
 
-#: ../pykickstart/sections.py:774
+#: ../pykickstart/sections.py:785
 #, fuzzy, python-format
 #| msgid ""
 #| "The %(option)s option on line %(lineno)s will be deprecated infuture "
@@ -741,12 +744,12 @@ msgstr ""
 msgid "The enable module command does not take position arguments!"
 msgstr "Команда enable module не приймає позиційних аргументів!"
 
-#: ../tools/ksverdiff.py:79
+#: ../tools/ksverdiff.py:84
 #, python-format
 msgid "The following commands were added in %s:"
 msgstr "У %s додано такі команди:"
 
-#: ../tools/ksverdiff.py:76
+#: ../tools/ksverdiff.py:79
 #, python-format
 msgid "The following commands were deprecated in %s:"
 msgstr "У %s застарілими стали такі команди:"
@@ -756,14 +759,14 @@ msgstr "У %s застарілими стали такі команди:"
 msgid "The following commands were removed in %s:"
 msgstr "У %s вилучено такі команди:"
 
-#: ../tools/ksverdiff.py:101
+#: ../tools/ksverdiff.py:106
 #, python-format
 msgid ""
 "The following options were added to the %(command_name)s command in "
 "%(version)s:"
 msgstr "У версії %(version)s додано такі параметри команди %(command_name)s:"
 
-#: ../tools/ksverdiff.py:105
+#: ../tools/ksverdiff.py:110
 #, python-format
 msgid ""
 "The following options were deprecated from the %(command_name)s command in "
@@ -772,7 +775,7 @@ msgstr ""
 "У версії %(version)s такі параметри команди %(command_name)s визнано "
 "застарілими:"
 
-#: ../tools/ksverdiff.py:109
+#: ../tools/ksverdiff.py:114
 #, python-format
 msgid ""
 "The following options were removed from the %(command_name)s command in "
@@ -904,7 +907,7 @@ msgstr "Не вдалося відкрити файл %%ksappend: %s"
 msgid "Unable to open input kickstart file: %s"
 msgstr "Не вдається відкрити файл вхідних даних kickstart file: %s"
 
-#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/key.py:64
 #: ../pykickstart/commands/mount.py:175
 #: ../pykickstart/commands/langsupport.py:59
 #: ../pykickstart/commands/keyboard.py:59
@@ -912,12 +915,13 @@ msgstr "Не вдається відкрити файл вхідних дани�
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/device.py:118
-#: ../pykickstart/commands/device.py:147 ../pykickstart/commands/logvol.py:470
+#: ../pykickstart/commands/device.py:147
 #: ../pykickstart/commands/partition.py:439
-#: ../pykickstart/commands/updates.py:67 ../pykickstart/commands/mouse.py:68
+#: ../pykickstart/commands/updates.py:69 ../pykickstart/commands/mouse.py:68
 #: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/btrfs.py:218
 #: ../pykickstart/commands/rootpw.py:88 ../pykickstart/commands/rootpw.py:145
-#: ../pykickstart/commands/key.py:64 ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/timezone.py:82 ../pykickstart/commands/sshpw.py:163
+#: ../pykickstart/commands/logvol.py:470
 #: ../pykickstart/commands/iscsiname.py:61
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
@@ -933,7 +937,7 @@ msgstr "Неочікувані аргументи команди nvdimm: %(argum
 msgid "Unknown command %s"
 msgstr "Невідома команда: %s"
 
-#: ../pykickstart/base.py:373
+#: ../pykickstart/base.py:409
 #, python-format
 msgid "Unknown command: %s"
 msgstr "Невідома команда: %s"
