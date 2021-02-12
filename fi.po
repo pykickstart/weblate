@@ -6,21 +6,22 @@
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2007, 2010
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2011, 2012
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
+# Ricky Tigg <ricky.tigg@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-09 08:13-0700\n"
-"PO-Revision-Date: 2015-04-14 01:52+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Finnish (http://www.transifex.com/projects/p/pykickstart/"
-"language/fi/)\n"
+"PO-Revision-Date: 2021-02-12 11:40+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"pykickstart/master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -224,7 +225,7 @@ msgstr ""
 #: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/logvol.py:931
 #: ../pykickstart/commands/partition.py:749
 msgid "Btrfs file system is not supported"
-msgstr ""
+msgstr "Btrfs-tiedostojärjestelmää ei tueta"
 
 #: ../pykickstart/commands/logvol.py:857
 msgid "Cache needs to have a list of (fast) PVs specified"
@@ -340,21 +341,16 @@ msgstr ""
 "kickstart-tiedostosta."
 
 #: ../pykickstart/options.py:183
-#, fuzzy, python-format
-#| msgid ""
-#| "Ignoring deprecated option on line %(lineno)s:  The %(option)s option has "
-#| "been deprecated and no longer has any effect.  It may be removed from "
-#| "future releases, which will result in a fatal error from kickstart.  "
-#| "Please modify your kickstart file to remove this option."
+#, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
 "been deprecated and no longer has any effect. It may be removed from future "
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"Jätetään huomiotta vanhentunut valitsin rivillä %(lineno)s:  Valitsin "
+"Jätetään huomiotta vanhentunut valitsin rivillä %(lineno)s: Valitsin "
 "%(option)s on vanhentunut eikä sillä ole enää vaikutusta. Se voidaan poistaa "
-"tulevista versioista, josta seuraa vakava kickstart-virhe.  Poista tämä "
+"tulevista versioista, josta seuraa vakava kickstart-virhe. Poista tämä "
 "valitsin kickstart-tiedostosta."
 
 #: ../pykickstart/commands/zerombr.py:62
@@ -393,7 +389,7 @@ msgstr ""
 #: ../pykickstart/commands/mount.py:184
 #, python-format
 msgid "Invalid mount point '%s' given"
-msgstr ""
+msgstr "Annettiin ei kelvollinen liitoskohta '%s'"
 
 #: ../pykickstart/commands/snapshot.py:90
 #, python-format
@@ -700,6 +696,7 @@ msgid ""
 "The following options were added to the %(command_name)s command in "
 "%(version)s:"
 msgstr ""
+"Seuraavat valitsimet lisättiin komentoon '%(command_name)s' %(version)s:ssa:"
 
 #: ../tools/ksverdiff.py:105
 #, python-format
@@ -707,6 +704,8 @@ msgid ""
 "The following options were deprecated from the %(command_name)s command in "
 "%(version)s:"
 msgstr ""
+"Seuraavat valitsimet vanhennettiin komennosta '%(command_name)s' "
+"%(version)s:ssa:"
 
 #: ../tools/ksverdiff.py:109
 #, python-format
@@ -714,6 +713,8 @@ msgid ""
 "The following options were removed from the %(command_name)s command in "
 "%(version)s:"
 msgstr ""
+"Seuraavat valitsimet poistettiin komennosta '%(command_name)s' "
+"%(version)s:ssa:"
 
 #: ../pykickstart/errors.py:70
 #, python-format
@@ -848,7 +849,7 @@ msgstr ""
 #: ../pykickstart/commands/displaymode.py:64
 #, python-format
 msgid "Unknown command %s"
-msgstr ""
+msgstr "Tuntematon komento: %s"
 
 #: ../pykickstart/base.py:373
 #, python-format
@@ -942,7 +943,7 @@ msgstr "lopeta ensimmäisen virheen tai varoituksen jälkeen"
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
 msgid "invalid boolean value: %r"
-msgstr ""
+msgstr "epäkelpo boolean-arvo: %r"
 
 #: ../tools/ksverdiff.py:49 ../tools/ksvalidator.py:61
 msgid "list the available versions of kickstart syntax"
