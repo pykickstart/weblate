@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2020-02-02 21:16+0000\n"
+"PO-Revision-Date: 2021-02-28 12:40+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/nl/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -51,7 +51,7 @@ msgstr "Fout bij het scheijven van bestand \"%s\":"
 #: ../pykickstart/load.py:79
 #, python-format
 msgid "Error securely accessing URL \"%s\""
-msgstr "Fout bij bij veilige toegang tot URL \"%s\""
+msgstr "Fout bij veilige toegang tot URL \"%s\""
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:81 ../pykickstart/load.py:84
