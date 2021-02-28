@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Geert Warrink <geert.warrink@onsnet.nu>, 2010-2011,2013-2014, 2020.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2010-2011,2013-2014, 2020, 2021.
 # Peter van Egdom <p.van.egdom@gmail.com>, 2006, 2007, 2008
 # Richard E. van der Luit <nippur@fedoraproject.org>, 2012
 # Roland Hermans <rolandh@users.sourceforge.net>, 2006
-# Geert Warrink <geert.warrink@onsnet.nu>, 2017. #zanata, 2020.
-# Geert Warrink <geert.warrink@onsnet.nu>, 2018. #zanata, 2020.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2017. #zanata, 2020, 2021.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2018. #zanata, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2020-02-02 20:16+0000\n"
+"PO-Revision-Date: 2021-02-28 12:40+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/nl/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -233,12 +233,9 @@ msgstr "Een ssh-gebruiker met de naam %s is al gedefinieerd."
 
 #: ../pykickstart/commands/timezone.py:267
 #: ../pykickstart/commands/timezone.py:368
-#, fuzzy, python-format
-#| msgid ""
-#| "At least one option and/or an argument are expected for the  %s command"
+#, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
-msgstr ""
-"Tenminste een optie en/of argument worden verwacht voor het %s commando"
+msgstr "Tenminste een optie en/of argument worden verwacht voor het %s commando"
 
 #: ../pykickstart/commands/network.py:740
 #: ../pykickstart/commands/network.py:1043
@@ -273,7 +270,7 @@ msgstr ""
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "Een lege string is geen geldige activeringssleutel."
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:81 ../pykickstart/load.py:84
@@ -303,7 +300,7 @@ msgstr ""
 #: ../pykickstart/load.py:79
 #, python-format
 msgid "Error securely accessing URL \"%s\""
-msgstr "Fout bij bij veilige toegang tot URL \"%s\""
+msgstr "Fout bij veilige toegang tot URL \"%s\""
 
 #: ../pykickstart/load.py:66
 #, python-format
@@ -375,21 +372,16 @@ msgstr ""
 "kickstart. Pas jouw kickstart bestand aan om dit commando te verwijderen."
 
 #: ../pykickstart/options.py:183
-#, fuzzy, python-format
-#| msgid ""
-#| "Ignoring deprecated option on line %(lineno)s:  The %(option)s option has "
-#| "been deprecated and no longer has any effect.  It may be removed from "
-#| "future releases, which will result in a fatal error from kickstart.  "
-#| "Please modify your kickstart file to remove this option."
+#, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
 "been deprecated and no longer has any effect. It may be removed from future "
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"Verouderde optie op regel %(lineno)s wordt genegeerd:  De %(option)s optie "
-"is verouderd en heeft geen effect meer. Het wordt misschien verwijderd in "
-"toekomstige versies, wat zal resulteren in een fatale fout van kickstart.  "
+"Verouderde optie op regel %(lineno)s wordt genegeerd: De %(option)s optie is "
+"verouderd en heeft geen effect meer. Het wordt misschien verwijderd in "
+"toekomstige versies, wat zal resulteren in een fatale fout van kickstart. "
 "Pas jouw kickstart bestand aan om deze optie te verwijderen."
 
 #: ../pykickstart/commands/zerombr.py:62
@@ -435,10 +427,9 @@ msgid "Invalid mount point '%s' given"
 msgstr "Ongeldig aankoppelpunt '%s' opgegeven"
 
 #: ../pykickstart/commands/snapshot.py:90
-#, fuzzy, python-format
-#| msgid "Invalid realm arguments: %s"
+#, python-format
 msgid "Invalid parameter to --when= argument: %s"
-msgstr "Ongeldige gebiedsargumenten: %s"
+msgstr "Ongeldige parameter voor --when= argument: %s"
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
@@ -840,6 +831,9 @@ msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
+"De optie --isUtc wordt in toekomstige releases afgeschaft. Wijzig je "
+"kickstart-bestand om deze optie te vervangen door de geprefereerde alias "
+"--utc."
 
 #: ../pykickstart/commands/timezone.py:441
 msgid ""
@@ -882,10 +876,8 @@ msgid "The realm command 'join' should only be specified once"
 msgstr "Het gebiedscommando 'join' mag slechts een keer gespecificeerd worden"
 
 #: ../pykickstart/commands/syspurpose.py:86
-#, fuzzy
-#| msgid "The enable module command does not take position arguments!"
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "Het enable module commando  accepeteert geen positie argumenten!"
+msgstr "Het syspurpose commando neemt geen positionele argumenten aan!"
 
 #: ../tools/ksverdiff.py:66 ../tools/ksflatten.py:52 ../tools/ksvalidator.py:94
 #: ../tools/ksshell.py:167
