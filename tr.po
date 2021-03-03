@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2020-10-10 00:31+0000\n"
+"PO-Revision-Date: 2021-03-05 14:01+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/tr/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -181,7 +181,7 @@ msgstr "Anlık görüntü kaynağı belirtilmelidir!"
 
 #: ../pykickstart/commands/snapshot.py:104
 msgid "Snapshot origin can be specified only once!"
-msgstr "Anlık görüntü kaynağı sadece bir kez belirtilebilir!"
+msgstr "Anlık görüntü kaynağı yalnızca bir kez belirtilebilir!"
 
 #: ../pykickstart/commands/snapshot.py:114
 #, python-format
@@ -216,7 +216,7 @@ msgstr "%(command)s komutu için beklenmeyen argümanlar: %(options)s"
 msgid ""
 "Only one of --baseurl and --mirrorlist may be specified for repo command."
 msgstr ""
-"repo komutu için --baseurl ve --mirrorlist seçeneklerinden sadece biri "
+"repo komutu için --baseurl ve --mirrorlist seçeneklerinden yalnızca biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/repo.py:214
@@ -322,7 +322,7 @@ msgstr ""
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
 msgstr ""
-"rescue komutu için --nomount ve --romount seçeneklerinden sadece biri "
+"rescue komutu için --nomount ve --romount seçeneklerinden yalnızca biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/upgrade.py:97
@@ -390,7 +390,7 @@ msgstr ""
 
 #: ../pykickstart/commands/bootloader.py:248
 msgid "--boot-drive accepts only one argument"
-msgstr "--boot-drive sadece bir argüman kabul etmektedir"
+msgstr "--boot-drive yalnızca bir argüman kabul etmektedir"
 
 #: ../pykickstart/commands/user.py:170
 #, python-format
@@ -430,7 +430,8 @@ msgstr "Geçersiz eylem argümanı ('%(valid_arguments)s' arasından seçin)"
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
-"--namespace ve --blockdevs aygıt belirtimlerinden sadece biri kullanılabilir"
+"--namespace ve --blockdevs aygıt belirtimlerinden yalnızca biri "
+"kullanılabilir"
 
 #: ../pykickstart/commands/nvdimm.py:144
 #, python-format
@@ -478,14 +479,14 @@ msgstr ""
 #: ../pykickstart/commands/driverdisk.py:117
 #: ../pykickstart/commands/driverdisk.py:149
 msgid "Only one partition may be specified for driverdisk command."
-msgstr "driverdisk komutu için sadece bir bölüm belirtilebilir."
+msgstr "driverdisk komutu için yalnızca bir bölüm belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:120
 #: ../pykickstart/commands/driverdisk.py:152
 msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
 msgstr ""
-"driverdisk komutu için --source seçeneği ve bölümden sadece biri "
+"driverdisk komutu için --source seçeneği ve bölümden yalnızca biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:123
@@ -498,14 +499,14 @@ msgid ""
 "Only one of --biospart and partition may be specified for driverdisk "
 "command."
 msgstr ""
-"driverdisk komutu için --biospart seçeneği veya bölümden sadece biri "
+"driverdisk komutu için --biospart seçeneği veya bölümden yalnızca biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:156
 msgid ""
 "Only one of --biospart and --source may be specified for driverdisk command."
 msgstr ""
-"driverdisk komutu için --biospart ve --source seçeneklerinden sadece biri "
+"driverdisk komutu için --biospart ve --source seçeneklerinden yalnızca biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:159
@@ -523,7 +524,7 @@ msgstr "Bu bilgileri içeren bir zfcp zaten tanımlanmış."
 #: ../pykickstart/commands/url.py:170
 msgid "Only one of --url and --mirrorlist may be specified for url command."
 msgstr ""
-"url komutu için --url ve --mirrorlist seçeneklerinden sadece biri "
+"url komutu için --url ve --mirrorlist seçeneklerinden yalnızca biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/url.py:173
@@ -597,7 +598,7 @@ msgstr "logvol ve autopart komutları aynı anda kullanılamaz"
 
 #: ../pykickstart/commands/logvol.py:460
 msgid "--resize can only be used in conjunction with --useexisting"
-msgstr "--resize, sadece --useexisting ile birlikte kullanılabilir"
+msgstr "--resize, yalnızca --useexisting ile birlikte kullanılabilir"
 
 #: ../pykickstart/commands/logvol.py:463
 msgid "--resize requires --size to indicate new size"
@@ -613,7 +614,8 @@ msgstr "--thin, havuz adını belirtmek için --poolname gerektirmektedir"
 
 #: ../pykickstart/commands/logvol.py:504
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr "--chunksize ve --medadatasize sadece ince havuzlar (thin pool) içindir"
+msgstr ""
+"--chunksize ve --medadatasize yalnızca ince havuzlar (thin pool) içindir"
 
 #: ../pykickstart/commands/logvol.py:515
 msgid "The logvol and mount commands can't be used at the same time"
@@ -679,7 +681,7 @@ msgstr "part/partition ve autopart komutları aynı anda kullanılamaz"
 
 #: ../pykickstart/commands/partition.py:456
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr "--resize, sadece --onpart ile birlikte kullanılabilir"
+msgstr "--resize, yalnızca --onpart ile birlikte kullanılabilir"
 
 #: ../pykickstart/commands/partition.py:459
 msgid "--resize requires --size to specify new size"
@@ -701,7 +703,7 @@ msgstr "--host olmadan --port belirtilemez."
 #: ../pykickstart/commands/updates.py:54
 #, python-format
 msgid "Kickstart command %s only takes one argument"
-msgstr "%s kickstart komutu sadece bir argüman almaktadır"
+msgstr "%s kickstart komutu yalnızca bir argüman almaktadır"
 
 #: ../pykickstart/commands/network.py:379
 #, python-format
@@ -804,7 +806,7 @@ msgstr "%s komutu için bir veya sıfır tane argüman beklenmektedir"
 
 #: ../pykickstart/commands/realm.py:44
 msgid "The realm command 'join' should only be specified once"
-msgstr "'join' realm komutu sadece bir kez belirtilmelidir"
+msgstr "'join' realm komutu yalnızca bir kez belirtilmelidir"
 
 #: ../pykickstart/commands/realm.py:48
 msgid "Missing realm command arguments"
@@ -822,7 +824,7 @@ msgstr "Geçersiz realm argümanları: %s"
 
 #: ../pykickstart/commands/realm.py:71
 msgid "Specify only one realm to join"
-msgstr "Katılmak için sadece bir erişim alanı belirtin"
+msgstr "Katılmak için yalnızca bir erişim alanı belirtin"
 
 #: ../tools/ksflatten:38
 msgid "Path to kickstart config file"
