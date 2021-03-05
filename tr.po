@@ -6,13 +6,13 @@
 # Selim Şumlu <selim@sum.lu>, 2012
 # Şenol Korkmaz <senol.korkmaz@gmail.com>, 2011
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
-# Oğuz Ersen <oguzersen@protonmail.com>, 2020.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2020-10-10 05:30+0000\n"
+"PO-Revision-Date: 2021-03-05 16:01+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/tr/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -31,7 +31,7 @@ msgstr "%(command)s komutu tek bir argüman gerektirmektedir: %(argument)s"
 #: ../pykickstart/base.py:252
 #, python-format
 msgid "%s has been removed."
-msgstr ""
+msgstr "%s kaldırıldı."
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
@@ -46,11 +46,12 @@ msgstr "--bindto=%s bu tür bir aygıt için desteklenmemektedir"
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:330
 msgid "--boot-drive accepts only one argument"
-msgstr "--boot-drive sadece bir argüman kabul etmektedir"
+msgstr "--boot-drive yalnızca bir argüman kabul etmektedir"
 
 #: ../pykickstart/commands/logvol.py:639 ../pykickstart/commands/logvol.py:748
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr "--chunksize ve --medadatasize sadece ince havuzlar (thin pool) içindir"
+msgstr ""
+"--chunksize ve --medadatasize yalnızca ince havuzlar (thin pool) içindir"
 
 #: ../pykickstart/sections.py:746
 msgid "--default and --nobase cannot be used together"
@@ -79,11 +80,11 @@ msgstr ""
 
 #: ../pykickstart/commands/partition.py:611
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr "--resize, sadece --onpart ile birlikte kullanılabilir"
+msgstr "--resize, yalnızca --onpart ile birlikte kullanılabilir"
 
 #: ../pykickstart/commands/logvol.py:683
 msgid "--resize can only be used in conjunction with --useexisting"
-msgstr "--resize, sadece --useexisting ile birlikte kullanılabilir"
+msgstr "--resize, yalnızca --useexisting ile birlikte kullanılabilir"
 
 #: ../pykickstart/commands/logvol.py:686
 msgid "--resize requires --size to indicate new size"
@@ -453,7 +454,7 @@ msgstr "%s kickstart komutu herhangi bir argüman almamaktadır"
 #: ../pykickstart/commands/updates.py:66
 #, python-format
 msgid "Kickstart command %s only takes one argument"
-msgstr "%s kickstart komutu sadece bir argüman almaktadır"
+msgstr "%s kickstart komutu yalnızca bir argüman almaktadır"
 
 #: ../pykickstart/commands/key.py:61 ../pykickstart/commands/keyboard.py:56
 #: ../pykickstart/commands/mouse.py:65
@@ -509,12 +510,12 @@ msgstr ""
 "repo komutu için -%(options_list)s seçeneklerinden biri belirtilmelidir."
 
 #: ../pykickstart/commands/timesource.py:136
-#, fuzzy, python-format
-#| msgid "One of -%(options_list)s options must be specified for url command."
+#, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
 msgstr ""
-"url komutu için -%(options_list)s seçeneklerinden biri belirtilmelidir."
+"timesource komutu için -%(options_list)s seçeneklerinden biri "
+"belirtilmelidir."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -575,48 +576,50 @@ msgstr "%s komutu için bir veya sıfır tane argüman beklenmektedir"
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for repo command."
 msgstr ""
-"repo komutu için %(options_list)s seçeneklerinden sadece biri belirtilebilir."
+"repo komutu için %(options_list)s seçeneklerinden yalnızca biri "
+"belirtilebilir."
 
 #: ../pykickstart/commands/timesource.py:139
-#, fuzzy, python-format
-#| msgid ""
-#| "Only one of %(options_list)s options may be specified for url command."
+#, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
 msgstr ""
-"url komutu için %(options_list)s seçeneklerinden sadece biri belirtilebilir."
+"timesource komutu için %(options_list)s seçeneklerinden yalnızca biri "
+"belirtilebilir."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for url command."
 msgstr ""
-"url komutu için %(options_list)s seçeneklerinden sadece biri belirtilebilir."
+"url komutu için %(options_list)s seçeneklerinden yalnızca biri "
+"belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:183
 msgid ""
 "Only one of --biospart and --source may be specified for driverdisk command."
 msgstr ""
-"driverdisk komutu için --biospart ve --source seçeneklerinden sadece biri "
+"driverdisk komutu için --biospart ve --source seçeneklerinden yalnızca biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:181
 msgid ""
 "Only one of --biospart and partition may be specified for driverdisk command."
 msgstr ""
-"driverdisk komutu için --biospart seçeneği veya bölümden sadece biri "
+"driverdisk komutu için --biospart seçeneği veya bölümden yalnızca biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/nvdimm.py:142
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
-"--namespace ve --blockdevs aygıt belirtimlerinden sadece biri kullanılabilir"
+"--namespace ve --blockdevs aygıt belirtimlerinden yalnızca biri "
+"kullanılabilir"
 
 #: ../pykickstart/commands/rescue.py:77
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
 msgstr ""
-"rescue komutu için --nomount ve --romount seçeneklerinden sadece biri "
+"rescue komutu için --nomount ve --romount seçeneklerinden yalnızca biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
@@ -624,20 +627,20 @@ msgstr ""
 #: ../pykickstart/commands/logvol.py:919
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
-"--pbkdf-time ve --pbkdf-iterations ögelerinden sadece biri belirtilebilir."
+"--pbkdf-time ve --pbkdf-iterations ögelerinden yalnızca biri belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
 msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
 msgstr ""
-"driverdisk komutu için --source seçeneği ve bölümden sadece biri "
+"driverdisk komutu için --source seçeneği ve bölümden yalnızca biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:132
 #: ../pykickstart/commands/driverdisk.py:173
 msgid "Only one partition may be specified for driverdisk command."
-msgstr "driverdisk komutu için sadece bir bölüm belirtilebilir."
+msgstr "driverdisk komutu için yalnızca bir bölüm belirtilebilir."
 
 #: ../pykickstart/commands/network.py:734
 #: ../pykickstart/commands/network.py:1037
@@ -704,14 +707,10 @@ msgstr "%s adıyla anlık görüntü zaten tanımlanmış!"
 
 #: ../pykickstart/commands/realm.py:66
 msgid "Specify only one realm to join"
-msgstr "Katılmak için sadece bir erişim alanı belirtin"
+msgstr "Katılmak için yalnızca bir erişim alanı belirtin"
 
 #: ../pykickstart/sections.py:785
-#, fuzzy, python-format
-#| msgid ""
-#| "The %(option)s option on line %(lineno)s will be deprecated infuture "
-#| "releases. Please modify your kickstart file to replacethis option with "
-#| "its preferred alias %(new_option)s."
+#, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
 "releases. Please modify your kickstart file to replace this option with its "
@@ -825,31 +824,24 @@ msgstr ""
 "değiştirecek şekilde değiştirin."
 
 #: ../pykickstart/commands/timezone.py:441
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --nontp will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
-"--isUtc seçeneği gelecekteki sürümlerde kullanımdan kaldırılacaktır. Lütfen "
-"kickstart dosyanızı bu seçeneği tercih edilen --utc takma adıyla "
+"--nontp seçeneği gelecekteki sürümlerde kullanımdan kaldırılacaktır. Lütfen "
+"kickstart dosyanızı bu seçeneği timesource --ntp-disable komut çağrısıyla "
 "değiştirecek şekilde değiştirin."
 
 #: ../pykickstart/commands/timezone.py:435
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --ntpservers will be deprecated in future releases. Please modify "
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
-"--isUtc seçeneği gelecekteki sürümlerde kullanımdan kaldırılacaktır. Lütfen "
-"kickstart dosyanızı bu seçeneği tercih edilen --utc takma adıyla "
+"--ntpservers seçeneği gelecekteki sürümlerde kullanımdan kaldırılacaktır. "
+"Lütfen kickstart dosyanızı bu seçeneği NTP sunucusu başına bir tane olmak "
+"üzere timesource --ntp-server <sunucu ana makine adı> komut çağrısıyla "
 "değiştirecek şekilde değiştirin."
 
 #: ../pykickstart/commands/partition.py:579
@@ -871,7 +863,7 @@ msgstr "raid ve mount komutları aynı anda kullanılamaz"
 
 #: ../pykickstart/commands/realm.py:43
 msgid "The realm command 'join' should only be specified once"
-msgstr "'join' realm komutu sadece bir kez belirtilmelidir"
+msgstr "'join' realm komutu yalnızca bir kez belirtilmelidir"
 
 #: ../pykickstart/commands/syspurpose.py:86
 msgid "The syspurpose command does not take positional arguments!"
