@@ -2,17 +2,17 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Translators:
-# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2015, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2015, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2020-10-10 05:30+0000\n"
+"PO-Revision-Date: 2021-03-05 16:01+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/uk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -32,7 +32,7 @@ msgstr "Команді %(command)s слід передати один аргум
 #: ../pykickstart/base.py:252
 #, python-format
 msgid "%s has been removed."
-msgstr ""
+msgstr "%s вилучено."
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
@@ -509,12 +509,12 @@ msgstr ""
 "%(options_list)s ."
 
 #: ../pykickstart/commands/timesource.py:136
-#, fuzzy, python-format
-#| msgid "One of -%(options_list)s options must be specified for url command."
+#, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
 msgstr ""
-"Для команди url має бути вказано один з таких параметрів: -%(options_list)s ."
+"Для команди timesource має бути вказано один з таких параметрів: "
+"-%(options_list)s ."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -577,14 +577,12 @@ msgstr ""
 "%(options_list)s ."
 
 #: ../pykickstart/commands/timesource.py:139
-#, fuzzy, python-format
-#| msgid ""
-#| "Only one of %(options_list)s options may be specified for url command."
+#, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
 msgstr ""
-"Для команди url може бути вказано лише один з таких параметрів: -"
-"%(options_list)s ."
+"Для команди timesource може бути вказано лише один з таких параметрів: "
+"-%(options_list)s ."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
@@ -699,11 +697,7 @@ msgid "Specify only one realm to join"
 msgstr "Вкажіть лише одну область для долучення"
 
 #: ../pykickstart/sections.py:785
-#, fuzzy, python-format
-#| msgid ""
-#| "The %(option)s option on line %(lineno)s will be deprecated infuture "
-#| "releases. Please modify your kickstart file to replacethis option with "
-#| "its preferred alias %(new_option)s."
+#, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
 "releases. Please modify your kickstart file to replace this option with its "
@@ -815,32 +809,25 @@ msgstr ""
 "альтернативою — --utc."
 
 #: ../pykickstart/commands/timezone.py:441
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --nontp will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
-"Параметр --isUtc буде визнано застарілим у майбутніх випусках. Будь ласка, "
-"внесіть зміни до вашого файла kickstart і замініть цей параметр його бажаною "
-"альтернативою — --utc."
+"Параметр --nontp буде визнано застарілим у майбутніх випусках. Будь ласка, "
+"внесіть зміни до вашого файла kickstart і замініть цей параметр викликом "
+"команди timesource --ntp-disable."
 
 #: ../pykickstart/commands/timezone.py:435
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --ntpservers will be deprecated in future releases. Please modify "
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
-"Параметр --isUtc буде визнано застарілим у майбутніх випусках. Будь ласка, "
-"внесіть зміни до вашого файла kickstart і замініть цей параметр його бажаною "
-"альтернативою — --utc."
+"Параметр --ntpservers буде визнано застарілим у майбутніх випусках. Будь "
+"ласка, внесіть зміни до вашого файла kickstart і замініть цей параметр "
+"викликом команди timesource --ntp-server <назва вузла сервера>, по одній на "
+"сервер NTP."
 
 #: ../pykickstart/commands/partition.py:579
 #: ../pykickstart/commands/partition.py:645
