@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2021-02-12 11:40+0000\n"
+"PO-Revision-Date: 2021-03-10 14:01+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fi/>\n"
@@ -21,86 +21,88 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
 msgid "%(command)s command requires a single argument: %(argument)s"
-msgstr ""
+msgstr "%(command)s komento vaatii yhden argumentin: %(argument)s"
 
 #: ../pykickstart/base.py:252
 #, python-format
 msgid "%s has been removed."
-msgstr ""
+msgstr "%s on poistettu."
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
-msgstr ""
+msgstr "'--mkfsoptions' vaatii '--reformat'"
 
 #: ../pykickstart/commands/network.py:822
 #: ../pykickstart/commands/network.py:1048
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
-msgstr ""
+msgstr "--bindto=%sei tueta tämäntyyppisissä laitteissa"
 
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:330
 msgid "--boot-drive accepts only one argument"
-msgstr ""
+msgstr "'--boot-drive' hyväksyy vain yhden argumentin"
 
 #: ../pykickstart/commands/logvol.py:639 ../pykickstart/commands/logvol.py:748
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr ""
+msgstr "'--chunksize' ja '--metadatasize' ovat vain ohuille varannoille"
 
 #: ../pykickstart/sections.py:746
 msgid "--default and --nobase cannot be used together"
-msgstr ""
+msgstr "'--default' ja '--nobase' ei voida käyttää yhdessä"
 
 #: ../pykickstart/sections.py:759
 msgid "--default and --nocore cannot be used together"
-msgstr ""
+msgstr "'--default' ja '--nocore' ei voida käyttää yhdessä"
 
 #: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/partition.py:685
 #: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
 msgid "--mkfsoptions and --fsprofile cannot be used together."
-msgstr ""
+msgstr "'--mkfsoptions' ja '--fsprofile' ei voida käyttää yhdessä."
 
 #: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
 #: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
 msgid "--mkfsoptions with --noformat has no effect."
-msgstr ""
+msgstr "'--mkfsoptions':lla, '--noformat':n kanssa, ei ole vaikutusta."
 
 #: ../pykickstart/commands/btrfs.py:264
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr ""
+"'--mkfsoptions':lla ' --noformat':n tai '--useexisting':n kanssa, ei ole "
+"vaikutusta."
 
 #: ../pykickstart/commands/partition.py:611
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr ""
+msgstr "'--resize' voidaan käyttää vain yhdessä '--onpart':n kanssa"
 
 #: ../pykickstart/commands/logvol.py:683
 msgid "--resize can only be used in conjunction with --useexisting"
-msgstr ""
+msgstr "'--resize' voidaan käyttää vain yhdessä '--useexisting':n kanssa"
 
 #: ../pykickstart/commands/logvol.py:686
 msgid "--resize requires --size to indicate new size"
-msgstr ""
+msgstr "'--resize' vaatii '--size' uuden koon osoittamiseksi"
 
 #: ../pykickstart/commands/partition.py:614
 msgid "--resize requires --size to specify new size"
-msgstr ""
+msgstr "'--resize' vaatii '--size' uuden koon määrittämiseksi"
 
 #: ../pykickstart/commands/logvol.py:787
 msgid "--size and --percent cannot both be specified for the same logvol"
-msgstr ""
+msgstr "Molempia '--size' ja '--percent' ei voida määrittää samalle logvol:lle"
 
 #: ../pykickstart/commands/logvol.py:629 ../pykickstart/commands/logvol.py:739
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
-msgstr ""
+msgstr "Molempia '--thin' ja '--thinpool' ei voida määrittää samalle logvol:lle"
 
 #: ../pykickstart/commands/logvol.py:634 ../pykickstart/commands/logvol.py:743
 msgid "--thin requires --poolname to specify pool name"
-msgstr ""
+msgstr "'--thin' vaatii '--poolname' to varannon nimen määrittämiseksi"
 
 #: ../pykickstart/commands/dmraid.py:91
 #, python-format
@@ -108,26 +110,28 @@ msgid ""
 "A DM RAID device with the name %(name)s and devices %(devices)s has already "
 "been defined."
 msgstr ""
+"DM RAID -laite, jonka nimi on %(name)s ja laitteet %(devices)s, on jo "
+"määritelty."
 
 #: ../pykickstart/commands/fcoe.py:143
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
-msgstr ""
+msgstr "FCOE-laite nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/raid.py:458
 #, python-format
 msgid "A RAID device with the name %s has already been defined."
-msgstr ""
+msgstr "RAID-laite nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/btrfs.py:233
 #, python-format
 msgid "A btrfs volume with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "Btrfs-taltio liitoskohdalla %s, on jo määritelty."
 
 #: ../pykickstart/commands/group.py:95
 #, python-format
 msgid "A group with the name %s has already been defined."
-msgstr ""
+msgstr "Ryhmä nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/logvol.py:482
 #, python-format
@@ -135,89 +139,91 @@ msgid ""
 "A logical volume with the name %(logical_volume_name)s has already been "
 "defined in volume group %(volume_group)s."
 msgstr ""
+"Looginen taltio nimeltä %(logical_volume_name)s on jo määritelty "
+"taltioryhmässä %(volume_group)s."
 
 #: ../pykickstart/commands/device.py:156
 #, python-format
 msgid "A module with the name %s has already been defined."
-msgstr ""
+msgstr "Moduuli nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/network.py:471
 #, python-format
 msgid "A network device with the name %s has already been defined."
-msgstr ""
+msgstr "Verkkolaite nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/partition.py:448
 #, python-format
 msgid "A partition with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "Osio liitoskohdalla %s on jo määritelty."
 
 #: ../pykickstart/commands/repo.py:294
 #, python-format
 msgid "A repo with the name %s has already been defined."
-msgstr ""
+msgstr "Ohjelmistolähde nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/keyboard.py:163 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr ""
+msgstr "Komennolle %s odotetaan yhtä argumenttia"
 
 #: ../pykickstart/commands/user.py:202
 #, python-format
 msgid "A user with the name %s has already been defined."
-msgstr ""
+msgstr "Käyttäjä nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/volgroup.py:180
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
-msgstr ""
+msgstr "Taltioryhmä nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/zfcp.py:120
 msgid "A zfcp with this information has already been defined."
-msgstr ""
+msgstr "Tämän tiedon sisältävä zfcp on jo määritelty."
 
 #: ../pykickstart/commands/nvdimm.py:155
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr ""
+msgstr "Toimi %(action)s vaatii argumentti '--namespace' määritettäväksi"
 
 #: ../pykickstart/commands/nvdimm.py:162
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
-msgstr ""
+msgstr "Toimi %(action)s vaatii argumentti '--blockdevs' määritettäväksi"
 
 #: ../pykickstart/commands/nvdimm.py:158
 #, python-format
 msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be set"
-msgstr ""
+msgstr "Toimi %(action)s tilalla %(mode)s vaatii '--sectorsize' määritettäväksi"
 
 #: ../pykickstart/commands/logvol.py:849
 msgid "Adding a cache to an existing logical volume is not supported"
-msgstr ""
+msgstr "Välimuistin lisäämistä olemassa olevaan loogiseen taltioon ei tueta"
 
 #: ../pykickstart/commands/nvdimm.py:150
 #, python-format
 msgid "An action %(action)s on devices %(blockdevs)s has already been defined."
-msgstr ""
+msgstr "Toimi %(action)s laitteilla %(blockdevs)s on jo määritelty."
 
 #: ../pykickstart/commands/nvdimm.py:147
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
-msgstr ""
+msgstr "Toimi %(action)s nimitilalla %(namespace)s on jo määritelty."
 
 #: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
-msgstr ""
+msgstr "SSH-käyttäjä nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/timezone.py:267
 #: ../pykickstart/commands/timezone.py:368
 #, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
-msgstr ""
+msgstr "Komennolle '%s' odotetaan vähintään yhtä vaihtoehtoa ja/tai argumenttia"
 
 #: ../pykickstart/commands/network.py:740
 #: ../pykickstart/commands/network.py:1043
