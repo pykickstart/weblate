@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2021-03-14 08:01+0000\n"
+"PO-Revision-Date: 2021-03-15 11:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/ko/>\n"
@@ -49,23 +49,23 @@ msgstr "파일 쓰기 오류 \"%s\":"
 #: ../pykickstart/load.py:79
 #, python-format
 msgid "Error securely accessing URL \"%s\""
-msgstr "URL에 안전하게 액세스하는 중 오류가 발생했습니다. \"%s\""
+msgstr "URL 안전하게 접근하는중 오류 \"%s\""
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:81 ../pykickstart/load.py:84
 #, python-format
 msgid "Error accessing URL \"%s\""
-msgstr "URL에 액세스하는 중 오류 발생 \"%s\""
+msgstr "URL에 접근 중 오류 발생 \"%s\""
 
 #: ../pykickstart/load.py:99
 #, python-format
 msgid "Error opening file: %s"
-msgstr "파일을 여는 중 오류가 발생했습니다. %s"
+msgstr "파일을 여는 중 오류가 발생했습니다: %s"
 
 #: ../pykickstart/load.py:109
 #, python-format
 msgid "Error copying file: %s"
-msgstr "파일 복사 중 오류 발생 : %s"
+msgstr "파일 복사 중 오류 : %s"
 
 #: ../pykickstart/parser.py:92
 #, python-format
