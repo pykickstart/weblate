@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2021-03-14 08:01+0000\n"
+"PO-Revision-Date: 2021-03-21 03:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/ko/>\n"
@@ -139,7 +139,7 @@ msgstr "옵션 %(opt)s: 유효하지 않은 부울(boolean) 값: %(value)r"
 #: ../pykickstart/options.py:141
 #, python-format
 msgid "Option %(opt)s: invalid string value: %(value)r"
-msgstr "옵션 %(opt)s: 유효하지 않은 문자열 값: %(value)r "
+msgstr "선택 %(opt)s: 유효하지 않은 문자열 값: %(value)r"
 
 #: ../pykickstart/options.py:178
 msgid "Required flag set for option that doesn't take a value"
@@ -854,17 +854,17 @@ msgstr "다음 명령은 %s에 추가되었습니다:"
 #: ../tools/ksverdiff:106
 #, python-format
 msgid "The following options were added to the %s command in %s:"
-msgstr "다음 옵션은 %s에 있는 %s 명령에 추가되었습니다: "
+msgstr "다음 선택은 %s에 있는 %s 명령에 추가되었습니다:"
 
 #: ../tools/ksverdiff:111
 #, python-format
 msgid "The following options were deprecated from the %s command in %s:"
-msgstr "다음 옵션은 %s에 있는 %s에서 삭제되었습니다: "
+msgstr "다음 선택은 %s에 있는 %s에서 삭제되었습니다:"
 
 #: ../tools/ksverdiff:116
 #, python-format
 msgid "The following options were removed from the %s command in %s:"
-msgstr "다음 옵션이 %s에 있는 %s 명령에서 제거되었습니다: "
+msgstr "다음 선택이 %s에 있는 %s 명령에서 제거되었습니다:"
 
 #: ../tools/ksvalidator:51
 msgid "filename or URL to read from"
@@ -885,8 +885,8 @@ msgid ""
 "Error reading %s:\n"
 "%s"
 msgstr ""
-"%s:\n"
-"%s 를 읽는중에 오류가 발생했습니다."
+"%s 읽기 오류:\n"
+"%s"
 
 #: ../tools/ksvalidator:101
 #, python-format
