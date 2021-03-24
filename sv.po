@@ -6,18 +6,18 @@
 # Christian Rose <menthos@menthos.com>, 2006
 # denka <dennis@dennis.se>, 2014
 # denka <dennis@dennis.se>, 2014
-# Göran Uddeborg <goeran@uddeborg.se>, 2008,2010-2011,2013-2014, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2008,2010-2011,2013-2014, 2020, 2021.
 # fedoratrans <fedoratrans@gmail.com>, 2007-2008
-# Göran Uddeborg <goeran@uddeborg.se>, 2015. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2015. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2020-09-12 16:29+0000\n"
+"PO-Revision-Date: 2021-03-24 13:01+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/sv/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -36,7 +36,7 @@ msgstr "Kommandot %(command)s behöver ett ensamt argument: %(argument)s"
 #: ../pykickstart/base.py:252
 #, python-format
 msgid "%s has been removed."
-msgstr ""
+msgstr "%s har tagits bort."
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
@@ -505,11 +505,10 @@ msgid "One of -%(options_list)s options must be specified for repo command."
 msgstr "En av flaggorna -%(options_list)s måste anges för kommandot repo."
 
 #: ../pykickstart/commands/timesource.py:136
-#, fuzzy, python-format
-#| msgid "One of -%(options_list)s options must be specified for url command."
+#, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
-msgstr "En av flaggorna -%(options_list)s måste anges för kommandot url."
+msgstr "En av flaggorna -%(options_list)s måste anges för kommandot timesource."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -568,12 +567,11 @@ msgid "Only one of %(options_list)s options may be specified for repo command."
 msgstr "Endast en av flaggorna -%(options_list)s får anges för kommandot repo."
 
 #: ../pykickstart/commands/timesource.py:139
-#, fuzzy, python-format
-#| msgid ""
-#| "Only one of %(options_list)s options may be specified for url command."
+#, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
-msgstr "Endast en av flaggorna -%(options_list)s får anges för kommandot url."
+msgstr ""
+"Endast en av flaggorna -%(options_list)s får anges för kommandot timesource."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
@@ -684,11 +682,7 @@ msgid "Specify only one realm to join"
 msgstr "Ange endast ett rike att gå med i"
 
 #: ../pykickstart/sections.py:785
-#, fuzzy, python-format
-#| msgid ""
-#| "The %(option)s option on line %(lineno)s will be deprecated infuture "
-#| "releases. Please modify your kickstart file to replacethis option with "
-#| "its preferred alias %(new_option)s."
+#, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
 "releases. Please modify your kickstart file to replace this option with its "
@@ -800,30 +794,24 @@ msgstr ""
 "och ersätt denna flagga med dess rekommenderade alias --utc."
 
 #: ../pykickstart/commands/timezone.py:441
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --nontp will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
-"Flaggan --isUtc kommer undanbes i framtida utgåvor. Ändra din kickstart-fil "
-"och ersätt denna flagga med dess rekommenderade alias --utc."
+"Flaggan --nontp kommer undanbes i framtida utgåvor. Ändra din kickstart-fil "
+"för att ersätta denna flagga med ett anrop av kommandot timesource --ntp-"
+"disable."
 
 #: ../pykickstart/commands/timezone.py:435
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --ntpservers will be deprecated in future releases. Please modify "
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
-"Flaggan --isUtc kommer undanbes i framtida utgåvor. Ändra din kickstart-fil "
-"och ersätt denna flagga med dess rekommenderade alias --utc."
+"Flaggan --ntpservers kommer undanbes i framtida utgåvor. Ändra din kickstart-"
+"fil för att ersätta denna flagga med dess anrop av kommandot timesource "
+"--ntp-server <servervärdnamn>, en gång per NTP-server."
 
 #: ../pykickstart/commands/partition.py:579
 #: ../pykickstart/commands/partition.py:645
