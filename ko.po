@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2021-03-24 13:01+0000\n"
+"PO-Revision-Date: 2021-03-31 20:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/ko/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.5.2\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -657,7 +657,7 @@ msgid ""
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
-"선 %(lineno)s에 있는 %(option)s 선택은 미래의 출시에 사용되지 않을 것입니다. 이는 애칭 %(new_option)s으로 "
+"행 %(lineno)s에 있는 %(option)s 선택은 미래의 출시에 사용되지 않을 것입니다. 이는 별칭 %(new_option)s으로 "
 "언급되는 것과 같은 이 선택을 대체하는 당신의 킥스타트 파일로 수정해주세요."
 
 #. allow for translation of the error message
@@ -753,7 +753,7 @@ msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
-"이 선택 --isUtc는 미래의 출시에서 없어질 것입니다. 언급되어진 애칭 --utc와 함께 이 선택은 대체하는 킥스타트 파일을 "
+"이 선택 --isUtc는 미래의 출시에서 없어질 것입니다. 언급되어진 별칭 --utc와 함께 이 선택은 대체하는 킥스타트 파일을 "
 "수정해주기 바랍니다."
 
 #: ../pykickstart/commands/timezone.py:441
