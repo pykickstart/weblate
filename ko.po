@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2021-03-23 17:01+0000\n"
+"PO-Revision-Date: 2021-04-07 16:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/ko/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -89,7 +89,7 @@ msgstr "잠재적으로 알 수없는 부분이 줄에 나타남 %(lineno)s: %(s
 #: ../pykickstart/version.py:196
 #, python-format
 msgid "Unsupported version specified: %s"
-msgstr "지원되지 않는 버전 지정: %s"
+msgstr "지원되지 않는 상태번호 지정: %s"
 
 #: ../pykickstart/options.py:82
 #, python-format
@@ -102,7 +102,7 @@ msgid ""
 "The %(option)s option was introduced in version %(intro)s, but you are using"
 " kickstart syntax version %(version)s."
 msgstr ""
-"%(option)s 옵션은 버전 %(intro)s에서 소개되었지만 kickstart 구문 버전 %(version)s을(를) 사용하고 "
+"%(option)s 선택은 상태번호 %(intro)s에서 소개되었지만 kickstart 구문 상태번호 %(version)s를 사용하고 "
 "있습니다."
 
 #: ../pykickstart/options.py:92
@@ -116,7 +116,7 @@ msgid ""
 "The %(option)s option was removed in version %(removed)s, but you are using "
 "kickstart syntax version %(version)s."
 msgstr ""
-"%(option)s 옵션은 버전 %(removed)s에서 제거되었지만 kickstart 구문 버전 %(version)s을(를) 사용하고 "
+"%(option)s 선택은 상태번호 %(removed)s에서 제거되었지만 kickstart 구문 상태번호 %(version)s를 사용하고 "
 "있습니다."
 
 #: ../pykickstart/options.py:97
@@ -775,7 +775,7 @@ msgstr "킥스타트 설정 파일의 경로"
 
 #: ../tools/ksflatten:40
 msgid "Kickstart version to use for interpreting config"
-msgstr "설정을 해석하는 데 사용할 킥스타트 버전"
+msgstr "설정을 해석하는 데 사용할 킥스타트 상태번호"
 
 #: ../tools/ksflatten:42
 msgid "Write flattened config to OUTPUT"
@@ -811,12 +811,12 @@ msgstr "완성된 킥스타트 파일을 기록 할 위치 또는 지정되지 �
 
 #: ../tools/ksshell:151 ../tools/ksvalidator:61
 msgid "version of kickstart syntax to validate against"
-msgstr "확인을 위한 킥스타트 구문의 버전"
+msgstr "확인을 위한 킥스타트 구문의 상태번호"
 
 #: ../tools/ksshell:162 ../tools/ksverdiff:67 ../tools/ksvalidator:85
 #, python-format
 msgid "The version %s is not supported by pykickstart"
-msgstr "버전 %s은 pykickstart에 의해 지원되지 않습니다"
+msgstr "상태번호 %s는 pykickstart에 의해 지원되지 않습니다"
 
 #. Errors should just dump you to the prompt anyway.
 #: ../tools/ksshell:174
@@ -839,7 +839,7 @@ msgstr "사용 가능한 kickstart 구문 목록을 표시합니다"
 
 #: ../tools/ksverdiff:60
 msgid "You must specify two syntax versions."
-msgstr "두 가지 구문 버전을 지정해야 합니다."
+msgstr "두 가지 구문 상태번호를 지정해야 합니다."
 
 #: ../tools/ksverdiff:74
 #, python-format
