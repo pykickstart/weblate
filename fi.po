@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2021-04-07 16:02+0000\n"
+"PO-Revision-Date: 2021-04-15 19:02+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fi/>\n"
@@ -257,23 +257,23 @@ msgstr "Laite '%(device)s' on jo käytössä monipolulla '%(multipathdev)s'"
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "Tyhjä merkkijono ei ole kelvollinen aktivointiavain."
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:81 ../pykickstart/load.py:84
 #, python-format
 msgid "Error accessing URL \"%s\""
-msgstr ""
+msgstr "Virhe mentäessä URL-osoiteeseen \"%s\""
 
 #: ../pykickstart/load.py:109
 #, python-format
 msgid "Error copying file: %s"
-msgstr ""
+msgstr "Virhe kopiodessa tiedostoa: %s"
 
 #: ../pykickstart/load.py:99
 #, python-format
 msgid "Error opening file: %s"
-msgstr ""
+msgstr "Virhe tiedoston avaamisessa: %s"
 
 #: ../tools/ksvalidator.py:88
 #, python-format
@@ -281,31 +281,34 @@ msgid ""
 "Error reading %(filename)s:\n"
 "%(version)s"
 msgstr ""
+"Virhe luettaessa %(filename)s:\n"
+"%(version)s"
 
 #: ../pykickstart/load.py:79
 #, python-format
 msgid "Error securely accessing URL \"%s\""
-msgstr ""
+msgstr "Virhe mentäessä turvallisesti URL-osoiteeseen \"%s\""
 
 #: ../pykickstart/load.py:66
 #, python-format
 msgid "Error writing file \"%s\":"
-msgstr ""
+msgstr "Virhe kirjoitettaessa tiedostoa \"%s\":"
 
 #: ../tools/ksflatten.py:67
 #, python-format
 msgid "Failed to open output file '%(filename)s' : %(error_msg)s"
-msgstr ""
+msgstr "Kohdetiedoston '%(filename)s' avaus epäonnistui : %(error_msg)s"
 
 #: ../tools/ksflatten.py:61
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
 msgstr ""
+"Kickstart-tiedoston '%(filename)s' jäsentäminen epäonnistui: %(error_msg)s"
 
 #: ../tools/ksflatten.py:59
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
-msgstr ""
+msgstr "Kickstart-tiedoston '%(filename)s' lukeminen epäonnistui: %(error_msg)s"
 
 #: ../tools/ksvalidator.py:110
 #, python-format
@@ -332,11 +335,15 @@ msgstr "Ryhmä ei voi määrittää sekä --nodefaults että --optional"
 #: ../pykickstart/commands/network.py:942
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
+"Jos network --interfacename sisältää pisteen \".\", kelvollisen vlan-"
+"tunnuksen tulisi seurata."
 
 #: ../pykickstart/commands/network.py:951
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
+"Jos network --interfacename alkaa sanalla \"vlan\", kelvollisen vlan-"
+"tunnuksen tulisi seurata."
 
 #: ../pykickstart/base.py:221
 #, python-format
@@ -371,6 +378,10 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
+"Ohitetaan vanhentunut vaihtoehto rivillä %s: Zerombr-komento ei enää ota "
+"mitään vaihtoehtoja. Tulevissa julkaisuissa tämä johtaa kickstartin "
+"kohtalokkaaseen virheeseen. Poista mahdolliset vaihtoehdot muokkaamalla "
+"kickstart-tiedostoa."
 
 #: ../pykickstart/parser.py:93
 #, python-format
@@ -380,7 +391,7 @@ msgstr "Tiedoston %%ksappend URL ei kelpaa: %s"
 #: ../tools/ksshell.py:224
 #, python-format
 msgid "Internal command %s not recognized."
-msgstr ""
+msgstr "Sisäistä komentoa %s ei tunnistettu."
 
 #: ../pykickstart/commands/autopart.py:285
 #, python-format
