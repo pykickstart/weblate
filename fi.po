@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2021-04-15 19:02+0000\n"
+"PO-Revision-Date: 2021-04-20 19:02+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/fi/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.6\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -81,7 +81,7 @@ msgstr "Tuntematon kickstart-osio: %s"
 #: ../pykickstart/parser.py:707
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
-msgstr ""
+msgstr "Mahdollisesti tuntematon osa nähty rivillä %(lineno)s: %(sectionName)s"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:114 ../pykickstart/version.py:123
@@ -181,21 +181,21 @@ msgstr ""
 #: ../pykickstart/commands/snapshot.py:114
 #, python-format
 msgid "Snapshot with the name %s has been already defined!"
-msgstr ""
+msgstr "Tilannevedos nimellä %s on jo määritelty!"
 
 #: ../pykickstart/commands/snapshot.py:118
 msgid "Snapshot \"when\" parameter must be specified!"
-msgstr ""
+msgstr "Tilannevedoksen \"when\" -parametri on määritettävä!"
 
 #: ../pykickstart/commands/snapshot.py:123
 #, python-format
 msgid "Snapshot origin %s must be specified by VG/LV!"
-msgstr ""
+msgstr "Tilannevedoksen alkuperä %s täytyy määrittää VG/LV:n toimesta!"
 
 #: ../pykickstart/commands/snapshot.py:128
 #, python-format
 msgid "Snapshot when param must have one of these values %s!"
-msgstr ""
+msgstr "Tilannevedoksen when-parametrilla on oltava yksi näistä arvoista %s!"
 
 #: ../pykickstart/commands/repo.py:206 ../pykickstart/commands/fcoe.py:116
 #: ../pykickstart/commands/iscsi.py:145 ../pykickstart/commands/xconfig.py:99
@@ -220,14 +220,14 @@ msgstr "Ohjelmistolähde nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/repo.py:255
 msgid "Method must be a url to be added to the repo list."
-msgstr ""
+msgstr "Menetelmän on oltava repo-luetteloon lisättävän URL-osoitteen."
 
 #: ../pykickstart/commands/iscsiname.py:52 ../pykickstart/commands/key.py:60
 #: ../pykickstart/commands/keyboard.py:52 ../pykickstart/commands/mouse.py:63
 #: ../pykickstart/commands/lang.py:51
 #, python-format
 msgid "Kickstart command %s requires one argument"
-msgstr ""
+msgstr "Kickstart-komento %s vaatii yhden parametrin"
 
 #: ../pykickstart/commands/group.py:87
 #, python-format
@@ -246,11 +246,11 @@ msgstr "Ryhmä nimeltä %s on jo määritelty."
 #: ../pykickstart/commands/lilocheck.py:51
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
-msgstr ""
+msgstr "Kickstart-komento %s ei ota vastaa parametreja"
 
 #: ../pykickstart/commands/harddrive.py:76
 msgid "One of biospart or partition options must be specified."
-msgstr ""
+msgstr "Yksi biospart- tai partition vaihtoehdoista on määritettävä."
 
 #: ../pykickstart/commands/sshkey.py:90
 #: ../pykickstart/commands/keyboard.py:124
@@ -275,7 +275,7 @@ msgstr ""
 
 #: ../pykickstart/commands/volgroup.py:138
 msgid "Members may not be specified for preexisting volgroup"
-msgstr ""
+msgstr "Jäseniä ei voida määrittää olemassa olevalle volyymiryhmälle"
 
 #: ../pykickstart/commands/volgroup.py:147
 #, python-format
@@ -295,17 +295,23 @@ msgstr ""
 msgid ""
 "One of --drives or --only-use must be specified for ignoredisk command."
 msgstr ""
+"Yksi seuraavista: --drives tai --only-use on määritettävä ignoredisk-"
+"komennolle."
 
 #: ../pykickstart/commands/ignoredisk.py:139
 msgid ""
 "One of --drives , --only-use , or --interactive must be specified for "
 "ignoredisk command."
 msgstr ""
+"Yksi seuraavista: --drives, --only-use tai --interactive on määritettävä "
+"ignoredisk-komennolle."
 
 #: ../pykickstart/commands/rescue.py:64
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
 msgstr ""
+"Vain yhtä --nomount- tai --romount-laitemäärityksistä voidaan käyttää rescue-"
+"komennolle."
 
 #: ../pykickstart/commands/upgrade.py:97
 #, python-format
@@ -314,7 +320,7 @@ msgstr ""
 
 #: ../pykickstart/commands/eula.py:67
 msgid "Kickstart command eula expects the --agreed option"
-msgstr ""
+msgstr "Kickstart-komento eula odottaa --agreed -vaihtoehtoa"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:181
@@ -383,7 +389,7 @@ msgstr ""
 
 #: ../pykickstart/commands/services.py:69
 msgid "One of --disabled or --enabled must be provided."
-msgstr ""
+msgstr "Täytyy antaa joko --disabled tai --enabled."
 
 #: ../pykickstart/commands/dmraid.py:91
 #, python-format
@@ -409,6 +415,7 @@ msgstr ""
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
+"Vain yhtä --namespace- tai --blockdevs-laitemäärityksistä voidaan käyttää"
 
 #: ../pykickstart/commands/nvdimm.py:144
 #, python-format
@@ -445,38 +452,50 @@ msgid ""
 "One of --xlayouts, --vckeymap options with value(s) or argument is expected "
 "for the keyboard command"
 msgstr ""
+"Keyboard-komennolle odotetaan yhtä --xlayouts, --vckeymap -vaihtoehdoista, "
+"joilla on arvo(t) tai argumentti"
 
 #: ../pykickstart/commands/driverdisk.py:117
 #: ../pykickstart/commands/driverdisk.py:149
 msgid "Only one partition may be specified for driverdisk command."
-msgstr ""
+msgstr "Vain yksi partition voidaan määrittää driverdisk-komennolle."
 
 #: ../pykickstart/commands/driverdisk.py:120
 #: ../pykickstart/commands/driverdisk.py:152
 msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
 msgstr ""
+"Vain yksi seuraavista --source ja partition voidaan määrittää driverdisk-"
+"komennolle."
 
 #: ../pykickstart/commands/driverdisk.py:123
 msgid "One of --source or partition must be specified for driverdisk command."
 msgstr ""
+"Yksi seuraavista: --source tai partition on määritettävä driverdisk-"
+"komennolle."
 
 #: ../pykickstart/commands/driverdisk.py:154
 msgid ""
 "Only one of --biospart and partition may be specified for driverdisk "
 "command."
 msgstr ""
+"Vain yksi seuraavista --biospart tai partition voidaan määrittää driverdisk-"
+"komennolle."
 
 #: ../pykickstart/commands/driverdisk.py:156
 msgid ""
 "Only one of --biospart and --source may be specified for driverdisk command."
 msgstr ""
+"Vain yksi seuraavista --biospart tai --source voidaan määrittää driverdisk-"
+"komennolle."
 
 #: ../pykickstart/commands/driverdisk.py:159
 msgid ""
 "One of --source, --biospart, or partition must be specified for driverdisk "
 "command."
 msgstr ""
+"Yksi seuraavista: --source, --biospart tai partition on määritettävä "
+"driverdisk-komennolle."
 
 #: ../pykickstart/commands/zfcp.py:111
 msgid "A zfcp with this information has already been defined."
@@ -499,11 +518,11 @@ msgstr ""
 #: ../pykickstart/commands/raid.py:325
 #, python-format
 msgid "Partitions required for %s"
-msgstr ""
+msgstr "%s:lle vaaditut osiot"
 
 #: ../pykickstart/commands/raid.py:327
 msgid "Members may not be specified for preexisting RAID device"
-msgstr ""
+msgstr "Jäseniä ei voida määrittää olemassa olevalle RAID-laitteelle"
 
 #: ../pykickstart/commands/raid.py:345
 #, python-format
@@ -583,7 +602,7 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:523
 msgid "Percentage must be between 0 and 100."
-msgstr ""
+msgstr "Prosenttiosuuden on oltava 0–100."
 
 #: ../pykickstart/commands/logvol.py:540
 msgid "--size and --percent cannot both be specified for the same logvol"
@@ -608,7 +627,7 @@ msgstr "Välimuistin koko on määritettävä"
 #: ../pykickstart/commands/logvol.py:592
 #, python-format
 msgid "Invalid cache mode given: %s"
-msgstr ""
+msgstr "Virheellinen välimuistin tila annettu : %s"
 
 #: ../pykickstart/commands/fcoe.py:123
 #, python-format
@@ -659,7 +678,7 @@ msgstr "Ei voida antaa --port ilman --host."
 #: ../pykickstart/commands/updates.py:54
 #, python-format
 msgid "Kickstart command %s only takes one argument"
-msgstr ""
+msgstr "Kickstart-komento %s hyväksyy vain yhden parametrin"
 
 #: ../pykickstart/commands/network.py:379
 #, python-format
@@ -669,7 +688,7 @@ msgstr "Verkkolaite nimeltä %s on jo määritelty."
 #: ../pykickstart/commands/network.py:542
 #: ../pykickstart/commands/network.py:669
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr ""
+msgstr "Vaihtoehto - bridgeopts vaatii --bridgeslaves määriteltävän"
 
 #: ../pykickstart/commands/network.py:549
 #: ../pykickstart/commands/network.py:676
@@ -743,7 +762,7 @@ msgstr ""
 #: ../pykickstart/commands/timezone.py:140
 #: ../pykickstart/commands/timezone.py:175
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr ""
+msgstr "Vaihtoehdot --nontp ja --ntpservers ovat toistensa poissulkevia"
 
 #: ../pykickstart/commands/timezone.py:157
 #, python-format
@@ -754,7 +773,7 @@ msgstr ""
 #: ../pykickstart/commands/timezone.py:168
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
-msgstr ""
+msgstr "%s-komennolle odotetaan yhtä tai ei yhtään argumenttia"
 
 #: ../pykickstart/commands/realm.py:44
 msgid "The realm command 'join' should only be specified once"
@@ -762,7 +781,7 @@ msgstr ""
 
 #: ../pykickstart/commands/realm.py:48
 msgid "Missing realm command arguments"
-msgstr ""
+msgstr "Alueen komentoparametrit puuttuvat"
 
 #: ../pykickstart/commands/realm.py:54
 #, python-format
@@ -772,19 +791,19 @@ msgstr ""
 #: ../pykickstart/commands/realm.py:67
 #, python-format
 msgid "Invalid realm arguments: %s"
-msgstr ""
+msgstr "Virheelliset alueargumentit : %s"
 
 #: ../pykickstart/commands/realm.py:71
 msgid "Specify only one realm to join"
-msgstr ""
+msgstr "Määritä vain yksi alue, johon haluat liittyä"
 
 #: ../tools/ksflatten:38
 msgid "Path to kickstart config file"
-msgstr ""
+msgstr "Polku kickstart-määritystiedostoon"
 
 #: ../tools/ksflatten:40
 msgid "Kickstart version to use for interpreting config"
-msgstr ""
+msgstr "Kickstart-versio, jota käytetään määritysten tulkinnassa"
 
 #: ../tools/ksflatten:42
 msgid "Write flattened config to OUTPUT"
@@ -792,7 +811,7 @@ msgstr ""
 
 #: ../tools/ksflatten:49
 msgid "Need to specify a config to flatten"
-msgstr ""
+msgstr "On määritettävä kokoonpano flatten:ille"
 
 #: ../tools/ksflatten:57
 #, python-format
