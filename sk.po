@@ -8,13 +8,13 @@
 # feonsu <feonsu@gmail.com>, 2017. #zanata
 # feonsu <feonsu@gmail.com>, 2018. #zanata
 # feonsu <feonsu@gmail.com>, 2019. #zanata
-# Ondrej Sulek <feonsu@gmail.com>, 2020.
+# Ondrej Sulek <feonsu@gmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2020-09-01 09:29+0000\n"
+"PO-Revision-Date: 2021-04-20 19:02+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/sk/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2.1\n"
+"X-Generator: Weblate 4.6\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -33,7 +33,7 @@ msgstr "príkaz %(command)s vyžaduje jeden argument: %(argument)s"
 #: ../pykickstart/base.py:252
 #, python-format
 msgid "%s has been removed."
-msgstr ""
+msgstr "%s bola vymazaná."
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
@@ -499,11 +499,10 @@ msgid "One of -%(options_list)s options must be specified for repo command."
 msgstr "V príkaze repo musí byť použitá jedna z volieb -%(options_list)s."
 
 #: ../pykickstart/commands/timesource.py:136
-#, fuzzy, python-format
-#| msgid "One of -%(options_list)s options must be specified for url command."
+#, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
-msgstr "V príkaze url musí byť použitá jedna z volieb -%(options_list)s."
+msgstr "V príkaze timesource musí byť použitá jedna z volieb -%(options_list)s."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -566,12 +565,11 @@ msgid "Only one of %(options_list)s options may be specified for repo command."
 msgstr "V príkaze repo je možné použiť iba jednu z volieb -%(options_list)s."
 
 #: ../pykickstart/commands/timesource.py:139
-#, fuzzy, python-format
-#| msgid ""
-#| "Only one of %(options_list)s options may be specified for url command."
+#, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
-msgstr "V príkaze url je možné použiť iba jednu z volieb -%(options_list)s."
+msgstr ""
+"V príkaze timesource je možné použiť iba jednu z volieb -%(options_list)s."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
@@ -681,11 +679,7 @@ msgid "Specify only one realm to join"
 msgstr "Pre pripojenie zadajte iba jeden realm"
 
 #: ../pykickstart/sections.py:785
-#, fuzzy, python-format
-#| msgid ""
-#| "The %(option)s option on line %(lineno)s will be deprecated infuture "
-#| "releases. Please modify your kickstart file to replacethis option with "
-#| "its preferred alias %(new_option)s."
+#, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
 "releases. Please modify your kickstart file to replace this option with its "
@@ -798,30 +792,23 @@ msgstr ""
 "kickstart a nahraďte túto voľbu s jej preferovaným aliasom --utc."
 
 #: ../pykickstart/commands/timezone.py:441
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --nontp will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
-"Voľba --isUtc bude v budúcich vydaniach zastaraná. Upravte svoj súbor "
-"kickstart a nahraďte túto voľbu s jej preferovaným aliasom --utc."
+"Voľba --nontp bude v budúcich vydaniach zastaraná. Upravte svoj súbor "
+"kickstart a nahraďte túto voľbu pomocou --ntp-disable."
 
 #: ../pykickstart/commands/timezone.py:435
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --ntpservers will be deprecated in future releases. Please modify "
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
-"Voľba --isUtc bude v budúcich vydaniach zastaraná. Upravte svoj súbor "
-"kickstart a nahraďte túto voľbu s jej preferovaným aliasom --utc."
+"Voľba --ntpservers bude v budúcich vydaniach zastaraná. Upravte svoj súbor "
+"kickstart a nahraďte túto voľbu pomocou --ntp-server <názov servera>, jednou "
+"pre každý NTP server."
 
 #: ../pykickstart/commands/partition.py:579
 #: ../pykickstart/commands/partition.py:645
