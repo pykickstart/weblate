@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2021-04-20 19:02+0000\n"
+"PO-Revision-Date: 2021-04-22 08:02+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/fi/>\n"
@@ -172,11 +172,11 @@ msgstr "Kickstart-tiedoston rivin %s lukemisessa oli ongelma"
 
 #: ../pykickstart/commands/snapshot.py:101
 msgid "Snapshot origin must be specified!"
-msgstr ""
+msgstr "Tilannevedoksen alkuperä on määritettävä!"
 
 #: ../pykickstart/commands/snapshot.py:104
 msgid "Snapshot origin can be specified only once!"
-msgstr ""
+msgstr "Tilannevedoksen alkuperä voidaan määrittää vain kerran!"
 
 #: ../pykickstart/commands/snapshot.py:114
 #, python-format
@@ -202,7 +202,7 @@ msgstr "Tilannevedoksen when-parametrilla on oltava yksi näistä arvoista %s!"
 #: ../pykickstart/commands/firewall.py:118
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
-msgstr ""
+msgstr "Odottamattomat parametrit komennolle %(command)s:%(options)s"
 
 #: ../pykickstart/commands/repo.py:211
 msgid ""
@@ -267,11 +267,11 @@ msgstr "SSH-käyttäjä nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/volgroup.py:133
 msgid "volgroup must be given a VG name"
-msgstr ""
+msgstr "volgroupille on annettava VG-nimi"
 
 #: ../pykickstart/commands/volgroup.py:136
 msgid "volgroup must be given a list of partitions"
-msgstr ""
+msgstr "volgroupille on annettava luettelo osioista"
 
 #: ../pykickstart/commands/volgroup.py:138
 msgid "Members may not be specified for preexisting volgroup"
@@ -285,11 +285,11 @@ msgstr "Taltioryhmä nimeltä %s on jo määritelty."
 #: ../pykickstart/commands/volgroup.py:183
 #: ../pykickstart/commands/volgroup.py:196
 msgid "The volgroup and autopart commands can't be used at the same time"
-msgstr ""
+msgstr "Volgroup- ja autopart-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/volgroup.py:200
 msgid "The volgroup and mount commands can't be used at the same time"
-msgstr ""
+msgstr "Volgroup- ja mount-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/ignoredisk.py:84
 msgid ""
@@ -327,21 +327,23 @@ msgstr "Kickstart-komento eula odottaa --agreed -vaihtoehtoa"
 #: ../pykickstart/commands/autopart.py:341
 #, python-format
 msgid "The %s and autopart commands can't be used at the same time"
-msgstr ""
+msgstr "%s- ja autopart-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/autopart.py:379
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr ""
+"autopart --fstype=btrfs ei ole kelvollinen fstype, käytä sen sijaan "
+"--type=btrfs"
 
 #: ../pykickstart/commands/autopart.py:383
 msgid "autopart --fstype cannot be used with --type=btrfs"
-msgstr ""
+msgstr "autopart --fstype ei voi käyttää parametrin --type = btrfs kanssa"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/mount.py:124
 #, python-format
 msgid "The '%s' and 'mount' commands can't be used at the same time"
-msgstr ""
+msgstr "'%s' - ja 'mount'-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/mount.py:132
 #, python-format
@@ -400,7 +402,7 @@ msgstr ""
 #: ../pykickstart/commands/nvdimm.py:118
 #, python-format
 msgid "Unexpected arguments to nvdimm command: %(arguments)s"
-msgstr ""
+msgstr "Odottamattomat parametrit nvdimm-komennolle: %(arguments)s"
 
 #: ../pykickstart/commands/nvdimm.py:122
 msgid "Action argument is required for nvdimm command"
@@ -531,11 +533,11 @@ msgstr "RAID-laite nimeltä %s on jo määritelty."
 
 #: ../pykickstart/commands/raid.py:447 ../pykickstart/commands/raid.py:489
 msgid "The raid and autopart commands can't be used at the same time"
-msgstr ""
+msgstr "Raid- ja autopart-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/raid.py:493
 msgid "The raid and mount commands can't be used at the same time"
-msgstr ""
+msgstr "Raid- ja mount-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/raid.py:511 ../pykickstart/commands/logvol.py:569
 #: ../pykickstart/commands/partition.py:507
@@ -549,7 +551,7 @@ msgstr "'--mkfsoptions' ja '--fsprofile' ei voida käyttää yhdessä."
 
 #: ../pykickstart/commands/device.py:98
 msgid "device command requires two arguments: module type and name"
-msgstr ""
+msgstr "device-komento vaatii kaksi parametria: moduulin tyyppi ja nimi"
 
 #: ../pykickstart/commands/device.py:124
 #, python-format
@@ -570,7 +572,7 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:428 ../pykickstart/commands/logvol.py:511
 msgid "The logvol and autopart commands can't be used at the same time"
-msgstr ""
+msgstr "Logvol- ja autopart-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/logvol.py:460
 msgid "--resize can only be used in conjunction with --useexisting"
@@ -594,7 +596,7 @@ msgstr "'--chunksize' ja '--metadatasize' ovat vain ohuille varannoille"
 
 #: ../pykickstart/commands/logvol.py:515
 msgid "The logvol and mount commands can't be used at the same time"
-msgstr ""
+msgstr "Logvol- ja mount-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/logvol.py:519
 msgid "Size required"
@@ -614,7 +616,7 @@ msgstr "Välimuistin lisäämistä olemassa olevaan loogiseen taltioon ei tueta"
 
 #: ../pykickstart/commands/logvol.py:580
 msgid "Thin volumes cannot be cached"
-msgstr ""
+msgstr "Ohuita taltioita ei voida tallentaa välimuistiin"
 
 #: ../pykickstart/commands/logvol.py:584
 msgid "Cache needs to have a list of (fast) PVs specified"
@@ -637,11 +639,11 @@ msgstr "FCOE-laite nimeltä %s on jo määritelty."
 #: ../pykickstart/commands/reqpart.py:60
 #, python-format
 msgid "The %s and reqpart commands can't be used at the same time"
-msgstr ""
+msgstr "%s- ja reqpart-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/reqpart.py:65
 msgid "The mount and reqpart commands can't be used at the same time"
-msgstr ""
+msgstr "Mount- ja reqpart-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/partition.py:323
 #, python-format
@@ -652,7 +654,7 @@ msgstr "Osio liitoskohdalla %s on jo määritelty."
 #: ../pykickstart/commands/partition.py:478
 msgid ""
 "The part/partition and autopart commands can't be used at the same time"
-msgstr ""
+msgstr "Part/partition- ja autopart-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/partition.py:456
 msgid "--resize can only be used in conjunction with --onpart"
@@ -664,12 +666,14 @@ msgstr "'--resize' vaatii '--size' uuden koon määrittämiseksi"
 
 #: ../pykickstart/commands/partition.py:482
 msgid "The part/partition and mount commands can't be used at the same time"
-msgstr ""
+msgstr "Part/partition- ja mount-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/partition.py:488
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr ""
+"Vaihtoehtoa --fstype=tmpfs ei voi käyttää yhdessä parametrien --grow tai --"
+"maxsize kanssa"
 
 #: ../pykickstart/commands/logging.py:69
 msgid "Can't specify --port without --host."
@@ -702,6 +706,8 @@ msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be"
 " equal to 'vlan'."
 msgstr ""
+"<prefix>.<vlan id> -rajapinnan nimimerkintää käytettäessä <prefix> ei voi "
+"olla sama kuin 'vlan'."
 
 #: ../pykickstart/commands/network.py:621
 msgid ""
@@ -734,19 +740,19 @@ msgstr "Laite '%(device)s' on jo käytössä monipolulla '%(multipathdev)s'"
 
 #: ../pykickstart/commands/btrfs.py:162
 msgid "btrfs must be given a mountpoint"
-msgstr ""
+msgstr "btrfs:lle on annettava liitoskohta"
 
 #: ../pykickstart/commands/btrfs.py:165
 msgid "btrfs must be given a list of partitions"
-msgstr ""
+msgstr "btrfs:lle on annettava luettelo osioista"
 
 #: ../pykickstart/commands/btrfs.py:167
 msgid "btrfs subvol requires specification of parent volume"
-msgstr ""
+msgstr "btrfs subvol vaatii isäntätaltion määrittelyn"
 
 #: ../pykickstart/commands/btrfs.py:170
 msgid "btrfs subvolume requires a name"
-msgstr ""
+msgstr "btrfs:n alitaltio vaatii nimen"
 
 #: ../pykickstart/commands/btrfs.py:177
 #, python-format
@@ -768,7 +774,7 @@ msgstr "Vaihtoehdot --nontp ja --ntpservers ovat toistensa poissulkevia"
 #, python-format
 msgid ""
 "At least one option and/or an argument are expected for the  %s command"
-msgstr ""
+msgstr "%s -komennolle odotetaan vähintään yhtä vaihtoehtoa ja/tai parametria"
 
 #: ../pykickstart/commands/timezone.py:168
 #, python-format
@@ -777,7 +783,7 @@ msgstr "%s-komennolle odotetaan yhtä tai ei yhtään argumenttia"
 
 #: ../pykickstart/commands/realm.py:44
 msgid "The realm command 'join' should only be specified once"
-msgstr ""
+msgstr "Aluekomento 'join' tulisi määrittää vain kerran"
 
 #: ../pykickstart/commands/realm.py:48
 msgid "Missing realm command arguments"
@@ -786,7 +792,7 @@ msgstr "Alueen komentoparametrit puuttuvat"
 #: ../pykickstart/commands/realm.py:54
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr ""
+msgstr "Aluekomentoa '%s' ei tueta"
 
 #: ../pykickstart/commands/realm.py:67
 #, python-format
@@ -807,7 +813,7 @@ msgstr "Kickstart-versio, jota käytetään määritysten tulkinnassa"
 
 #: ../tools/ksflatten:42
 msgid "Write flattened config to OUTPUT"
-msgstr ""
+msgstr "Kirjoita litistetty kokoonpano kohtaan TULOSTE"
 
 #: ../tools/ksflatten:49
 msgid "Need to specify a config to flatten"
@@ -831,11 +837,14 @@ msgstr ""
 #: ../tools/ksshell:147
 msgid "a basis file to use for seeding the kickstart data (optional)"
 msgstr ""
+"perustiedosto, jota käytetään kickstart-tietojen alustamiseen (valinnainen)"
 
 #: ../tools/ksshell:149
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
+"sijainti, johon haluat kirjoittaa valmiin kickstart-tiedoston, tai "
+"vakiotuloste, jos sijaintia ei anneta"
 
 #: ../tools/ksshell:151 ../tools/ksvalidator:61
 msgid "version of kickstart syntax to validate against"
@@ -853,6 +862,8 @@ msgid ""
 "Warning:  The following error occurred when processing the input file:\n"
 "%s\n"
 msgstr ""
+"Varoitus: Seuraava virhe tapahtui syötetiedoston käsittelyssä:\n"
+"%s\n"
 
 #: ../tools/ksshell:219
 #, python-format
@@ -899,7 +910,7 @@ msgstr "Seuraavat valitsimet poistettiin %s-komennosta versiossa %s:"
 
 #: ../tools/ksvalidator:51
 msgid "filename or URL to read from"
-msgstr ""
+msgstr "tiedostonimi tai URL luettavaksi"
 
 #: ../tools/ksvalidator:53
 msgid "halt after the first error or warning"
@@ -908,7 +919,7 @@ msgstr "lopeta ensimmäisen virheen tai varoituksen jälkeen"
 #: ../tools/ksvalidator:56
 #, python-format
 msgid "parse include files when %%include is seen"
-msgstr ""
+msgstr "jäsennä sisällytystiedostot, kun %%include kohdataan"
 
 #: ../tools/ksvalidator:79
 #, python-format
