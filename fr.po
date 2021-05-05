@@ -13,13 +13,13 @@
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2016. #zanata
 # Julie Carbone <jcarbone@redhat.com>, 2016. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
-# Julien Humbert <julroy67@gmail.com>, 2020.
+# Julien Humbert <julroy67@gmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2020-10-24 07:15+0000\n"
+"PO-Revision-Date: 2021-05-05 14:02+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fr/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.3.1\n"
+"X-Generator: Weblate 4.6.1\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -38,7 +38,7 @@ msgstr "La commande %(command)s nécessite un argument unique : %(argument)s"
 #: ../pykickstart/base.py:252
 #, python-format
 msgid "%s has been removed."
-msgstr ""
+msgstr "%s a été supprimé."
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
@@ -526,12 +526,12 @@ msgstr ""
 "Une des options -%(options_list)s doit être définie pour la commande repo."
 
 #: ../pykickstart/commands/timesource.py:136
-#, fuzzy, python-format
-#| msgid "One of -%(options_list)s options must be specified for url command."
+#, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
 msgstr ""
-"Une des options -%(options_list)s doit être définie pour la commande url."
+"Une des options -%(options_list)s doit être définie pour la commande "
+"timesource."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -593,14 +593,12 @@ msgstr ""
 "commande repo."
 
 #: ../pykickstart/commands/timesource.py:139
-#, fuzzy, python-format
-#| msgid ""
-#| "Only one of %(options_list)s options may be specified for url command."
+#, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
 msgstr ""
 "Une des options -%(options_list)s uniquement peut être définie pour la "
-"commande url."
+"commande timesource."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
@@ -721,6 +719,9 @@ msgid ""
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
+"L’option %(option)s sur la ligne %(lineno)s sera dépréciée dans les versions "
+"ultérieures. Veuillez modifier votre fichier kickstart pour remplacer cette "
+"options avec son alias %(new_option)s."
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:212
@@ -838,6 +839,9 @@ msgid ""
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
+"L’option --nontp sera dépréciée dans les versions ultérieures. Veuillez "
+"modifier votre fichier kickstart pour remplacer cette options avec l’"
+"invocation de la commande timesource --ntp-disable."
 
 #: ../pykickstart/commands/timezone.py:435
 msgid ""
@@ -845,6 +849,10 @@ msgid ""
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
+"L’option --ntpservers sera dépréciée dans les versions ultérieures. Veuillez "
+"modifier votre fichier kickstart pour remplacer cette options avec l’"
+"invocation de la commande --ntp-server <nom d’hôte du serveur>, une par "
+"serveur NTP."
 
 #: ../pykickstart/commands/partition.py:579
 #: ../pykickstart/commands/partition.py:645
