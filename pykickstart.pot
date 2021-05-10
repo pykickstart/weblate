@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 11:11-0800\n"
+"POT-Creation-Date: 2021-05-10 14:26-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,13 +54,13 @@ msgstr ""
 msgid "--default and --nocore cannot be used together"
 msgstr ""
 
-#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/partition.py:685
 #: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
+#: ../pykickstart/commands/partition.py:685 ../pykickstart/commands/raid.py:725
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr ""
 
-#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
 #: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
+#: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:722
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr ""
 
@@ -219,8 +219,8 @@ msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr ""
 
-#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/partition.py:749
 #: ../pykickstart/commands/logvol.py:931
+#: ../pykickstart/commands/partition.py:749 ../pykickstart/commands/raid.py:799
 msgid "Btrfs file system is not supported"
 msgstr ""
 
@@ -399,8 +399,8 @@ msgid ""
 "Kickstart command %(command)s does not accept empty parameter %(parameter)s"
 msgstr ""
 
-#: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/autopart.py:47
-#: ../pykickstart/commands/hmc.py:46 ../pykickstart/commands/cdrom.py:41
+#: ../pykickstart/commands/autopart.py:47 ../pykickstart/commands/cdrom.py:41
+#: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/hmc.py:46
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
 msgstr ""
@@ -410,7 +410,7 @@ msgstr ""
 msgid "Kickstart command %s only takes one argument"
 msgstr ""
 
-#: ../pykickstart/commands/key.py:61 ../pykickstart/commands/keyboard.py:56
+#: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/key.py:61
 #: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
@@ -546,9 +546,9 @@ msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
 msgstr ""
 
-#: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
-#: ../pykickstart/commands/partition.py:737
+#: ../pykickstart/commands/autopart.py:615
 #: ../pykickstart/commands/logvol.py:919
+#: ../pykickstart/commands/partition.py:737 ../pykickstart/commands/raid.py:787
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
 
@@ -763,8 +763,8 @@ msgstr ""
 msgid "The syspurpose command does not take positional arguments!"
 msgstr ""
 
-#: ../tools/ksverdiff.py:66 ../tools/ksflatten.py:52 ../tools/ksvalidator.py:94
-#: ../tools/ksshell.py:167
+#: ../tools/ksflatten.py:52 ../tools/ksshell.py:167 ../tools/ksvalidator.py:94
+#: ../tools/ksverdiff.py:66
 #, python-format
 msgid "The version %s is not supported by pykickstart"
 msgstr ""
@@ -801,22 +801,20 @@ msgstr ""
 msgid "Unable to open input kickstart file: %s"
 msgstr ""
 
-#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/key.py:64
-#: ../pykickstart/commands/mount.py:175
-#: ../pykickstart/commands/langsupport.py:59
-#: ../pykickstart/commands/keyboard.py:59
-#: ../pykickstart/commands/keyboard.py:167
+#: ../pykickstart/commands/btrfs.py:218 ../pykickstart/commands/device.py:118
+#: ../pykickstart/commands/device.py:147
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
-#: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/device.py:118
-#: ../pykickstart/commands/device.py:147
-#: ../pykickstart/commands/partition.py:439
-#: ../pykickstart/commands/updates.py:69 ../pykickstart/commands/mouse.py:68
-#: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/btrfs.py:218
-#: ../pykickstart/commands/rootpw.py:88 ../pykickstart/commands/rootpw.py:145
-#: ../pykickstart/commands/timezone.py:82 ../pykickstart/commands/sshpw.py:163
-#: ../pykickstart/commands/logvol.py:470
 #: ../pykickstart/commands/iscsiname.py:61
+#: ../pykickstart/commands/keyboard.py:59
+#: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/key.py:64
+#: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/langsupport.py:59
+#: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:175
+#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
+#: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:88
+#: ../pykickstart/commands/rootpw.py:145 ../pykickstart/commands/sshkey.py:102
+#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/updates.py:69
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
 msgstr ""
@@ -925,7 +923,7 @@ msgstr ""
 msgid "invalid boolean value: %r"
 msgstr ""
 
-#: ../tools/ksverdiff.py:49 ../tools/ksvalidator.py:61
+#: ../tools/ksvalidator.py:61 ../tools/ksverdiff.py:49
 msgid "list the available versions of kickstart syntax"
 msgstr ""
 
@@ -943,7 +941,7 @@ msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
 
-#: ../tools/ksvalidator.py:63 ../tools/ksshell.py:156
+#: ../tools/ksshell.py:156 ../tools/ksvalidator.py:63
 msgid "version of kickstart syntax to validate against"
 msgstr ""
 
