@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 11:11-0800\n"
+"POT-Creation-Date: 2021-05-10 08:48-0700\n"
 "PO-Revision-Date: 2018-08-20 10:50+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/pykickstart/"
@@ -34,7 +34,7 @@ msgstr ""
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "l'ordre %(command)s requereix un sol argument: %(argument)s"
 
-#: ../pykickstart/base.py:252
+#: ../pykickstart/base.py:251
 #, python-format
 msgid "%s has been removed."
 msgstr ""
@@ -67,13 +67,13 @@ msgstr "--default i --nobase no poden utilitzar-se alhora"
 msgid "--default and --nocore cannot be used together"
 msgstr "--default i --nocore no poden utilitzar-se alhora"
 
-#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/partition.py:685
 #: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
+#: ../pykickstart/commands/partition.py:685 ../pykickstart/commands/raid.py:725
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr "--mkfsoptions i --fsprofile no es poden utilitzar alhora."
 
-#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
 #: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
+#: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:722
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr "--mkfsoptions amb --noformat no té cap efecte."
 
@@ -169,13 +169,13 @@ msgstr "Ja s'ha definit una partició amb el punt de muntatge %s."
 msgid "A repo with the name %s has already been defined."
 msgstr "Ja s'ha definit un dipòsit amb el nom %s."
 
-#: ../pykickstart/commands/keyboard.py:163 ../pykickstart/commands/rootpw.py:85
-#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshpw.py:160
+#: ../pykickstart/commands/keyboard.py:163 ../pykickstart/commands/rootpw.py:82
+#: ../pykickstart/commands/rootpw.py:139 ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
 msgstr "S'espera un argument individual per a l'ordre %s"
 
-#: ../pykickstart/commands/user.py:202
+#: ../pykickstart/commands/user.py:199
 #, python-format
 msgid "A user with the name %s has already been defined."
 msgstr "Ja s'ha definit un usuari amb el nom %s."
@@ -242,8 +242,8 @@ msgstr ""
 "Format dolent de --bridgeopts, s'esperaven opcions clau=valor separades amb "
 "','"
 
-#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/partition.py:749
 #: ../pykickstart/commands/logvol.py:931
+#: ../pykickstart/commands/partition.py:749 ../pykickstart/commands/raid.py:799
 msgid "Btrfs file system is not supported"
 msgstr "El sistema de fitxers btrfs no està suportat."
 
@@ -273,17 +273,17 @@ msgid "Empty string is not a valid activation key."
 msgstr ""
 
 #. pylint: disable=no-member
-#: ../pykickstart/load.py:81 ../pykickstart/load.py:84
+#: ../pykickstart/load.py:80 ../pykickstart/load.py:83
 #, python-format
 msgid "Error accessing URL \"%s\""
 msgstr "S'ha produït un error en accedir a l'URL: %s"
 
-#: ../pykickstart/load.py:109
+#: ../pykickstart/load.py:104
 #, python-format
 msgid "Error copying file: %s"
 msgstr "S'ha produït un error en copiar el fitxer: %s"
 
-#: ../pykickstart/load.py:99
+#: ../pykickstart/load.py:94
 #, python-format
 msgid "Error opening file: %s"
 msgstr "S'ha produït un error en obrir el fitxer: %s"
@@ -297,12 +297,12 @@ msgstr ""
 "Error en llegir %(filename)s:\n"
 "%(version)s"
 
-#: ../pykickstart/load.py:79
+#: ../pykickstart/load.py:78
 #, python-format
 msgid "Error securely accessing URL \"%s\""
 msgstr "S'ha produït un error de seguretat en accedir a l'URL \"%s\""
 
-#: ../pykickstart/load.py:66
+#: ../pykickstart/load.py:65
 #, python-format
 msgid "Error writing file \"%s\":"
 msgstr "S'ha produït un error en escriure el fitxer \"%s\":"
@@ -346,7 +346,7 @@ msgstr "Hi ha un error general al fitxer d'entrada: %s"
 msgid "General kickstart error in input file"
 msgstr "S'ha produït un error general del kickstart en el fitxer d'entrada"
 
-#: ../pykickstart/parser.py:450
+#: ../pykickstart/parser.py:446
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "El grup no pot especificar --nodefaults i --optional alhora"
 
@@ -363,7 +363,7 @@ msgstr ""
 "Si network --interfacename comença amb 'vlan', a continuació hi ha d'haver "
 "un id. vlan vàlid."
 
-#: ../pykickstart/base.py:221
+#: ../pykickstart/base.py:220
 #, python-format
 msgid ""
 "Ignoring deprecated command on line %(lineno)s:  The %(cmd)s command has "
@@ -405,12 +405,12 @@ msgstr ""
 "opció. En futures versions, això resultarà en un error fatal de kickstart. "
 "Modifiqueu el vostre fitxer kickstart per eliminar qualsevol opció."
 
-#: ../pykickstart/parser.py:93
+#: ../pykickstart/parser.py:89
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
 msgstr "L'url per a %%ksappend no és vàlida: %s"
 
-#: ../tools/ksshell.py:224
+#: ../tools/ksshell.py:225
 #, python-format
 msgid "Internal command %s not recognized."
 msgstr "No s'ha reconegut l'ordre interna %s."
@@ -459,8 +459,8 @@ msgstr ""
 "L'orde %(command)s de Kickstart no accepta que el paràmetre %(parameter)s "
 "estigui en blanc"
 
-#: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/autopart.py:47
-#: ../pykickstart/commands/hmc.py:46 ../pykickstart/commands/cdrom.py:41
+#: ../pykickstart/commands/autopart.py:47 ../pykickstart/commands/cdrom.py:41
+#: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/hmc.py:46
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
 msgstr "L'ordre de Kickstart %s no pren cap argument"
@@ -470,7 +470,7 @@ msgstr "L'ordre de Kickstart %s no pren cap argument"
 msgid "Kickstart command %s only takes one argument"
 msgstr "l'ordre de Kickstart %s tan sols pren un argument"
 
-#: ../pykickstart/commands/key.py:61 ../pykickstart/commands/keyboard.py:56
+#: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/key.py:61
 #: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
@@ -643,9 +643,9 @@ msgstr ""
 "En l'ordre de rescue tan sols se'n pot especificar un dels següents --"
 "nomount o --romount."
 
-#: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
-#: ../pykickstart/commands/partition.py:737
+#: ../pykickstart/commands/autopart.py:615
 #: ../pykickstart/commands/logvol.py:919
+#: ../pykickstart/commands/partition.py:737 ../pykickstart/commands/raid.py:787
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
 "Tan sols se'n pot especificar un dels següents ---pbkdf-time o --pbkdf-"
@@ -693,13 +693,13 @@ msgstr "El percentatge ha d'estar entre 0 i 100."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:771
+#: ../pykickstart/parser.py:767
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
 "Possible secció desconeguda vista a la línia %(lineno)s: %(sectionName)s"
 
-#: ../pykickstart/parser.py:629 ../pykickstart/parser.py:670
+#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "La secció %s no finalitza amb %%end."
@@ -879,8 +879,8 @@ msgstr "Tan sols es pot especificar un cop l'ordre 'join' de realm"
 msgid "The syspurpose command does not take positional arguments!"
 msgstr "L'ordre de Kickstart %s no pren cap argument"
 
-#: ../tools/ksverdiff.py:66 ../tools/ksflatten.py:52 ../tools/ksvalidator.py:94
-#: ../tools/ksshell.py:167
+#: ../tools/ksflatten.py:52 ../tools/ksshell.py:168 ../tools/ksvalidator.py:94
+#: ../tools/ksverdiff.py:66
 #, python-format
 msgid "The version %s is not supported by pykickstart"
 msgstr "El pykickstart no és compatible amb la versió %s"
@@ -909,32 +909,30 @@ msgstr ""
 msgid "Thin volumes cannot be cached"
 msgstr "Els volums disgregats no poden estar en memòria cau"
 
-#: ../pykickstart/parser.py:98
+#: ../pykickstart/parser.py:94
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
 msgstr "No es pot obrir el fitxer %%ksappend: %s"
 
-#: ../pykickstart/parser.py:126 ../pykickstart/parser.py:826
+#: ../pykickstart/parser.py:122 ../pykickstart/parser.py:822
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "No es pot obrir el fitxer d'entrada de kickstart: %s"
 
-#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/key.py:64
-#: ../pykickstart/commands/mount.py:175
-#: ../pykickstart/commands/langsupport.py:59
-#: ../pykickstart/commands/keyboard.py:59
-#: ../pykickstart/commands/keyboard.py:167
+#: ../pykickstart/commands/btrfs.py:218 ../pykickstart/commands/device.py:118
+#: ../pykickstart/commands/device.py:147
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
-#: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/device.py:118
-#: ../pykickstart/commands/device.py:147
-#: ../pykickstart/commands/partition.py:439
-#: ../pykickstart/commands/updates.py:69 ../pykickstart/commands/mouse.py:68
-#: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/btrfs.py:218
-#: ../pykickstart/commands/rootpw.py:88 ../pykickstart/commands/rootpw.py:145
-#: ../pykickstart/commands/timezone.py:82 ../pykickstart/commands/sshpw.py:163
-#: ../pykickstart/commands/logvol.py:470
 #: ../pykickstart/commands/iscsiname.py:61
+#: ../pykickstart/commands/keyboard.py:59
+#: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/key.py:64
+#: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/langsupport.py:59
+#: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:175
+#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
+#: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
+#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:102
+#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/updates.py:69
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
 msgstr "Arguments inesperats per a l'ordre %(command)s: %(options)s"
@@ -949,12 +947,12 @@ msgstr "Arguments inesperats per a l'ordre nvdimm: %(arguments)s"
 msgid "Unknown command %s"
 msgstr "No es coneix l'ordre %s"
 
-#: ../pykickstart/base.py:409
+#: ../pykickstart/base.py:401
 #, python-format
 msgid "Unknown command: %s"
 msgstr "No es coneix l'ordre: %s"
 
-#: ../pykickstart/parser.py:765
+#: ../pykickstart/parser.py:761
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Secció kickstart desconeguda: %s"
@@ -965,15 +963,15 @@ msgid "Unsupported realm '%s' command"
 msgstr "L'ordre '%s' de realm no està suportada"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:133 ../pykickstart/version.py:142
-#: ../pykickstart/version.py:145 ../pykickstart/version.py:161
-#: ../pykickstart/version.py:213
+#: ../pykickstart/version.py:134 ../pykickstart/version.py:143
+#: ../pykickstart/version.py:146 ../pykickstart/version.py:162
+#: ../pykickstart/version.py:214
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "La versió especificada no és compatible: %s"
 
 #. Errors should just dump you to the prompt anyway.
-#: ../tools/ksshell.py:179
+#: ../tools/ksshell.py:180
 #, python-format
 msgid ""
 "Warning:  The following error occurred when processing the input file:\n"
@@ -999,7 +997,7 @@ msgstr "Escriu la sortida aplanada a OUTPUT"
 msgid "You must specify two syntax versions."
 msgstr "Heu d'especificar dues versions de la sintaxi."
 
-#: ../tools/ksshell.py:152
+#: ../tools/ksshell.py:153
 msgid "a basis file to use for seeding the kickstart data (optional)"
 msgstr ""
 "un fitxer base a utilitzar com a model de dades de kickstart (opcional)"
@@ -1051,7 +1049,7 @@ msgstr "atura't al primer error o advertència"
 msgid "invalid boolean value: %r"
 msgstr "valor booleà no vàlid: %r"
 
-#: ../tools/ksverdiff.py:49 ../tools/ksvalidator.py:61
+#: ../tools/ksvalidator.py:61 ../tools/ksverdiff.py:49
 msgid "list the available versions of kickstart syntax"
 msgstr "enumera totes les versions disponibles de la sintaxi kickstart"
 
@@ -1064,14 +1062,14 @@ msgstr "analitza fitxers d'inclusió quan es trobi %%include"
 msgid "show this help message and exit"
 msgstr "mostra aquest missatge d'ajuda i surt"
 
-#: ../tools/ksshell.py:154
+#: ../tools/ksshell.py:155
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
 "la ubicació on escriure el fitxer kickstart resultant, o a la sortida "
 "estàndard si no es proporciona"
 
-#: ../tools/ksvalidator.py:63 ../tools/ksshell.py:156
+#: ../tools/ksshell.py:157 ../tools/ksvalidator.py:63
 msgid "version of kickstart syntax to validate against"
 msgstr "la versió de la sintaxi del kickstart a validar"
 

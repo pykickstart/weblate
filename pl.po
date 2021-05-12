@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 11:11-0800\n"
+"POT-Creation-Date: 2021-05-10 08:48-0700\n"
 "PO-Revision-Date: 2021-03-04 15:28+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
@@ -29,7 +29,7 @@ msgstr ""
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "polecenie %(command)s wymaga jednego parametru: %(argument)s"
 
-#: ../pykickstart/base.py:252
+#: ../pykickstart/base.py:251
 #, python-format
 msgid "%s has been removed."
 msgstr "%s zostało usunięte."
@@ -62,13 +62,13 @@ msgstr "--default i --nobase nie mogą być razem używane"
 msgid "--default and --nocore cannot be used together"
 msgstr "--default i --nocore nie mogą być razem używane"
 
-#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/partition.py:685
 #: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
+#: ../pykickstart/commands/partition.py:685 ../pykickstart/commands/raid.py:725
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr "Nie można używać --mkfsoptions i --fsprofile razem."
 
-#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
 #: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
+#: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:722
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr "--mkfsoptions z --noformat nic nie robi."
 
@@ -167,13 +167,13 @@ msgstr "Określono już partycję o punkcie montowania %s."
 msgid "A repo with the name %s has already been defined."
 msgstr "Określono już repozytorium o nazwie %s."
 
-#: ../pykickstart/commands/keyboard.py:163 ../pykickstart/commands/rootpw.py:85
-#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshpw.py:160
+#: ../pykickstart/commands/keyboard.py:163 ../pykickstart/commands/rootpw.py:82
+#: ../pykickstart/commands/rootpw.py:139 ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
 msgstr "Polecenie %s wymaga jednego parametru"
 
-#: ../pykickstart/commands/user.py:202
+#: ../pykickstart/commands/user.py:199
 #, python-format
 msgid "A user with the name %s has already been defined."
 msgstr "Określono już użytkownika o nazwie %s."
@@ -243,8 +243,8 @@ msgstr ""
 "Błędny format opcji --bridgeopts, oczekiwano opcji klucz=wartość "
 "rozdzielonych znakiem „,”"
 
-#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/partition.py:749
 #: ../pykickstart/commands/logvol.py:931
+#: ../pykickstart/commands/partition.py:749 ../pykickstart/commands/raid.py:799
 msgid "Btrfs file system is not supported"
 msgstr "System plików Btrfs jest nieobsługiwany"
 
@@ -273,17 +273,17 @@ msgid "Empty string is not a valid activation key."
 msgstr "Pusty ciąg nie jest prawidłowym kluczem aktywacji."
 
 #. pylint: disable=no-member
-#: ../pykickstart/load.py:81 ../pykickstart/load.py:84
+#: ../pykickstart/load.py:80 ../pykickstart/load.py:83
 #, python-format
 msgid "Error accessing URL \"%s\""
 msgstr "Błąd podczas uzyskiwania dostępu do adresu URL „%s”"
 
-#: ../pykickstart/load.py:109
+#: ../pykickstart/load.py:104
 #, python-format
 msgid "Error copying file: %s"
 msgstr "Błąd podczas kopiowania pliku: %s"
 
-#: ../pykickstart/load.py:99
+#: ../pykickstart/load.py:94
 #, python-format
 msgid "Error opening file: %s"
 msgstr "Błąd podczas otwierania pliku: %s"
@@ -297,13 +297,13 @@ msgstr ""
 "Błąd podczas odczytywania %(filename)s:\n"
 "%(version)s"
 
-#: ../pykickstart/load.py:79
+#: ../pykickstart/load.py:78
 #, python-format
 msgid "Error securely accessing URL \"%s\""
 msgstr ""
 "Błąd podczas uzyskiwania dostępu do adresu URL „%s” w bezpieczny sposób"
 
-#: ../pykickstart/load.py:66
+#: ../pykickstart/load.py:65
 #, python-format
 msgid "Error writing file \"%s\":"
 msgstr "Błąd podczas zapisywania pliku „%s”:"
@@ -344,7 +344,7 @@ msgstr "Ogólny błąd w pliku wejściowym: %s"
 msgid "General kickstart error in input file"
 msgstr "Ogólny błąd kickstart w pliku wejściowym"
 
-#: ../pykickstart/parser.py:450
+#: ../pykickstart/parser.py:446
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Grupa nie może podać zarówno --nodefaults, jak i --optional"
 
@@ -361,7 +361,7 @@ msgstr ""
 "Jeśli network --interfacename zaczyna się od „vlan”, to po nim powinien "
 "znajdować się prawidłowy identyfikator VLAN."
 
-#: ../pykickstart/base.py:221
+#: ../pykickstart/base.py:220
 #, python-format
 msgid ""
 "Ignoring deprecated command on line %(lineno)s:  The %(cmd)s command has "
@@ -383,8 +383,8 @@ msgid ""
 "your kickstart file to remove this option."
 msgstr ""
 "Ignorowanie przestarzałej opcji w %(lineno)s. wierszu: opcja %(option)s jest "
-"przestarzała i jej użycie nie powoduje żadnych zmian. Może zostać usunięta z "
-"przyszłych wydań, co spowoduje krytyczny błąd pliku kickstart. Należy "
+"przestarzała i jej użycie nie powoduje żadnych zmian. Może zostać usunięta "
+"z przyszłych wydań, co spowoduje krytyczny błąd pliku kickstart. Należy "
 "zmodyfikować plik kickstart, aby usunąć tę opcję."
 
 #: ../pykickstart/commands/zerombr.py:62
@@ -399,12 +399,12 @@ msgstr ""
 "błąd kickstart. Należy zmodyfikować plik kickstart, aby usunąć wszystkie "
 "opcje."
 
-#: ../pykickstart/parser.py:93
+#: ../pykickstart/parser.py:89
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
 msgstr "Niedozwolony adres URL dla %%ksappend: %s"
 
-#: ../tools/ksshell.py:224
+#: ../tools/ksshell.py:225
 #, python-format
 msgid "Internal command %s not recognized."
 msgstr "Nie rozpoznano wewnętrznego polecenia %s."
@@ -451,8 +451,8 @@ msgid ""
 msgstr ""
 "Polecenie kickstart %(command)s nie przyjmuje pustego parametru %(parameter)s"
 
-#: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/autopart.py:47
-#: ../pykickstart/commands/hmc.py:46 ../pykickstart/commands/cdrom.py:41
+#: ../pykickstart/commands/autopart.py:47 ../pykickstart/commands/cdrom.py:41
+#: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/hmc.py:46
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
 msgstr "Polecenie kickstart %s nie przyjmuje żadnych parametrów"
@@ -462,7 +462,7 @@ msgstr "Polecenie kickstart %s nie przyjmuje żadnych parametrów"
 msgid "Kickstart command %s only takes one argument"
 msgstr "Polecenie kickstart %s wymaga tylko jednego parametru"
 
-#: ../pykickstart/commands/key.py:61 ../pykickstart/commands/keyboard.py:56
+#: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/key.py:61
 #: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
@@ -622,9 +622,9 @@ msgstr ""
 "Dla polecenia „rescue” można podać tylko jedną opcję z --nomount lub --"
 "romount."
 
-#: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
-#: ../pykickstart/commands/partition.py:737
+#: ../pykickstart/commands/autopart.py:615
 #: ../pykickstart/commands/logvol.py:919
+#: ../pykickstart/commands/partition.py:737 ../pykickstart/commands/raid.py:787
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr "Można podać tylko jedną opcję z --pbkdf-time lub --pbkdf-iterations."
 
@@ -670,12 +670,12 @@ msgstr "Procent musi wynosić od 0 do 100."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:771
+#: ../pykickstart/parser.py:767
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr "Potencjalnie nieznana sekcja w %(lineno)s. wierszu: %(sectionName)s"
 
-#: ../pykickstart/parser.py:629 ../pykickstart/parser.py:670
+#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "Sekcja %s nie kończy się na %%end."
@@ -865,8 +865,8 @@ msgstr "Polecenie dołączania do obszaru „join” powinno być podawane tylko
 msgid "The syspurpose command does not take positional arguments!"
 msgstr "Polecenie syspurpose nie przyjmuje parametrów pozycyjnych."
 
-#: ../tools/ksverdiff.py:66 ../tools/ksflatten.py:52 ../tools/ksvalidator.py:94
-#: ../tools/ksshell.py:167
+#: ../tools/ksflatten.py:52 ../tools/ksshell.py:168 ../tools/ksvalidator.py:94
+#: ../tools/ksverdiff.py:66
 #, python-format
 msgid "The version %s is not supported by pykickstart"
 msgstr "Wersja %s nie jest obsługiwana przez program pykickstart"
@@ -894,32 +894,30 @@ msgstr "Wystąpił problem podczas odczytywania z %s. wiersza pliku kickstart"
 msgid "Thin volumes cannot be cached"
 msgstr "Cienkie woluminy nie mogą być w pamięci podręcznej"
 
-#: ../pykickstart/parser.py:98
+#: ../pykickstart/parser.py:94
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
 msgstr "Nie można otworzyć pliku %%ksappend: %s"
 
-#: ../pykickstart/parser.py:126 ../pykickstart/parser.py:826
+#: ../pykickstart/parser.py:122 ../pykickstart/parser.py:822
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "Nie można otworzyć wejściowego pliku kickstart: %s"
 
-#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/key.py:64
-#: ../pykickstart/commands/mount.py:175
-#: ../pykickstart/commands/langsupport.py:59
-#: ../pykickstart/commands/keyboard.py:59
-#: ../pykickstart/commands/keyboard.py:167
+#: ../pykickstart/commands/btrfs.py:218 ../pykickstart/commands/device.py:118
+#: ../pykickstart/commands/device.py:147
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
-#: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/device.py:118
-#: ../pykickstart/commands/device.py:147
-#: ../pykickstart/commands/partition.py:439
-#: ../pykickstart/commands/updates.py:69 ../pykickstart/commands/mouse.py:68
-#: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/btrfs.py:218
-#: ../pykickstart/commands/rootpw.py:88 ../pykickstart/commands/rootpw.py:145
-#: ../pykickstart/commands/timezone.py:82 ../pykickstart/commands/sshpw.py:163
-#: ../pykickstart/commands/logvol.py:470
 #: ../pykickstart/commands/iscsiname.py:61
+#: ../pykickstart/commands/keyboard.py:59
+#: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/key.py:64
+#: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/langsupport.py:59
+#: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:175
+#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
+#: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
+#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:102
+#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/updates.py:69
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
 msgstr "Nieoczekiwane parametry polecenia %(command)s: %(options)s"
@@ -934,12 +932,12 @@ msgstr "Nieoczekiwane parametry dla polecenia nvdimm: %(arguments)s"
 msgid "Unknown command %s"
 msgstr "Nieznane polecenie %s"
 
-#: ../pykickstart/base.py:409
+#: ../pykickstart/base.py:401
 #, python-format
 msgid "Unknown command: %s"
 msgstr "Nieznane polecenie: %s"
 
-#: ../pykickstart/parser.py:765
+#: ../pykickstart/parser.py:761
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Nieznana sekcja kickstart: %s"
@@ -950,15 +948,15 @@ msgid "Unsupported realm '%s' command"
 msgstr "Nieobsługiwane polecenie „%s” obszaru"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:133 ../pykickstart/version.py:142
-#: ../pykickstart/version.py:145 ../pykickstart/version.py:161
-#: ../pykickstart/version.py:213
+#: ../pykickstart/version.py:134 ../pykickstart/version.py:143
+#: ../pykickstart/version.py:146 ../pykickstart/version.py:162
+#: ../pykickstart/version.py:214
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Podano nieobsługiwaną wersję: %s"
 
 #. Errors should just dump you to the prompt anyway.
-#: ../tools/ksshell.py:179
+#: ../tools/ksshell.py:180
 #, python-format
 msgid ""
 "Warning:  The following error occurred when processing the input file:\n"
@@ -984,7 +982,7 @@ msgstr "Zapisywanie spłaszczonej konfiguracji w WYJŚCIU"
 msgid "You must specify two syntax versions."
 msgstr "Należy podać dwie wersje składni."
 
-#: ../tools/ksshell.py:152
+#: ../tools/ksshell.py:153
 msgid "a basis file to use for seeding the kickstart data (optional)"
 msgstr "podstawowy plik do użycia do wysyłania danych kickstart (opcjonalnie)"
 
@@ -1035,7 +1033,7 @@ msgstr "wyłączenie po pierwszym błędzie lub ostrzeżeniu"
 msgid "invalid boolean value: %r"
 msgstr "nieprawidłowa wartość zmiennej logicznej: %r"
 
-#: ../tools/ksverdiff.py:49 ../tools/ksvalidator.py:61
+#: ../tools/ksvalidator.py:61 ../tools/ksverdiff.py:49
 msgid "list the available versions of kickstart syntax"
 msgstr "wyświetlenie listy dostępnych wersji składni plików kickstart"
 
@@ -1048,14 +1046,14 @@ msgstr "przetwarzanie dołączonych plików, kiedy istnieje %%include"
 msgid "show this help message and exit"
 msgstr "wyświetla ten komunikat pomocy i kończy działanie"
 
-#: ../tools/ksshell.py:154
+#: ../tools/ksshell.py:155
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
 "położenie do zapisania ukończonego pliku kickstart, albo standardowe "
 "wyjście, jeśli nie podano"
 
-#: ../tools/ksvalidator.py:63 ../tools/ksshell.py:156
+#: ../tools/ksshell.py:157 ../tools/ksvalidator.py:63
 msgid "version of kickstart syntax to validate against"
 msgstr "wersja składni kickstart, jaką sprawdzać"
 

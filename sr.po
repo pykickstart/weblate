@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 11:11-0800\n"
+"POT-Creation-Date: 2021-05-10 08:48-0700\n"
 "PO-Revision-Date: 2015-05-07 09:19+0000\n"
 "Last-Translator: Momcilo Medic <medicmomcilo@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/pykickstart/"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr ""
 
-#: ../pykickstart/base.py:252
+#: ../pykickstart/base.py:251
 #, python-format
 msgid "%s has been removed."
 msgstr ""
@@ -60,13 +60,13 @@ msgstr "--default и --nobase не могу бити употребљени за
 msgid "--default and --nocore cannot be used together"
 msgstr "--default и --nocore не могу бити употребљени заједно"
 
-#: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/partition.py:685
 #: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
+#: ../pykickstart/commands/partition.py:685 ../pykickstart/commands/raid.py:725
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr ""
 
-#: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
 #: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
+#: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:722
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr ""
 
@@ -156,13 +156,13 @@ msgstr "Партиција са тачком монтирања %s је већ �
 msgid "A repo with the name %s has already been defined."
 msgstr "Ризница са именом %s је већ дефинисана."
 
-#: ../pykickstart/commands/keyboard.py:163 ../pykickstart/commands/rootpw.py:85
-#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshpw.py:160
+#: ../pykickstart/commands/keyboard.py:163 ../pykickstart/commands/rootpw.py:82
+#: ../pykickstart/commands/rootpw.py:139 ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
 msgstr "Један аргумент се очекује за команду %s"
 
-#: ../pykickstart/commands/user.py:202
+#: ../pykickstart/commands/user.py:199
 #, python-format
 msgid "A user with the name %s has already been defined."
 msgstr "Корисник са именом %s је већ дефинисан."
@@ -226,8 +226,8 @@ msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr "Лош формат --bridgeopts, очекиване се key=value опције одвојене са ','"
 
-#: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/partition.py:749
 #: ../pykickstart/commands/logvol.py:931
+#: ../pykickstart/commands/partition.py:749 ../pykickstart/commands/raid.py:799
 msgid "Btrfs file system is not supported"
 msgstr ""
 
@@ -254,17 +254,17 @@ msgid "Empty string is not a valid activation key."
 msgstr ""
 
 #. pylint: disable=no-member
-#: ../pykickstart/load.py:81 ../pykickstart/load.py:84
+#: ../pykickstart/load.py:80 ../pykickstart/load.py:83
 #, python-format
 msgid "Error accessing URL \"%s\""
 msgstr "Грешка код приступања URL-у \"%s\""
 
-#: ../pykickstart/load.py:109
+#: ../pykickstart/load.py:104
 #, python-format
 msgid "Error copying file: %s"
 msgstr "Грешка при копирању датотеке: %s"
 
-#: ../pykickstart/load.py:99
+#: ../pykickstart/load.py:94
 #, python-format
 msgid "Error opening file: %s"
 msgstr "Грешка при отварању датотеке: %s"
@@ -276,12 +276,12 @@ msgid ""
 "%(version)s"
 msgstr ""
 
-#: ../pykickstart/load.py:79
+#: ../pykickstart/load.py:78
 #, python-format
 msgid "Error securely accessing URL \"%s\""
 msgstr "Грешка код обезбеђеног приступања URL-у \"%s\""
 
-#: ../pykickstart/load.py:66
+#: ../pykickstart/load.py:65
 #, python-format
 msgid "Error writing file \"%s\":"
 msgstr "Грешка при упису датотеке \"%s\":"
@@ -319,7 +319,7 @@ msgstr "Општа грешка у улазној датотеци:  %s"
 msgid "General kickstart error in input file"
 msgstr "Општа kickstart грешка у улазној датотеци"
 
-#: ../pykickstart/parser.py:450
+#: ../pykickstart/parser.py:446
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Група не може назначити и --nodefaults и --optional"
 
@@ -336,7 +336,7 @@ msgstr ""
 "Ако мрежни --interfacename почиње са 'vlan', исправан vlan id би треба ићи "
 "после тога."
 
-#: ../pykickstart/base.py:221
+#: ../pykickstart/base.py:220
 #, python-format
 msgid ""
 "Ignoring deprecated command on line %(lineno)s:  The %(cmd)s command has "
@@ -379,12 +379,12 @@ msgstr ""
 "kickstart-у. Молим измените вашу kickstart датотеку тако да уклоните било "
 "које опције."
 
-#: ../pykickstart/parser.py:93
+#: ../pykickstart/parser.py:89
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
 msgstr "Неважећи урл за %%ksappend: %s"
 
-#: ../tools/ksshell.py:224
+#: ../tools/ksshell.py:225
 #, python-format
 msgid "Internal command %s not recognized."
 msgstr "Интерна команда %s није препозната."
@@ -431,8 +431,8 @@ msgid ""
 "Kickstart command %(command)s does not accept empty parameter %(parameter)s"
 msgstr ""
 
-#: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/autopart.py:47
-#: ../pykickstart/commands/hmc.py:46 ../pykickstart/commands/cdrom.py:41
+#: ../pykickstart/commands/autopart.py:47 ../pykickstart/commands/cdrom.py:41
+#: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/hmc.py:46
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
 msgstr "Kickstart команда %s не захтева аргументе."
@@ -442,7 +442,7 @@ msgstr "Kickstart команда %s не захтева аргументе."
 msgid "Kickstart command %s only takes one argument"
 msgstr "Kickstart команда %s има само један аргумент"
 
-#: ../pykickstart/commands/key.py:61 ../pykickstart/commands/keyboard.py:56
+#: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/key.py:61
 #: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
@@ -597,9 +597,9 @@ msgid ""
 msgstr ""
 "Само једно од --nomount и --romount могу бити назначени за rescue команду."
 
-#: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
-#: ../pykickstart/commands/partition.py:737
+#: ../pykickstart/commands/autopart.py:615
 #: ../pykickstart/commands/logvol.py:919
+#: ../pykickstart/commands/partition.py:737 ../pykickstart/commands/raid.py:787
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
 
@@ -644,12 +644,12 @@ msgstr "Проценти морају бити између 0 и 100."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:771
+#: ../pykickstart/parser.py:767
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
 
-#: ../pykickstart/parser.py:629 ../pykickstart/parser.py:670
+#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "Одељак %s не завршава са %%end."
@@ -821,8 +821,8 @@ msgstr "realm команда 'join' би требала бити назначе�
 msgid "The syspurpose command does not take positional arguments!"
 msgstr "Kickstart команда %s не захтева аргументе."
 
-#: ../tools/ksverdiff.py:66 ../tools/ksflatten.py:52 ../tools/ksvalidator.py:94
-#: ../tools/ksshell.py:167
+#: ../tools/ksflatten.py:52 ../tools/ksshell.py:168 ../tools/ksvalidator.py:94
+#: ../tools/ksverdiff.py:66
 #, python-format
 msgid "The version %s is not supported by pykickstart"
 msgstr "pykickstart не подржава верзију %s "
@@ -849,32 +849,30 @@ msgstr "Десио се проблем читајући линију %s kickstar
 msgid "Thin volumes cannot be cached"
 msgstr ""
 
-#: ../pykickstart/parser.py:98
+#: ../pykickstart/parser.py:94
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
 msgstr "Није могуће отворити %%ksappend датотеку: %s"
 
-#: ../pykickstart/parser.py:126 ../pykickstart/parser.py:826
+#: ../pykickstart/parser.py:122 ../pykickstart/parser.py:822
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "Није могуће отворити kickstart датотеку: %s"
 
-#: ../pykickstart/commands/sshkey.py:102 ../pykickstart/commands/key.py:64
-#: ../pykickstart/commands/mount.py:175
-#: ../pykickstart/commands/langsupport.py:59
-#: ../pykickstart/commands/keyboard.py:59
-#: ../pykickstart/commands/keyboard.py:167
+#: ../pykickstart/commands/btrfs.py:218 ../pykickstart/commands/device.py:118
+#: ../pykickstart/commands/device.py:147
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
-#: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/device.py:118
-#: ../pykickstart/commands/device.py:147
-#: ../pykickstart/commands/partition.py:439
-#: ../pykickstart/commands/updates.py:69 ../pykickstart/commands/mouse.py:68
-#: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/btrfs.py:218
-#: ../pykickstart/commands/rootpw.py:88 ../pykickstart/commands/rootpw.py:145
-#: ../pykickstart/commands/timezone.py:82 ../pykickstart/commands/sshpw.py:163
-#: ../pykickstart/commands/logvol.py:470
 #: ../pykickstart/commands/iscsiname.py:61
+#: ../pykickstart/commands/keyboard.py:59
+#: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/key.py:64
+#: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/langsupport.py:59
+#: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:175
+#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
+#: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
+#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:102
+#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/updates.py:69
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
 msgstr "Неочекивани аргументи за %(command)s команду: %(options)s"
@@ -889,12 +887,12 @@ msgstr ""
 msgid "Unknown command %s"
 msgstr ""
 
-#: ../pykickstart/base.py:409
+#: ../pykickstart/base.py:401
 #, python-format
 msgid "Unknown command: %s"
 msgstr "Непозната наредба: %s"
 
-#: ../pykickstart/parser.py:765
+#: ../pykickstart/parser.py:761
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Непознат kickstart одељак: %s"
@@ -905,15 +903,15 @@ msgid "Unsupported realm '%s' command"
 msgstr "Неподржана realm команда '%s'"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:133 ../pykickstart/version.py:142
-#: ../pykickstart/version.py:145 ../pykickstart/version.py:161
-#: ../pykickstart/version.py:213
+#: ../pykickstart/version.py:134 ../pykickstart/version.py:143
+#: ../pykickstart/version.py:146 ../pykickstart/version.py:162
+#: ../pykickstart/version.py:214
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Назначена је неподржана верзија: %s"
 
 #. Errors should just dump you to the prompt anyway.
-#: ../tools/ksshell.py:179
+#: ../tools/ksshell.py:180
 #, python-format
 msgid ""
 "Warning:  The following error occurred when processing the input file:\n"
@@ -938,7 +936,7 @@ msgstr "Испишти спљоштена подешавања на ИЗЛАЗ"
 msgid "You must specify two syntax versions."
 msgstr "Морате навести две верзије синтаксе."
 
-#: ../tools/ksshell.py:152
+#: ../tools/ksshell.py:153
 msgid "a basis file to use for seeding the kickstart data (optional)"
 msgstr "основна датотека за употребу при дељењу kickstart података (опционо)"
 
@@ -989,7 +987,7 @@ msgstr "заустави после прве грешке или упозоре�
 msgid "invalid boolean value: %r"
 msgstr ""
 
-#: ../tools/ksverdiff.py:49 ../tools/ksvalidator.py:61
+#: ../tools/ksvalidator.py:61 ../tools/ksverdiff.py:49
 msgid "list the available versions of kickstart syntax"
 msgstr "списак доступних верзија kickstart синтаксе"
 
@@ -1002,13 +1000,13 @@ msgstr "обради датотеке за укључивање када је %%
 msgid "show this help message and exit"
 msgstr ""
 
-#: ../tools/ksshell.py:154
+#: ../tools/ksshell.py:155
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
 "локација за упис завршене kickstart датотеке, или stdout ако није наведена"
 
-#: ../tools/ksvalidator.py:63 ../tools/ksshell.py:156
+#: ../tools/ksshell.py:157 ../tools/ksvalidator.py:63
 msgid "version of kickstart syntax to validate against"
 msgstr "верзија kickstart синтаксе којом се оверава"
 
