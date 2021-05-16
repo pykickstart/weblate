@@ -12,17 +12,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2021-03-04 15:28+0000\n"
+"PO-Revision-Date: 2021-05-17 10:02+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
-"pykickstart/master/pl/>\n"
+"pykickstart/rhel9-branch/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -688,8 +688,7 @@ msgstr "Należy podać parametr „when” migawki."
 #, python-format
 msgid "Snapshot origin %s must be specified by VG/LV!"
 msgstr ""
-"Należy podać pochodzenie migawki %s według grupy woluminów/woluminu "
-"logicznego."
+"Należy podać źródło migawki %s według grupy woluminów/woluminu logicznego."
 
 #: ../pykickstart/commands/snapshot.py:136
 #, python-format
@@ -739,7 +738,7 @@ msgstr "Polecenia „%s” i „mount” nie mogą być używane w tym samym c
 #: ../pykickstart/commands/partition.py:655
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
-msgstr "Opcja --fstype=tmpfs nie może być używana razem z --grow lub --maxsize"
+msgstr "Opcja --fstype=tmpfs nie może być używana razem z --grow lub --maxsize"
 
 #: ../pykickstart/commands/module.py:137
 msgid "The enable module command does not take position arguments!"
