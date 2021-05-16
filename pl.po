@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2020-05-25 10:40+0000\n"
+"PO-Revision-Date: 2021-05-17 10:02+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/pl/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -726,7 +726,7 @@ msgstr ""
 #: ../pykickstart/commands/partition.py:655
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
-msgstr "Opcja --fstype=tmpfs nie może być używana razem z --grow lub --maxsize"
+msgstr "Opcja --fstype=tmpfs nie może być używana razem z --grow lub --maxsize"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
@@ -860,11 +860,11 @@ msgstr "Nieprawidłowy parametr „when” migawki: %s"
 
 #: ../pykickstart/commands/snapshot.py:114
 msgid "Snapshot origin must be specified!"
-msgstr "Należy podać pochodzenie migawki."
+msgstr "Należy podać źródło migawki."
 
 #: ../pykickstart/commands/snapshot.py:117
 msgid "Snapshot origin can be specified only once!"
-msgstr "Pochodzenie migawki może być podane tylko raz."
+msgstr "Źródło migawki może być podane tylko raz."
 
 #: ../pykickstart/commands/snapshot.py:127
 #, python-format
@@ -879,8 +879,7 @@ msgstr "Należy podać parametr „when” migawki."
 #, python-format
 msgid "Snapshot origin %s must be specified by VG/LV!"
 msgstr ""
-"Należy podać pochodzenie migawki %s według grupy woluminów/woluminu "
-"logicznego."
+"Należy podać źródło migawki %s według grupy woluminów/woluminu logicznego."
 
 #: ../pykickstart/commands/snapshot.py:141
 #, python-format
