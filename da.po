@@ -15,16 +15,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2020-12-31 06:36+0000\n"
+"PO-Revision-Date: 2021-06-02 17:03+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/"
-"pykickstart/master/da/>\n"
+"pykickstart/rhel9-branch/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -702,6 +702,8 @@ msgid ""
 "The following options were added to the %(command_name)s command in "
 "%(version)s:"
 msgstr ""
+"Følgende indstillinger blev tilføjet til kommandoen %(command_name)s i "
+"%(version)s:"
 
 #: ../tools/ksverdiff.py:110
 #, python-format
@@ -709,6 +711,8 @@ msgid ""
 "The following options were deprecated from the %(command_name)s command in "
 "%(version)s:"
 msgstr ""
+"Følgende indstillinger blev forældet fra kommandoen %(command_name)s i "
+"%(version)s:"
 
 #: ../tools/ksverdiff.py:114
 #, python-format
@@ -716,6 +720,8 @@ msgid ""
 "The following options were removed from the %(command_name)s command in "
 "%(version)s:"
 msgstr ""
+"Følgende indstillinger blev fjernet fra kommandoen %(command_name)s i "
+"%(version)s:"
 
 #: ../pykickstart/errors.py:70
 #, python-format
