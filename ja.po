@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-10 08:48-0700\n"
+"POT-Creation-Date: 2021-06-22 14:36-0700\n"
 "PO-Revision-Date: 2018-09-11 02:08+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/pykickstart/"
@@ -120,7 +120,7 @@ msgstr ""
 "名前 %(name)s および デバイス %(devices)s を持つ DM RAID デバイスは、すでに定"
 "義されています。"
 
-#: ../pykickstart/commands/fcoe.py:143
+#: ../pykickstart/commands/fcoe.py:146
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
 msgstr "%s という名前の FCOE デバイスはすでに定義されています。"
@@ -182,7 +182,7 @@ msgstr "%s コマンドには、引数が 1 つ必要です。"
 msgid "A user with the name %s has already been defined."
 msgstr "%s という名前のユーザーはすでに定義されています。"
 
-#: ../pykickstart/commands/volgroup.py:180
+#: ../pykickstart/commands/volgroup.py:183
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
 msgstr "%s という名前の volgroup はすでに定義されています。"
@@ -254,7 +254,8 @@ msgstr ""
 "あります。 "
 
 #: ../pykickstart/commands/logvol.py:931
-#: ../pykickstart/commands/partition.py:749 ../pykickstart/commands/raid.py:799
+#: ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/partition.py:781 ../pykickstart/commands/raid.py:799
 msgid "Btrfs file system is not supported"
 msgstr "Btrfs ファイルシステムはサポートしていません"
 
@@ -502,7 +503,7 @@ msgstr "設定を解釈するのに使用するキックスタートのバージ
 msgid "Members may not be specified for preexisting RAID device"
 msgstr "既存の RAID デバイスにはメンバーが指定されていません。"
 
-#: ../pykickstart/commands/volgroup.py:172
+#: ../pykickstart/commands/volgroup.py:175
 msgid "Members may not be specified for preexisting volgroup"
 msgstr "既存の volgroup にメンバーを指定することはできません。"
 
@@ -897,12 +898,12 @@ msgstr "バージョン %s は kickstart でサポートされていません。
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr "vlan id は、vlan id の範囲 %(minimum)d-%(maximum)d の外にあります。"
 
-#: ../pykickstart/commands/volgroup.py:219
+#: ../pykickstart/commands/volgroup.py:222
 msgid "The volgroup and autopart commands can't be used at the same time"
 msgstr ""
 "volgroup コマンドと autopart コマンドを同時に使用することはできません。"
 
-#: ../pykickstart/commands/volgroup.py:223
+#: ../pykickstart/commands/volgroup.py:226
 msgid "The volgroup and mount commands can't be used at the same time"
 msgstr "volgroup コマンドと mount コマンドを同時に使用することはできません。"
 
@@ -969,9 +970,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "レルムの '%s' コマンドがありません。"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:134 ../pykickstart/version.py:143
-#: ../pykickstart/version.py:146 ../pykickstart/version.py:162
-#: ../pykickstart/version.py:214
+#: ../pykickstart/version.py:135 ../pykickstart/version.py:144
+#: ../pykickstart/version.py:147 ../pykickstart/version.py:163
+#: ../pykickstart/version.py:215
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "サポートされていないバージョンが指定されています: %s"
@@ -1077,11 +1078,11 @@ msgstr ""
 msgid "version of kickstart syntax to validate against"
 msgstr "検証対象の kickstart 構文のバージョン"
 
-#: ../pykickstart/commands/volgroup.py:167
+#: ../pykickstart/commands/volgroup.py:170
 msgid "volgroup must be given a VG name"
 msgstr "volgroup にボリュームグループ名を指定する必要があります。"
 
-#: ../pykickstart/commands/volgroup.py:170
+#: ../pykickstart/commands/volgroup.py:173
 msgid "volgroup must be given a list of partitions"
 msgstr "volgroup にパーティションの一覧を指定する必要があります。"
 

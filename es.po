@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-10 08:48-0700\n"
+"POT-Creation-Date: 2021-06-22 14:36-0700\n"
 "PO-Revision-Date: 2020-07-20 13:28+0000\n"
 "Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
@@ -119,7 +119,7 @@ msgstr ""
 "Ya se ha definido un dispositivo RAID DM de nombre %(name)s y dispositivos "
 "%(devices)s."
 
-#: ../pykickstart/commands/fcoe.py:143
+#: ../pykickstart/commands/fcoe.py:146
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
 msgstr "Ya se ha definido un dispositivo FCOE con nombre %s."
@@ -179,7 +179,7 @@ msgstr "Se espera un único argumento para %s"
 msgid "A user with the name %s has already been defined."
 msgstr "Ya se ha definido un usuario de nombre %s."
 
-#: ../pykickstart/commands/volgroup.py:180
+#: ../pykickstart/commands/volgroup.py:183
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
 msgstr "Ya se ha definido un grupo de volúmenes de nombre %s."
@@ -243,7 +243,8 @@ msgstr ""
 "separadas por ','"
 
 #: ../pykickstart/commands/logvol.py:931
-#: ../pykickstart/commands/partition.py:749 ../pykickstart/commands/raid.py:799
+#: ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/partition.py:781 ../pykickstart/commands/raid.py:799
 msgid "Btrfs file system is not supported"
 msgstr "No se admite el sistema de ficheros btrfs"
 
@@ -479,7 +480,7 @@ msgstr "Versión de kickstart a usar para interpretar la configuración"
 msgid "Members may not be specified for preexisting RAID device"
 msgstr "No se pueden indicar miembros para dispositivos RAID ya existentes"
 
-#: ../pykickstart/commands/volgroup.py:172
+#: ../pykickstart/commands/volgroup.py:175
 msgid "Members may not be specified for preexisting volgroup"
 msgstr "No se pueden indicar miembros para grupos ya existentes"
 
@@ -887,11 +888,11 @@ msgstr "pykickstart no admite la versión %s"
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr "El identificador de vlan está fuera del rango %(minimum)d-%(maximum)d."
 
-#: ../pykickstart/commands/volgroup.py:219
+#: ../pykickstart/commands/volgroup.py:222
 msgid "The volgroup and autopart commands can't be used at the same time"
 msgstr "No se pueden usar los comandos volgroup y autopart a la vez"
 
-#: ../pykickstart/commands/volgroup.py:223
+#: ../pykickstart/commands/volgroup.py:226
 msgid "The volgroup and mount commands can't be used at the same time"
 msgstr "No se pueden usar los comandos volgroup y mount a la vez"
 
@@ -958,9 +959,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Comando de dominio '%s' no soportado"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:134 ../pykickstart/version.py:143
-#: ../pykickstart/version.py:146 ../pykickstart/version.py:162
-#: ../pykickstart/version.py:214
+#: ../pykickstart/version.py:135 ../pykickstart/version.py:144
+#: ../pykickstart/version.py:147 ../pykickstart/version.py:163
+#: ../pykickstart/version.py:215
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Se especificó una versión no soportada: %s"
@@ -1065,11 +1066,11 @@ msgstr ""
 msgid "version of kickstart syntax to validate against"
 msgstr "versión de la sintaxis de kickstart con la cual validar"
 
-#: ../pykickstart/commands/volgroup.py:167
+#: ../pykickstart/commands/volgroup.py:170
 msgid "volgroup must be given a VG name"
 msgstr "debe pasarse a volgroup un nombre de grupo de volúmenes"
 
-#: ../pykickstart/commands/volgroup.py:170
+#: ../pykickstart/commands/volgroup.py:173
 msgid "volgroup must be given a list of partitions"
 msgstr "debe pasarse a volgroup una lista de particiones"
 

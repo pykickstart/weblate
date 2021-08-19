@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-10 08:48-0700\n"
+"POT-Creation-Date: 2021-06-22 14:36-0700\n"
 "PO-Revision-Date: 2021-03-05 16:01+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -114,7 +114,7 @@ msgid ""
 msgstr ""
 "Пристрій DM RAID із назвою %(name)s та пристрої %(devices)s вже визначено."
 
-#: ../pykickstart/commands/fcoe.py:143
+#: ../pykickstart/commands/fcoe.py:146
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
 msgstr "Пристрій FCOE з назвою %s вже визначено."
@@ -174,7 +174,7 @@ msgstr "Команді %s слід передати один аргумент"
 msgid "A user with the name %s has already been defined."
 msgstr "Користувача з іменем %s вже визначено."
 
-#: ../pykickstart/commands/volgroup.py:180
+#: ../pykickstart/commands/volgroup.py:183
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
 msgstr "Група томів з назвою %s вже було визначено."
@@ -238,7 +238,8 @@ msgstr ""
 "відокремлені «,»"
 
 #: ../pykickstart/commands/logvol.py:931
-#: ../pykickstart/commands/partition.py:749 ../pykickstart/commands/raid.py:799
+#: ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/partition.py:781 ../pykickstart/commands/raid.py:799
 msgid "Btrfs file system is not supported"
 msgstr "Підтримки файлової системи BTRFS не передбачено"
 
@@ -476,7 +477,7 @@ msgstr "Версія kickstart, якою слід скористатися дл�
 msgid "Members may not be specified for preexisting RAID device"
 msgstr "Учасників можна не вказувати для пристрою RAID, що вже існує"
 
-#: ../pykickstart/commands/volgroup.py:172
+#: ../pykickstart/commands/volgroup.py:175
 msgid "Members may not be specified for preexisting volgroup"
 msgstr "Учасників можна не вказувати для групи томів, що вже існує"
 
@@ -867,11 +868,11 @@ msgstr ""
 "Ідентифікатор vlan не належить до діапазону ідентифікаторів від %(minimum)d "
 "до %(maximum)d."
 
-#: ../pykickstart/commands/volgroup.py:219
+#: ../pykickstart/commands/volgroup.py:222
 msgid "The volgroup and autopart commands can't be used at the same time"
 msgstr "Команди volgroup і autopart не можна використовувати одночасно"
 
-#: ../pykickstart/commands/volgroup.py:223
+#: ../pykickstart/commands/volgroup.py:226
 msgid "The volgroup and mount commands can't be used at the same time"
 msgstr "Команди volgroup і mount не можна використовувати одночасно"
 
@@ -938,9 +939,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Непідтримувана команда realm, «%s»"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:134 ../pykickstart/version.py:143
-#: ../pykickstart/version.py:146 ../pykickstart/version.py:162
-#: ../pykickstart/version.py:214
+#: ../pykickstart/version.py:135 ../pykickstart/version.py:144
+#: ../pykickstart/version.py:147 ../pykickstart/version.py:163
+#: ../pykickstart/version.py:215
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Вказано непідтримувану версію: %s"
@@ -1048,11 +1049,11 @@ msgstr ""
 msgid "version of kickstart syntax to validate against"
 msgstr "версія синтаксису kickstart для перевірки відповідності"
 
-#: ../pykickstart/commands/volgroup.py:167
+#: ../pykickstart/commands/volgroup.py:170
 msgid "volgroup must be given a VG name"
 msgstr "volgroup слід передати назву VG"
 
-#: ../pykickstart/commands/volgroup.py:170
+#: ../pykickstart/commands/volgroup.py:173
 msgid "volgroup must be given a list of partitions"
 msgstr "volgroup слід передати список розділів"
 
