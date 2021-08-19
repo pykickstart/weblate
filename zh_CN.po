@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-10 08:48-0700\n"
+"POT-Creation-Date: 2021-06-22 14:36-0700\n"
 "PO-Revision-Date: 2018-09-13 02:10+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/"
@@ -113,7 +113,7 @@ msgid ""
 "been defined."
 msgstr "已定义名为 %(name)s  的 DM RAID 设备 %(devices)s。"
 
-#: ../pykickstart/commands/fcoe.py:143
+#: ../pykickstart/commands/fcoe.py:146
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
 msgstr "已定义名为 %s 的 FCOE 设备。"
@@ -172,7 +172,7 @@ msgstr "%s 命令应只有一个参数"
 msgid "A user with the name %s has already been defined."
 msgstr "已定义名为 %s 的用户。"
 
-#: ../pykickstart/commands/volgroup.py:180
+#: ../pykickstart/commands/volgroup.py:183
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
 msgstr "已定义名为 %s 的 volgroup。"
@@ -233,7 +233,8 @@ msgid ""
 msgstr "--bridgeopts 的错误格式，应为使用 ',' 的 key=value 选项"
 
 #: ../pykickstart/commands/logvol.py:931
-#: ../pykickstart/commands/partition.py:749 ../pykickstart/commands/raid.py:799
+#: ../pykickstart/commands/partition.py:749
+#: ../pykickstart/commands/partition.py:781 ../pykickstart/commands/raid.py:799
 msgid "Btrfs file system is not supported"
 msgstr "不支持 Btrfs 文件系统"
 
@@ -463,7 +464,7 @@ msgstr "解析 config 的 kickstart 版本"
 msgid "Members may not be specified for preexisting RAID device"
 msgstr "不得为已有 RAID 设备指定任何成员"
 
-#: ../pykickstart/commands/volgroup.py:172
+#: ../pykickstart/commands/volgroup.py:175
 msgid "Members may not be specified for preexisting volgroup"
 msgstr "不得为已有 volgroup 指定任何成员"
 
@@ -815,11 +816,11 @@ msgstr "%s版本不被pykickstart支持"
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr "vlan id 不在 %(minimum)d-%(maximum)d vlan id 范围内。"
 
-#: ../pykickstart/commands/volgroup.py:219
+#: ../pykickstart/commands/volgroup.py:222
 msgid "The volgroup and autopart commands can't be used at the same time"
 msgstr "无法同时使用 volgroup 和 autopart 命令"
 
-#: ../pykickstart/commands/volgroup.py:223
+#: ../pykickstart/commands/volgroup.py:226
 msgid "The volgroup and mount commands can't be used at the same time"
 msgstr "不能同时使用 volgroup 和 mount 命令"
 
@@ -886,9 +887,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "不支持的 realm '%s' 命令"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:134 ../pykickstart/version.py:143
-#: ../pykickstart/version.py:146 ../pykickstart/version.py:162
-#: ../pykickstart/version.py:214
+#: ../pykickstart/version.py:135 ../pykickstart/version.py:144
+#: ../pykickstart/version.py:147 ../pykickstart/version.py:163
+#: ../pykickstart/version.py:215
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "指定了不支持的版本：%s"
@@ -988,11 +989,11 @@ msgstr "未给出写入完成的 kickstart 文件位置，或者标准输出"
 msgid "version of kickstart syntax to validate against"
 msgstr "kickstart语法版本证实冲突"
 
-#: ../pykickstart/commands/volgroup.py:167
+#: ../pykickstart/commands/volgroup.py:170
 msgid "volgroup must be given a VG name"
 msgstr "必须为 volgroup 指定一个 VG 名称"
 
-#: ../pykickstart/commands/volgroup.py:170
+#: ../pykickstart/commands/volgroup.py:173
 msgid "volgroup must be given a list of partitions"
 msgstr "必须为 volgroup 指定分区列表"
 
