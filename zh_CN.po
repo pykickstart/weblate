@@ -16,15 +16,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2019-05-21 05:26+0000\n"
-"Last-Translator: Tony Fu <tfu@redhat.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/pykickstart/language/zh_CN/)\n"
+"PO-Revision-Date: 2021-09-02 10:04+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
+"projects/pykickstart/rhel7-branch/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -34,8 +35,8 @@ msgid ""
 " releases, which will result in a fatal error from kickstart.  Please modify"
 " your kickstart file to remove this command."
 msgstr ""
-"忽略第%(lineno)s: 行的过时命令 %(cmd)s 已经过时,不再起作用.这个会导致 kickstart "
-"执行时发生严重的指令可能会在未来的发行版本中删除.请您修改您的kickstart 文件,删除该命令."
+"忽略第 %(lineno)s 行中以弃用的命令：命令 %(cmd)s 已经弃用，不再有任何作用。在将来的发行本中会移除这个命令，可能会导致 "
+"kickstart 执行时发生严重错误。请修改您的 kickstart 文件删除该命令。"
 
 #: ../pykickstart/base.py:418
 #, python-format
@@ -45,7 +46,7 @@ msgstr "未知命令：%s"
 #: ../pykickstart/parser.py:88
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
-msgstr "非法url  %%ksappend: %s"
+msgstr "%%ksappend 的 非法url ：%s"
 
 #: ../pykickstart/parser.py:93
 #, python-format
@@ -60,16 +61,16 @@ msgstr "无法打开 %%ksappend file"
 #: ../pykickstart/parser.py:134 ../pykickstart/parser.py:762
 #, python-format
 msgid "Unable to open input kickstart file: %s"
-msgstr "无法打开 input kickstart 文件：%s "
+msgstr "无法打开 input kickstart 文件：%s"
 
 #: ../pykickstart/parser.py:385
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr "组都不能注明--nodefaults 和--optional"
+msgstr "组无法同时指定--nodefaults 和--optional"
 
 #: ../pykickstart/parser.py:566 ../pykickstart/parser.py:607
 #, python-format
 msgid "Section %s does not end with %%end."
-msgstr "区域 %s 未在 %%end 结束。"
+msgstr "区段 %s 没有使用 %%end 结束。"
 
 #: ../pykickstart/parser.py:701
 #, python-format
@@ -91,7 +92,7 @@ msgstr "行 %(lineno)s 中可见可能的位置区段：%(sectionName)s"
 #: ../pykickstart/version.py:196
 #, python-format
 msgid "Unsupported version specified: %s"
-msgstr "指定了不支持的版本: %s"
+msgstr "指定了不支持的版本：%s"
 
 #: ../pykickstart/options.py:82
 #, python-format
@@ -125,7 +126,7 @@ msgid ""
 " releases, which will result in a fatal error from kickstart.  Please modify"
 " your kickstart file to remove this option."
 msgstr ""
-"忽略第 %(lineno)s: 行中的过时选项:%(option)s  选项已经过时，不再起任何作用。这个选项可能会在未来的版本中被删除，这会导致 "
+"忽略第 %(lineno)s 行中的已弃用选项：%(option)s  选项已经弃用，不再起任何作用。这个选项可能会在未来的版本中被删除，这会导致 "
 "kickstart 运行时产生严重错误。请修改您的 kickstart 文件，删除该选项。"
 
 #: ../pykickstart/options.py:136
@@ -157,7 +158,7 @@ msgid ""
 "\n"
 "%(msg)s\n"
 msgstr ""
-"kickstart文件的第%(lineno)s 行发生问题:\n"
+"kickstart文件的第 %(lineno)s 行发生问题:\n"
 "\n"
 "%(msg)s\n"
 
@@ -402,7 +403,7 @@ msgstr "无效的 action 参数 (从 '%(valid_arguments)s' 中选择)"
 #: ../pykickstart/commands/nvdimm.py:138
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
-msgstr "只能使用 --namespace 和 --blockdevs 设备参数中的一个。"
+msgstr "只能使用 --namespace 和 --blockdevs 设备参数中的一个"
 
 #: ../pykickstart/commands/nvdimm.py:144
 #, python-format
@@ -515,7 +516,7 @@ msgstr "不能同时使用 raid 和 mount 命令"
 #: ../pykickstart/commands/raid.py:511 ../pykickstart/commands/logvol.py:569
 #: ../pykickstart/commands/partition.py:507
 msgid "--mkfsoptions with --noformat has no effect."
-msgstr "使用 --noformat 的 --mkfsoptions 无效"
+msgstr "使用 --noformat 的 --mkfsoptions 无效。"
 
 #: ../pykickstart/commands/raid.py:514 ../pykickstart/commands/logvol.py:572
 #: ../pykickstart/commands/partition.py:510
@@ -581,7 +582,7 @@ msgstr "百分比值 0 到 100 之间。"
 
 #: ../pykickstart/commands/logvol.py:540
 msgid "--size and --percent cannot both be specified for the same logvol"
-msgstr "无法为同一 logvol 同时指定 --size 和 --percent "
+msgstr "无法为同一 logvol 同时指定 --size 和 --percent"
 
 #: ../pykickstart/commands/logvol.py:576
 msgid "Adding a cache to an existing logical volume is not supported"
@@ -725,7 +726,7 @@ msgstr "已定义使用挂载点为 %s 的 btrfs 卷。"
 
 #: ../pykickstart/commands/btrfs.py:198
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
-msgstr "使用 --noformat 或者 --useexisting 的 --mkfsoptions 无效"
+msgstr "使用 --noformat 或者 --useexisting 的 --mkfsoptions 无效。"
 
 #: ../pykickstart/commands/timezone.py:140
 #: ../pykickstart/commands/timezone.py:175
@@ -831,11 +832,11 @@ msgstr "内部命令 %s 无法识别。"
 
 #: ../tools/ksverdiff:49 ../tools/ksvalidator:59
 msgid "list the available versions of kickstart syntax"
-msgstr "列出kickstart的可用符号版本"
+msgstr "列出 kickstart 的可用句法版本"
 
 #: ../tools/ksverdiff:60
 msgid "You must specify two syntax versions."
-msgstr "你必须指定两个符号版本。"
+msgstr "必须指定两个句法版本。"
 
 #: ../tools/ksverdiff:74
 #, python-format
@@ -845,7 +846,7 @@ msgstr "以下命令在 %s 中被移除："
 #: ../tools/ksverdiff:77
 #, python-format
 msgid "The following commands were deprecated in %s:"
-msgstr "以下命令在 %s 中不推荐："
+msgstr "以下命令在 %s 中已弃用："
 
 #: ../tools/ksverdiff:80
 #, python-format
