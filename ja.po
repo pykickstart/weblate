@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2021-09-01 08:51+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2021-09-02 09:04+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel9-branch/ja/>\n"
 "Language: ja\n"
@@ -666,9 +666,7 @@ msgstr "0 から 100 の間のパーセンテージを入れてください。"
 #: ../pykickstart/parser.py:771
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
-msgstr ""
-"%(lineno)s 行に、不明な可能性があるセクションが見つかりました: "
-"%(sectionName)s"
+msgstr "%(lineno)s 行に、不明な可能性があるセクションが見つかりました: %(sectionName)s"
 
 #: ../pykickstart/parser.py:629 ../pykickstart/parser.py:670
 #, python-format
@@ -740,12 +738,12 @@ msgstr "有効なモジュールコマンドは、位置引数を取りません
 #: ../tools/ksverdiff.py:84
 #, python-format
 msgid "The following commands were added in %s:"
-msgstr "次のコマンドは、%s で追加されました。"
+msgstr "次のコマンドは、%s で追加されました:"
 
 #: ../tools/ksverdiff.py:79
 #, python-format
 msgid "The following commands were deprecated in %s:"
-msgstr "次のコマンドは、%s で廃止予定になりました。"
+msgstr "次のコマンドは、%s で廃止予定になりました:"
 
 #: ../tools/ksverdiff.py:73
 #, python-format
@@ -757,26 +755,21 @@ msgstr "次のコマンドは %s で削除されました。"
 msgid ""
 "The following options were added to the %(command_name)s command in "
 "%(version)s:"
-msgstr ""
-"次のオプションは、%(command_name)s コマンドに %(version)s で追加されました。"
+msgstr "次のオプションは、%(command_name)s コマンドに %(version)s で追加されました:"
 
 #: ../tools/ksverdiff.py:110
 #, python-format
 msgid ""
 "The following options were deprecated from the %(command_name)s command in "
 "%(version)s:"
-msgstr ""
-"次のオプションは、%(command_name)s コマンドから %(version)s で廃止となりまし"
-"た。"
+msgstr "次のオプションは、%(command_name)s コマンドから %(version)s で廃止となりました:"
 
 #: ../tools/ksverdiff.py:114
 #, python-format
 msgid ""
 "The following options were removed from the %(command_name)s command in "
 "%(version)s:"
-msgstr ""
-"次のオプションは、%(command_name)s コマンドから %(version)s で削除されまし"
-"た。"
+msgstr "次のオプションは、%(command_name)s コマンドから %(version)s で削除されました:"
 
 #: ../pykickstart/errors.py:70
 #, python-format
@@ -850,7 +843,7 @@ msgstr "レルムコマンドの 'join' は複数回指定しないでくださ�
 
 #: ../pykickstart/commands/syspurpose.py:86
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "syspurpose コマンドは、位置引数を取りません。"
+msgstr "syspurpose コマンドは、位置引数を取りません!"
 
 #: ../tools/ksverdiff.py:66 ../tools/ksflatten.py:52 ../tools/ksvalidator.py:94
 #: ../tools/ksshell.py:167
@@ -1037,8 +1030,7 @@ msgstr "ヘルプメッセージを表示して終了します"
 #: ../tools/ksshell.py:154
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
-msgstr ""
-"完了した kickstart ファイルを出力する場所。指定しない場合は標準出力に出力"
+msgstr "完了した kickstart ファイルを出力する場所。指定しない場合は標準出力に出力"
 
 #: ../tools/ksvalidator.py:63 ../tools/ksshell.py:156
 msgid "version of kickstart syntax to validate against"
