@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2021-09-01 08:51+0000\n"
+"PO-Revision-Date: 2021-09-02 09:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/pykickstart/rhel9-branch/zh_CN/>\n"
@@ -72,11 +72,11 @@ msgstr "--mkfsoptions 和 --fsprofile 不能一同使用。"
 #: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
 #: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
 msgid "--mkfsoptions with --noformat has no effect."
-msgstr "使用 --noformat 的 --mkfsoptions 无效"
+msgstr "使用 --noformat 的 --mkfsoptions 无效。"
 
 #: ../pykickstart/commands/btrfs.py:264
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
-msgstr "使用 --noformat 或者 --useexisting 的 --mkfsoptions 无效"
+msgstr "使用 --noformat 或者 --useexisting 的 --mkfsoptions 无效。"
 
 #: ../pykickstart/commands/partition.py:611
 msgid "--resize can only be used in conjunction with --onpart"
@@ -345,9 +345,8 @@ msgid ""
 "releases, which will result in a fatal error from kickstart.  Please modify "
 "your kickstart file to remove this command."
 msgstr ""
-"忽略第 %(lineno)s 行中以弃用的命令：命令 %(cmd)s 已经弃用，不再有任何作用。在"
-"将来的发行本中会移除这个命令，可能会导致 kickstart 执行时发生严重错误。请修改"
-"您的 kickstart 文件删除该命令。"
+"忽略第 %(lineno)s 行中以弃用的命令：命令 %(cmd)s 已经弃用，不再有任何作用。在将来的发行本中会移除这个命令，可能会导致 "
+"kickstart 执行时发生严重错误。请修改您的 kickstart 文件删除该命令。"
 
 #: ../pykickstart/options.py:183
 #, python-format
@@ -563,7 +562,7 @@ msgstr "driverdisk 命令只能指定 --biospart 和分区之一。"
 #: ../pykickstart/commands/nvdimm.py:142
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
-msgstr "只能使用 --namespace 和 --blockdevs 设备参数中的一个。"
+msgstr "只能使用 --namespace 和 --blockdevs 设备参数中的一个"
 
 #: ../pykickstart/commands/rescue.py:77
 msgid ""
