@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2021-08-28 17:04+0000\n"
+"PO-Revision-Date: 2021-09-02 10:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/ja/>\n"
@@ -109,8 +109,8 @@ msgid ""
 "The %(option)s option was introduced in version %(intro)s, but you are using"
 " kickstart syntax version %(version)s."
 msgstr ""
-"%(option)s オプションはバージョン %(intro)s で導入されましたが、 現在、  kickstart 構文のバージョン "
-"%(version)s を使用しています。"
+"%(option)s オプションはバージョン %(intro)s で導入されましたが、ご利用中のキックスタート構文のバージョンは %(version)s "
+"です。"
 
 #: ../pykickstart/options.py:92
 #, python-format
@@ -123,8 +123,8 @@ msgid ""
 "The %(option)s option was removed in version %(removed)s, but you are using "
 "kickstart syntax version %(version)s."
 msgstr ""
-"%(option)s オプションはバージョン %(removed)s で削除されました。現在、 kickstart 構文バージョン "
-"%(version)s を使用しています。"
+"%(option)s オプションはバージョン %(removed)s で削除されましたが、ご利用中のキックスタート構文のバージョンは %(version)"
+"s です。"
 
 #: ../pykickstart/options.py:97
 #, python-format
@@ -134,9 +134,8 @@ msgid ""
 " releases, which will result in a fatal error from kickstart.  Please modify"
 " your kickstart file to remove this option."
 msgstr ""
-"%(lineno)s 行目の廃止されたオプションを無視します。%(option)s "
-"オプションは廃止されており、何も効果がありません。また、将来のリリースでは削除される可能性があり、その際は kickstart "
-"の致命的なエラーとなります。使用する kickstart ファイルから、このオプションを削除します。"
+"%(lineno)s 行目の廃止されたオプションを無視します: %(option)s オプションは廃止されており、何も効果がありません。また、将来のリリー"
+"スでは削除される可能性があり、その際はキックスタートの致命的なエラーとなります。使用するキックスタートファイルから、このオプションを削除します。"
 
 #: ../pykickstart/options.py:136
 #, python-format
@@ -178,11 +177,11 @@ msgstr "kickstart ファイルの %s 行の読み込みに問題がありまし�
 
 #: ../pykickstart/commands/snapshot.py:101
 msgid "Snapshot origin must be specified!"
-msgstr "スナップショットの対象を指定する必要があります。"
+msgstr "スナップショットの対象を指定する必要があります!"
 
 #: ../pykickstart/commands/snapshot.py:104
 msgid "Snapshot origin can be specified only once!"
-msgstr "スナップショットの対象は、一度だけ指定できます。"
+msgstr "スナップショットの対象は、一度だけ指定できます!"
 
 #: ../pykickstart/commands/snapshot.py:114
 #, python-format
@@ -681,7 +680,7 @@ msgstr "--bridgeopts オプションには、--bridgeslaves を指定する必�
 #: ../pykickstart/commands/network.py:676
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
-msgstr "--bridgeopts の不正なフォーマット。key=value オプションは ',' で区切る必要があります。"
+msgstr "--bridgeopts の不正なフォーマット。key=value オプションは ',' で区切る必要があります"
 
 #: ../pykickstart/commands/network.py:617
 msgid ""
@@ -749,7 +748,7 @@ msgstr "--nontp オプションと --ntpservers オプションは相互に排�
 #, python-format
 msgid ""
 "At least one option and/or an argument are expected for the  %s command"
-msgstr "%s コマンドには、1 つ以上のオプションまたは引数、もしくはその両方が必要です。"
+msgstr "%s コマンドには、1 つ以上のオプションまたは引数、もしくはその両方が必要です"
 
 #: ../pykickstart/commands/timezone.py:168
 #, python-format
@@ -834,6 +833,8 @@ msgid ""
 "Warning:  The following error occurred when processing the input file:\n"
 "%s\n"
 msgstr ""
+"警告: 下記のエラーは、入力ファイルの処理中に発生しました:\n"
+"%s\n"
 
 #: ../tools/ksshell:219
 #, python-format
@@ -856,12 +857,12 @@ msgstr "次のコマンドは %s で削除されました。"
 #: ../tools/ksverdiff:77
 #, python-format
 msgid "The following commands were deprecated in %s:"
-msgstr "次のコマンドは、%s で廃止予定になりました。"
+msgstr "次のコマンドは、%s で廃止予定になりました:"
 
 #: ../tools/ksverdiff:80
 #, python-format
 msgid "The following commands were added in %s:"
-msgstr "次のコマンドは、%s で追加されました。"
+msgstr "次のコマンドは、%s で追加されました:"
 
 #: ../tools/ksverdiff:106
 #, python-format
@@ -916,4 +917,4 @@ msgstr "kickstart ファイル内の一般的なエラー"
 #: ../tools/ksvalidator:110
 #, python-format
 msgid "General error in input file:  %s"
-msgstr ""
+msgstr "入力ファイル内の一般的なエラー: %s"
