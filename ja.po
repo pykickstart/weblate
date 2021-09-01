@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2021-08-27 16:31+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2021-09-01 08:51+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel9-branch/ja/>\n"
 "Language: ja\n"
@@ -37,7 +37,7 @@ msgstr "%(command)s コマンドには、引数が 1 つ必要です: %(argument
 #: ../pykickstart/base.py:252
 #, python-format
 msgid "%s has been removed."
-msgstr ""
+msgstr "%s が削除されました。"
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
@@ -244,7 +244,7 @@ msgstr "%s コマンドには、1 つ以上のオプションまたは引数、�
 #: ../pykickstart/commands/network.py:1043
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
-msgstr "--bridgeopts の不正なフォーマット。key=value オプションは ',' で区切る必要があります。"
+msgstr "--bridgeopts の不正なフォーマット。key=value オプションは ',' で区切る必要があります"
 
 #: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/partition.py:749
 #: ../pykickstart/commands/logvol.py:931
@@ -270,7 +270,7 @@ msgstr "デバイス '%(device)s' は、すでにマルチパス '%(multipathdev
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "空の文字列は有効なアクティベーションキーではありません。"
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:81 ../pykickstart/load.py:84
@@ -337,7 +337,7 @@ msgstr ""
 #: ../tools/ksvalidator.py:118
 #, python-format
 msgid "General error in input file:  %s"
-msgstr ""
+msgstr "入力ファイル内の一般的なエラー: %s"
 
 #: ../tools/ksvalidator.py:115
 msgid "General kickstart error in input file"
@@ -373,22 +373,15 @@ msgstr ""
 "使用する kickstart ファイルを修正して、このコマンドを削除してください。"
 
 #: ../pykickstart/options.py:183
-#, fuzzy, python-format
-#| msgid ""
-#| "Ignoring deprecated option on line %(lineno)s:  The %(option)s option has "
-#| "been deprecated and no longer has any effect.  It may be removed from "
-#| "future releases, which will result in a fatal error from kickstart.  "
-#| "Please modify your kickstart file to remove this option."
+#, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
 "been deprecated and no longer has any effect. It may be removed from future "
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"%(lineno)s 行目の廃止されたオプションを無視します。%(option)s オプションは廃"
-"止されており、何も効果がありません。また、将来のリリースでは削除される可能性"
-"があり、その際は kickstart の致命的なエラーとなります。使用する kickstart "
-"ファイルから、このオプションを削除します。"
+"%(lineno)s 行目の廃止されたオプションを無視します: %(option)s オプションは廃止されており、何も効果がありません。また、将来のリリー"
+"スでは削除される可能性があり、その際はキックスタートの致命的なエラーとなります。使用するキックスタートファイルから、このオプションを削除します。"
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -431,10 +424,9 @@ msgid "Invalid mount point '%s' given"
 msgstr "無効なマウントポイント '%s' が指定されました"
 
 #: ../pykickstart/commands/snapshot.py:90
-#, fuzzy, python-format
-#| msgid "Invalid realm arguments: %s"
+#, python-format
 msgid "Invalid parameter to --when= argument: %s"
-msgstr "無効なレルム引数: %s"
+msgstr "--when= argument に無効なパラメーターです: %s"
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
@@ -516,12 +508,10 @@ msgstr ""
 "-%(options_list)s オプションの 1 つを repo コマンドに指定する必要があります。"
 
 #: ../pykickstart/commands/timesource.py:136
-#, fuzzy, python-format
-#| msgid "One of -%(options_list)s options must be specified for url command."
+#, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
-msgstr ""
-"-%(options_list)s オプションの 1 つを url コマンドに指定する必要があります。"
+msgstr "-%(options_list)s オプションの 1 つを timesource コマンドに指定する必要があります。"
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -587,12 +577,10 @@ msgstr ""
 "%(options_list)s オプションのうち 1 つのみを repo コマンドに指定できます。"
 
 #: ../pykickstart/commands/timesource.py:139
-#, fuzzy, python-format
-#| msgid ""
-#| "Only one of %(options_list)s options may be specified for url command."
+#, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
-msgstr "%(options_list)s オプションの 1 つのみを url コマンドに指定できます。"
+msgstr "%(options_list)s オプションの 1 つのみを timesource コマンドに指定できます。"
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
@@ -717,6 +705,8 @@ msgid ""
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
+"%(lineno)s 行目の %(option)s オプションは、今後のリリースで非推奨になります。キックスタートファイルを変更して、"
+"このオプションを希望のエイリアス %(new_option)s に置き換えてください。"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:212
@@ -816,6 +806,8 @@ msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
+"--isUtc オプションは、今後のリリースで非推奨になります。キックスタートファイルを変更して、このオプションを希望のエイリアス --utc "
+"に置き換えます。"
 
 #: ../pykickstart/commands/timezone.py:441
 msgid ""
@@ -823,6 +815,8 @@ msgid ""
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
+"--nontp オプションは、今後のリリースで非推奨になります。キックスタートファイルを変更して、このオプションを timesource --ntp-"
+"disable コマンド呼び出しに置き換えてください。"
 
 #: ../pykickstart/commands/timezone.py:435
 msgid ""
@@ -830,6 +824,8 @@ msgid ""
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
+"今後のリリースでは --ntpservers オプションが非推奨になります。キックスタートファイルを変更して、このオプションを、NTP サーバーごとに "
+"1 つずつ、timesource --ntp-server <server hostname> コマンド呼び出しに置き換えます。"
 
 #: ../pykickstart/commands/partition.py:579
 #: ../pykickstart/commands/partition.py:645
@@ -853,10 +849,8 @@ msgid "The realm command 'join' should only be specified once"
 msgstr "レルムコマンドの 'join' は複数回指定しないでください"
 
 #: ../pykickstart/commands/syspurpose.py:86
-#, fuzzy
-#| msgid "The enable module command does not take position arguments!"
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "有効なモジュールコマンドは、位置引数を取りません。"
+msgstr "syspurpose コマンドは、位置引数を取りません。"
 
 #: ../tools/ksverdiff.py:66 ../tools/ksflatten.py:52 ../tools/ksvalidator.py:94
 #: ../tools/ksshell.py:167
@@ -956,6 +950,8 @@ msgid ""
 "Warning:  The following error occurred when processing the input file:\n"
 "%s\n"
 msgstr ""
+"警告: 下記のエラーは、入力ファイルの処理中に発生しました:\n"
+"%s\n"
 
 #: ../pykickstart/commands/network.py:938
 msgid ""
