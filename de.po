@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-22 14:36-0700\n"
-"PO-Revision-Date: 2021-11-08 00:49+0000\n"
+"PO-Revision-Date: 2021-12-28 22:16+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/de/>\n"
@@ -32,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -46,13 +46,13 @@ msgstr "%s wurde entfernt."
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
-msgstr ""
+msgstr "'--mkfsoptions' erfordert --reformat"
 
 #: ../pykickstart/commands/network.py:822
 #: ../pykickstart/commands/network.py:1048
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
-msgstr ""
+msgstr "--bindto =%s wird für diesen Gerätetyp nicht unterstützt"
 
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:330
@@ -256,7 +256,7 @@ msgstr ""
 #: ../pykickstart/commands/partition.py:749
 #: ../pykickstart/commands/partition.py:781 ../pykickstart/commands/raid.py:799
 msgid "Btrfs file system is not supported"
-msgstr ""
+msgstr "Btrfs-Dateisystem wird nicht unterstützt"
 
 #: ../pykickstart/commands/logvol.py:857
 msgid "Cache needs to have a list of (fast) PVs specified"
@@ -278,7 +278,7 @@ msgstr ""
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "Eine leere Zeichenkette ist kein gültiger Aktivierungsschlüssel."
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:80 ../pykickstart/load.py:83
@@ -443,10 +443,9 @@ msgid "Invalid mount point '%s' given"
 msgstr ""
 
 #: ../pykickstart/commands/snapshot.py:90
-#, fuzzy, python-format
-#| msgid "Invalid realm arguments: %s"
+#, python-format
 msgid "Invalid parameter to --when= argument: %s"
-msgstr "Ungültige Realm-Argumente: %s"
+msgstr ""
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
@@ -529,13 +528,10 @@ msgid "One of -%(options_list)s options must be specified for repo command."
 msgstr ""
 
 #: ../pykickstart/commands/timesource.py:136
-#, fuzzy, python-format
-#| msgid ""
-#| "One of --source or partition must be specified for driverdisk command."
+#, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
 msgstr ""
-"Entweder --source oder Partition muss für driverdisk-Befehl angegeben werden."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -597,14 +593,10 @@ msgid "Only one of %(options_list)s options may be specified for repo command."
 msgstr ""
 
 #: ../pykickstart/commands/timesource.py:139
-#, fuzzy, python-format
-#| msgid ""
-#| "Only one of --nomount and --romount may be specified for rescue command."
+#, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
 msgstr ""
-"Nur entweder --nomount oder --romount kann für den rescue-Befehl angegeben "
-"werden."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
