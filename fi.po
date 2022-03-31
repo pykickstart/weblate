@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2021-06-02 09:03+0000\n"
+"PO-Revision-Date: 2022-04-01 09:25+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/fi/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -401,7 +401,7 @@ msgstr "Täytyy antaa joko --disabled tai --enabled."
 #, python-format
 msgid ""
 "A DM RAID device with the name %s and devices %s has already been defined."
-msgstr ""
+msgstr "DM RAID -laite nimellä %s ja laitteet %s on jo määritetty."
 
 #: ../pykickstart/commands/nvdimm.py:118
 #, python-format
@@ -410,12 +410,12 @@ msgstr "Odottamattomat parametrit nvdimm-komennolle: %(arguments)s"
 
 #: ../pykickstart/commands/nvdimm.py:122
 msgid "Action argument is required for nvdimm command"
-msgstr ""
+msgstr "Toimintoargumentti vaaditaan nvdimm-komennolle"
 
 #: ../pykickstart/commands/nvdimm.py:128
 #, python-format
 msgid "Invalid action argument (choose from '%(valid_arguments)s')"
-msgstr ""
+msgstr "Virheellinen toimintoargumentti (valitse '%(valid_arguments)s':sta)"
 
 #: ../pykickstart/commands/nvdimm.py:138
 msgid ""
@@ -509,17 +509,17 @@ msgstr "Tämän tiedon sisältävä zfcp on jo määritelty."
 
 #: ../pykickstart/commands/url.py:170
 msgid "Only one of --url and --mirrorlist may be specified for url command."
-msgstr ""
+msgstr "Vain yksi '--url' ja '--mirrorlist' voidaan määrittää url-komennolle."
 
 #: ../pykickstart/commands/url.py:173
 msgid "One of --url or --mirrorlist must be specified for url command."
-msgstr ""
+msgstr "Yksi nästä '--url' tai '--mirrorlist' on määritettävä url-komennolle."
 
 #: ../pykickstart/commands/raid.py:322 ../pykickstart/commands/logvol.py:350
 #: ../pykickstart/commands/partition.py:314
 #, python-format
 msgid "Mount point required for %s"
-msgstr ""
+msgstr "Kiinnityskohta vaaditaan %s:lle"
 
 #: ../pykickstart/commands/raid.py:325
 #, python-format
@@ -560,7 +560,7 @@ msgstr "device-komento vaatii kaksi parametria: moduulin tyyppi ja nimi"
 #: ../pykickstart/commands/device.py:124
 #, python-format
 msgid "%s command requires a single argument: %s"
-msgstr ""
+msgstr "Komento '%s' vaatii yhden argumentin: %s"
 
 #: ../pykickstart/commands/device.py:133
 #, python-format
@@ -572,7 +572,7 @@ msgstr "Moduuli nimeltä %s on jo määritelty."
 msgid ""
 "A logical volume with the name %s has already been defined in volume group "
 "%s."
-msgstr ""
+msgstr "Looginen taltio nimellä %s on jo määritetty taltioryhmässä %s."
 
 #: ../pykickstart/commands/logvol.py:428 ../pykickstart/commands/logvol.py:511
 msgid "The logvol and autopart commands can't be used at the same time"
@@ -604,7 +604,7 @@ msgstr "Logvol- ja mount-komentoja ei voi käyttää samanaikaisesti"
 
 #: ../pykickstart/commands/logvol.py:519
 msgid "Size required"
-msgstr ""
+msgstr "Koko vaaditaan"
 
 #: ../pykickstart/commands/logvol.py:523
 msgid "Percentage must be between 0 and 100."
@@ -730,7 +730,7 @@ msgstr ""
 #: ../pykickstart/commands/network.py:635
 #, python-format
 msgid "The vlan id out of the %d-%d vlan id range."
-msgstr ""
+msgstr "VLAN-tunnus %d–%d vlan-tunnusalueen ulkopuolella."
 
 #: ../pykickstart/commands/network.py:681
 #, python-format
@@ -826,17 +826,17 @@ msgstr "On määritettävä kokoonpano flatten:ille"
 #: ../tools/ksflatten:57
 #, python-format
 msgid "Failed to read kickstart file '%s' : %s"
-msgstr ""
+msgstr "Aloitustiedoston '%s' lukeminen epäonnistui: %s"
 
 #: ../tools/ksflatten:60
 #, python-format
 msgid "Failed to parse kickstart file '%s' : %s"
-msgstr ""
+msgstr "Aloitustiedoston '%s' jäsentäminen epäonnistui: %s"
 
 #: ../tools/ksflatten:67
 #, python-format
 msgid "Failed to open output file '%s' : %s"
-msgstr ""
+msgstr "Tulostiedoston '%s' avaaminen epäonnistui: %s"
 
 #: ../tools/ksshell:147
 msgid "a basis file to use for seeding the kickstart data (optional)"
