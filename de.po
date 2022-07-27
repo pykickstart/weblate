@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2021-12-28 22:16+0000\n"
+"PO-Revision-Date: 2022-07-28 20:18+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel9-branch/de/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.13\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -858,10 +858,8 @@ msgid "The realm command 'join' should only be specified once"
 msgstr "Der Realm-Befehl 'join' sollte nur einmal spezifiziert werden"
 
 #: ../pykickstart/commands/syspurpose.py:86
-#, fuzzy
-#| msgid "Kickstart command %s does not take any arguments"
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "Kickstart-Befehl %s nimmt keine Argumente an"
+msgstr "Der Befehl syspurpose akzeptiert keine positionalen Argumente!"
 
 #: ../tools/ksverdiff.py:66 ../tools/ksflatten.py:52 ../tools/ksvalidator.py:94
 #: ../tools/ksshell.py:167
@@ -931,7 +929,7 @@ msgstr ""
 #: ../pykickstart/commands/displaymode.py:64
 #, python-format
 msgid "Unknown command %s"
-msgstr ""
+msgstr "Unbekannter Befehl %s"
 
 #: ../pykickstart/base.py:409
 #, python-format
