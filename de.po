@@ -17,13 +17,13 @@
 # Georg Hasibether <georg@hasibether.at>, 2016. #zanata
 # Lisa Stemmler <lstemmle@redhat.com>, 2016. #zanata
 # Roman Spirgi <bigant@fedoraproject.org>, 2017. #zanata
-# Ettore Atalan <atalanttore@googlemail.com>, 2021.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-22 14:36-0700\n"
-"PO-Revision-Date: 2021-12-28 22:16+0000\n"
+"PO-Revision-Date: 2022-08-01 13:19+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/de/>\n"
@@ -32,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.13\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -223,12 +223,14 @@ msgstr ""
 #, python-format
 msgid "An action %(action)s on devices %(blockdevs)s has already been defined."
 msgstr ""
+"Eine Aktion %(action)s auf Geräten %(blockdevs)s wurde bereits definiert."
 
 #: ../pykickstart/commands/nvdimm.py:147
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
 msgstr ""
+"Eine Aktion %(action)s in Namensraum %(namespace)s wurde bereits definiert."
 
 #: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
 #, python-format
@@ -237,13 +239,11 @@ msgstr "Ein SSH-Benutzer mit dem Namen %s wurde bereits definiert."
 
 #: ../pykickstart/commands/timezone.py:267
 #: ../pykickstart/commands/timezone.py:368
-#, fuzzy, python-format
-#| msgid ""
-#| "At least one option and/or an argument are expected for the  %s command"
+#, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr ""
-"Mindestens eine Option und/ oder ein Argument werden erwartet für den  %s-"
-"Befehl"
+"Mindestens eine Option und/oder ein Argument werden für den Befehl %s "
+"erwartet"
 
 #: ../pykickstart/commands/network.py:740
 #: ../pykickstart/commands/network.py:1043
@@ -382,19 +382,14 @@ msgstr ""
 "Befehl zu entfernen."
 
 #: ../pykickstart/options.py:183
-#, fuzzy, python-format
-#| msgid ""
-#| "Ignoring deprecated option on line %(lineno)s:  The %(option)s option has "
-#| "been deprecated and no longer has any effect.  It may be removed from "
-#| "future releases, which will result in a fatal error from kickstart.  "
-#| "Please modify your kickstart file to remove this option."
+#, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
 "been deprecated and no longer has any effect. It may be removed from future "
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"Veraltete Option in Zeile %(lineno)s wird ignoriert: Die %(option)s Option "
+"Veraltete Option in Zeile %(lineno)s wird ignoriert: Die Option %(option)s "
 "ist veraltet und hat keine Wirkung mehr. Sie wird vielleicht von zukünftigen "
 "Versionen entfernt werden, was dann zu einem nicht behebbaren Fehler von "
 "Kickstart führen wird. Bitte ändern Sie Ihre Kickstart-Datei, um diese "
@@ -704,7 +699,7 @@ msgstr ""
 #: ../pykickstart/commands/snapshot.py:122
 #, python-format
 msgid "Snapshot with the name %s has been already defined!"
-msgstr ""
+msgstr "Schnappschuss mit dem Namen %s wurde bereits definiert!"
 
 #: ../pykickstart/commands/realm.py:66
 msgid "Specify only one realm to join"
@@ -717,6 +712,9 @@ msgid ""
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
+"Die Option %(option)s in der Zeile %(lineno)s wird in zukünftigen Versionen "
+"veraltet sein. Bitte ändern Sie Ihre Kickstart-Datei, um diese Option durch "
+"ihren bevorzugten Alias %(new_option)s zu ersetzen."
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:212
@@ -860,10 +858,8 @@ msgid "The realm command 'join' should only be specified once"
 msgstr "Der Realm-Befehl 'join' sollte nur einmal spezifiziert werden"
 
 #: ../pykickstart/commands/syspurpose.py:86
-#, fuzzy
-#| msgid "Kickstart command %s does not take any arguments"
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "Kickstart-Befehl %s nimmt keine Argumente an"
+msgstr "Der Befehl syspurpose akzeptiert keine positionalen Argumente!"
 
 #: ../tools/ksflatten.py:52 ../tools/ksshell.py:168 ../tools/ksvalidator.py:94
 #: ../tools/ksverdiff.py:66
@@ -931,7 +927,7 @@ msgstr ""
 #: ../pykickstart/commands/displaymode.py:64
 #, python-format
 msgid "Unknown command %s"
-msgstr ""
+msgstr "Unbekannter Befehl %s"
 
 #: ../pykickstart/base.py:401
 #, python-format
