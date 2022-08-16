@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-30 09:37-0700\n"
+"POT-Creation-Date: 2022-08-16 09:30-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,7 +165,7 @@ msgstr ""
 msgid "A volgroup with the name %s has already been defined."
 msgstr ""
 
-#: ../pykickstart/commands/zfcp.py:120
+#: ../pykickstart/commands/zfcp.py:132
 msgid "A zfcp with this information has already been defined."
 msgstr ""
 
@@ -418,7 +418,7 @@ msgstr ""
 msgid "Kickstart command %s only takes one argument"
 msgstr ""
 
-#: ../pykickstart/commands/key.py:61 ../pykickstart/commands/keyboard.py:56
+#: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/key.py:61
 #: ../pykickstart/commands/mouse.py:65
 #, python-format
 msgid "Kickstart command %s requires one argument"
@@ -511,6 +511,10 @@ msgstr ""
 #: ../pykickstart/commands/timezone.py:354
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
+msgstr ""
+
+#: ../pykickstart/commands/zfcp.py:209
+msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
 msgstr ""
 
 #: ../pykickstart/commands/repo.py:283
@@ -801,10 +805,10 @@ msgstr ""
 #: ../pykickstart/commands/device.py:147
 #: ../pykickstart/commands/driverdisk.py:132
 #: ../pykickstart/commands/driverdisk.py:173
-#: ../pykickstart/commands/iscsiname.py:61 ../pykickstart/commands/key.py:64
+#: ../pykickstart/commands/iscsiname.py:61
 #: ../pykickstart/commands/keyboard.py:59
-#: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/lang.py:71
-#: ../pykickstart/commands/langsupport.py:59
+#: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/key.py:64
+#: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/langsupport.py:59
 #: ../pykickstart/commands/logvol.py:468 ../pykickstart/commands/mount.py:175
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:88
