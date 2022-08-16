@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-28 11:20-0800\n"
+"POT-Creation-Date: 2022-08-16 09:30-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,11 +46,11 @@ msgstr ""
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr ""
 
-#: ../pykickstart/sections.py:753
+#: ../pykickstart/sections.py:758
 msgid "--default and --nobase cannot be used together"
 msgstr ""
 
-#: ../pykickstart/sections.py:766
+#: ../pykickstart/sections.py:771
 msgid "--default and --nocore cannot be used together"
 msgstr ""
 
@@ -166,7 +166,7 @@ msgstr ""
 msgid "A volgroup with the name %s has already been defined."
 msgstr ""
 
-#: ../pykickstart/commands/zfcp.py:120
+#: ../pykickstart/commands/zfcp.py:132
 msgid "A zfcp with this information has already been defined."
 msgstr ""
 
@@ -511,6 +511,10 @@ msgstr ""
 msgid "One or zero arguments are expected for the %s command"
 msgstr ""
 
+#: ../pykickstart/commands/zfcp.py:209
+msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
+msgstr ""
+
 #: ../pykickstart/commands/repo.py:286
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for repo command."
@@ -626,7 +630,7 @@ msgstr ""
 msgid "Specify only one realm to join"
 msgstr ""
 
-#: ../pykickstart/sections.py:793
+#: ../pykickstart/sections.py:798
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -830,7 +834,7 @@ msgstr ""
 msgid "Unknown command %s"
 msgstr ""
 
-#: ../pykickstart/base.py:409
+#: ../pykickstart/base.py:415
 #, python-format
 msgid "Unknown command: %s"
 msgstr ""
