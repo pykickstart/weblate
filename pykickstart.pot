@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 09:31-0700\n"
+"POT-Creation-Date: 2022-08-29 12:25-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -209,7 +209,7 @@ msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
 msgstr ""
 
-#: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
+#: ../pykickstart/commands/sshkey.py:120 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
 msgstr ""
@@ -558,7 +558,11 @@ msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
 msgstr ""
 
-#: ../pykickstart/commands/autopart.py:615
+#: ../pykickstart/commands/autopart.py:686
+msgid "Only one of --noswap and --hibernation can be specified."
+msgstr ""
+
+#: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
 #: ../pykickstart/commands/partition.py:737 ../pykickstart/commands/raid.py:787
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
@@ -825,7 +829,7 @@ msgstr ""
 #: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:175
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
-#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:102
+#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:113
 #: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
 #: ../pykickstart/commands/updates.py:69
 #, python-format
@@ -899,7 +903,7 @@ msgstr ""
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr ""
 
-#: ../pykickstart/commands/autopart.py:630
+#: ../pykickstart/commands/autopart.py:631
 msgid "autopart --type=btrfs is not supported"
 msgstr ""
 
