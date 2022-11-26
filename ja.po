@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-22 14:36-0700\n"
+"POT-Creation-Date: 2022-08-29 12:25-0700\n"
 "PO-Revision-Date: 2021-09-02 09:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -29,12 +29,19 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.8\n"
 
+#: ../tools/ksvalidator.py:102
+#, python-format
+msgid ""
+"\n"
+"Checking kickstart file %(filename)s\n"
+msgstr ""
+
 #: ../pykickstart/commands/device.py:144
 #, python-format
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "%(command)s コマンドには、引数が 1 つ必要です: %(argument)s"
 
-#: ../pykickstart/base.py:251
+#: ../pykickstart/base.py:252
 #, python-format
 msgid "%s has been removed."
 msgstr "%s が削除されました。"
@@ -50,7 +57,7 @@ msgid "--bindto=%s is not supported for this type of device"
 msgstr "このタイプのデバイスでは、--bindto=%s がサポートされていません"
 
 #. pylint: disable=no-member
-#: ../pykickstart/commands/bootloader.py:330
+#: ../pykickstart/commands/bootloader.py:329
 msgid "--boot-drive accepts only one argument"
 msgstr "--boot-drive は、引数を 1 つだけ受け入れます"
 
@@ -58,11 +65,11 @@ msgstr "--boot-drive は、引数を 1 つだけ受け入れます"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize と --metadatasize は、シンプールにしか使用しません"
 
-#: ../pykickstart/sections.py:746
+#: ../pykickstart/sections.py:758
 msgid "--default and --nobase cannot be used together"
 msgstr "--default と --nobase は併用できません"
 
-#: ../pykickstart/sections.py:759
+#: ../pykickstart/sections.py:771
 msgid "--default and --nocore cannot be used together"
 msgstr "--default と --nocore は併用できません"
 
@@ -186,7 +193,7 @@ msgstr "%s という名前のユーザーはすでに定義されています。
 msgid "A volgroup with the name %s has already been defined."
 msgstr "%s という名前の volgroup はすでに定義されています。"
 
-#: ../pykickstart/commands/zfcp.py:120
+#: ../pykickstart/commands/zfcp.py:132
 msgid "A zfcp with this information has already been defined."
 msgstr "この情報が指定されている zfcp はすでに定義されています。"
 
@@ -229,7 +236,7 @@ msgstr ""
 "ネームスペース %(namespace)s 上のアクション %(action)s は、すでに定義されてい"
 "ます。"
 
-#: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
+#: ../pykickstart/commands/sshkey.py:120 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
 msgstr "%s という名前の ssh ユーザーはすでに定義されています。"
@@ -238,13 +245,16 @@ msgstr "%s という名前の ssh ユーザーはすでに定義されていま�
 #: ../pykickstart/commands/timezone.py:368
 #, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
-msgstr "%s コマンドには、1 つ以上のオプションまたは引数、もしくはその両方が必要です"
+msgstr ""
+"%s コマンドには、1 つ以上のオプションまたは引数、もしくはその両方が必要です"
 
 #: ../pykickstart/commands/network.py:740
 #: ../pykickstart/commands/network.py:1043
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
-msgstr "--bridgeopts の不正なフォーマット。key=value オプションは ',' で区切る必要があります"
+msgstr ""
+"--bridgeopts の不正なフォーマット。key=value オプションは ',' で区切る必要が"
+"あります"
 
 #: ../pykickstart/commands/logvol.py:931
 #: ../pykickstart/commands/partition.py:749
@@ -267,7 +277,9 @@ msgstr "--host を指定せずに --port を指定することはできません
 #: ../pykickstart/commands/multipath.py:98
 #, python-format
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
-msgstr "デバイス '%(device)s' は、すでにマルチパス '%(multipathdev)s' で使用されています"
+msgstr ""
+"デバイス '%(device)s' は、すでにマルチパス '%(multipathdev)s' で使用されてい"
+"ます"
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
@@ -289,7 +301,7 @@ msgstr "ファイルのコピー中にエラー: %s"
 msgid "Error opening file: %s"
 msgstr "ファイルを開く際にエラー: %s"
 
-#: ../tools/ksvalidator.py:88
+#: ../tools/ksvalidator.py:108
 #, python-format
 msgid ""
 "Error reading %(filename)s:\n"
@@ -308,25 +320,25 @@ msgstr "URL \"%s\" への安全なアクセス中にエラー"
 msgid "Error writing file \"%s\":"
 msgstr "ファイル \"%s\" の書き込み中にエラー:"
 
-#: ../tools/ksflatten.py:67
+#: ../tools/ksflatten.py:63
 #, python-format
 msgid "Failed to open output file '%(filename)s' : %(error_msg)s"
 msgstr "出力ファイル '%(filename)s' を開くことに失敗しました : %(error_msg)s"
 
-#: ../tools/ksflatten.py:61
+#: ../tools/ksflatten.py:57
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
 msgstr ""
 "キックスタートファイル '%(filename)s' の解析に失敗しました : %(error_msg)s"
 
-#: ../tools/ksflatten.py:59
+#: ../tools/ksflatten.py:55
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
 msgstr ""
 "キックスタートファイル '%(filename)s' の読み込みに失敗しました : "
 "%(error_msg)s"
 
-#: ../tools/ksvalidator.py:110
+#: ../tools/ksvalidator.py:130
 #, python-format
 msgid ""
 "File uses a deprecated option or command.\n"
@@ -335,16 +347,16 @@ msgstr ""
 "ファイルで、廃止されたオプションかコマンドを使用しています。\n"
 "%s"
 
-#: ../tools/ksvalidator.py:118
+#: ../tools/ksvalidator.py:139
 #, python-format
 msgid "General error in input file:  %s"
 msgstr "入力ファイル内の一般的なエラー: %s"
 
-#: ../tools/ksvalidator.py:115
+#: ../tools/ksvalidator.py:136
 msgid "General kickstart error in input file"
 msgstr "kickstart ファイル内の一般的なエラー"
 
-#: ../pykickstart/parser.py:446
+#: ../pykickstart/parser.py:440
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "--nodefaults と --optional の両方のグループは指定できません"
 
@@ -369,9 +381,10 @@ msgid ""
 "releases, which will result in a fatal error from kickstart.  Please modify "
 "your kickstart file to remove this command."
 msgstr ""
-"%(lineno)s 行目の廃止されたコマンドを無視します。すでに %(cmd)s "
-"コマンドは廃止されており、何も効果がありません。また、将来のリリースでは削除される可能性があり、その際は kickstart の致命的なエラーとなります。"
-"使用する kickstart ファイルを修正して、このコマンドを削除してください。"
+"%(lineno)s 行目の廃止されたコマンドを無視します。すでに %(cmd)s コマンドは廃"
+"止されており、何も効果がありません。また、将来のリリースでは削除される可能性"
+"があり、その際は kickstart の致命的なエラーとなります。使用する kickstart "
+"ファイルを修正して、このコマンドを削除してください。"
 
 #: ../pykickstart/options.py:183
 #, python-format
@@ -381,8 +394,10 @@ msgid ""
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"%(lineno)s 行目の廃止されたオプションを無視します: %(option)s オプションは廃止されており、何も効果がありません。また、将来のリリー"
-"スでは削除される可能性があり、その際はキックスタートの致命的なエラーとなります。使用するキックスタートファイルから、このオプションを削除します。"
+"%(lineno)s 行目の廃止されたオプションを無視します: %(option)s オプションは廃"
+"止されており、何も効果がありません。また、将来のリリースでは削除される可能性"
+"があり、その際はキックスタートの致命的なエラーとなります。使用するキックス"
+"タートファイルから、このオプションを削除します。"
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -391,10 +406,11 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
-"%s: 行目の廃止されたオプションを無視します。zerombr コマンドはオプションを取らなくなりました。また、将来のリリースでは kickstart "
-"の致命的なエラーとなります。使用する kickstart ファイルから、オプションを削除してください。"
+"%s: 行目の廃止されたオプションを無視します。zerombr コマンドはオプションを取"
+"らなくなりました。また、将来のリリースでは kickstart の致命的なエラーとなりま"
+"す。使用する kickstart ファイルから、オプションを削除してください。"
 
-#: ../pykickstart/parser.py:89
+#: ../pykickstart/parser.py:83
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
 msgstr "%%ksappend として不正な URL: %s"
@@ -443,7 +459,9 @@ msgstr "無効なレルム引数: %s"
 #, python-format
 msgid ""
 "Kickstart command %(command)s does not accept empty parameter %(parameter)s"
-msgstr "キックスタートコマンド %(command)s は、空のパラメーター %(parameter)s を受け入れません"
+msgstr ""
+"キックスタートコマンド %(command)s は、空のパラメーター %(parameter)s を受け"
+"入れません"
 
 #: ../pykickstart/commands/autopart.py:47 ../pykickstart/commands/cdrom.py:41
 #: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/hmc.py:46
@@ -464,13 +482,17 @@ msgstr "キックスタートコマンド %s には、引数が 1 つ必要で�
 
 #: ../pykickstart/commands/displaymode.py:108
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
-msgstr "キックスタートコマンドの cmdline は、--non-interactive パラメーターをサポートしません"
+msgstr ""
+"キックスタートコマンドの cmdline は、--non-interactive パラメーターをサポート"
+"しません"
 
 #: ../pykickstart/commands/eula.py:68
 msgid "Kickstart command eula expects the --agreed option"
-msgstr "キックスタートコマンドのエンドユーザーライセンス契約には、--agreed オプションが必要です"
+msgstr ""
+"キックスタートコマンドのエンドユーザーライセンス契約には、--agreed オプション"
+"が必要です"
 
-#: ../tools/ksflatten.py:38
+#: ../tools/ksflatten.py:35
 msgid "Kickstart version to use for interpreting config"
 msgstr "設定を解釈するのに使用するキックスタートのバージョン"
 
@@ -490,7 +512,7 @@ msgstr "メソッドは、リポジトリーリストに追加する URL にす�
 msgid "Missing realm command arguments"
 msgstr "レルムコマンドに引数がありません"
 
-#: ../tools/ksflatten.py:47
+#: ../tools/ksflatten.py:44
 msgid "Need to specify a config to flatten"
 msgstr "平坦化する設定を指定する必要があります"
 
@@ -512,7 +534,9 @@ msgstr ""
 #, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
-msgstr "-%(options_list)s オプションの 1 つを timesource コマンドに指定する必要があります。"
+msgstr ""
+"-%(options_list)s オプションの 1 つを timesource コマンドに指定する必要があり"
+"ます。"
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -557,7 +581,8 @@ msgid ""
 "One of --xlayouts, --vckeymap options with value(s) or argument is expected "
 "for the keyboard command"
 msgstr ""
-"keyboard コマンドには、値または引数が指定された --xlayouts オプションまたは --vckeymap オプションのいずれかが必要です"
+"keyboard コマンドには、値または引数が指定された --xlayouts オプションまたは "
+"--vckeymap オプションのいずれかが必要です"
 
 #: ../pykickstart/commands/harddrive.py:90
 msgid "One of biospart or partition options must be specified."
@@ -571,6 +596,10 @@ msgstr ""
 msgid "One or zero arguments are expected for the %s command"
 msgstr "%s コマンドには引数を 1 つ指定するか、何も指定しないでください"
 
+#: ../pykickstart/commands/zfcp.py:209
+msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
+msgstr ""
+
 #: ../pykickstart/commands/repo.py:286
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for repo command."
@@ -581,7 +610,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
-msgstr "%(options_list)s オプションの 1 つのみを timesource コマンドに指定できます。"
+msgstr ""
+"%(options_list)s オプションの 1 つのみを timesource コマンドに指定できます。"
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
@@ -616,7 +646,13 @@ msgstr ""
 "rescue コマンドには、--nomount または --romount のいずれか 1 つだけを指定でき"
 "ます。"
 
-#: ../pykickstart/commands/autopart.py:615
+#: ../pykickstart/commands/autopart.py:686
+#, fuzzy
+#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
+msgid "Only one of --noswap and --hibernation can be specified."
+msgstr "--pbkdf-time と --pbkdf-iterations のいずれか 1 つを指定できます。"
+
+#: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
 #: ../pykickstart/commands/partition.py:737 ../pykickstart/commands/raid.py:787
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
@@ -652,7 +688,7 @@ msgstr "--nontp オプションと --ntpservers オプションは相互に排�
 msgid "Partitions required for %s"
 msgstr "%s に必要なパーティション"
 
-#: ../tools/ksflatten.py:36
+#: ../tools/ksflatten.py:33
 msgid "Path to kickstart config file"
 msgstr "キックスタートの設定ファイルのパス"
 
@@ -664,14 +700,14 @@ msgstr "0 から 100 の間のパーセンテージを入れてください。"
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:767
+#: ../pykickstart/parser.py:761
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
 "%(lineno)s 行に、不明な可能性があるセクションが見つかりました: "
 "%(sectionName)s"
 
-#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
+#: ../pykickstart/parser.py:619 ../pykickstart/parser.py:660
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "kickstart セクション %s は %%end で終了していません。"
@@ -683,12 +719,16 @@ msgstr "スナップショットの \"when\" パラメーターを指定する�
 #: ../pykickstart/commands/snapshot.py:131
 #, python-format
 msgid "Snapshot origin %s must be specified by VG/LV!"
-msgstr "スナップショットの対象 %s は、ボリュームグループ (VG)/論理ボリューム (LV) で指定する必要があります!"
+msgstr ""
+"スナップショットの対象 %s は、ボリュームグループ (VG)/論理ボリューム (LV) で"
+"指定する必要があります!"
 
 #: ../pykickstart/commands/snapshot.py:136
 #, python-format
 msgid "Snapshot when param must have one of these values %s!"
-msgstr "スナップショットの when パラメーターには、%s のいずれかを指定する必要があります!"
+msgstr ""
+"スナップショットの when パラメーターには、%s のいずれかを指定する必要がありま"
+"す!"
 
 #: ../pykickstart/commands/snapshot.py:122
 #, python-format
@@ -699,15 +739,16 @@ msgstr "%s という名前のスナップショットはすでに定義されて
 msgid "Specify only one realm to join"
 msgstr "参加するレルムを 1 つだけ指定します"
 
-#: ../pykickstart/sections.py:785
+#: ../pykickstart/sections.py:798
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
-"%(lineno)s 行目の %(option)s オプションは、今後のリリースで非推奨になります。キックスタートファイルを変更して、"
-"このオプションを希望のエイリアス %(new_option)s に置き換えてください。"
+"%(lineno)s 行目の %(option)s オプションは、今後のリリースで非推奨になります。"
+"キックスタートファイルを変更して、このオプションを希望のエイリアス "
+"%(new_option)s に置き換えてください。"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:212
@@ -732,7 +773,9 @@ msgstr "'%s' コマンドと 'mount' コマンドを同時に使用すること�
 #: ../pykickstart/commands/partition.py:655
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
-msgstr "--fstype=tmpfs オプションを、--grow または --maxsize と併用することはできません"
+msgstr ""
+"--fstype=tmpfs オプションを、--grow または --maxsize と併用することはできませ"
+"ん"
 
 #: ../pykickstart/commands/module.py:137
 msgid "The enable module command does not take position arguments!"
@@ -758,21 +801,25 @@ msgstr "次のコマンドは %s で削除されました。"
 msgid ""
 "The following options were added to the %(command_name)s command in "
 "%(version)s:"
-msgstr "次のオプションは、%(command_name)s コマンドに %(version)s で追加されました:"
+msgstr ""
+"次のオプションは、%(command_name)s コマンドに %(version)s で追加されました:"
 
 #: ../tools/ksverdiff.py:110
 #, python-format
 msgid ""
 "The following options were deprecated from the %(command_name)s command in "
 "%(version)s:"
-msgstr "次のオプションは、%(command_name)s コマンドから %(version)s で廃止となりました:"
+msgstr ""
+"次のオプションは、%(command_name)s コマンドから %(version)s で廃止となりまし"
+"た:"
 
 #: ../tools/ksverdiff.py:114
 #, python-format
 msgid ""
 "The following options were removed from the %(command_name)s command in "
 "%(version)s:"
-msgstr "次のオプションは、%(command_name)s コマンドから %(version)s で削除されました:"
+msgstr ""
+"次のオプションは、%(command_name)s コマンドから %(version)s で削除されました:"
 
 #: ../pykickstart/errors.py:70
 #, python-format
@@ -802,8 +849,8 @@ msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
-"--isUtc オプションは、今後のリリースで非推奨になります。キックスタートファイルを変更して、このオプションを希望のエイリアス --utc "
-"に置き換えます。"
+"--isUtc オプションは、今後のリリースで非推奨になります。キックスタートファイ"
+"ルを変更して、このオプションを希望のエイリアス --utc に置き換えます。"
 
 #: ../pykickstart/commands/timezone.py:441
 msgid ""
@@ -811,8 +858,9 @@ msgid ""
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
-"--nontp オプションは、今後のリリースで非推奨になります。キックスタートファイルを変更して、このオプションを timesource --ntp-"
-"disable コマンド呼び出しに置き換えてください。"
+"--nontp オプションは、今後のリリースで非推奨になります。キックスタートファイ"
+"ルを変更して、このオプションを timesource --ntp-disable コマンド呼び出しに置"
+"き換えてください。"
 
 #: ../pykickstart/commands/timezone.py:435
 msgid ""
@@ -820,17 +868,21 @@ msgid ""
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
-"今後のリリースでは --ntpservers オプションが非推奨になります。キックスタートファイルを変更して、このオプションを、NTP サーバーごとに "
-"1 つずつ、timesource --ntp-server <server hostname> コマンド呼び出しに置き換えます。"
+"今後のリリースでは --ntpservers オプションが非推奨になります。キックスタート"
+"ファイルを変更して、このオプションを、NTP サーバーごとに 1 つずつ、"
+"timesource --ntp-server <server hostname> コマンド呼び出しに置き換えます。"
 
 #: ../pykickstart/commands/partition.py:579
 #: ../pykickstart/commands/partition.py:645
 msgid "The part/partition and autopart commands can't be used at the same time"
-msgstr "part コマンドまたは partition コマンドと同時に autopart コマンドを使用することはできません"
+msgstr ""
+"part コマンドまたは partition コマンドと同時に autopart コマンドを使用するこ"
+"とはできません"
 
 #: ../pykickstart/commands/partition.py:649
 msgid "The part/partition and mount commands can't be used at the same time"
-msgstr "part/partition コマンドと mount コマンドを同時に使用することはできません"
+msgstr ""
+"part/partition コマンドと mount コマンドを同時に使用することはできません"
 
 #: ../pykickstart/commands/raid.py:640 ../pykickstart/commands/raid.py:694
 msgid "The raid and autopart commands can't be used at the same time"
@@ -848,7 +900,8 @@ msgstr "レルムコマンドの 'join' は複数回指定しないでくださ�
 msgid "The syspurpose command does not take positional arguments!"
 msgstr "syspurpose コマンドは、位置引数を取りません!"
 
-#: ../tools/ksflatten.py:52 ../tools/ksshell.py:168 ../tools/ksvalidator.py:94
+#. return immediately because bad version is fatal for all files
+#: ../tools/ksflatten.py:49 ../tools/ksshell.py:168 ../tools/ksvalidator.py:114
 #: ../tools/ksverdiff.py:66
 #, python-format
 msgid "The version %s is not supported by pykickstart"
@@ -876,12 +929,12 @@ msgstr "kickstart ファイルの %s 行の読み込みに問題がありまし�
 msgid "Thin volumes cannot be cached"
 msgstr "シンボリュームのキャッシュを作成することはできません"
 
-#: ../pykickstart/parser.py:94
+#: ../pykickstart/parser.py:88
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
 msgstr "%%ksappend ファイルを開けません: %s"
 
-#: ../pykickstart/parser.py:122 ../pykickstart/parser.py:822
+#: ../pykickstart/parser.py:116 ../pykickstart/parser.py:816
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "指定された kickstart ファイルを開けません: %s"
@@ -897,7 +950,7 @@ msgstr "指定された kickstart ファイルを開けません: %s"
 #: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:175
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
-#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:102
+#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:113
 #: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
 #: ../pykickstart/commands/updates.py:69
 #, python-format
@@ -914,12 +967,12 @@ msgstr "nvdimm コマンドで予期せぬ引数: %(arguments)s"
 msgid "Unknown command %s"
 msgstr "不明のコマンド %s"
 
-#: ../pykickstart/base.py:401
+#: ../pykickstart/base.py:408
 #, python-format
 msgid "Unknown command: %s"
 msgstr "不明なコマンド: %s"
 
-#: ../pykickstart/parser.py:761
+#: ../pykickstart/parser.py:755
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "不明な kickstart セクションが見つかりました: %s"
@@ -930,9 +983,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "レルムの '%s' コマンドがありません"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:135 ../pykickstart/version.py:144
-#: ../pykickstart/version.py:147 ../pykickstart/version.py:163
-#: ../pykickstart/version.py:215
+#: ../pykickstart/version.py:138 ../pykickstart/version.py:147
+#: ../pykickstart/version.py:150 ../pykickstart/version.py:166
+#: ../pykickstart/version.py:218
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "サポートされていないバージョンが指定されています: %s"
@@ -955,7 +1008,7 @@ msgstr ""
 "<prefix>.<vlan id> インターフェイス名の表記を使用する場合は、<prefix> を "
 "'vlan' と同じにすることはできません。"
 
-#: ../tools/ksflatten.py:40
+#: ../tools/ksflatten.py:37
 msgid "Write flattened config to OUTPUT"
 msgstr "平坦化した設定を出力に書き込みます"
 
@@ -973,9 +1026,11 @@ msgstr "autopart --fstype には、--type=btrfs を使用することができ�
 
 #: ../pykickstart/commands/autopart.py:420
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
-msgstr "autopart --fstype=btrfs は有効なファイルシステムタイプではありません。--type=btrfs を使用してください"
+msgstr ""
+"autopart --fstype=btrfs は有効なファイルシステムタイプではありません。--"
+"type=btrfs を使用してください"
 
-#: ../pykickstart/commands/autopart.py:630
+#: ../pykickstart/commands/autopart.py:631
 msgid "autopart --type=btrfs is not supported"
 msgstr "autopart --type=btrfs はサポートしていません"
 
@@ -1000,11 +1055,11 @@ msgid "device command requires two arguments: module type and name"
 msgstr ""
 "device コマンドには、2 つの引数が必要です: モジュールのタイプおよび名前"
 
-#: ../tools/ksvalidator.py:53
+#: ../tools/ksvalidator.py:54
 msgid "filename or URL to read from"
 msgstr "読み込むファイルの名前または URL"
 
-#: ../tools/ksvalidator.py:55
+#: ../tools/ksvalidator.py:56
 msgid "halt after the first error or warning"
 msgstr "最初のエラーまたは警告で停止する"
 
@@ -1013,18 +1068,18 @@ msgstr "最初のエラーまたは警告で停止する"
 msgid "invalid boolean value: %r"
 msgstr "無効なブール値: %r"
 
-#: ../tools/ksvalidator.py:61 ../tools/ksverdiff.py:49
+#: ../tools/ksvalidator.py:62 ../tools/ksverdiff.py:49
 msgid "list the available versions of kickstart syntax"
 msgstr "kickstart 構文の利用可能なバージョンを表示する"
 
-#: ../tools/ksvalidator.py:58
+#: ../tools/ksvalidator.py:59
 #, python-format
 msgid "parse include files when %%include is seen"
 msgstr "%%include が表示されている場合は、インクルードファイルを解析します"
 
 # translation auto-copied from project subscription-manager, version 1.9.X,
 # document keys
-#: ../tools/ksvalidator.py:65
+#: ../tools/ksvalidator.py:66
 msgid "show this help message and exit"
 msgstr "ヘルプメッセージを表示して終了します"
 
@@ -1034,7 +1089,7 @@ msgid ""
 msgstr ""
 "完了した kickstart ファイルを出力する場所。指定しない場合は標準出力に出力"
 
-#: ../tools/ksshell.py:157 ../tools/ksvalidator.py:63
+#: ../tools/ksshell.py:157 ../tools/ksvalidator.py:64
 msgid "version of kickstart syntax to validate against"
 msgstr "検証対象の kickstart 構文のバージョン"
 
