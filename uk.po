@@ -2,17 +2,17 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Translators:
-# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2015, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021.
-# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2015, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-29 12:25-0700\n"
-"PO-Revision-Date: 2021-03-05 16:01+0000\n"
+"PO-Revision-Date: 2022-11-26 07:19+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/uk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -30,6 +30,8 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"Перевіряємо файл kickstart %(filename)s\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -580,6 +582,7 @@ msgstr "У команді %s мало бути вказано один або ж
 #: ../pykickstart/commands/zfcp.py:209
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
 msgstr ""
+"Разом із --wwpn і --fcplun можна використовувати лише --devnum або --devnum."
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -628,11 +631,8 @@ msgstr ""
 "або --romount."
 
 #: ../pykickstart/commands/autopart.py:686
-#, fuzzy
-#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr ""
-"Можна вказувати лише один з параметрів: --pbkdf-time або --pbkdf-iterations."
+msgstr "Можна вказуватди лише один з параметрів, --noswap або --hibernation."
 
 #: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
