@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-22 14:36-0700\n"
+"POT-Creation-Date: 2022-08-29 12:25-0700\n"
 "PO-Revision-Date: 2021-09-21 06:05+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -30,12 +30,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.8\n"
 
+#: ../tools/ksvalidator.py:102
+#, python-format
+msgid ""
+"\n"
+"Checking kickstart file %(filename)s\n"
+msgstr ""
+
 #: ../pykickstart/commands/device.py:144
 #, python-format
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "comando %(command)s requer um argumento único: %(argument)s"
 
-#: ../pykickstart/base.py:251
+#: ../pykickstart/base.py:252
 #, python-format
 msgid "%s has been removed."
 msgstr "%s foi removido."
@@ -51,7 +58,7 @@ msgid "--bindto=%s is not supported for this type of device"
 msgstr "--bindto =%s não é suportado para este tipo de dispositivo"
 
 #. pylint: disable=no-member
-#: ../pykickstart/commands/bootloader.py:330
+#: ../pykickstart/commands/bootloader.py:329
 msgid "--boot-drive accepts only one argument"
 msgstr "--boot-drive aceita somente um argumento"
 
@@ -59,11 +66,11 @@ msgstr "--boot-drive aceita somente um argumento"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize e --metadatasize são somente para thin pools"
 
-#: ../pykickstart/sections.py:746
+#: ../pykickstart/sections.py:758
 msgid "--default and --nobase cannot be used together"
 msgstr "--default e --nobase não podem ser utilizados juntos"
 
-#: ../pykickstart/sections.py:759
+#: ../pykickstart/sections.py:771
 msgid "--default and --nocore cannot be used together"
 msgstr "--default e --nocore não podem ser utilizados juntos"
 
@@ -185,7 +192,7 @@ msgstr "Um usuário com o nome %s já foi definido."
 msgid "A volgroup with the name %s has already been defined."
 msgstr "Um volgroup com nome %s já foi definido."
 
-#: ../pykickstart/commands/zfcp.py:120
+#: ../pykickstart/commands/zfcp.py:132
 msgid "A zfcp with this information has already been defined."
 msgstr "Um zfcp com esta informação já foi definido."
 
@@ -225,7 +232,7 @@ msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
 msgstr "Uma ação %(action)s no namespace %(namespace)s já foi definido."
 
-#: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
+#: ../pykickstart/commands/sshkey.py:120 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
 msgstr "Um usuário ssh com nome %s já foi definido."
@@ -289,7 +296,7 @@ msgstr "Erro ao copiar o arquivo: %s"
 msgid "Error opening file: %s"
 msgstr "Erro ao abrir o arquivo: %s"
 
-#: ../tools/ksvalidator.py:88
+#: ../tools/ksvalidator.py:108
 #, python-format
 msgid ""
 "Error reading %(filename)s:\n"
@@ -308,22 +315,22 @@ msgstr "Erro ao acessar de forma segura a URL \"%s\""
 msgid "Error writing file \"%s\":"
 msgstr "Erro ao gravar o arquivo \"%s\":"
 
-#: ../tools/ksflatten.py:67
+#: ../tools/ksflatten.py:63
 #, python-format
 msgid "Failed to open output file '%(filename)s' : %(error_msg)s"
 msgstr "Falha ao abrir arquivo de saída '%(filename)s' : %(error_msg)s"
 
-#: ../tools/ksflatten.py:61
+#: ../tools/ksflatten.py:57
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
 msgstr "Falha ao analisar arquivo kickstart '%(filename)s' : %(error_msg)s"
 
-#: ../tools/ksflatten.py:59
+#: ../tools/ksflatten.py:55
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
 msgstr "Falha ao ler arquivo kickstart '%(filename)s' : %(error_msg)s"
 
-#: ../tools/ksvalidator.py:110
+#: ../tools/ksvalidator.py:130
 #, python-format
 msgid ""
 "File uses a deprecated option or command.\n"
@@ -332,16 +339,16 @@ msgstr ""
 "Arquivo com um comando ou opção obsoleta.\n"
 "%s"
 
-#: ../tools/ksvalidator.py:118
+#: ../tools/ksvalidator.py:139
 #, python-format
 msgid "General error in input file:  %s"
 msgstr "Erro geral no arquivo de entrada:  %s"
 
-#: ../tools/ksvalidator.py:115
+#: ../tools/ksvalidator.py:136
 msgid "General kickstart error in input file"
 msgstr "Erro geral do kickstart no arquivo de entrada"
 
-#: ../pykickstart/parser.py:446
+#: ../pykickstart/parser.py:440
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Grupo não pode especificar tanto o --nodefaults como o --optional"
 
@@ -395,7 +402,7 @@ msgstr ""
 "opções. Nas próximas versões, isto resultará em um erro fatal no kickstart. "
 "Por favor, modifique o seu arquivo kickstart para remover essa opção."
 
-#: ../pykickstart/parser.py:89
+#: ../pykickstart/parser.py:83
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
 msgstr "url inválida para %%ksappend: %s"
@@ -473,7 +480,7 @@ msgstr ""
 msgid "Kickstart command eula expects the --agreed option"
 msgstr "O comando Kickstart eula espera a opção --agreed"
 
-#: ../tools/ksflatten.py:38
+#: ../tools/ksflatten.py:35
 msgid "Kickstart version to use for interpreting config"
 msgstr "Versão do Kickstart para utilizar para interpretar config"
 
@@ -494,7 +501,7 @@ msgstr "O método deve ser uma url para ser adicionada à lista da repo."
 msgid "Missing realm command arguments"
 msgstr "Faltando argumentos de comando da área de autenticação"
 
-#: ../tools/ksflatten.py:47
+#: ../tools/ksflatten.py:44
 msgid "Need to specify a config to flatten"
 msgstr "Necessário especificar uma config para mesclar"
 
@@ -574,6 +581,10 @@ msgstr "Um dos biospart ou opções de partition deve ser especificado."
 msgid "One or zero arguments are expected for the %s command"
 msgstr "Um ou nenhum argumento é esperado para o comando %s"
 
+#: ../pykickstart/commands/zfcp.py:209
+msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
+msgstr ""
+
 #: ../pykickstart/commands/repo.py:286
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for repo command."
@@ -624,7 +635,14 @@ msgstr ""
 "Somente um de --nomount e --romount pode ser especificado para comando "
 "rescue."
 
-#: ../pykickstart/commands/autopart.py:615
+#: ../pykickstart/commands/autopart.py:686
+#, fuzzy
+#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
+msgid "Only one of --noswap and --hibernation can be specified."
+msgstr ""
+"Apenas uma entre --pbkdf-time and --pbkdf-iterations pode ser especificada."
+
+#: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
 #: ../pykickstart/commands/partition.py:737 ../pykickstart/commands/raid.py:787
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
@@ -661,7 +679,7 @@ msgstr "As opções --nontp e --ntpservers são mutualmente exclusivas"
 msgid "Partitions required for %s"
 msgstr "Partições necessárias para %s"
 
-#: ../tools/ksflatten.py:36
+#: ../tools/ksflatten.py:33
 msgid "Path to kickstart config file"
 msgstr "Caminho para arquivo de config kickstart"
 
@@ -673,13 +691,13 @@ msgstr "A percentagem deve estar entre 0 e 100."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:767
+#: ../pykickstart/parser.py:761
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
 "Seção possivelmente desconhecida vista na linha %(lineno)s: %(sectionName)s"
 
-#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
+#: ../pykickstart/parser.py:619 ../pykickstart/parser.py:660
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "Seção %s não termina com %%end."
@@ -707,7 +725,7 @@ msgstr "Instantâneo com o nome %s já foi definido!"
 msgid "Specify only one realm to join"
 msgstr "Especifique somente uma área de autenticação para adicionar"
 
-#: ../pykickstart/sections.py:785
+#: ../pykickstart/sections.py:798
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -742,8 +760,8 @@ msgstr "O comandos \"%s\" e \"mount\" não podem ser usados ao mesmo tempo"
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr ""
-"A opção --fstype=tmpfs não pode ser utilizada em conjunto com --grow ou "
-"--maxsize"
+"A opção --fstype=tmpfs não pode ser utilizada em conjunto com --grow ou --"
+"maxsize"
 
 #: ../pykickstart/commands/module.py:137
 msgid "The enable module command does not take position arguments!"
@@ -871,7 +889,8 @@ msgstr ""
 msgid "The syspurpose command does not take positional arguments!"
 msgstr "O comando syspurpose não aceita argumentos posicionais!"
 
-#: ../tools/ksflatten.py:52 ../tools/ksshell.py:168 ../tools/ksvalidator.py:94
+#. return immediately because bad version is fatal for all files
+#: ../tools/ksflatten.py:49 ../tools/ksshell.py:168 ../tools/ksvalidator.py:114
 #: ../tools/ksverdiff.py:66
 #, python-format
 msgid "The version %s is not supported by pykickstart"
@@ -884,7 +903,8 @@ msgstr "O vlan id está fora do %(minimum)d-%(maximum)d intervalo de vlan id."
 
 #: ../pykickstart/commands/volgroup.py:222
 msgid "The volgroup and autopart commands can't be used at the same time"
-msgstr "Os comandos volgroup e autopart não podem ser utilizados ao mesmo tempo"
+msgstr ""
+"Os comandos volgroup e autopart não podem ser utilizados ao mesmo tempo"
 
 #: ../pykickstart/commands/volgroup.py:226
 msgid "The volgroup and mount commands can't be used at the same time"
@@ -899,12 +919,12 @@ msgstr "Houve um problema ao ler a linha %s do arquivo kickstart"
 msgid "Thin volumes cannot be cached"
 msgstr "Volumes thin não podem ser colocados no cache"
 
-#: ../pykickstart/parser.py:94
+#: ../pykickstart/parser.py:88
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
 msgstr "Não foi possível abrir o arquivo %%ksappend %s"
 
-#: ../pykickstart/parser.py:122 ../pykickstart/parser.py:822
+#: ../pykickstart/parser.py:116 ../pykickstart/parser.py:816
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "Não foi possível abrir o arquivo ksappend: %s"
@@ -920,7 +940,7 @@ msgstr "Não foi possível abrir o arquivo ksappend: %s"
 #: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:175
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
-#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:102
+#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:113
 #: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
 #: ../pykickstart/commands/updates.py:69
 #, python-format
@@ -937,12 +957,12 @@ msgstr "Argumentos inesperados para o comando nvdimm: %(arguments)s"
 msgid "Unknown command %s"
 msgstr "Comando desconhecido %s"
 
-#: ../pykickstart/base.py:401
+#: ../pykickstart/base.py:408
 #, python-format
 msgid "Unknown command: %s"
 msgstr "Comando desconhecido: %s"
 
-#: ../pykickstart/parser.py:761
+#: ../pykickstart/parser.py:755
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Seção desconhecida do kickstart: %s"
@@ -953,9 +973,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Comando '%s' da área de autenticação não suportado"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:135 ../pykickstart/version.py:144
-#: ../pykickstart/version.py:147 ../pykickstart/version.py:163
-#: ../pykickstart/version.py:215
+#: ../pykickstart/version.py:138 ../pykickstart/version.py:147
+#: ../pykickstart/version.py:150 ../pykickstart/version.py:166
+#: ../pykickstart/version.py:218
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Versão especificada não suportada: %s"
@@ -978,7 +998,7 @@ msgstr ""
 "Quando utilizar a notação de nome de interface <prefix>.<vlan id>, <prefix> "
 "não pode ser igual a 'vlan'."
 
-#: ../tools/ksflatten.py:40
+#: ../tools/ksflatten.py:37
 msgid "Write flattened config to OUTPUT"
 msgstr "Gravar config mesclada para SAÍDA"
 
@@ -999,7 +1019,7 @@ msgstr "autopart --fstype não pode ser utilizado com --type=btrfs"
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr "autopart --fstype=btrfs não é um fstype válido, use --type=btrfs"
 
-#: ../pykickstart/commands/autopart.py:630
+#: ../pykickstart/commands/autopart.py:631
 msgid "autopart --type=btrfs is not supported"
 msgstr "autopart --type=btrfs não é suportado"
 
@@ -1023,11 +1043,11 @@ msgstr "volume secundário btrfs requer um nome"
 msgid "device command requires two arguments: module type and name"
 msgstr "comando de dispositivo requer dois argumentos: tipo de módulo e nome"
 
-#: ../tools/ksvalidator.py:53
+#: ../tools/ksvalidator.py:54
 msgid "filename or URL to read from"
 msgstr "nome do arquivo ou URL para ler"
 
-#: ../tools/ksvalidator.py:55
+#: ../tools/ksvalidator.py:56
 msgid "halt after the first error or warning"
 msgstr "parar após o primeiro erro ou aviso"
 
@@ -1036,16 +1056,16 @@ msgstr "parar após o primeiro erro ou aviso"
 msgid "invalid boolean value: %r"
 msgstr "valor booliano inválido: %r"
 
-#: ../tools/ksvalidator.py:61 ../tools/ksverdiff.py:49
+#: ../tools/ksvalidator.py:62 ../tools/ksverdiff.py:49
 msgid "list the available versions of kickstart syntax"
 msgstr "lista das versões da sintaxe do kickstart disponíveis"
 
-#: ../tools/ksvalidator.py:58
+#: ../tools/ksvalidator.py:59
 #, python-format
 msgid "parse include files when %%include is seen"
 msgstr "analisar arquivos de inclusão quando %%include for visto"
 
-#: ../tools/ksvalidator.py:65
+#: ../tools/ksvalidator.py:66
 msgid "show this help message and exit"
 msgstr "mostrar essa mensagem de ajuda e sair"
 
@@ -1056,7 +1076,7 @@ msgstr ""
 "a localização para gravar o arquivo finalizado kickstart, ou stdout se não "
 "for fornecido"
 
-#: ../tools/ksshell.py:157 ../tools/ksvalidator.py:63
+#: ../tools/ksshell.py:157 ../tools/ksvalidator.py:64
 msgid "version of kickstart syntax to validate against"
 msgstr "versão correspondente da sintaxe do kickstart para validação"
 

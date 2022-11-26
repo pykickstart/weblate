@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-22 14:36-0700\n"
+"POT-Creation-Date: 2022-08-29 12:25-0700\n"
 "PO-Revision-Date: 2021-02-28 12:40+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
@@ -25,12 +25,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
+#: ../tools/ksvalidator.py:102
+#, python-format
+msgid ""
+"\n"
+"Checking kickstart file %(filename)s\n"
+msgstr ""
+
 #: ../pykickstart/commands/device.py:144
 #, python-format
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "%(command)s commando vereisr een enkel argument: %(argument)s"
 
-#: ../pykickstart/base.py:251
+#: ../pykickstart/base.py:252
 #, python-format
 msgid "%s has been removed."
 msgstr ""
@@ -46,7 +53,7 @@ msgid "--bindto=%s is not supported for this type of device"
 msgstr "--bindto=%s wordt niet ondersteund voor dit type apparaat"
 
 #. pylint: disable=no-member
-#: ../pykickstart/commands/bootloader.py:330
+#: ../pykickstart/commands/bootloader.py:329
 msgid "--boot-drive accepts only one argument"
 msgstr "--boot-drive accepteert slechts een argument"
 
@@ -54,11 +61,11 @@ msgstr "--boot-drive accepteert slechts een argument"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize en --metadatasize zijn alleen bestemd voor thin pools"
 
-#: ../pykickstart/sections.py:746
+#: ../pykickstart/sections.py:758
 msgid "--default and --nobase cannot be used together"
 msgstr "--default en --nobase kunnen niet tegelijkertijd gebruikt worden"
 
-#: ../pykickstart/sections.py:759
+#: ../pykickstart/sections.py:771
 msgid "--default and --nocore cannot be used together"
 msgstr "--default en --nocore kunnen niet tegelijkertijd gebruikt worden"
 
@@ -184,7 +191,7 @@ msgstr "Een gebruiker met de naam %s is al gedefinieerd."
 msgid "A volgroup with the name %s has already been defined."
 msgstr "Een volgroup met de naam %s is al gedefinieerd."
 
-#: ../pykickstart/commands/zfcp.py:120
+#: ../pykickstart/commands/zfcp.py:132
 msgid "A zfcp with this information has already been defined."
 msgstr "Een zfcp met deze informatie is al gedefinieerd."
 
@@ -226,7 +233,7 @@ msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
 msgstr "Een actie %(action)s voor naamruimte %(namespace)s is al gedefinieerd."
 
-#: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
+#: ../pykickstart/commands/sshkey.py:120 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
 msgstr "Een ssh-gebruiker met de naam %s is al gedefinieerd."
@@ -290,7 +297,7 @@ msgstr "Fout bij het kopiëren van bestand: %s"
 msgid "Error opening file: %s"
 msgstr "Fout bij het openen van bestand: %s"
 
-#: ../tools/ksvalidator.py:88
+#: ../tools/ksvalidator.py:108
 #, python-format
 msgid ""
 "Error reading %(filename)s:\n"
@@ -309,24 +316,24 @@ msgstr "Fout bij veilige toegang tot URL \"%s\""
 msgid "Error writing file \"%s\":"
 msgstr "Fout bij het scheijven van bestand \"%s\":"
 
-#: ../tools/ksflatten.py:67
+#: ../tools/ksflatten.py:63
 #, python-format
 msgid "Failed to open output file '%(filename)s' : %(error_msg)s"
 msgstr "Het openen van outputbestand '%(filename)s' mislukte: %(error_msg)s"
 
-#: ../tools/ksflatten.py:61
+#: ../tools/ksflatten.py:57
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
 msgstr ""
 "Het ontleden van kickstartbestand '%(filename)s' mislukte: %(error_msg)s"
 
-#: ../tools/ksflatten.py:59
+#: ../tools/ksflatten.py:55
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
 msgstr ""
 "Het lezen van het kickstartbestand '%(filename)s' mislukte: %(error_msg)s"
 
-#: ../tools/ksvalidator.py:110
+#: ../tools/ksvalidator.py:130
 #, python-format
 msgid ""
 "File uses a deprecated option or command.\n"
@@ -335,16 +342,16 @@ msgstr ""
 "Bestand gebruikt een verouderde optie of commando.\n"
 "%s"
 
-#: ../tools/ksvalidator.py:118
+#: ../tools/ksvalidator.py:139
 #, python-format
 msgid "General error in input file:  %s"
 msgstr "Algemene fout in invoerbestand:  %s"
 
-#: ../tools/ksvalidator.py:115
+#: ../tools/ksvalidator.py:136
 msgid "General kickstart error in input file"
 msgstr "Algemene kickstart fout in invoerbestand"
 
-#: ../pykickstart/parser.py:446
+#: ../pykickstart/parser.py:440
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Groep kan niet zowel --nodefaults als --optional specificeren"
 
@@ -398,7 +405,7 @@ msgstr ""
 "een fatale fout voor kickstart.  Verander je kickstartbestand om alle opties "
 "te verwijderen."
 
-#: ../pykickstart/parser.py:89
+#: ../pykickstart/parser.py:83
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
 msgstr "Ongeldige url voor %%ksappend: %s"
@@ -476,7 +483,7 @@ msgstr ""
 msgid "Kickstart command eula expects the --agreed option"
 msgstr "Kickstart commando eula verwacht de --agreed optie"
 
-#: ../tools/ksflatten.py:38
+#: ../tools/ksflatten.py:35
 msgid "Kickstart version to use for interpreting config"
 msgstr "Kickstart versie te gebruiken voor interpreteren van configuratie"
 
@@ -497,7 +504,7 @@ msgstr "Methode moet een url zijn om toegevoegd te worden aan de repolijst."
 msgid "Missing realm command arguments"
 msgstr "Ontbrekende gebiedscommando argumenten"
 
-#: ../tools/ksflatten.py:47
+#: ../tools/ksflatten.py:44
 msgid "Need to specify a config to flatten"
 msgstr "Specificeer een configuratie om plat te slaan"
 
@@ -582,6 +589,10 @@ msgstr "Alleen de biospart of de partitie optie kan gespecificeerd worden."
 msgid "One or zero arguments are expected for the %s command"
 msgstr "Een of nul argumenten worden verwacht voor het %s commando"
 
+#: ../pykickstart/commands/zfcp.py:209
+msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
+msgstr ""
+
 #: ../pykickstart/commands/repo.py:286
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for repo command."
@@ -634,7 +645,14 @@ msgstr ""
 "Slechts een van --nomount en --romount mag gespecificeerd worden voor het "
 "rescue commando."
 
-#: ../pykickstart/commands/autopart.py:615
+#: ../pykickstart/commands/autopart.py:686
+#, fuzzy
+#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
+msgid "Only one of --noswap and --hibernation can be specified."
+msgstr ""
+"Slechts een van --pbkdf-time en --pbkdf-iterations kan gespecificeerd worden."
+
+#: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
 #: ../pykickstart/commands/partition.py:737 ../pykickstart/commands/raid.py:787
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
@@ -672,7 +690,7 @@ msgstr "Opties --nontp en --ntpservers sluiten elkaar uit"
 msgid "Partitions required for %s"
 msgstr "Partitie vereist voor %s"
 
-#: ../tools/ksflatten.py:36
+#: ../tools/ksflatten.py:33
 msgid "Path to kickstart config file"
 msgstr "Pad naar kickstart configuratiebestand"
 
@@ -684,13 +702,13 @@ msgstr "Percentage moet tussen 0 en 100 zijn."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:767
+#: ../pykickstart/parser.py:761
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
 "Potentieel onbekende sectie aangetroffen op regel %(lineno)s: %(sectionName)s"
 
-#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
+#: ../pykickstart/parser.py:619 ../pykickstart/parser.py:660
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "Sectie %s eindigt niet op %%end."
@@ -718,7 +736,7 @@ msgstr "Snapshot met de naam %s is al gedefinieerd!"
 msgid "Specify only one realm to join"
 msgstr "Specificeer slechts een gebied om bij te horen"
 
-#: ../pykickstart/sections.py:785
+#: ../pykickstart/sections.py:798
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -881,7 +899,8 @@ msgstr "Het gebiedscommando 'join' mag slechts een keer gespecificeerd worden"
 msgid "The syspurpose command does not take positional arguments!"
 msgstr "Het syspurpose commando neemt geen positionele argumenten aan!"
 
-#: ../tools/ksflatten.py:52 ../tools/ksshell.py:168 ../tools/ksvalidator.py:94
+#. return immediately because bad version is fatal for all files
+#: ../tools/ksflatten.py:49 ../tools/ksshell.py:168 ../tools/ksvalidator.py:114
 #: ../tools/ksverdiff.py:66
 #, python-format
 msgid "The version %s is not supported by pykickstart"
@@ -912,12 +931,12 @@ msgstr ""
 msgid "Thin volumes cannot be cached"
 msgstr "Thin volumes kunnen niet gecached worden"
 
-#: ../pykickstart/parser.py:94
+#: ../pykickstart/parser.py:88
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
 msgstr "Niet in staat om %%ksappend bestand %s te openen"
 
-#: ../pykickstart/parser.py:122 ../pykickstart/parser.py:822
+#: ../pykickstart/parser.py:116 ../pykickstart/parser.py:816
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "Niet in staat om kickstart bestand %s te openen"
@@ -933,7 +952,7 @@ msgstr "Niet in staat om kickstart bestand %s te openen"
 #: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:175
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
-#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:102
+#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:113
 #: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
 #: ../pykickstart/commands/updates.py:69
 #, python-format
@@ -950,12 +969,12 @@ msgstr "Onverwachte argumenten voor nvdimm commando: %(arguments)s"
 msgid "Unknown command %s"
 msgstr "Onbekend commando %s"
 
-#: ../pykickstart/base.py:401
+#: ../pykickstart/base.py:408
 #, python-format
 msgid "Unknown command: %s"
 msgstr "Onbekend commando: %s"
 
-#: ../pykickstart/parser.py:761
+#: ../pykickstart/parser.py:755
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Onbekende kickstart sectie: %s"
@@ -966,9 +985,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Niet ondersteund gebieds '%s' commando"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:135 ../pykickstart/version.py:144
-#: ../pykickstart/version.py:147 ../pykickstart/version.py:163
-#: ../pykickstart/version.py:215
+#: ../pykickstart/version.py:138 ../pykickstart/version.py:147
+#: ../pykickstart/version.py:150 ../pykickstart/version.py:166
+#: ../pykickstart/version.py:218
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Niet-ondersteunde versie opgegeven: %s"
@@ -992,7 +1011,7 @@ msgstr ""
 "Als de <prefix>.<vlan id> interfacenaam notatie gebruikt wordt, kan <prefix> "
 "niet gelijk zijn aan 'vlan'."
 
-#: ../tools/ksflatten.py:40
+#: ../tools/ksflatten.py:37
 msgid "Write flattened config to OUTPUT"
 msgstr "Schrijf platgeslagen configuratie naar OUTPUT"
 
@@ -1014,7 +1033,7 @@ msgstr ""
 "autopart --fstype=btrfs is geen geldig fstype, gebruik in plaats daarvan --"
 "type=btrfs"
 
-#: ../pykickstart/commands/autopart.py:630
+#: ../pykickstart/commands/autopart.py:631
 msgid "autopart --type=btrfs is not supported"
 msgstr "autopart --type=btrfs wordt niet ondersteund"
 
@@ -1038,11 +1057,11 @@ msgstr "btrfs subvolume vereist een naam"
 msgid "device command requires two arguments: module type and name"
 msgstr "apparaatcommando vereist twee argumenten: module type en naam"
 
-#: ../tools/ksvalidator.py:53
+#: ../tools/ksvalidator.py:54
 msgid "filename or URL to read from"
 msgstr "bestandsnaam of URL om uit te lezen"
 
-#: ../tools/ksvalidator.py:55
+#: ../tools/ksvalidator.py:56
 msgid "halt after the first error or warning"
 msgstr "na de eerste fout of waarschuwing stoppen"
 
@@ -1051,16 +1070,16 @@ msgstr "na de eerste fout of waarschuwing stoppen"
 msgid "invalid boolean value: %r"
 msgstr "ongeldige Booleaanse waarde: %r"
 
-#: ../tools/ksvalidator.py:61 ../tools/ksverdiff.py:49
+#: ../tools/ksvalidator.py:62 ../tools/ksverdiff.py:49
 msgid "list the available versions of kickstart syntax"
 msgstr "lijst van beschikbare versies van kickstart syntaxis"
 
-#: ../tools/ksvalidator.py:58
+#: ../tools/ksvalidator.py:59
 #, python-format
 msgid "parse include files when %%include is seen"
 msgstr "ontleed include bestanden als %%include is opgemerkt"
 
-#: ../tools/ksvalidator.py:65
+#: ../tools/ksvalidator.py:66
 msgid "show this help message and exit"
 msgstr "toon deze hulpboodschap en sluit af"
 
@@ -1071,7 +1090,7 @@ msgstr ""
 "de locatie waarnaar het afgemaakte kickstart bestand geschreven wordt, of "
 "stdout als het niet opgegeven werd"
 
-#: ../tools/ksshell.py:157 ../tools/ksvalidator.py:63
+#: ../tools/ksshell.py:157 ../tools/ksvalidator.py:64
 msgid "version of kickstart syntax to validate against"
 msgstr "versie van kickstart syntaxis waartegen moet worden gevalideerd"
 
