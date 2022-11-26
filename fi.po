@@ -7,13 +7,13 @@
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2011, 2012
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
 # Ricky Tigg <ricky.tigg@gmail.com>, 2021.
-# Jan Kuparinen <copper_fin@hotmail.com>, 2021.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-29 12:25-0700\n"
-"PO-Revision-Date: 2021-04-22 08:02+0000\n"
+"PO-Revision-Date: 2022-11-24 17:21+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fi/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -30,6 +30,8 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"Tarkistetaan kickstart-tiedostoa %(filename)s\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -574,7 +576,7 @@ msgstr "%s-komennolle odotetaan yhtä tai ei yhtään argumenttia"
 
 #: ../pykickstart/commands/zfcp.py:209
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "Vain --devnum tai --devnum on sallittu --wwpn ja --fcplun kanssa."
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -624,10 +626,8 @@ msgstr ""
 "komennolle."
 
 #: ../pykickstart/commands/autopart.py:686
-#, fuzzy
-#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr "Vain yksi --pbkdf-time ja --pbkdf-iteraatioista voidaan määrittää."
+msgstr "Vain joko --noswap tai --hibernation voidaan määrittää."
 
 #: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
