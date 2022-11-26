@@ -9,13 +9,14 @@
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2020.
 # simmon <simmon@nplob.com>, 2021.
+# 김인수 <simmon@nplob.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-29 12:25-0700\n"
-"PO-Revision-Date: 2021-04-13 06:02+0000\n"
-"Last-Translator: simmon <simmon@nplob.com>\n"
+"PO-Revision-Date: 2022-11-24 17:21+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/ko/>\n"
 "Language: ko\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -31,6 +32,8 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"킥스타트 파일 %(filename)s 점검 중\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -565,7 +568,7 @@ msgstr "1 또는 0 인수는 %s 명령을 위하여 예상됩니다"
 
 #: ../pykickstart/commands/zfcp.py:209
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "--wwpn와 --fcplun가 있는 --devnum 또는 --devnum만 허용됩니다."
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -611,10 +614,8 @@ msgstr ""
 "--nomount 및 --romount 중 하나만 복구 명령을 위하여 지정 될 수 있습니다."
 
 #: ../pykickstart/commands/autopart.py:686
-#, fuzzy
-#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr "pbkdf-time 및 --pbkdf-iterations 중 하나만 지정 될 수 있습니다."
+msgstr "--noswap 및 --hibernation 중의 하나만 지정 될 수 있습니다."
 
 #: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
