@@ -12,13 +12,14 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021.
 # Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021.
 # Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021.
+# Luna Jernberg <bittin@reimu.nl>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-29 12:25-0700\n"
-"PO-Revision-Date: 2021-03-24 13:01+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"PO-Revision-Date: 2022-11-30 23:20+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/sv/>\n"
 "Language: sv\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -34,6 +35,8 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"Kontrollerar kickstart-fil %(filename)s\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -572,7 +575,7 @@ msgstr "Ett eller flera argument förväntades till kommandot %s"
 
 #: ../pykickstart/commands/zfcp.py:209
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "Endast --devnum eller --devnum med --wwpn och --fcplun är tillåtna."
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -615,10 +618,8 @@ msgid ""
 msgstr "Endast en av --nomount och --romount kan anges för kommandot rescue."
 
 #: ../pykickstart/commands/autopart.py:686
-#, fuzzy
-#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr "Endast en av --pbkdf-time och --pbkdf-iterations kan anges."
+msgstr "Endast en av --noswap och --hibernation kan anges."
 
 #: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
