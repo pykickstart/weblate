@@ -14,13 +14,14 @@
 # Julie Carbone <jcarbone@redhat.com>, 2016. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Julien Humbert <julroy67@gmail.com>, 2020, 2021.
+# Transtats <suanand@redhat.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-29 12:25-0700\n"
-"PO-Revision-Date: 2021-05-05 14:02+0000\n"
-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"PO-Revision-Date: 2023-03-02 08:20+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fr/>\n"
 "Language: fr\n"
@@ -28,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.6.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -36,6 +37,8 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"Vérification du fichier kickstart%(filename)s\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -595,7 +598,7 @@ msgstr "La commande %s attend un seul ou aucun argument"
 
 #: ../pykickstart/commands/zfcp.py:209
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "Seul --devnum ou --devnum avec --wwpn et --fcplun sont autorisés."
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -645,10 +648,8 @@ msgstr ""
 "Seul --nomount ou --romount peut être spécifié pour la commande rescue."
 
 #: ../pykickstart/commands/autopart.py:686
-#, fuzzy
-#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr "Vous devez choisir soit --pbkdf-time ou --pbkdf-iterations."
+msgstr "Une seule des options --noswap et --hibernation peut être spécifiée."
 
 #: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919

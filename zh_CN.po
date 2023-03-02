@@ -11,13 +11,14 @@
 # Leah Liu <lliu@redhat.com>, 2016. #zanata
 # cheng ye <18969068329@163.com>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
+# Transtats <suanand@redhat.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-29 12:25-0700\n"
-"PO-Revision-Date: 2021-09-02 09:04+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2023-03-02 08:20+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/pykickstart/master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -25,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -33,6 +34,8 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"检查 kickstart 文件 %(filename)s\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -545,7 +548,7 @@ msgstr "%s 命令应有一个或没有参数"
 
 #: ../pykickstart/commands/zfcp.py:209
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "只允许使用 --devnum 或 --devnum 与 --wwpn 和 --fcplun 一起使用。"
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -584,10 +587,8 @@ msgid ""
 msgstr "rescue 命令只能指定 --nomount 和 --romount 之一。"
 
 #: ../pykickstart/commands/autopart.py:686
-#, fuzzy
-#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr "只能指定 --pbkdf-time 和 --pbkdf-iterations 中的一个。"
+msgstr "只能指定 --noswap 和 --hibernation 中的一个。"
 
 #: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
