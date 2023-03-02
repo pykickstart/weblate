@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-29 12:25-0700\n"
+"POT-Creation-Date: 2023-02-27 10:39-0800\n"
 "PO-Revision-Date: 2023-03-02 08:20+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -51,8 +51,8 @@ msgstr "%s 已删除。"
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "'--mkfsoptions' 需要 --reformat"
 
-#: ../pykickstart/commands/network.py:822
-#: ../pykickstart/commands/network.py:1048
+#: ../pykickstart/commands/network.py:845
+#: ../pykickstart/commands/network.py:1118
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
 msgstr "这个类型的设备不支持 --bindto=%s"
@@ -66,11 +66,11 @@ msgstr "--boot-drive 只接受一个参数"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize 和 --metadatasize 仅可用于精简池"
 
-#: ../pykickstart/sections.py:758
+#: ../pykickstart/sections.py:767
 msgid "--default and --nobase cannot be used together"
 msgstr "--default 和 --nobase 不能一同使用"
 
-#: ../pykickstart/sections.py:771
+#: ../pykickstart/sections.py:780
 msgid "--default and --nocore cannot be used together"
 msgstr "--default 和 --nocore 不能一同使用"
 
@@ -156,7 +156,7 @@ msgstr ""
 msgid "A module with the name %s has already been defined."
 msgstr "已定义名为 %s 的模块。"
 
-#: ../pykickstart/commands/network.py:471
+#: ../pykickstart/commands/network.py:494
 #, python-format
 msgid "A network device with the name %s has already been defined."
 msgstr "已定义名为 %s 的网络设备。"
@@ -234,8 +234,8 @@ msgstr "已定义名为 %s 的 ssh 用户。"
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr "%s 命令至少需要一个选项和/或参数"
 
-#: ../pykickstart/commands/network.py:740
-#: ../pykickstart/commands/network.py:1043
+#: ../pykickstart/commands/network.py:763
+#: ../pykickstart/commands/network.py:1113
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr "--bridgeopts 的错误格式，应为使用 ',' 的 key=value 选项"
@@ -339,11 +339,11 @@ msgstr "输入文件中的 kickstart 错误"
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "组无法同时指定--nodefaults 和--optional"
 
-#: ../pykickstart/commands/network.py:942
+#: ../pykickstart/commands/network.py:1012
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr "如果网络 --interfacename 包含a '.'，则后接有效 vlan id。"
 
-#: ../pykickstart/commands/network.py:951
+#: ../pykickstart/commands/network.py:1021
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr "如果网络 --interfacename 以 'vlan' 开始，则后接有效 vlan id。"
@@ -607,9 +607,33 @@ msgstr "driverdisk 命令指定 --source 和分区之一。"
 msgid "Only one partition may be specified for driverdisk command."
 msgstr "driverdisk 命令只能指定一个分区。"
 
-#: ../pykickstart/commands/network.py:734
-#: ../pykickstart/commands/network.py:1037
+#: ../pykickstart/commands/network.py:757
+#: ../pykickstart/commands/network.py:1107
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgstr "选项 --bridgeopts 需要指定 --bridgeslaves"
+
+#: ../pykickstart/commands/network.py:883
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv4-dns-search requires --device to be specified"
+msgstr "选项 --bridgeopts 需要指定 --bridgeslaves"
+
+#: ../pykickstart/commands/network.py:889
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
+msgstr "选项 --bridgeopts 需要指定 --bridgeslaves"
+
+#: ../pykickstart/commands/network.py:886
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv6-dns-search requires --device to be specified"
+msgstr "选项 --bridgeopts 需要指定 --bridgeslaves"
+
+#: ../pykickstart/commands/network.py:892
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
 msgstr "选项 --bridgeopts 需要指定 --bridgeslaves"
 
 #: ../pykickstart/commands/timezone.py:171
@@ -669,7 +693,7 @@ msgstr "名为 %s 的快照已被定义！"
 msgid "Specify only one realm to join"
 msgstr "只指定一个要加入的区域"
 
-#: ../pykickstart/sections.py:798
+#: ../pykickstart/sections.py:807
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -826,7 +850,7 @@ msgstr "syspurpose 命令不能使用位置参数！"
 msgid "The version %s is not supported by pykickstart"
 msgstr "%s版本不被pykickstart支持"
 
-#: ../pykickstart/commands/network.py:956
+#: ../pykickstart/commands/network.py:1026
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr "vlan id 不在 %(minimum)d-%(maximum)d vlan id 范围内。"
@@ -919,7 +943,7 @@ msgstr ""
 "警告:  在处理输入文件时发生以下错误:\n"
 "%s\n"
 
-#: ../pykickstart/commands/network.py:938
+#: ../pykickstart/commands/network.py:1008
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."

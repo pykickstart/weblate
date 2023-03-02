@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-29 12:25-0700\n"
+"POT-Creation-Date: 2023-02-27 10:39-0800\n"
 "PO-Revision-Date: 2022-11-24 17:21+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -47,8 +47,8 @@ msgstr "%s on poistettu."
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "'--mkfsoptions' vaatii '--reformat'"
 
-#: ../pykickstart/commands/network.py:822
-#: ../pykickstart/commands/network.py:1048
+#: ../pykickstart/commands/network.py:845
+#: ../pykickstart/commands/network.py:1118
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
 msgstr "--bindto=%sei tueta tämäntyyppisissä laitteissa"
@@ -62,11 +62,11 @@ msgstr "'--boot-drive' hyväksyy vain yhden argumentin"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "'--chunksize' ja '--metadatasize' ovat vain ohuille varannoille"
 
-#: ../pykickstart/sections.py:758
+#: ../pykickstart/sections.py:767
 msgid "--default and --nobase cannot be used together"
 msgstr "'--default' ja '--nobase' ei voida käyttää yhdessä"
 
-#: ../pykickstart/sections.py:771
+#: ../pykickstart/sections.py:780
 msgid "--default and --nocore cannot be used together"
 msgstr "'--default' ja '--nocore' ei voida käyttää yhdessä"
 
@@ -158,7 +158,7 @@ msgstr ""
 msgid "A module with the name %s has already been defined."
 msgstr "Moduuli nimeltä %s on jo määritelty."
 
-#: ../pykickstart/commands/network.py:471
+#: ../pykickstart/commands/network.py:494
 #, python-format
 msgid "A network device with the name %s has already been defined."
 msgstr "Verkkolaite nimeltä %s on jo määritelty."
@@ -238,8 +238,8 @@ msgid "At least one option and/or an argument are expected for the %s command"
 msgstr ""
 "Komennolle '%s' odotetaan vähintään yhtä vaihtoehtoa ja/tai argumenttia"
 
-#: ../pykickstart/commands/network.py:740
-#: ../pykickstart/commands/network.py:1043
+#: ../pykickstart/commands/network.py:763
+#: ../pykickstart/commands/network.py:1113
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr ""
@@ -346,13 +346,13 @@ msgstr "Yleinen kickstart-virhe syötetiedostossa"
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Ryhmä ei voi määrittää sekä --nodefaults että --optional"
 
-#: ../pykickstart/commands/network.py:942
+#: ../pykickstart/commands/network.py:1012
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
 "Jos network --interfacename sisältää pisteen \".\", kelvollisen vlan-"
 "tunnuksen tulisi seurata."
 
-#: ../pykickstart/commands/network.py:951
+#: ../pykickstart/commands/network.py:1021
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
@@ -648,9 +648,33 @@ msgstr ""
 msgid "Only one partition may be specified for driverdisk command."
 msgstr "Vain yksi partition voidaan määrittää driverdisk-komennolle."
 
-#: ../pykickstart/commands/network.py:734
-#: ../pykickstart/commands/network.py:1037
+#: ../pykickstart/commands/network.py:757
+#: ../pykickstart/commands/network.py:1107
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgstr "Vaihtoehto - bridgeopts vaatii --bridgeslaves määriteltävän"
+
+#: ../pykickstart/commands/network.py:883
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv4-dns-search requires --device to be specified"
+msgstr "Vaihtoehto - bridgeopts vaatii --bridgeslaves määriteltävän"
+
+#: ../pykickstart/commands/network.py:889
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
+msgstr "Vaihtoehto - bridgeopts vaatii --bridgeslaves määriteltävän"
+
+#: ../pykickstart/commands/network.py:886
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv6-dns-search requires --device to be specified"
+msgstr "Vaihtoehto - bridgeopts vaatii --bridgeslaves määriteltävän"
+
+#: ../pykickstart/commands/network.py:892
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
 msgstr "Vaihtoehto - bridgeopts vaatii --bridgeslaves määriteltävän"
 
 #: ../pykickstart/commands/timezone.py:171
@@ -710,7 +734,7 @@ msgstr "Tilannevedos nimellä %s on jo määritelty!"
 msgid "Specify only one realm to join"
 msgstr "Määritä vain yksi alue, johon haluat liittyä"
 
-#: ../pykickstart/sections.py:798
+#: ../pykickstart/sections.py:807
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -877,7 +901,7 @@ msgstr "Syspurpose-komento ei ota sijaintiparametreja!"
 msgid "The version %s is not supported by pykickstart"
 msgstr "Pykickstart ei tue versiota %s"
 
-#: ../pykickstart/commands/network.py:956
+#: ../pykickstart/commands/network.py:1026
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr "Vlan-tunnus on %(minimum)d-%(maximum)d vlan-id-alueen ulkopuolella."
@@ -970,7 +994,7 @@ msgstr ""
 "Varoitus: Seuraava virhe tapahtui syötetiedoston käsittelyssä:\n"
 "%s\n"
 
-#: ../pykickstart/commands/network.py:938
+#: ../pykickstart/commands/network.py:1008
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."
