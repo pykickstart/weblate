@@ -13,13 +13,14 @@
 # Tomoyuki KATO <tomo@dream.daynight.jp>, 2011,2014
 # carrotsoft <www.carrotsoft@gmail.com>, 2011
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
+# Transtats <suanand@redhat.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-29 12:25-0700\n"
-"PO-Revision-Date: 2021-09-02 09:04+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2023-03-02 08:20+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/ja/>\n"
 "Language: ja\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -35,6 +36,8 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"キックスタートファイル %(filename)s の確認中\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -598,7 +601,7 @@ msgstr "%s コマンドには引数を 1 つ指定するか、何も指定しな
 
 #: ../pykickstart/commands/zfcp.py:209
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "--devnum または --devnum は --wwpn および --fcplun としか使用できません。"
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -647,10 +650,8 @@ msgstr ""
 "ます。"
 
 #: ../pykickstart/commands/autopart.py:686
-#, fuzzy
-#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr "--pbkdf-time と --pbkdf-iterations のいずれか 1 つを指定できます。"
+msgstr "--noswap または --hibernation のいずれか 1 つしか指定できません。"
 
 #: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
