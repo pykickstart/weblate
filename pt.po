@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-29 12:25-0700\n"
+"POT-Creation-Date: 2023-02-27 10:39-0800\n"
 "PO-Revision-Date: 2015-04-14 01:45+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/pykickstart/"
@@ -43,8 +43,8 @@ msgstr ""
 msgid "'--mkfsoptions' requires --reformat"
 msgstr ""
 
-#: ../pykickstart/commands/network.py:822
-#: ../pykickstart/commands/network.py:1048
+#: ../pykickstart/commands/network.py:845
+#: ../pykickstart/commands/network.py:1118
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
 msgstr ""
@@ -58,11 +58,11 @@ msgstr ""
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr ""
 
-#: ../pykickstart/sections.py:758
+#: ../pykickstart/sections.py:767
 msgid "--default and --nobase cannot be used together"
 msgstr "--default e --no base não podem ser utilizados em conjunto"
 
-#: ../pykickstart/sections.py:771
+#: ../pykickstart/sections.py:780
 msgid "--default and --nocore cannot be used together"
 msgstr "--default e --no core não podem ser utilizados em conjunto"
 
@@ -147,7 +147,7 @@ msgstr ""
 msgid "A module with the name %s has already been defined."
 msgstr ""
 
-#: ../pykickstart/commands/network.py:471
+#: ../pykickstart/commands/network.py:494
 #, python-format
 msgid "A network device with the name %s has already been defined."
 msgstr ""
@@ -225,8 +225,8 @@ msgstr ""
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr ""
 
-#: ../pykickstart/commands/network.py:740
-#: ../pykickstart/commands/network.py:1043
+#: ../pykickstart/commands/network.py:763
+#: ../pykickstart/commands/network.py:1113
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr ""
@@ -328,11 +328,11 @@ msgstr "Erro geral do kickstart no ficheiro"
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "O grupo não pode especificar ambos --nodefaults e --optional"
 
-#: ../pykickstart/commands/network.py:942
+#: ../pykickstart/commands/network.py:1012
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
 
-#: ../pykickstart/commands/network.py:951
+#: ../pykickstart/commands/network.py:1021
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
@@ -599,9 +599,25 @@ msgstr ""
 msgid "Only one partition may be specified for driverdisk command."
 msgstr ""
 
-#: ../pykickstart/commands/network.py:734
-#: ../pykickstart/commands/network.py:1037
+#: ../pykickstart/commands/network.py:757
+#: ../pykickstart/commands/network.py:1107
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgstr ""
+
+#: ../pykickstart/commands/network.py:883
+msgid "Option --ipv4-dns-search requires --device to be specified"
+msgstr ""
+
+#: ../pykickstart/commands/network.py:889
+msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
+msgstr ""
+
+#: ../pykickstart/commands/network.py:886
+msgid "Option --ipv6-dns-search requires --device to be specified"
+msgstr ""
+
+#: ../pykickstart/commands/network.py:892
+msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
 msgstr ""
 
 #: ../pykickstart/commands/timezone.py:171
@@ -661,7 +677,7 @@ msgstr ""
 msgid "Specify only one realm to join"
 msgstr ""
 
-#: ../pykickstart/sections.py:798
+#: ../pykickstart/sections.py:807
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -809,7 +825,7 @@ msgstr ""
 msgid "The version %s is not supported by pykickstart"
 msgstr "A versão %s não é suportada pelo pykickstart"
 
-#: ../pykickstart/commands/network.py:956
+#: ../pykickstart/commands/network.py:1026
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr ""
@@ -903,7 +919,7 @@ msgstr ""
 "entrada:\n"
 "%s\n"
 
-#: ../pykickstart/commands/network.py:938
+#: ../pykickstart/commands/network.py:1008
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."

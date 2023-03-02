@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-29 12:25-0700\n"
+"POT-Creation-Date: 2023-02-27 10:39-0800\n"
 "PO-Revision-Date: 2023-03-02 08:20+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -53,8 +53,8 @@ msgstr "%s が削除されました。"
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "'--mkfsoptions' には --reformat が必要です"
 
-#: ../pykickstart/commands/network.py:822
-#: ../pykickstart/commands/network.py:1048
+#: ../pykickstart/commands/network.py:845
+#: ../pykickstart/commands/network.py:1118
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
 msgstr "このタイプのデバイスでは、--bindto=%s がサポートされていません"
@@ -68,11 +68,11 @@ msgstr "--boot-drive は、引数を 1 つだけ受け入れます"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize と --metadatasize は、シンプールにしか使用しません"
 
-#: ../pykickstart/sections.py:758
+#: ../pykickstart/sections.py:767
 msgid "--default and --nobase cannot be used together"
 msgstr "--default と --nobase は併用できません"
 
-#: ../pykickstart/sections.py:771
+#: ../pykickstart/sections.py:780
 msgid "--default and --nocore cannot be used together"
 msgstr "--default と --nocore は併用できません"
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "A module with the name %s has already been defined."
 msgstr "%s という名前のモジュールはすでに定義されています。"
 
-#: ../pykickstart/commands/network.py:471
+#: ../pykickstart/commands/network.py:494
 #, python-format
 msgid "A network device with the name %s has already been defined."
 msgstr "%s という名前のネットワークデバイスはすでに定義されています。"
@@ -251,8 +251,8 @@ msgid "At least one option and/or an argument are expected for the %s command"
 msgstr ""
 "%s コマンドには、1 つ以上のオプションまたは引数、もしくはその両方が必要です"
 
-#: ../pykickstart/commands/network.py:740
-#: ../pykickstart/commands/network.py:1043
+#: ../pykickstart/commands/network.py:763
+#: ../pykickstart/commands/network.py:1113
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr ""
@@ -363,13 +363,13 @@ msgstr "kickstart ファイル内の一般的なエラー"
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "--nodefaults と --optional の両方のグループは指定できません"
 
-#: ../pykickstart/commands/network.py:942
+#: ../pykickstart/commands/network.py:1012
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
 "ネットワーク --interfacename に '.' を追加した場合は、その後に有効な vlan id "
 "が必要です。"
 
-#: ../pykickstart/commands/network.py:951
+#: ../pykickstart/commands/network.py:1021
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
@@ -601,7 +601,8 @@ msgstr "%s コマンドには引数を 1 つ指定するか、何も指定しな
 
 #: ../pykickstart/commands/zfcp.py:209
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr "--devnum または --devnum は --wwpn および --fcplun としか使用できません。"
+msgstr ""
+"--devnum または --devnum は --wwpn および --fcplun としか使用できません。"
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -672,9 +673,33 @@ msgstr ""
 msgid "Only one partition may be specified for driverdisk command."
 msgstr "driverdisk コマンドには、パーティションを 1 つだけ指定できます。"
 
-#: ../pykickstart/commands/network.py:734
-#: ../pykickstart/commands/network.py:1037
+#: ../pykickstart/commands/network.py:757
+#: ../pykickstart/commands/network.py:1107
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgstr "--bridgeopts オプションには、--bridgeslaves を指定する必要があります"
+
+#: ../pykickstart/commands/network.py:883
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv4-dns-search requires --device to be specified"
+msgstr "--bridgeopts オプションには、--bridgeslaves を指定する必要があります"
+
+#: ../pykickstart/commands/network.py:889
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
+msgstr "--bridgeopts オプションには、--bridgeslaves を指定する必要があります"
+
+#: ../pykickstart/commands/network.py:886
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv6-dns-search requires --device to be specified"
+msgstr "--bridgeopts オプションには、--bridgeslaves を指定する必要があります"
+
+#: ../pykickstart/commands/network.py:892
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
 msgstr "--bridgeopts オプションには、--bridgeslaves を指定する必要があります"
 
 #: ../pykickstart/commands/timezone.py:171
@@ -740,7 +765,7 @@ msgstr "%s という名前のスナップショットはすでに定義されて
 msgid "Specify only one realm to join"
 msgstr "参加するレルムを 1 つだけ指定します"
 
-#: ../pykickstart/sections.py:798
+#: ../pykickstart/sections.py:807
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -908,7 +933,7 @@ msgstr "syspurpose コマンドは、位置引数を取りません!"
 msgid "The version %s is not supported by pykickstart"
 msgstr "バージョン %s は kickstart でサポートされていません"
 
-#: ../pykickstart/commands/network.py:956
+#: ../pykickstart/commands/network.py:1026
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr "vlan id は、vlan id の範囲 %(minimum)d-%(maximum)d の外にあります。"
@@ -1001,7 +1026,7 @@ msgstr ""
 "警告: 下記のエラーは、入力ファイルの処理中に発生しました:\n"
 "%s\n"
 
-#: ../pykickstart/commands/network.py:938
+#: ../pykickstart/commands/network.py:1008
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."

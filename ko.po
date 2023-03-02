@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-29 12:25-0700\n"
+"POT-Creation-Date: 2023-02-27 10:39-0800\n"
 "PO-Revision-Date: 2022-11-24 17:21+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -49,8 +49,8 @@ msgstr "%s는 제거되었습니다."
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "'- mkfsoptions'는 --reformat을 필요로 합니다"
 
-#: ../pykickstart/commands/network.py:822
-#: ../pykickstart/commands/network.py:1048
+#: ../pykickstart/commands/network.py:845
+#: ../pykickstart/commands/network.py:1118
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
 msgstr "--bindto =%s 이 유형의 장치에서는 지원되지 않습니다"
@@ -64,11 +64,11 @@ msgstr "--boot-drive는 하나의 인수만 허용합니다"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize 및 --metadatasize는 가상 풀 전용입니다"
 
-#: ../pykickstart/sections.py:758
+#: ../pykickstart/sections.py:767
 msgid "--default and --nobase cannot be used together"
 msgstr "--default와 --nobase는 함께 사용 할 수 없습니다"
 
-#: ../pykickstart/sections.py:771
+#: ../pykickstart/sections.py:780
 msgid "--default and --nocore cannot be used together"
 msgstr "--default와 --nocore는 함께 사용 할 수 없습니다"
 
@@ -158,7 +158,7 @@ msgstr ""
 msgid "A module with the name %s has already been defined."
 msgstr "이름 %s이 있는 모듈은 이미 정의되었습니다."
 
-#: ../pykickstart/commands/network.py:471
+#: ../pykickstart/commands/network.py:494
 #, python-format
 msgid "A network device with the name %s has already been defined."
 msgstr "이름%s이 있는 네트워크 장치는 이미 정의되었습니다."
@@ -236,8 +236,8 @@ msgstr "이름 %s을 가진 ssh 사용자는 이미 정의되었습니다."
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr "최소 하나의 선택 과/또는 인수가 %s 명령을 위해 예상됩니다"
 
-#: ../pykickstart/commands/network.py:740
-#: ../pykickstart/commands/network.py:1043
+#: ../pykickstart/commands/network.py:763
+#: ../pykickstart/commands/network.py:1113
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr "--bridgeopts의 잘못된 형식, ','로 구분된 key = value 선택을 예상하기"
@@ -342,13 +342,13 @@ msgstr "입력 파일에서 일반적인 킥스타트 오류"
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "그룹은 --nodefaults 및 --optional을 지정할 수 없음"
 
-#: ../pykickstart/commands/network.py:942
+#: ../pykickstart/commands/network.py:1012
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
 "network --interfacename에 '.'가 포함되어 있으면, 유효한 vlan id가 제시되어야 "
 "합니다."
 
-#: ../pykickstart/commands/network.py:951
+#: ../pykickstart/commands/network.py:1021
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
@@ -635,9 +635,33 @@ msgstr ""
 msgid "Only one partition may be specified for driverdisk command."
 msgstr "하나의 파티션만 driverdisk 명령을 위하여 지정 될 수 있습니다."
 
-#: ../pykickstart/commands/network.py:734
-#: ../pykickstart/commands/network.py:1037
+#: ../pykickstart/commands/network.py:757
+#: ../pykickstart/commands/network.py:1107
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgstr "옵션 --bridgeopts는 --bridgeslaves를 지정해야 합니다"
+
+#: ../pykickstart/commands/network.py:883
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv4-dns-search requires --device to be specified"
+msgstr "옵션 --bridgeopts는 --bridgeslaves를 지정해야 합니다"
+
+#: ../pykickstart/commands/network.py:889
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
+msgstr "옵션 --bridgeopts는 --bridgeslaves를 지정해야 합니다"
+
+#: ../pykickstart/commands/network.py:886
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv6-dns-search requires --device to be specified"
+msgstr "옵션 --bridgeopts는 --bridgeslaves를 지정해야 합니다"
+
+#: ../pykickstart/commands/network.py:892
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
 msgstr "옵션 --bridgeopts는 --bridgeslaves를 지정해야 합니다"
 
 #: ../pykickstart/commands/timezone.py:171
@@ -697,7 +721,7 @@ msgstr "이름 %s이 있는 스냅샷은 이미 정의 되었습니다!"
 msgid "Specify only one realm to join"
 msgstr "가입 할 영역을 하나만 지정하십시오"
 
-#: ../pykickstart/sections.py:798
+#: ../pykickstart/sections.py:807
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -858,7 +882,7 @@ msgstr "syspurpose 명령은 위치 인수를 가지지 않습니다!"
 msgid "The version %s is not supported by pykickstart"
 msgstr "버전 %s는 pykickstart에 의해 지원되지 않습니다"
 
-#: ../pykickstart/commands/network.py:956
+#: ../pykickstart/commands/network.py:1026
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr "vlan ID이 %(minimum)d-%(maximum)d vlan id 범위 밖에 있습니다."
@@ -951,7 +975,7 @@ msgstr ""
 "경고: 다음 오류는 입력 파일을 처리 할 때 발생했습니다:\n"
 "%s\n"
 
-#: ../pykickstart/commands/network.py:938
+#: ../pykickstart/commands/network.py:1008
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."
