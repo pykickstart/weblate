@@ -7,13 +7,13 @@
 # Şenol Korkmaz <senol.korkmaz@gmail.com>, 2011
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
-# Oğuz Ersen <oguz@ersen.moe>, 2022.
+# Oğuz Ersen <oguz@ersen.moe>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:39-0800\n"
-"PO-Revision-Date: 2022-11-24 17:21+0000\n"
+"PO-Revision-Date: 2023-03-04 19:20+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/tr/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -671,28 +671,24 @@ msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgstr "--bridgeopts seçeneği, --bridgeslaves belirtilmesini gerektirmektedir"
 
 #: ../pykickstart/commands/network.py:883
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr "--bridgeopts seçeneği, --bridgeslaves belirtilmesini gerektirmektedir"
+msgstr "--ipv4-dns-search seçeneği, --device belirtilmesini gerektirmektedir"
 
 #: ../pykickstart/commands/network.py:889
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
-msgstr "--bridgeopts seçeneği, --bridgeslaves belirtilmesini gerektirmektedir"
+msgstr ""
+"--ipv4-ignore-auto-dns seçeneği, --device belirtilmesini gerektirmektedir"
 
 #: ../pykickstart/commands/network.py:886
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr "--bridgeopts seçeneği, --bridgeslaves belirtilmesini gerektirmektedir"
+msgstr ""
+"-- requires --device to be specified seçeneği, --device belirtilmesini "
+"gerektirmektedir"
 
 #: ../pykickstart/commands/network.py:892
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
-msgstr "--bridgeopts seçeneği, --bridgeslaves belirtilmesini gerektirmektedir"
+msgstr ""
+"--ipv6-ignore-auto-dns seçeneği, --device belirtilmesini gerektirmektedir"
 
 #: ../pykickstart/commands/timezone.py:171
 #: ../pykickstart/commands/timezone.py:187
