@@ -9,13 +9,13 @@
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2020.
 # simmon <simmon@nplob.com>, 2021.
-# 김인수 <simmon@nplob.com>, 2022.
+# 김인수 <simmon@nplob.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:39-0800\n"
-"PO-Revision-Date: 2022-11-24 17:21+0000\n"
+"PO-Revision-Date: 2023-03-04 19:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/ko/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -641,28 +641,20 @@ msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgstr "옵션 --bridgeopts는 --bridgeslaves를 지정해야 합니다"
 
 #: ../pykickstart/commands/network.py:883
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr "옵션 --bridgeopts는 --bridgeslaves를 지정해야 합니다"
+msgstr "옵션 --ipv4-dns-search는 --device를 지정해야 합니다"
 
 #: ../pykickstart/commands/network.py:889
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
-msgstr "옵션 --bridgeopts는 --bridgeslaves를 지정해야 합니다"
+msgstr "옵션 --ipv4-ignore-auto-dns는 --device를 지정해야 합니다"
 
 #: ../pykickstart/commands/network.py:886
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr "옵션 --bridgeopts는 --bridgeslaves를 지정해야 합니다"
+msgstr "옵션 --ipv6-dns-search는 --device를 지정해야 합니다"
 
 #: ../pykickstart/commands/network.py:892
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
-msgstr "옵션 --bridgeopts는 --bridgeslaves를 지정해야 합니다"
+msgstr "옵션 --ipv6-ignore-auto-dns는 --device를 지정해야 합니다"
 
 #: ../pykickstart/commands/timezone.py:171
 #: ../pykickstart/commands/timezone.py:187
