@@ -12,13 +12,13 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021.
 # Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021.
 # Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021.
-# Luna Jernberg <bittin@reimu.nl>, 2022.
+# Luna Jernberg <bittin@reimu.nl>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:39-0800\n"
-"PO-Revision-Date: 2022-11-30 23:20+0000\n"
+"PO-Revision-Date: 2023-03-04 19:20+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/sv/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -645,28 +645,20 @@ msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgstr "Flaggan --bridgeopts kräver att --bridgeslaves anges"
 
 #: ../pykickstart/commands/network.py:883
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr "Flaggan --bridgeopts kräver att --bridgeslaves anges"
+msgstr "Flaggan --ipv4-dns-search requires kräver att --device specificeras"
 
 #: ../pykickstart/commands/network.py:889
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
-msgstr "Flaggan --bridgeopts kräver att --bridgeslaves anges"
+msgstr "Flaggan --ipv4-ignore-auto-dns kräver att --device specificeras"
 
 #: ../pykickstart/commands/network.py:886
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr "Flaggan --bridgeopts kräver att --bridgeslaves anges"
+msgstr "Flaggan --ipv6-dns-search kräver att --device specificeras"
 
 #: ../pykickstart/commands/network.py:892
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
-msgstr "Flaggan --bridgeopts kräver att --bridgeslaves anges"
+msgstr "Flaggan --ipv6-ignore-auto-dns kräver att --device specificeras"
 
 #: ../pykickstart/commands/timezone.py:171
 #: ../pykickstart/commands/timezone.py:187
