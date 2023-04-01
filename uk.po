@@ -2,19 +2,19 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Translators:
-# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2020, 2021, 2022.
-# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2015, 2020, 2021, 2022.
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022.
-# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2020, 2021, 2022, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2015, 2020, 2021, 2022, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022, 2023.
 # Tymofii Lytvynenko <tymofii.lytvynenko@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:39-0800\n"
-"PO-Revision-Date: 2023-03-31 12:35+0000\n"
-"Last-Translator: Tymofii Lytvynenko <tymofii.lytvynenko@outlook.com>\n"
+"PO-Revision-Date: 2023-04-01 13:20+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/uk/>\n"
 "Language: uk\n"
@@ -660,19 +660,19 @@ msgstr "Параметр --bridgeopts потребує визначення --br
 
 #: ../pykickstart/commands/network.py:883
 msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr "Опція --ipv4-dns-search вимагає вказівки --device"
+msgstr "Параметр --ipv4-dns-search потребує додавання --device"
 
 #: ../pykickstart/commands/network.py:889
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
-msgstr "Опція --ipv4-ignore-auto-dns вимагає вказівки --device"
+msgstr "Параметр --ipv4-ignore-auto-dns потребує додавання --device"
 
 #: ../pykickstart/commands/network.py:886
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr "Опція --ipv6-dns-search вимагає вказівки --device"
+msgstr "Параметр --ipv6-dns-search потребує додавання --device"
 
 #: ../pykickstart/commands/network.py:892
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
-msgstr "Опція --ipv6-ignore-auto-dns вимагає вказівки --device"
+msgstr "Параметр --ipv6-ignore-auto-dns потребує додавання --device"
 
 #: ../pykickstart/commands/timezone.py:171
 #: ../pykickstart/commands/timezone.py:187
