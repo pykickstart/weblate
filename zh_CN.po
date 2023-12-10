@@ -12,13 +12,14 @@
 # cheng ye <18969068329@163.com>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Transtats <suanand@redhat.com>, 2023.
+# Jingge Chen <mariocanfly@hotmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:39-0800\n"
-"PO-Revision-Date: 2023-03-02 08:20+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
+"PO-Revision-Date: 2023-12-10 09:44+0000\n"
+"Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/pykickstart/master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -613,28 +614,20 @@ msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgstr "选项 --bridgeopts 需要指定 --bridgeslaves"
 
 #: ../pykickstart/commands/network.py:883
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr "选项 --bridgeopts 需要指定 --bridgeslaves"
+msgstr "选项 --ipv4-dns-search 要求指定 --device"
 
 #: ../pykickstart/commands/network.py:889
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
-msgstr "选项 --bridgeopts 需要指定 --bridgeslaves"
+msgstr "选项 --ipv4-ignore-auto-dns 需要指定 --device"
 
 #: ../pykickstart/commands/network.py:886
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr "选项 --bridgeopts 需要指定 --bridgeslaves"
+msgstr "选项 --ipv6-dns-search 需要指定 --device"
 
 #: ../pykickstart/commands/network.py:892
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
-msgstr "选项 --bridgeopts 需要指定 --bridgeslaves"
+msgstr "选项 --ipv6-ignore-auto-dns 需要指定 --device"
 
 #: ../pykickstart/commands/timezone.py:171
 #: ../pykickstart/commands/timezone.py:187
