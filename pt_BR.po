@@ -13,13 +13,13 @@
 # Daniel Lara <danniel@fedoraproject.org>, 2016. #zanata
 # Marco Aurélio Krause <ouesten@me.com>, 2016. #zanata
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2021.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2021.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2021, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:39-0800\n"
-"PO-Revision-Date: 2021-09-21 06:05+0000\n"
+"PO-Revision-Date: 2024-01-16 14:25+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/pykickstart/master/pt_BR/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -36,6 +36,8 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"Verificando o arquivo kickstart %(filename)s\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -583,7 +585,7 @@ msgstr "Um ou nenhum argumento é esperado para o comando %s"
 
 #: ../pykickstart/commands/zfcp.py:209
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "Apenas --devnum ou --devnum com --wwpn e --fcplun são permitidas."
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -636,11 +638,8 @@ msgstr ""
 "rescue."
 
 #: ../pykickstart/commands/autopart.py:686
-#, fuzzy
-#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr ""
-"Apenas uma entre --pbkdf-time and --pbkdf-iterations pode ser especificada."
+msgstr "Apenas uma entre --noswap e --hibernation pode ser especificada."
 
 #: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
@@ -665,31 +664,23 @@ msgstr "Somente uma partição pode ser especificada para o comando driverdisk."
 #: ../pykickstart/commands/network.py:757
 #: ../pykickstart/commands/network.py:1107
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr "A opção --bridgeopts requer que --bridgeslaves seja especificado"
+msgstr "A opção --bridgeopts requer que --bridgeslaves seja especificada"
 
 #: ../pykickstart/commands/network.py:883
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr "A opção --bridgeopts requer que --bridgeslaves seja especificado"
+msgstr "A opção --ipv4-dns-search requer que --device seja especificada"
 
 #: ../pykickstart/commands/network.py:889
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
-msgstr "A opção --bridgeopts requer que --bridgeslaves seja especificado"
+msgstr "A opção --ipv4-ignore-auto-dns requer que --device seja especificada"
 
 #: ../pykickstart/commands/network.py:886
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr "A opção --bridgeopts requer que --bridgeslaves seja especificado"
+msgstr "A opção --ipv6-dns-search requer que --device seja especificada"
 
 #: ../pykickstart/commands/network.py:892
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
-msgstr "A opção --bridgeopts requer que --bridgeslaves seja especificado"
+msgstr "A opção --ipv6-ignore-auto-dns requer que --device seja especificada"
 
 #: ../pykickstart/commands/timezone.py:171
 #: ../pykickstart/commands/timezone.py:187
@@ -951,7 +942,7 @@ msgstr "Não foi possível abrir o arquivo %%ksappend %s"
 #: ../pykickstart/parser.py:116 ../pykickstart/parser.py:816
 #, python-format
 msgid "Unable to open input kickstart file: %s"
-msgstr "Não foi possível abrir o arquivo ksappend: %s"
+msgstr "Não foi possível abrir o arquivo kickstart: %s"
 
 #: ../pykickstart/commands/btrfs.py:218 ../pykickstart/commands/device.py:118
 #: ../pykickstart/commands/device.py:147
