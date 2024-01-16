@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2021-09-21 06:04+0000\n"
+"PO-Revision-Date: 2024-01-16 14:25+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/pykickstart/rhel8-branch/pt_BR/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -86,7 +86,7 @@ msgstr "Não foi possível abrir o arquivo %%ksappend %s"
 #: ../pykickstart/parser.py:125 ../pykickstart/parser.py:815
 #, python-format
 msgid "Unable to open input kickstart file: %s"
-msgstr "Não foi possível abrir o arquivo ksappend: %s"
+msgstr "Não foi possível abrir o arquivo kickstart: %s"
 
 #: ../pykickstart/parser.py:439
 msgid "Group cannot specify both --nodefaults and --optional"
@@ -745,7 +745,7 @@ msgstr "Um dispositivo de rede com o nome %s já foi definido."
 #: ../pykickstart/commands/network.py:746
 #: ../pykickstart/commands/network.py:1049
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr "A opção --bridgeopts requer que --bridgeslaves seja especificado"
+msgstr "A opção --bridgeopts requer que --bridgeslaves seja especificada"
 
 #: ../pykickstart/commands/network.py:752
 #: ../pykickstart/commands/network.py:1055
