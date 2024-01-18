@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2023-10-10 16:36+0000\n"
+"PO-Revision-Date: 2024-01-19 09:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/ko/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -297,7 +297,8 @@ msgid ""
 "One of --drives , --only-use , or --interactive must be specified for "
 "ignoredisk command."
 msgstr ""
-"--drives, - only-use 또는 --interactive 중 하나는 ignoredisk 명령을 위하여 지정해야 합니다."
+"--drives, --only-use 또는 --interactive 중 하나는 ignoredisk 명령을 위하여 "
+"지정해야 합니다."
 
 #: ../pykickstart/commands/rescue.py:64
 msgid ""
@@ -322,11 +323,12 @@ msgstr "%s 와 autupart 명령은 동시에 사용 할 수 없습니다"
 
 #: ../pykickstart/commands/autopart.py:379
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
-msgstr "autopart --fstype=btrfs는 유효한 fstype이 아니며, 대신 --type = btrfs를 사용하세요"
+msgstr "autopart --fstype=btrfs는 유효한 fstype이 아니며, 대신에 --type=btrfs를 "
+"사용하세요"
 
 #: ../pykickstart/commands/autopart.py:383
 msgid "autopart --fstype cannot be used with --type=btrfs"
-msgstr "autopart --fstype은 --type = btrfs와 함께 사용 될 수 없습니다"
+msgstr "autopart --fstype은 --type=btrfs와 함께 사용 될 수 없습니다"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/mount.py:124
@@ -346,7 +348,7 @@ msgstr "잘못된 적재 지점 '%s'이 주어졌습니다"
 
 #: ../pykickstart/commands/mount.py:140
 msgid "'--mkfsoptions' requires --reformat"
-msgstr "'- mkfsoptions'는 --reformat을 필요로 합니다"
+msgstr "'--mkfsoptions'는 --reformat을 필요로 합니다"
 
 #: ../pykickstart/commands/monitor.py:67
 #, python-format
