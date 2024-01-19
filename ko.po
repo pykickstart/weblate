@@ -9,13 +9,13 @@
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2020.
 # simmon <simmon@nplob.com>, 2021.
-# 김인수 <simmon@nplob.com>, 2022, 2023.
+# 김인수 <simmon@nplob.com>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:39-0800\n"
-"PO-Revision-Date: 2023-10-10 16:35+0000\n"
+"PO-Revision-Date: 2024-01-19 09:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/ko/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -47,7 +47,7 @@ msgstr "%s는 제거되었습니다."
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
-msgstr "'- mkfsoptions'는 --reformat을 필요로 합니다"
+msgstr "'--mkfsoptions'는 --reformat을 필요로 합니다"
 
 #: ../pykickstart/commands/network.py:845
 #: ../pykickstart/commands/network.py:1118
@@ -527,8 +527,8 @@ msgid ""
 "One of --drives , --only-use , or --interactive must be specified for "
 "ignoredisk command."
 msgstr ""
-"--drives, - only-use 또는 --interactive 중 하나는 ignoredisk 명령을 위하여 지"
-"정해야 합니다."
+"--drives, --only-use 또는 --interactive 중 하나는 ignoredisk 명령을 위하여 "
+"지정해야 합니다."
 
 #: ../pykickstart/commands/ignoredisk.py:88
 msgid "One of --drives or --only-use must be specified for ignoredisk command."
@@ -621,7 +621,7 @@ msgstr "--noswap 및 --hibernation 중의 하나만 지정 될 수 있습니다.
 #: ../pykickstart/commands/logvol.py:919
 #: ../pykickstart/commands/partition.py:737 ../pykickstart/commands/raid.py:787
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
-msgstr "pbkdf-time 및 --pbkdf-iterations 중 하나만 지정 될 수 있습니다."
+msgstr "--pbkdf-time 및 --pbkdf-iterations 중 하나만 지정 될 수 있습니다."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -989,17 +989,16 @@ msgstr "킥스타트 자료 파종을 위해 사용하는 기본 파일 (선택�
 
 #: ../pykickstart/commands/autopart.py:423
 msgid "autopart --fstype cannot be used with --type=btrfs"
-msgstr "autopart --fstype은 --type = btrfs와 함께 사용 될 수 없습니다"
+msgstr "autopart --fstype은 --type=btrfs와 함께 사용 될 수 없습니다"
 
 #: ../pykickstart/commands/autopart.py:420
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
-msgstr ""
-"autopart --fstype=btrfs는 유효한 fstype이 아니며, 대신 --type = btrfs를 사용"
-"하세요"
+msgstr "autopart --fstype=btrfs는 유효한 fstype이 아니며, 대신에 --type=btrfs를 "
+"사용하세요"
 
 #: ../pykickstart/commands/autopart.py:631
 msgid "autopart --type=btrfs is not supported"
-msgstr "autopart --type = btrfs는 지원되지 않습니다"
+msgstr "autopart --type=btrfs이 지원되지 않습니다"
 
 #: ../pykickstart/commands/btrfs.py:224
 msgid "btrfs must be given a list of partitions"
