@@ -1,1 +1,1 @@
-Placeholder for Weblate translations
+Weblate translations from https://translate.fedoraproject.org/projects/pykickstart/
