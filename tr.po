@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2022-11-24 19:19+0000\n"
+"PO-Revision-Date: 2024-04-06 17:36+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/tr/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.4\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -85,7 +85,7 @@ msgstr "Kickstart girdi dosyası açılamıyor: %s"
 
 #: ../pykickstart/parser.py:439
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr "Grup aynı anda hem --nodefault hem de --optional belirtemez"
+msgstr "Grup aynı anda hem --nodefaults hem de --optional belirtemez"
 
 #: ../pykickstart/parser.py:618 ../pykickstart/parser.py:659
 #, python-format
@@ -625,7 +625,7 @@ msgstr "--thin, havuz adını belirtmek için --poolname gerektirmektedir"
 #: ../pykickstart/commands/logvol.py:637 ../pykickstart/commands/logvol.py:746
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr ""
-"--chunksize ve --medadatasize yalnızca ince havuzlar (thin pool) içindir"
+"--chunksize ve --metadatasize yalnızca ince havuzlar (thin pool) içindir"
 
 #: ../pykickstart/commands/logvol.py:681
 msgid "--resize can only be used in conjunction with --useexisting"
