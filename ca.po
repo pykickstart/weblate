@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-27 10:39-0800\n"
+"POT-Creation-Date: 2024-02-01 14:02-0800\n"
 "PO-Revision-Date: 2018-08-20 10:50+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/pykickstart/"
@@ -41,12 +41,12 @@ msgstr ""
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "l'ordre %(command)s requereix un sol argument: %(argument)s"
 
-#: ../pykickstart/base.py:252
+#: ../pykickstart/base.py:254
 #, python-format
 msgid "%s has been removed."
 msgstr ""
 
-#: ../pykickstart/commands/mount.py:187
+#: ../pykickstart/commands/mount.py:163
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "«--mkfsoptions» requereix --reformat"
 
@@ -61,26 +61,26 @@ msgstr "--bindto=%s no està admès per a aquest tipus de dispositiu"
 msgid "--boot-drive accepts only one argument"
 msgstr "--boot-drive tan sols accepta un argument"
 
-#: ../pykickstart/commands/logvol.py:639 ../pykickstart/commands/logvol.py:748
+#: ../pykickstart/commands/logvol.py:635 ../pykickstart/commands/logvol.py:745
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr ""
 "--chunksize i --metadatasize tan sols són per als agrupaments de disgregats"
 
-#: ../pykickstart/sections.py:767
+#: ../pykickstart/sections.py:789
 msgid "--default and --nobase cannot be used together"
 msgstr "--default i --nobase no poden utilitzar-se alhora"
 
-#: ../pykickstart/sections.py:780
+#: ../pykickstart/sections.py:802
 msgid "--default and --nocore cannot be used together"
 msgstr "--default i --nocore no poden utilitzar-se alhora"
 
-#: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
-#: ../pykickstart/commands/partition.py:685 ../pykickstart/commands/raid.py:725
+#: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
+#: ../pykickstart/commands/partition.py:669 ../pykickstart/commands/raid.py:703
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr "--mkfsoptions i --fsprofile no es poden utilitzar alhora."
 
-#: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
-#: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:722
+#: ../pykickstart/commands/logvol.py:799 ../pykickstart/commands/logvol.py:856
+#: ../pykickstart/commands/partition.py:666 ../pykickstart/commands/raid.py:700
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr "--mkfsoptions amb --noformat no té cap efecte."
 
@@ -88,33 +88,33 @@ msgstr "--mkfsoptions amb --noformat no té cap efecte."
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr "--mkfsoptions amb --noformat o --useexisting no té cap efecte."
 
-#: ../pykickstart/commands/partition.py:611
+#: ../pykickstart/commands/partition.py:603
 msgid "--resize can only be used in conjunction with --onpart"
 msgstr "--resize tan sols pot utilitzar-se amb la conjunció de --onpart"
 
-#: ../pykickstart/commands/logvol.py:683
+#: ../pykickstart/commands/logvol.py:679
 msgid "--resize can only be used in conjunction with --useexisting"
 msgstr "--resize tan sols pot utilitzar-se amb la conjunció de --useexisting"
 
-#: ../pykickstart/commands/logvol.py:686
+#: ../pykickstart/commands/logvol.py:682
 msgid "--resize requires --size to indicate new size"
 msgstr "--resize requereix --size per a indicar la nova mida"
 
-#: ../pykickstart/commands/partition.py:614
+#: ../pykickstart/commands/partition.py:606
 msgid "--resize requires --size to specify new size"
 msgstr "--resize requereix --size per a especificar la nova mida"
 
-#: ../pykickstart/commands/logvol.py:787
+#: ../pykickstart/commands/logvol.py:774
 msgid "--size and --percent cannot both be specified for the same logvol"
 msgstr ""
 "--size i --percent no poden especificar-se ambdós per al mateix volum lògic"
 
-#: ../pykickstart/commands/logvol.py:629 ../pykickstart/commands/logvol.py:739
+#: ../pykickstart/commands/logvol.py:625 ../pykickstart/commands/logvol.py:736
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
 msgstr ""
 "--thin i --thinpool no poden especificar-se ambdós per al mateix volum lògic"
 
-#: ../pykickstart/commands/logvol.py:634 ../pykickstart/commands/logvol.py:743
+#: ../pykickstart/commands/logvol.py:630 ../pykickstart/commands/logvol.py:740
 msgid "--thin requires --poolname to specify pool name"
 msgstr "--thin requereix --poolname per especificar el nom de l'agrupament"
 
@@ -182,7 +182,7 @@ msgstr "Ja s'ha definit un dipòsit amb el nom %s."
 msgid "A single argument is expected for the %s command"
 msgstr "S'espera un argument individual per a l'ordre %s"
 
-#: ../pykickstart/commands/user.py:199
+#: ../pykickstart/commands/user.py:205
 #, python-format
 msgid "A user with the name %s has already been defined."
 msgstr "Ja s'ha definit un usuari amb el nom %s."
@@ -196,33 +196,33 @@ msgstr "Ja s'ha definit un grup de volums amb el nom %s."
 msgid "A zfcp with this information has already been defined."
 msgstr "Ja s'ha definit un zfcp amb aquesta informació."
 
-#: ../pykickstart/commands/nvdimm.py:155
+#: ../pykickstart/commands/nvdimm.py:154
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
 msgstr ""
 
-#: ../pykickstart/commands/nvdimm.py:162
+#: ../pykickstart/commands/nvdimm.py:161
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
 msgstr ""
 
-#: ../pykickstart/commands/nvdimm.py:158
+#: ../pykickstart/commands/nvdimm.py:157
 #, python-format
 msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be set"
 msgstr ""
 
-#: ../pykickstart/commands/logvol.py:849
+#: ../pykickstart/commands/logvol.py:836
 msgid "Adding a cache to an existing logical volume is not supported"
 msgstr "No s'admet l'addició d'una memòria cau a un volum lògic existent"
 
-#: ../pykickstart/commands/nvdimm.py:150
+#: ../pykickstart/commands/nvdimm.py:149
 #, python-format
 msgid "An action %(action)s on devices %(blockdevs)s has already been defined."
 msgstr ""
 
-#: ../pykickstart/commands/nvdimm.py:147
+#: ../pykickstart/commands/nvdimm.py:146
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
@@ -234,7 +234,7 @@ msgid "An ssh user with the name %s has already been defined."
 msgstr "Ja s'ha definit un usuari ssh amb el nom %s."
 
 #: ../pykickstart/commands/timezone.py:267
-#: ../pykickstart/commands/timezone.py:368
+#: ../pykickstart/commands/timezone.py:372
 #, fuzzy, python-format
 #| msgid ""
 #| "At least one option and/or an argument are expected for the  %s command"
@@ -249,19 +249,19 @@ msgstr ""
 "Format dolent de --bridgeopts, s'esperaven opcions clau=valor separades amb "
 "','"
 
-#: ../pykickstart/commands/logvol.py:931
-#: ../pykickstart/commands/partition.py:749
-#: ../pykickstart/commands/partition.py:781 ../pykickstart/commands/raid.py:799
+#: ../pykickstart/commands/logvol.py:918
+#: ../pykickstart/commands/partition.py:733
+#: ../pykickstart/commands/partition.py:765 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
 msgstr "El sistema de fitxers btrfs no està suportat."
 
-#: ../pykickstart/commands/logvol.py:857
+#: ../pykickstart/commands/logvol.py:844
 msgid "Cache needs to have a list of (fast) PVs specified"
 msgstr ""
 "La memòria cau requereix que tingui especificada una llista de volums físics "
 "(fast)"
 
-#: ../pykickstart/commands/logvol.py:861
+#: ../pykickstart/commands/logvol.py:848
 msgid "Cache needs to have size specified"
 msgstr "La memòria cau requereix que tingui especificada una mida"
 
@@ -354,7 +354,7 @@ msgstr "Hi ha un error general al fitxer d'entrada: %s"
 msgid "General kickstart error in input file"
 msgstr "S'ha produït un error general del kickstart en el fitxer d'entrada"
 
-#: ../pykickstart/parser.py:440
+#: ../pykickstart/parser.py:446
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "El grup no pot especificar --nodefaults i --optional alhora"
 
@@ -371,7 +371,7 @@ msgstr ""
 "Si network --interfacename comença amb 'vlan', a continuació hi ha d'haver "
 "un id. vlan vàlid."
 
-#: ../pykickstart/base.py:220
+#: ../pykickstart/base.py:222
 #, python-format
 msgid ""
 "Ignoring deprecated command on line %(lineno)s:  The %(cmd)s command has "
@@ -384,7 +384,7 @@ msgstr ""
 "provocarà un error fatal del kickstart. Modifiqueu el vostre fitxer "
 "kickstart per eliminar aquesta opció."
 
-#: ../pykickstart/options.py:183
+#: ../pykickstart/options.py:188
 #, fuzzy, python-format
 #| msgid ""
 #| "Ignoring deprecated option on line %(lineno)s:  The %(option)s option has "
@@ -423,7 +423,7 @@ msgstr "L'url per a %%ksappend no és vàlida: %s"
 msgid "Internal command %s not recognized."
 msgstr "No s'ha reconegut l'ordre interna %s."
 
-#: ../pykickstart/commands/autopart.py:285
+#: ../pykickstart/commands/autopart.py:252
 #, python-format
 msgid "Invalid autopart type: %s"
 msgstr "Tipus d'autopart no vàlid: %s"
@@ -433,12 +433,12 @@ msgstr "Tipus d'autopart no vàlid: %s"
 msgid "Invalid btrfs level: %s"
 msgstr "Nivell de btrfs no vàlid: %s"
 
-#: ../pykickstart/commands/logvol.py:865
+#: ../pykickstart/commands/logvol.py:852
 #, python-format
 msgid "Invalid cache mode given: %s"
 msgstr "S'ha donat un mode no vàlid de memòria cau: %s"
 
-#: ../pykickstart/commands/mount.py:184
+#: ../pykickstart/commands/mount.py:160
 #, python-format
 msgid "Invalid mount point '%s' given"
 msgstr "El punt de muntatge indicat «%s» no és vàlid"
@@ -454,7 +454,7 @@ msgstr "Arguments de realm no vàlids: %s"
 msgid "Invalid raid level: %s"
 msgstr "Nivell de raid no vàlid: %s"
 
-#: ../pykickstart/commands/realm.py:63
+#: ../pykickstart/commands/realm.py:62
 #, python-format
 msgid "Invalid realm arguments: %s"
 msgstr "Arguments de realm no vàlids: %s"
@@ -484,7 +484,7 @@ msgstr "l'ordre de Kickstart %s tan sols pren un argument"
 msgid "Kickstart command %s requires one argument"
 msgstr "L'ordre %s de Kickstart requereix un argument"
 
-#: ../pykickstart/commands/displaymode.py:108
+#: ../pykickstart/commands/displaymode.py:110
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
 msgstr ""
 "L'orde de la línia d'ordres de Kickstart no accepta el paràmetre --non-"
@@ -513,7 +513,7 @@ msgstr ""
 msgid "Method must be a url to be added to the repo list."
 msgstr "El mètode ha de ser un URL que s'afegeix a la llista dels dipòsits."
 
-#: ../pykickstart/commands/realm.py:46
+#: ../pykickstart/commands/realm.py:45
 msgid "Missing realm command arguments"
 msgstr "Falten arguments en l'ordre realm"
 
@@ -521,7 +521,7 @@ msgstr "Falten arguments en l'ordre realm"
 msgid "Need to specify a config to flatten"
 msgstr "Cal especificar una configuració a aplanar"
 
-#: ../pykickstart/commands/logvol.py:762
+#: ../pykickstart/commands/logvol.py:749
 msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, --"
 "size, --percent, or --hibernation."
@@ -594,7 +594,7 @@ msgid "One of biospart or partition options must be specified."
 msgstr "S'ha d'especificar una de les opcions biospart o partition."
 
 #: ../pykickstart/commands/timezone.py:280
-#: ../pykickstart/commands/timezone.py:381
+#: ../pykickstart/commands/timezone.py:385
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
 msgstr "S'espera un o cap argument per a l'ordre %s"
@@ -641,7 +641,7 @@ msgstr ""
 "En l'ordre de driverdisk tan sols se'n pot especificar un dels següents --"
 "biospart o partition."
 
-#: ../pykickstart/commands/nvdimm.py:142
+#: ../pykickstart/commands/nvdimm.py:141
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
@@ -655,7 +655,7 @@ msgstr ""
 "En l'ordre de rescue tan sols se'n pot especificar un dels següents --"
 "nomount o --romount."
 
-#: ../pykickstart/commands/autopart.py:686
+#: ../pykickstart/commands/autopart.py:596
 #, fuzzy
 #| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
@@ -663,13 +663,24 @@ msgstr ""
 "Tan sols se'n pot especificar un dels següents ---pbkdf-time o --pbkdf-"
 "iterations."
 
-#: ../pykickstart/commands/autopart.py:616
-#: ../pykickstart/commands/logvol.py:919
-#: ../pykickstart/commands/partition.py:737 ../pykickstart/commands/raid.py:787
+#: ../pykickstart/commands/autopart.py:526
+#: ../pykickstart/commands/logvol.py:906
+#: ../pykickstart/commands/partition.py:721 ../pykickstart/commands/raid.py:765
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
 "Tan sols se'n pot especificar un dels següents ---pbkdf-time o --pbkdf-"
 "iterations."
+
+#: ../pykickstart/commands/bootloader.py:550
+#, fuzzy
+#| msgid ""
+#| "Only one of --biospart and --source may be specified for driverdisk "
+#| "command."
+msgid ""
+"Only one of --sdboot and --extlinux may be specified for bootloader command."
+msgstr ""
+"En l'ordre de driverdisk tan sols se'n pot especificar un dels següents --"
+"biospart o --source."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -716,7 +727,7 @@ msgstr "L'opció --bridgeopts requereix que s'especifiqui --bridgeslaves"
 #: ../pykickstart/commands/timezone.py:171
 #: ../pykickstart/commands/timezone.py:187
 #: ../pykickstart/commands/timezone.py:284
-#: ../pykickstart/commands/timezone.py:385
+#: ../pykickstart/commands/timezone.py:389
 msgid "Options --nontp and --ntpservers are mutually exclusive"
 msgstr "Les opcions --nontp i --ntpservers són mútuament excloents"
 
@@ -729,7 +740,7 @@ msgstr "Les particions necessàries per %s"
 msgid "Path to kickstart config file"
 msgstr "Camí al fitxer de configuració de kickstart"
 
-#: ../pykickstart/commands/logvol.py:766
+#: ../pykickstart/commands/logvol.py:753
 msgid "Percentage must be between 0 and 100."
 msgstr "El percentatge ha d'estar entre 0 i 100."
 
@@ -737,13 +748,13 @@ msgstr "El percentatge ha d'estar entre 0 i 100."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:761
+#: ../pykickstart/parser.py:767
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
 "Possible secció desconeguda vista a la línia %(lineno)s: %(sectionName)s"
 
-#: ../pykickstart/parser.py:619 ../pykickstart/parser.py:660
+#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "La secció %s no finalitza amb %%end."
@@ -768,11 +779,11 @@ msgstr ""
 msgid "Snapshot with the name %s has been already defined!"
 msgstr "Ja ha estat definida una instantània amb el nom %s!"
 
-#: ../pykickstart/commands/realm.py:66
+#: ../pykickstart/commands/realm.py:65
 msgid "Specify only one realm to join"
 msgstr "Especifiqueu tan sols un reialme a unir-se."
 
-#: ../pykickstart/sections.py:807
+#: ../pykickstart/sections.py:838
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -780,27 +791,13 @@ msgid ""
 "preferred alias %(new_option)s."
 msgstr ""
 
-#. allow for translation of the error message
-#: ../pykickstart/commands/autopart.py:212
-#: ../pykickstart/commands/autopart.py:368
-#: ../pykickstart/commands/autopart.py:438
-#: ../pykickstart/commands/autopart.py:479
-#, python-format
-msgid "The %s and autopart commands can't be used at the same time"
-msgstr "No poden utilitzar-se alhora les ordres %s i autopart"
-
-#: ../pykickstart/commands/reqpart.py:78
-#, python-format
-msgid "The %s and reqpart commands can't be used at the same time"
+#: ../pykickstart/base.py:449
+#, fuzzy, python-format
+#| msgid "The %s and reqpart commands can't be used at the same time"
+msgid "The %s and %s commands can't be used at the same time."
 msgstr "No poden utilitzar-se alhora les ordres %s i reqpart"
 
-#. allow for translation of the error message
-#: ../pykickstart/commands/mount.py:167
-#, python-format
-msgid "The '%s' and 'mount' commands can't be used at the same time"
-msgstr "No poden utilitzar-se alhora les ordres «%s» i «mount»"
-
-#: ../pykickstart/commands/partition.py:655
+#: ../pykickstart/commands/partition.py:639
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr ""
@@ -864,56 +861,27 @@ msgstr ""
 "\n"
 "%(msg)s\n"
 
-#: ../pykickstart/commands/logvol.py:625 ../pykickstart/commands/logvol.py:754
-msgid "The logvol and autopart commands can't be used at the same time"
-msgstr "No poden utilitzar-se alhora les ordres logvol i autopart"
-
-#: ../pykickstart/commands/logvol.py:758
-msgid "The logvol and mount commands can't be used at the same time"
-msgstr "No poden utilitzar-se alhora les ordres logvol i mount"
-
-#: ../pykickstart/commands/reqpart.py:83
-msgid "The mount and reqpart commands can't be used at the same time"
-msgstr "No poden utilitzar-se alhora les ordres mount i reqpart"
-
-#: ../pykickstart/commands/timezone.py:417
+#: ../pykickstart/commands/timezone.py:421
 msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
 
-#: ../pykickstart/commands/timezone.py:441
+#: ../pykickstart/commands/timezone.py:445
 msgid ""
 "The option --nontp will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
 
-#: ../pykickstart/commands/timezone.py:435
+#: ../pykickstart/commands/timezone.py:439
 msgid ""
 "The option --ntpservers will be deprecated in future releases. Please modify "
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
 
-#: ../pykickstart/commands/partition.py:579
-#: ../pykickstart/commands/partition.py:645
-msgid "The part/partition and autopart commands can't be used at the same time"
-msgstr "No poden utilitzar-se alhora les ordres part/partition i autopart"
-
-#: ../pykickstart/commands/partition.py:649
-msgid "The part/partition and mount commands can't be used at the same time"
-msgstr "No poden utilitzar-se alhora les ordres part/partition i mount"
-
-#: ../pykickstart/commands/raid.py:640 ../pykickstart/commands/raid.py:694
-msgid "The raid and autopart commands can't be used at the same time"
-msgstr "No poden utilitzar-se alhora les ordres raid i autopart"
-
-#: ../pykickstart/commands/raid.py:698
-msgid "The raid and mount commands can't be used at the same time"
-msgstr "No poden utilitzar-se alhora les ordres raid i mount"
-
-#: ../pykickstart/commands/realm.py:43
+#: ../pykickstart/commands/realm.py:42
 msgid "The realm command 'join' should only be specified once"
 msgstr "Tan sols es pot especificar un cop l'ordre 'join' de realm"
 
@@ -936,21 +904,13 @@ msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr ""
 "L'id. de vlan està fora de l'abast de l'id. de vlan %(minimum)d-%(maximum)d."
 
-#: ../pykickstart/commands/volgroup.py:222
-msgid "The volgroup and autopart commands can't be used at the same time"
-msgstr "No poden utilitzar-se alhora les ordres volgroup i autopart"
-
-#: ../pykickstart/commands/volgroup.py:226
-msgid "The volgroup and mount commands can't be used at the same time"
-msgstr "No poden utilitzar-se alhora les ordres volgroup i mount"
-
 #: ../pykickstart/errors.py:73
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
 msgstr ""
 "Hi va haver un problema en llegir el fitxer del kickstart a la línia %s"
 
-#: ../pykickstart/commands/logvol.py:853
+#: ../pykickstart/commands/logvol.py:840
 msgid "Thin volumes cannot be cached"
 msgstr "Els volums disgregats no poden estar en memòria cau"
 
@@ -959,7 +919,7 @@ msgstr "Els volums disgregats no poden estar en memòria cau"
 msgid "Unable to open %%ksappend file: %s"
 msgstr "No es pot obrir el fitxer %%ksappend: %s"
 
-#: ../pykickstart/parser.py:116 ../pykickstart/parser.py:816
+#: ../pykickstart/parser.py:116 ../pykickstart/parser.py:822
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "No es pot obrir el fitxer d'entrada de kickstart: %s"
@@ -972,7 +932,7 @@ msgstr "No es pot obrir el fitxer d'entrada de kickstart: %s"
 #: ../pykickstart/commands/keyboard.py:59
 #: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/key.py:64
 #: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/langsupport.py:59
-#: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:175
+#: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:151
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:113
@@ -982,7 +942,7 @@ msgstr "No es pot obrir el fitxer d'entrada de kickstart: %s"
 msgid "Unexpected arguments to %(command)s command: %(options)s"
 msgstr "Arguments inesperats per a l'ordre %(command)s: %(options)s"
 
-#: ../pykickstart/commands/nvdimm.py:132
+#: ../pykickstart/commands/nvdimm.py:131
 #, python-format
 msgid "Unexpected arguments to nvdimm command: %(arguments)s"
 msgstr "Arguments inesperats per a l'ordre nvdimm: %(arguments)s"
@@ -992,25 +952,25 @@ msgstr "Arguments inesperats per a l'ordre nvdimm: %(arguments)s"
 msgid "Unknown command %s"
 msgstr "No es coneix l'ordre %s"
 
-#: ../pykickstart/base.py:408
+#: ../pykickstart/base.py:410
 #, python-format
 msgid "Unknown command: %s"
 msgstr "No es coneix l'ordre: %s"
 
-#: ../pykickstart/parser.py:755
+#: ../pykickstart/parser.py:761
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Secció kickstart desconeguda: %s"
 
-#: ../pykickstart/commands/realm.py:51
+#: ../pykickstart/commands/realm.py:50
 #, python-format
 msgid "Unsupported realm '%s' command"
 msgstr "L'ordre '%s' de realm no està suportada"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:138 ../pykickstart/version.py:147
-#: ../pykickstart/version.py:150 ../pykickstart/version.py:166
-#: ../pykickstart/version.py:218
+#: ../pykickstart/version.py:141 ../pykickstart/version.py:150
+#: ../pykickstart/version.py:153 ../pykickstart/version.py:169
+#: ../pykickstart/version.py:221
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "La versió especificada no és compatible: %s"
@@ -1047,17 +1007,17 @@ msgid "a basis file to use for seeding the kickstart data (optional)"
 msgstr ""
 "un fitxer base a utilitzar com a model de dades de kickstart (opcional)"
 
-#: ../pykickstart/commands/autopart.py:423
+#: ../pykickstart/commands/autopart.py:360
 msgid "autopart --fstype cannot be used with --type=btrfs"
 msgstr "autopart --fstype no pot utilitzar-se amb --type=btrfs"
 
-#: ../pykickstart/commands/autopart.py:420
+#: ../pykickstart/commands/autopart.py:357
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr ""
 "autopart --fstype=btrfs no és tipus vàlid de sistema de fitxers, en lloc seu "
 "utilitzeu --type=btrfs"
 
-#: ../pykickstart/commands/autopart.py:631
+#: ../pykickstart/commands/autopart.py:541
 msgid "autopart --type=btrfs is not supported"
 msgstr "autopart --type=btrfs no està admès"
 
@@ -1125,6 +1085,42 @@ msgstr "volgroup ha d'indicar un nom del grup de volums"
 #: ../pykickstart/commands/volgroup.py:173
 msgid "volgroup must be given a list of partitions"
 msgstr "volgroup ha d'indicar una llista de particions"
+
+#, python-format
+#~ msgid "The %s and autopart commands can't be used at the same time"
+#~ msgstr "No poden utilitzar-se alhora les ordres %s i autopart"
+
+#, python-format
+#~ msgid "The '%s' and 'mount' commands can't be used at the same time"
+#~ msgstr "No poden utilitzar-se alhora les ordres «%s» i «mount»"
+
+#~ msgid "The logvol and autopart commands can't be used at the same time"
+#~ msgstr "No poden utilitzar-se alhora les ordres logvol i autopart"
+
+#~ msgid "The logvol and mount commands can't be used at the same time"
+#~ msgstr "No poden utilitzar-se alhora les ordres logvol i mount"
+
+#~ msgid "The mount and reqpart commands can't be used at the same time"
+#~ msgstr "No poden utilitzar-se alhora les ordres mount i reqpart"
+
+#~ msgid ""
+#~ "The part/partition and autopart commands can't be used at the same time"
+#~ msgstr "No poden utilitzar-se alhora les ordres part/partition i autopart"
+
+#~ msgid "The part/partition and mount commands can't be used at the same time"
+#~ msgstr "No poden utilitzar-se alhora les ordres part/partition i mount"
+
+#~ msgid "The raid and autopart commands can't be used at the same time"
+#~ msgstr "No poden utilitzar-se alhora les ordres raid i autopart"
+
+#~ msgid "The raid and mount commands can't be used at the same time"
+#~ msgstr "No poden utilitzar-se alhora les ordres raid i mount"
+
+#~ msgid "The volgroup and autopart commands can't be used at the same time"
+#~ msgstr "No poden utilitzar-se alhora les ordres volgroup i autopart"
+
+#~ msgid "The volgroup and mount commands can't be used at the same time"
+#~ msgstr "No poden utilitzar-se alhora les ordres volgroup i mount"
 
 #~ msgid ""
 #~ "The %(option)s option was introduced in version %(intro)s, but you are "

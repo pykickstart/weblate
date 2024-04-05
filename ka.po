@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-27 10:39-0800\n"
+"POT-Creation-Date: 2024-02-01 14:02-0800\n"
 "PO-Revision-Date: 2022-11-23 17:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -30,12 +30,12 @@ msgstr ""
 msgid "%(command)s command requires a single argument: %(argument)s"
 msgstr "%(command)s ბრძანებას მხოლოდ ერთი არგუმენტი ესაჭიროება: %(argument)s"
 
-#: ../pykickstart/base.py:252
+#: ../pykickstart/base.py:254
 #, python-format
 msgid "%s has been removed."
 msgstr "%s წაშლილია."
 
-#: ../pykickstart/commands/mount.py:187
+#: ../pykickstart/commands/mount.py:163
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "'--mkfsoptions' -ს --reformat ესაჭიროება"
 
@@ -50,25 +50,25 @@ msgstr "--bindto=%s მხარდაუჭერელია ამ ტიპ�
 msgid "--boot-drive accepts only one argument"
 msgstr "--boot-drive სჭირდება მხოლოდ ერთი არგუმენტი"
 
-#: ../pykickstart/commands/logvol.py:639 ../pykickstart/commands/logvol.py:748
+#: ../pykickstart/commands/logvol.py:635 ../pykickstart/commands/logvol.py:745
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize და --metadatasize მხოლოდ თხელი პულებისთვისაა"
 
-#: ../pykickstart/sections.py:767
+#: ../pykickstart/sections.py:789
 msgid "--default and --nobase cannot be used together"
 msgstr "--default და --nobase ერთად ვერ გამოიყენება"
 
-#: ../pykickstart/sections.py:780
+#: ../pykickstart/sections.py:802
 msgid "--default and --nocore cannot be used together"
 msgstr "--default და --nocore ერთად ვერ გამოიყენება"
 
-#: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
-#: ../pykickstart/commands/partition.py:685 ../pykickstart/commands/raid.py:725
+#: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
+#: ../pykickstart/commands/partition.py:669 ../pykickstart/commands/raid.py:703
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr "--mkfsoptions და --fsprofile ერთად ვერ გამოიყენება."
 
-#: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
-#: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:722
+#: ../pykickstart/commands/logvol.py:799 ../pykickstart/commands/logvol.py:856
+#: ../pykickstart/commands/partition.py:666 ../pykickstart/commands/raid.py:700
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr "--mkfsoptions -ს --noformat -სთან ერთად ვერ გამოიყენებთ."
 
@@ -77,31 +77,31 @@ msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr ""
 "--mkfsoptions -ს --noformat ან --useexisting -სთან ერთად ვერ გამოიყენებთ."
 
-#: ../pykickstart/commands/partition.py:611
+#: ../pykickstart/commands/partition.py:603
 msgid "--resize can only be used in conjunction with --onpart"
 msgstr "--resize -ს --onpart-სთან ერთად თუ გამოიყენებთ"
 
-#: ../pykickstart/commands/logvol.py:683
+#: ../pykickstart/commands/logvol.py:679
 msgid "--resize can only be used in conjunction with --useexisting"
 msgstr "--resize -ს --useexisting -სთან ერთად თუ გამოიყენებთ"
 
-#: ../pykickstart/commands/logvol.py:686
+#: ../pykickstart/commands/logvol.py:682
 msgid "--resize requires --size to indicate new size"
 msgstr "--resize -ს --size სჭირდება ახალი ზომისთვის"
 
-#: ../pykickstart/commands/partition.py:614
+#: ../pykickstart/commands/partition.py:606
 msgid "--resize requires --size to specify new size"
 msgstr "--resize -ს --size სჭირდება, ახალი ზომისთვის"
 
-#: ../pykickstart/commands/logvol.py:787
+#: ../pykickstart/commands/logvol.py:774
 msgid "--size and --percent cannot both be specified for the same logvol"
 msgstr "--size და --percent ერთი და იგივე logvol-ზე მითითებული ვერ იქნება"
 
-#: ../pykickstart/commands/logvol.py:629 ../pykickstart/commands/logvol.py:739
+#: ../pykickstart/commands/logvol.py:625 ../pykickstart/commands/logvol.py:736
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
 msgstr "--thin და --thinpool ერთი და იგივე logvol-ზე მითითებული ვერ იქნება"
 
-#: ../pykickstart/commands/logvol.py:634 ../pykickstart/commands/logvol.py:743
+#: ../pykickstart/commands/logvol.py:630 ../pykickstart/commands/logvol.py:740
 msgid "--thin requires --poolname to specify pool name"
 msgstr "--thin -ს --poolname სჭირდება, პულის სახელისთვის"
 
@@ -169,7 +169,7 @@ msgstr "რეპო სახელით %s უკვე აღწერილ
 msgid "A single argument is expected for the %s command"
 msgstr "ბრძანებას %s მხოლოდ ერთი არგუმენტი უნდა ჰქონდეს"
 
-#: ../pykickstart/commands/user.py:199
+#: ../pykickstart/commands/user.py:205
 #, python-format
 msgid "A user with the name %s has already been defined."
 msgstr "მომხმარებელი სახელით %s უკვე აღწერილია."
@@ -183,19 +183,19 @@ msgstr "ტომების ჯგუფი სახელით %s უკვ
 msgid "A zfcp with this information has already been defined."
 msgstr "ZFCP ამ ინფორმაციით უკვე აღწერტილია."
 
-#: ../pykickstart/commands/nvdimm.py:155
+#: ../pykickstart/commands/nvdimm.py:154
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
 msgstr "ქმედება %(action)s ესაჭიროება --namespace პარამეტრის დაყენება"
 
-#: ../pykickstart/commands/nvdimm.py:162
+#: ../pykickstart/commands/nvdimm.py:161
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
 msgstr ""
 "ქმედება %(action)s ესაჭიროება --namespace ან --blockdevs პარამეტრის დაყენება"
 
-#: ../pykickstart/commands/nvdimm.py:158
+#: ../pykickstart/commands/nvdimm.py:157
 #, python-format
 msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be set"
@@ -203,16 +203,16 @@ msgstr ""
 "ქმედებას %(action)s რეჟიმში %(mode)s --sectorsize პარამეტრის დაყენება "
 "ესაჭიროება"
 
-#: ../pykickstart/commands/logvol.py:849
+#: ../pykickstart/commands/logvol.py:836
 msgid "Adding a cache to an existing logical volume is not supported"
 msgstr "არსებული ლოგიკური ტომისთვის ქეშის დამატება მხარდაუჭერელია"
 
-#: ../pykickstart/commands/nvdimm.py:150
+#: ../pykickstart/commands/nvdimm.py:149
 #, python-format
 msgid "An action %(action)s on devices %(blockdevs)s has already been defined."
 msgstr "ქმედება %(action)s მოწყობილობებზე %(blockdevs)s უკვე აღწერილია."
 
-#: ../pykickstart/commands/nvdimm.py:147
+#: ../pykickstart/commands/nvdimm.py:146
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
@@ -224,7 +224,7 @@ msgid "An ssh user with the name %s has already been defined."
 msgstr "SSH მომხმარებელი სახელით %s უკვე არსებობს."
 
 #: ../pykickstart/commands/timezone.py:267
-#: ../pykickstart/commands/timezone.py:368
+#: ../pykickstart/commands/timezone.py:372
 #, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr ""
@@ -235,17 +235,17 @@ msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr ""
 
-#: ../pykickstart/commands/logvol.py:931
-#: ../pykickstart/commands/partition.py:749
-#: ../pykickstart/commands/partition.py:781 ../pykickstart/commands/raid.py:799
+#: ../pykickstart/commands/logvol.py:918
+#: ../pykickstart/commands/partition.py:733
+#: ../pykickstart/commands/partition.py:765 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
 msgstr "Btrfs ფაილური სისტემის მხარდაჭერა არ არსებობს"
 
-#: ../pykickstart/commands/logvol.py:857
+#: ../pykickstart/commands/logvol.py:844
 msgid "Cache needs to have a list of (fast) PVs specified"
 msgstr ""
 
-#: ../pykickstart/commands/logvol.py:861
+#: ../pykickstart/commands/logvol.py:848
 msgid "Cache needs to have size specified"
 msgstr "ქეშს ზომის მითითება სჭირდება"
 
@@ -328,7 +328,7 @@ msgstr "შეცდომა შეყვანილ ფაილში:  %s"
 msgid "General kickstart error in input file"
 msgstr "Kickstart-ის შეცდომა შეყვანილ ფაილში"
 
-#: ../pykickstart/parser.py:440
+#: ../pykickstart/parser.py:446
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "--nodefaults და --optional -ს ერთდროულად ვერ მიუთითებთ"
 
@@ -344,7 +344,7 @@ msgid ""
 msgstr ""
 "თუ ქსელის --interfacename \"vlan\"-ით იწყება, სწორი VLAN ID უნდა მოჰყვებოდეს."
 
-#: ../pykickstart/base.py:220
+#: ../pykickstart/base.py:222
 #, python-format
 msgid ""
 "Ignoring deprecated command on line %(lineno)s:  The %(cmd)s command has "
@@ -353,7 +353,7 @@ msgid ""
 "your kickstart file to remove this command."
 msgstr ""
 
-#: ../pykickstart/options.py:183
+#: ../pykickstart/options.py:188
 #, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
@@ -380,7 +380,7 @@ msgstr "%%ksappend -ის არასწორი URL: %s"
 msgid "Internal command %s not recognized."
 msgstr "შიდა ბრძანება %s უცნობია."
 
-#: ../pykickstart/commands/autopart.py:285
+#: ../pykickstart/commands/autopart.py:252
 #, python-format
 msgid "Invalid autopart type: %s"
 msgstr "ავტონაწილის არასწორი ტიპი: %s"
@@ -390,12 +390,12 @@ msgstr "ავტონაწილის არასწორი ტიპი:
 msgid "Invalid btrfs level: %s"
 msgstr "Btrfs-ის არასწორი დონე: %s"
 
-#: ../pykickstart/commands/logvol.py:865
+#: ../pykickstart/commands/logvol.py:852
 #, python-format
 msgid "Invalid cache mode given: %s"
 msgstr "ქეშის მითითებული რეჟიმი არასწორია: %s"
 
-#: ../pykickstart/commands/mount.py:184
+#: ../pykickstart/commands/mount.py:160
 #, python-format
 msgid "Invalid mount point '%s' given"
 msgstr "მიმაგრების მითითებული წერტილი არასწორია: %s"
@@ -410,7 +410,7 @@ msgstr "არასწორი არგუმენტი --when= არგ�
 msgid "Invalid raid level: %s"
 msgstr "RAID-ის მითითებული დონე არასწორია: %s"
 
-#: ../pykickstart/commands/realm.py:63
+#: ../pykickstart/commands/realm.py:62
 #, python-format
 msgid "Invalid realm arguments: %s"
 msgstr "რეალმის არასწორი არგუმენტები: %s"
@@ -438,7 +438,7 @@ msgstr "Kickstart -ის ბრძანებას %s ერთი არგ�
 msgid "Kickstart command %s requires one argument"
 msgstr "Kickstart -ის ბრძანებას %s ერთი არგუმენტი სჭირდება"
 
-#: ../pykickstart/commands/displaymode.py:108
+#: ../pykickstart/commands/displaymode.py:110
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
 msgstr ""
 
@@ -462,7 +462,7 @@ msgstr "უკვე არსებული ტომების ჯგუფ
 msgid "Method must be a url to be added to the repo list."
 msgstr ""
 
-#: ../pykickstart/commands/realm.py:46
+#: ../pykickstart/commands/realm.py:45
 msgid "Missing realm command arguments"
 msgstr "აკლია რეალმის ბრძანების არგუმენტები"
 
@@ -470,7 +470,7 @@ msgstr "აკლია რეალმის ბრძანების არ
 msgid "Need to specify a config to flatten"
 msgstr "გასაბრტყელებელი კონფიგურაციის მითითება აუცილებელია"
 
-#: ../pykickstart/commands/logvol.py:762
+#: ../pykickstart/commands/logvol.py:749
 msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, --"
 "size, --percent, or --hibernation."
@@ -527,7 +527,7 @@ msgid "One of biospart or partition options must be specified."
 msgstr ""
 
 #: ../pykickstart/commands/timezone.py:280
-#: ../pykickstart/commands/timezone.py:381
+#: ../pykickstart/commands/timezone.py:385
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
 msgstr ""
@@ -562,7 +562,7 @@ msgid ""
 "Only one of --biospart and partition may be specified for driverdisk command."
 msgstr ""
 
-#: ../pykickstart/commands/nvdimm.py:142
+#: ../pykickstart/commands/nvdimm.py:141
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
@@ -572,14 +572,19 @@ msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
 msgstr ""
 
-#: ../pykickstart/commands/autopart.py:686
+#: ../pykickstart/commands/autopart.py:596
 msgid "Only one of --noswap and --hibernation can be specified."
 msgstr ""
 
-#: ../pykickstart/commands/autopart.py:616
-#: ../pykickstart/commands/logvol.py:919
-#: ../pykickstart/commands/partition.py:737 ../pykickstart/commands/raid.py:787
+#: ../pykickstart/commands/autopart.py:526
+#: ../pykickstart/commands/logvol.py:906
+#: ../pykickstart/commands/partition.py:721 ../pykickstart/commands/raid.py:765
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
+msgstr ""
+
+#: ../pykickstart/commands/bootloader.py:550
+msgid ""
+"Only one of --sdboot and --extlinux may be specified for bootloader command."
 msgstr ""
 
 #: ../pykickstart/commands/driverdisk.py:138
@@ -617,7 +622,7 @@ msgstr ""
 #: ../pykickstart/commands/timezone.py:171
 #: ../pykickstart/commands/timezone.py:187
 #: ../pykickstart/commands/timezone.py:284
-#: ../pykickstart/commands/timezone.py:385
+#: ../pykickstart/commands/timezone.py:389
 msgid "Options --nontp and --ntpservers are mutually exclusive"
 msgstr ""
 
@@ -630,7 +635,7 @@ msgstr "%s-სთვის საჭირო დანაყოფები"
 msgid "Path to kickstart config file"
 msgstr "ბილიკი kickstart-ის კონფიგურაციის ფაილამდე"
 
-#: ../pykickstart/commands/logvol.py:766
+#: ../pykickstart/commands/logvol.py:753
 msgid "Percentage must be between 0 and 100."
 msgstr "უბრალო პროცენტის დიაპაზონია 0-100."
 
@@ -638,12 +643,12 @@ msgstr "უბრალო პროცენტის დიაპაზონ�
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:761
+#: ../pykickstart/parser.py:767
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
 
-#: ../pykickstart/parser.py:619 ../pykickstart/parser.py:660
+#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "სექცია %s %%end-ით არ მთავრდება."
@@ -667,11 +672,11 @@ msgstr ""
 msgid "Snapshot with the name %s has been already defined!"
 msgstr "სწრაფი ასლი სახელით %s უკვე აღწერილია!"
 
-#: ../pykickstart/commands/realm.py:66
+#: ../pykickstart/commands/realm.py:65
 msgid "Specify only one realm to join"
 msgstr "შესაძლებელია მხოლოდ ერთი რეალმის მითითება"
 
-#: ../pykickstart/sections.py:807
+#: ../pykickstart/sections.py:838
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -679,27 +684,12 @@ msgid ""
 "preferred alias %(new_option)s."
 msgstr ""
 
-#. allow for translation of the error message
-#: ../pykickstart/commands/autopart.py:212
-#: ../pykickstart/commands/autopart.py:368
-#: ../pykickstart/commands/autopart.py:438
-#: ../pykickstart/commands/autopart.py:479
+#: ../pykickstart/base.py:449
 #, python-format
-msgid "The %s and autopart commands can't be used at the same time"
+msgid "The %s and %s commands can't be used at the same time."
 msgstr ""
 
-#: ../pykickstart/commands/reqpart.py:78
-#, python-format
-msgid "The %s and reqpart commands can't be used at the same time"
-msgstr ""
-
-#. allow for translation of the error message
-#: ../pykickstart/commands/mount.py:167
-#, python-format
-msgid "The '%s' and 'mount' commands can't be used at the same time"
-msgstr ""
-
-#: ../pykickstart/commands/partition.py:655
+#: ../pykickstart/commands/partition.py:639
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr ""
@@ -752,56 +742,27 @@ msgid ""
 "%(msg)s\n"
 msgstr ""
 
-#: ../pykickstart/commands/logvol.py:625 ../pykickstart/commands/logvol.py:754
-msgid "The logvol and autopart commands can't be used at the same time"
-msgstr ""
-
-#: ../pykickstart/commands/logvol.py:758
-msgid "The logvol and mount commands can't be used at the same time"
-msgstr ""
-
-#: ../pykickstart/commands/reqpart.py:83
-msgid "The mount and reqpart commands can't be used at the same time"
-msgstr ""
-
-#: ../pykickstart/commands/timezone.py:417
+#: ../pykickstart/commands/timezone.py:421
 msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
 
-#: ../pykickstart/commands/timezone.py:441
+#: ../pykickstart/commands/timezone.py:445
 msgid ""
 "The option --nontp will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
 
-#: ../pykickstart/commands/timezone.py:435
+#: ../pykickstart/commands/timezone.py:439
 msgid ""
 "The option --ntpservers will be deprecated in future releases. Please modify "
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
 
-#: ../pykickstart/commands/partition.py:579
-#: ../pykickstart/commands/partition.py:645
-msgid "The part/partition and autopart commands can't be used at the same time"
-msgstr ""
-
-#: ../pykickstart/commands/partition.py:649
-msgid "The part/partition and mount commands can't be used at the same time"
-msgstr ""
-
-#: ../pykickstart/commands/raid.py:640 ../pykickstart/commands/raid.py:694
-msgid "The raid and autopart commands can't be used at the same time"
-msgstr ""
-
-#: ../pykickstart/commands/raid.py:698
-msgid "The raid and mount commands can't be used at the same time"
-msgstr ""
-
-#: ../pykickstart/commands/realm.py:43
+#: ../pykickstart/commands/realm.py:42
 msgid "The realm command 'join' should only be specified once"
 msgstr ""
 
@@ -821,20 +782,12 @@ msgstr ""
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr ""
 
-#: ../pykickstart/commands/volgroup.py:222
-msgid "The volgroup and autopart commands can't be used at the same time"
-msgstr ""
-
-#: ../pykickstart/commands/volgroup.py:226
-msgid "The volgroup and mount commands can't be used at the same time"
-msgstr ""
-
 #: ../pykickstart/errors.py:73
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
 msgstr ""
 
-#: ../pykickstart/commands/logvol.py:853
+#: ../pykickstart/commands/logvol.py:840
 msgid "Thin volumes cannot be cached"
 msgstr "თხელი ტომები მიუწვდომელია"
 
@@ -843,7 +796,7 @@ msgstr "თხელი ტომები მიუწვდომელია"
 msgid "Unable to open %%ksappend file: %s"
 msgstr "%%ksappend ფალის გახსნის შეცდომა: %s"
 
-#: ../pykickstart/parser.py:116 ../pykickstart/parser.py:816
+#: ../pykickstart/parser.py:116 ../pykickstart/parser.py:822
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr ""
@@ -856,7 +809,7 @@ msgstr ""
 #: ../pykickstart/commands/keyboard.py:59
 #: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/key.py:64
 #: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/langsupport.py:59
-#: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:175
+#: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:151
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:113
@@ -866,7 +819,7 @@ msgstr ""
 msgid "Unexpected arguments to %(command)s command: %(options)s"
 msgstr ""
 
-#: ../pykickstart/commands/nvdimm.py:132
+#: ../pykickstart/commands/nvdimm.py:131
 #, python-format
 msgid "Unexpected arguments to nvdimm command: %(arguments)s"
 msgstr ""
@@ -876,25 +829,25 @@ msgstr ""
 msgid "Unknown command %s"
 msgstr "უცნობი ბრძანება: %s"
 
-#: ../pykickstart/base.py:408
+#: ../pykickstart/base.py:410
 #, python-format
 msgid "Unknown command: %s"
 msgstr "უცნობი ბრძანება: %s"
 
-#: ../pykickstart/parser.py:755
+#: ../pykickstart/parser.py:761
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Kickstart-ის უცნობი სექცია: %s"
 
-#: ../pykickstart/commands/realm.py:51
+#: ../pykickstart/commands/realm.py:50
 #, python-format
 msgid "Unsupported realm '%s' command"
 msgstr "Realm-ის უცნობი ბრძანება: %s"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:138 ../pykickstart/version.py:147
-#: ../pykickstart/version.py:150 ../pykickstart/version.py:166
-#: ../pykickstart/version.py:218
+#: ../pykickstart/version.py:141 ../pykickstart/version.py:150
+#: ../pykickstart/version.py:153 ../pykickstart/version.py:169
+#: ../pykickstart/version.py:221
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "მითითებული ვერსია მხარდაუჭერელია: %s"
@@ -925,15 +878,15 @@ msgstr "საჭიროა სინტაქსის ორი ვერს
 msgid "a basis file to use for seeding the kickstart data (optional)"
 msgstr ""
 
-#: ../pykickstart/commands/autopart.py:423
+#: ../pykickstart/commands/autopart.py:360
 msgid "autopart --fstype cannot be used with --type=btrfs"
 msgstr ""
 
-#: ../pykickstart/commands/autopart.py:420
+#: ../pykickstart/commands/autopart.py:357
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr ""
 
-#: ../pykickstart/commands/autopart.py:631
+#: ../pykickstart/commands/autopart.py:541
 msgid "autopart --type=btrfs is not supported"
 msgstr ""
 
