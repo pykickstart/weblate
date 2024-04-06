@@ -6,20 +6,20 @@
 # Christian Rose <menthos@menthos.com>, 2006
 # denka <dennis@dennis.se>, 2014
 # denka <dennis@dennis.se>, 2014
-# Göran Uddeborg <goeran@uddeborg.se>, 2008,2010-2011,2013-2014, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2008,2010-2011,2013-2014, 2020, 2021, 2024.
 # fedoratrans <fedoratrans@gmail.com>, 2007-2008
-# Göran Uddeborg <goeran@uddeborg.se>, 2015. #zanata, 2020, 2021.
-# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021.
-# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021.
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2015. #zanata, 2020, 2021, 2024.
+# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021, 2024.
+# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021, 2024.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021, 2024.
 # Luna Jernberg <bittin@reimu.nl>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-01 14:02-0800\n"
-"PO-Revision-Date: 2023-03-04 19:20+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"PO-Revision-Date: 2024-04-06 10:40+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/sv/>\n"
 "Language: sv\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.4\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -628,14 +628,9 @@ msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr "Endast en av --pbkdf-time och --pbkdf-iterations kan anges."
 
 #: ../pykickstart/commands/bootloader.py:550
-#, fuzzy
-#| msgid ""
-#| "Only one of --biospart and --source may be specified for driverdisk "
-#| "command."
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
-msgstr ""
-"Endast en av --biospart och --source kan anges för kommandot driverdisk."
+msgstr "Endast en av --sdboot och --extlinux kan anges för kommandot bootloader"
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -739,10 +734,9 @@ msgstr ""
 "alias %(new_option)s."
 
 #: ../pykickstart/base.py:449
-#, fuzzy, python-format
-#| msgid "The %s and reqpart commands can't be used at the same time"
+#, python-format
 msgid "The %s and %s commands can't be used at the same time."
-msgstr "Kommandona %s och reqpart kan inte användas på samma gång"
+msgstr "Kommandona %s och %s kan inte användas på samma gång."
 
 #: ../pykickstart/commands/partition.py:639
 msgid ""
