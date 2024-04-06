@@ -7,13 +7,13 @@
 # Şenol Korkmaz <senol.korkmaz@gmail.com>, 2011
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
-# Oğuz Ersen <oguz@ersen.moe>, 2022, 2023.
+# Oğuz Ersen <oguz@ersen.moe>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-01 14:02-0800\n"
-"PO-Revision-Date: 2023-03-04 19:20+0000\n"
+"PO-Revision-Date: 2024-04-06 10:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/tr/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.4\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -61,7 +61,7 @@ msgstr "--boot-drive yalnızca bir argüman kabul etmektedir"
 #: ../pykickstart/commands/logvol.py:635 ../pykickstart/commands/logvol.py:745
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr ""
-"--chunksize ve --medadatasize yalnızca ince havuzlar (thin pool) içindir"
+"--chunksize ve --metadatasize yalnızca ince havuzlar (thin pool) içindir"
 
 #: ../pykickstart/sections.py:789
 msgid "--default and --nobase cannot be used together"
@@ -348,7 +348,7 @@ msgstr "Girdi dosyasında genel kickstart hatası"
 
 #: ../pykickstart/parser.py:446
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr "Grup aynı anda hem --nodefault hem de --optional belirtemez"
+msgstr "Grup aynı anda hem --nodefaults hem de --optional belirtemez"
 
 #: ../pykickstart/commands/network.py:1012
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
@@ -653,14 +653,10 @@ msgstr ""
 "belirtilebilir."
 
 #: ../pykickstart/commands/bootloader.py:550
-#, fuzzy
-#| msgid ""
-#| "Only one of --biospart and --source may be specified for driverdisk "
-#| "command."
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
 msgstr ""
-"driverdisk komutu için --biospart ve --source seçeneklerinden yalnızca biri "
+"bootloader komutu için --sdboot ve --extlinux seçeneklerinden yalnızca biri "
 "belirtilebilir."
 
 #: ../pykickstart/commands/driverdisk.py:138
@@ -692,9 +688,7 @@ msgstr ""
 
 #: ../pykickstart/commands/network.py:886
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr ""
-"-- requires --device to be specified seçeneği, --device belirtilmesini "
-"gerektirmektedir"
+msgstr "--ipv6-dns-search seçeneği, --device belirtilmesini gerektirmektedir"
 
 #: ../pykickstart/commands/network.py:892
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
@@ -775,10 +769,9 @@ msgstr ""
 "%(new_option)s takma adıyla değiştirecek şekilde değiştirin."
 
 #: ../pykickstart/base.py:449
-#, fuzzy, python-format
-#| msgid "The %s and reqpart commands can't be used at the same time"
+#, python-format
 msgid "The %s and %s commands can't be used at the same time."
-msgstr "%s ve reqpart komutları aynı anda kullanılamaz"
+msgstr "%s ve %s komutları aynı anda kullanılamaz."
 
 #: ../pykickstart/commands/partition.py:639
 msgid ""
