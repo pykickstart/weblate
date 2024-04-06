@@ -2,18 +2,18 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Translators:
-# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2020, 2021, 2022, 2023.
-# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2015, 2020, 2021, 2022, 2023.
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022, 2023.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022, 2023.
-# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2020, 2021, 2022, 2023, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010-2011,2013-2014, 2015, 2020, 2021, 2022, 2023, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022, 2023, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022, 2023, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022, 2023, 2024.
 # Tymofii Lytvynenko <tymofii.lytvynenko@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-01 14:02-0800\n"
-"PO-Revision-Date: 2023-04-01 13:20+0000\n"
+"PO-Revision-Date: 2024-04-06 10:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/uk/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.4\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -96,7 +96,7 @@ msgstr "--resize можна використовувати лише у поєд�
 
 #: ../pykickstart/commands/logvol.py:682
 msgid "--resize requires --size to indicate new size"
-msgstr "--resize потребує --size для визначення нового розміру"
+msgstr "--resize потребує --size для того, щоб вказати новий розмір"
 
 #: ../pykickstart/commands/partition.py:606
 msgid "--resize requires --size to specify new size"
@@ -643,13 +643,11 @@ msgstr ""
 "Можна вказувати лише один з параметрів: --pbkdf-time або --pbkdf-iterations."
 
 #: ../pykickstart/commands/bootloader.py:550
-#, fuzzy
-#| msgid ""
-#| "Only one of --biospart and --source may be specified for driverdisk "
-#| "command."
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
-msgstr "З командою driverdisk можна вказати лише один --biospart і --source."
+msgstr ""
+"З командою завантажувача можна вказати лише один з параметрів, --sdboot або "
+"--extlinux."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -753,10 +751,9 @@ msgstr ""
 "цей параметр його бажаною альтернативою — %(new_option)s."
 
 #: ../pykickstart/base.py:449
-#, fuzzy, python-format
-#| msgid "The %s and reqpart commands can't be used at the same time"
+#, python-format
 msgid "The %s and %s commands can't be used at the same time."
-msgstr "Не можна одночасно використовувати команди %s і reqpart"
+msgstr "Не можна одночасно використовувати команди %s і %s."
 
 #: ../pykickstart/commands/partition.py:639
 msgid ""
@@ -915,7 +912,7 @@ msgstr "Неочікувані аргументи команди nvdimm: %(argum
 #: ../pykickstart/commands/displaymode.py:64
 #, python-format
 msgid "Unknown command %s"
-msgstr "Невідома команда: %s"
+msgstr "Невідома команда, %s"
 
 #: ../pykickstart/base.py:410
 #, python-format
