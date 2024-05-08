@@ -7,13 +7,13 @@
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2011, 2012
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
 # Ricky Tigg <ricky.tigg@gmail.com>, 2021.
-# Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022, 2023.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-01 14:02-0800\n"
-"PO-Revision-Date: 2023-03-04 19:20+0000\n"
+"PO-Revision-Date: 2024-05-08 19:36+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fi/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.5.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -636,15 +636,11 @@ msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr "Vain yksi --pbkdf-time ja --pbkdf-iteraatioista voidaan määrittää."
 
 #: ../pykickstart/commands/bootloader.py:550
-#, fuzzy
-#| msgid ""
-#| "Only one of --biospart and --source may be specified for driverdisk "
-#| "command."
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
 msgstr ""
-"Vain yksi seuraavista --biospart tai --source voidaan määrittää driverdisk-"
-"komennolle."
+"Bootloader-komennolle voidaan määrittää vain yksi seuraavista: --sdboot tai "
+"--extlinux."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -749,10 +745,9 @@ msgstr ""
 "ensisijaisella aliaksella %(new_option)s."
 
 #: ../pykickstart/base.py:449
-#, fuzzy, python-format
-#| msgid "The %s and reqpart commands can't be used at the same time"
+#, python-format
 msgid "The %s and %s commands can't be used at the same time."
-msgstr "%s- ja reqpart-komentoja ei voi käyttää samanaikaisesti"
+msgstr "%s- ja %s-komentoja ei voi käyttää samanaikaisesti."
 
 #: ../pykickstart/commands/partition.py:639
 msgid ""
