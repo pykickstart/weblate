@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-03 14:11-0700\n"
+"POT-Creation-Date: 2024-05-13 12:03-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -680,7 +680,7 @@ msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr ""
 
-#: ../pykickstart/commands/module.py:137
+#: ../pykickstart/commands/module.py:140
 msgid "The enable module command does not take position arguments!"
 msgstr ""
 
@@ -831,9 +831,9 @@ msgid "Unsupported realm '%s' command"
 msgstr ""
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:142 ../pykickstart/version.py:151
-#: ../pykickstart/version.py:154 ../pykickstart/version.py:170
-#: ../pykickstart/version.py:222
+#: ../pykickstart/version.py:146 ../pykickstart/version.py:155
+#: ../pykickstart/version.py:158 ../pykickstart/version.py:174
+#: ../pykickstart/version.py:227
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr ""
