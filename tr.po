@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2024-04-06 17:36+0000\n"
+"PO-Revision-Date: 2024-08-14 13:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/tr/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -422,7 +422,7 @@ msgstr ""
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
-msgstr "%(namespace)s isim uzayında %(action)s eylemi zaten tanımlanmış."
+msgstr "%(namespace)s ad uzayında %(action)s eylemi zaten tanımlandı."
 
 #: ../pykickstart/commands/nvdimm.py:150
 #, python-format
@@ -812,7 +812,7 @@ msgstr "btrfs subvol, üst birimin belirtilmesini gerektirmektedir"
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
-msgstr "btrfs alt birimi, bir isim gerektirmektedir"
+msgstr "btrfs alt birimi, bir ad gerektirmektedir"
 
 #: ../pykickstart/commands/btrfs.py:233
 #, python-format
