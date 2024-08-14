@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 14:02-0800\n"
+"POT-Creation-Date: 2024-05-13 11:36-0700\n"
 "PO-Revision-Date: 2015-05-07 09:19+0000\n"
 "Last-Translator: Momcilo Medic <medicmomcilo@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/pykickstart/"
@@ -44,8 +44,8 @@ msgstr ""
 msgid "'--mkfsoptions' requires --reformat"
 msgstr ""
 
-#: ../pykickstart/commands/network.py:845
-#: ../pykickstart/commands/network.py:1118
+#: ../pykickstart/commands/network.py:848
+#: ../pykickstart/commands/network.py:1121
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
 msgstr ""
@@ -116,7 +116,7 @@ msgid ""
 "been defined."
 msgstr ""
 
-#: ../pykickstart/commands/fcoe.py:146
+#: ../pykickstart/commands/fcoe.py:149
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
 msgstr "FCOE уређај са именом %s је већ дефинисан."
@@ -148,7 +148,7 @@ msgstr ""
 msgid "A module with the name %s has already been defined."
 msgstr "Модул са именом %s је већ дефинисан."
 
-#: ../pykickstart/commands/network.py:494
+#: ../pykickstart/commands/network.py:497
 #, python-format
 msgid "A network device with the name %s has already been defined."
 msgstr "Мрежни уређај са именом %s је већ дефинисан."
@@ -174,12 +174,12 @@ msgstr "Један аргумент се очекује за команду %s"
 msgid "A user with the name %s has already been defined."
 msgstr "Корисник са именом %s је већ дефинисан."
 
-#: ../pykickstart/commands/volgroup.py:183
+#: ../pykickstart/commands/volgroup.py:186
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
 msgstr "volgroup са именом %s је већ дефинисан."
 
-#: ../pykickstart/commands/zfcp.py:132
+#: ../pykickstart/commands/zfcp.py:135
 msgid "A zfcp with this information has already been defined."
 msgstr "zfcp са овим информацијама је већ дефинисан."
 
@@ -215,7 +215,7 @@ msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
 msgstr ""
 
-#: ../pykickstart/commands/sshkey.py:120 ../pykickstart/commands/sshpw.py:170
+#: ../pykickstart/commands/sshkey.py:123 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
 msgstr "ssh корисник са именом %s је већ дефинисан."
@@ -227,8 +227,8 @@ msgstr "ssh корисник са именом %s је већ дефинисан
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr "Један аргумент се очекује за команду %s"
 
-#: ../pykickstart/commands/network.py:763
-#: ../pykickstart/commands/network.py:1113
+#: ../pykickstart/commands/network.py:766
+#: ../pykickstart/commands/network.py:1116
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr "Лош формат --bridgeopts, очекиване се key=value опције одвојене са ','"
@@ -331,13 +331,13 @@ msgstr "Општа kickstart грешка у улазној датотеци"
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Група не може назначити и --nodefaults и --optional"
 
-#: ../pykickstart/commands/network.py:1012
+#: ../pykickstart/commands/network.py:1015
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
 "Ако мрежни --interfacename садржи '.', исправан vlan id би требао ићи после "
 "тога."
 
-#: ../pykickstart/commands/network.py:1021
+#: ../pykickstart/commands/network.py:1024
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
@@ -472,7 +472,7 @@ msgstr "Kickstart верзија за интрепретацију подеша�
 msgid "Members may not be specified for preexisting RAID device"
 msgstr "Чланови не требају бити назначени за постојеће RAID уређаје"
 
-#: ../pykickstart/commands/volgroup.py:175
+#: ../pykickstart/commands/volgroup.py:178
 msgid "Members may not be specified for preexisting volgroup"
 msgstr "Чланови не треба да буду одређени за већ постојеће volgroup-е"
 
@@ -561,7 +561,7 @@ msgstr "Једно од biospart или опција партиција мора
 msgid "One or zero arguments are expected for the %s command"
 msgstr ""
 
-#: ../pykickstart/commands/zfcp.py:209
+#: ../pykickstart/commands/zfcp.py:212
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
 msgstr ""
 
@@ -646,30 +646,30 @@ msgstr ""
 msgid "Only one partition may be specified for driverdisk command."
 msgstr "Само једна партиција може бити назначена за driverdisk команду."
 
-#: ../pykickstart/commands/network.py:757
-#: ../pykickstart/commands/network.py:1107
+#: ../pykickstart/commands/network.py:760
+#: ../pykickstart/commands/network.py:1110
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr "Опција --bridgeopts захтева да --bridgeslaves буде назначено"
-
-#: ../pykickstart/commands/network.py:883
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr "Опција --bridgeopts захтева да --bridgeslaves буде назначено"
-
-#: ../pykickstart/commands/network.py:889
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
 msgstr "Опција --bridgeopts захтева да --bridgeslaves буде назначено"
 
 #: ../pykickstart/commands/network.py:886
 #, fuzzy
 #| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgid "Option --ipv6-dns-search requires --device to be specified"
+msgid "Option --ipv4-dns-search requires --device to be specified"
 msgstr "Опција --bridgeopts захтева да --bridgeslaves буде назначено"
 
 #: ../pykickstart/commands/network.py:892
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
+msgstr "Опција --bridgeopts захтева да --bridgeslaves буде назначено"
+
+#: ../pykickstart/commands/network.py:889
+#, fuzzy
+#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
+msgid "Option --ipv6-dns-search requires --device to be specified"
+msgstr "Опција --bridgeopts захтева да --bridgeslaves буде назначено"
+
+#: ../pykickstart/commands/network.py:895
 #, fuzzy
 #| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
@@ -752,7 +752,7 @@ msgid ""
 msgstr ""
 "--fstype=tmpfs опција не може да се користи заједно са --grow или --maxsize"
 
-#: ../pykickstart/commands/module.py:137
+#: ../pykickstart/commands/module.py:140
 msgid "The enable module command does not take position arguments!"
 msgstr ""
 
@@ -840,7 +840,7 @@ msgstr "Kickstart команда %s не захтева аргументе."
 msgid "The version %s is not supported by pykickstart"
 msgstr "pykickstart не подржава верзију %s "
 
-#: ../pykickstart/commands/network.py:1026
+#: ../pykickstart/commands/network.py:1029
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr ""
@@ -875,7 +875,7 @@ msgstr "Није могуће отворити kickstart датотеку: %s"
 #: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:151
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
-#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:113
+#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
 #: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
 #: ../pykickstart/commands/updates.py:69
 #, python-format
@@ -908,9 +908,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Неподржана realm команда '%s'"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:141 ../pykickstart/version.py:150
-#: ../pykickstart/version.py:153 ../pykickstart/version.py:169
-#: ../pykickstart/version.py:221
+#: ../pykickstart/version.py:147 ../pykickstart/version.py:156
+#: ../pykickstart/version.py:159 ../pykickstart/version.py:175
+#: ../pykickstart/version.py:228
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Назначена је неподржана верзија: %s"
@@ -925,7 +925,7 @@ msgstr ""
 "Упозорење:  Дошло је до следеће грешке при обради улазне датотеке:\n"
 "%s\n"
 
-#: ../pykickstart/commands/network.py:1008
+#: ../pykickstart/commands/network.py:1011
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."
@@ -956,6 +956,7 @@ msgstr ""
 "тога"
 
 #: ../pykickstart/commands/autopart.py:541
+#: ../pykickstart/commands/autopart.py:611
 msgid "autopart --type=btrfs is not supported"
 msgstr ""
 
@@ -1015,11 +1016,11 @@ msgstr ""
 msgid "version of kickstart syntax to validate against"
 msgstr "верзија kickstart синтаксе којом се оверава"
 
-#: ../pykickstart/commands/volgroup.py:170
+#: ../pykickstart/commands/volgroup.py:173
 msgid "volgroup must be given a VG name"
 msgstr "volgroup-у се мора дати VG име"
 
-#: ../pykickstart/commands/volgroup.py:173
+#: ../pykickstart/commands/volgroup.py:176
 msgid "volgroup must be given a list of partitions"
 msgstr "volgroup-у се мора дати списак партиција"
 
