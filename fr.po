@@ -16,13 +16,14 @@
 # Julien Humbert <julroy67@gmail.com>, 2020, 2021.
 # Transtats <suanand@redhat.com>, 2023.
 # grimst <grimaitres@gmail.com>, 2023.
+# Léane GRASSER <leane.grasser@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-01 14:02-0800\n"
-"PO-Revision-Date: 2023-03-20 20:20+0000\n"
-"Last-Translator: grimst <grimaitres@gmail.com>\n"
+"PO-Revision-Date: 2024-06-27 13:36+0000\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fr/>\n"
 "Language: fr\n"
@@ -30,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -659,14 +660,11 @@ msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr "Vous devez choisir soit --pbkdf-time ou --pbkdf-iterations."
 
 #: ../pykickstart/commands/bootloader.py:550
-#, fuzzy
-#| msgid ""
-#| "Only one of --biospart and --source may be specified for driverdisk "
-#| "command."
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
 msgstr ""
-"--biospart and --source peut être spécifié pour la commande driverdisk."
+"Les options --sdboot et --extlinux ne peuvent pas être spécifiées toutes les "
+"deux dans la commande bootloader."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -774,11 +772,9 @@ msgstr ""
 "options avec son alias %(new_option)s."
 
 #: ../pykickstart/base.py:449
-#, fuzzy, python-format
-#| msgid "The %s and reqpart commands can't be used at the same time"
+#, python-format
 msgid "The %s and %s commands can't be used at the same time."
-msgstr ""
-"Les commandes %s et reqpart ne peuvent pas être utilisées simultanément"
+msgstr "Les commandes %s et %s ne peuvent pas être utilisées simultanément."
 
 #: ../pykickstart/commands/partition.py:639
 msgid ""
