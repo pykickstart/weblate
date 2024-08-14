@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 14:02-0800\n"
+"POT-Creation-Date: 2024-05-13 11:36-0700\n"
 "PO-Revision-Date: 2024-04-06 10:40+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -52,8 +52,8 @@ msgstr "%s har tagits bort."
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "”--mkfsoptions” kräver --reformat"
 
-#: ../pykickstart/commands/network.py:845
-#: ../pykickstart/commands/network.py:1118
+#: ../pykickstart/commands/network.py:848
+#: ../pykickstart/commands/network.py:1121
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
 msgstr "--bindto=%s stödjs inte för denna typ av enhet"
@@ -126,7 +126,7 @@ msgstr ""
 "En DM RAID-enhet med namnet %(name)s och enheterna %(devices)s har redan "
 "definierats."
 
-#: ../pykickstart/commands/fcoe.py:146
+#: ../pykickstart/commands/fcoe.py:149
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
 msgstr "En FCOE-enhet med namnet %s har redan definierats."
@@ -160,7 +160,7 @@ msgstr ""
 msgid "A module with the name %s has already been defined."
 msgstr "En modul med namnet %s har redan definierats."
 
-#: ../pykickstart/commands/network.py:494
+#: ../pykickstart/commands/network.py:497
 #, python-format
 msgid "A network device with the name %s has already been defined."
 msgstr "En nätverksenhet med namnet %s har redan definierats."
@@ -186,12 +186,12 @@ msgstr "Ett ensamt argument förväntas för kommandot %s"
 msgid "A user with the name %s has already been defined."
 msgstr "En användare med namnet %s har redan definierats."
 
-#: ../pykickstart/commands/volgroup.py:183
+#: ../pykickstart/commands/volgroup.py:186
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
 msgstr "En volymgrupp med namnet %s har redan definierats."
 
-#: ../pykickstart/commands/zfcp.py:132
+#: ../pykickstart/commands/zfcp.py:135
 msgid "A zfcp with this information has already been defined."
 msgstr "En zfcp med denna information har redan definierats."
 
@@ -232,7 +232,7 @@ msgid ""
 msgstr ""
 "En åtgärd %(action)s på namnrymdet %(namespace)s har redan definierats."
 
-#: ../pykickstart/commands/sshkey.py:120 ../pykickstart/commands/sshpw.py:170
+#: ../pykickstart/commands/sshkey.py:123 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
 msgstr "En ssh-användare med namnet %s har redan definierats."
@@ -243,8 +243,8 @@ msgstr "En ssh-användare med namnet %s har redan definierats."
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr "Åtminstone en flagga och/eller argument förväntades till kommandot %s"
 
-#: ../pykickstart/commands/network.py:763
-#: ../pykickstart/commands/network.py:1113
+#: ../pykickstart/commands/network.py:766
+#: ../pykickstart/commands/network.py:1116
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr ""
@@ -350,13 +350,13 @@ msgstr "Allmänt kickstart-fel i indatafil"
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Grupp kan inte ange både --nodefaults och --optional"
 
-#: ../pykickstart/commands/network.py:1012
+#: ../pykickstart/commands/network.py:1015
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
 "Om nätverks --interfacename innehåller en ”.” skall ett giltigt vlan-id "
 "följa."
 
-#: ../pykickstart/commands/network.py:1021
+#: ../pykickstart/commands/network.py:1024
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
@@ -486,7 +486,7 @@ msgstr "Kickstart-version som skall användas för att tolka konfigurationen"
 msgid "Members may not be specified for preexisting RAID device"
 msgstr "Medlemmar kan inte anges för en befintlig RAID-enhet"
 
-#: ../pykickstart/commands/volgroup.py:175
+#: ../pykickstart/commands/volgroup.py:178
 msgid "Members may not be specified for preexisting volgroup"
 msgstr "Medlemmar får inte anges för befintliga volymgrupper"
 
@@ -573,7 +573,7 @@ msgstr "En av flaggorna biospart eller partition måste anges."
 msgid "One or zero arguments are expected for the %s command"
 msgstr "Ett eller flera argument förväntades till kommandot %s"
 
-#: ../pykickstart/commands/zfcp.py:209
+#: ../pykickstart/commands/zfcp.py:212
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
 msgstr "Endast --devnum eller --devnum med --wwpn och --fcplun är tillåtna."
 
@@ -630,7 +630,8 @@ msgstr "Endast en av --pbkdf-time och --pbkdf-iterations kan anges."
 #: ../pykickstart/commands/bootloader.py:550
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
-msgstr "Endast en av --sdboot och --extlinux kan anges för kommandot bootloader"
+msgstr ""
+"Endast en av --sdboot och --extlinux kan anges för kommandot bootloader"
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -644,24 +645,24 @@ msgstr ""
 msgid "Only one partition may be specified for driverdisk command."
 msgstr "Endast en partition kan anges för kommandot driverdisk."
 
-#: ../pykickstart/commands/network.py:757
-#: ../pykickstart/commands/network.py:1107
+#: ../pykickstart/commands/network.py:760
+#: ../pykickstart/commands/network.py:1110
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgstr "Flaggan --bridgeopts kräver att --bridgeslaves anges"
 
-#: ../pykickstart/commands/network.py:883
+#: ../pykickstart/commands/network.py:886
 msgid "Option --ipv4-dns-search requires --device to be specified"
 msgstr "Flaggan --ipv4-dns-search requires kräver att --device specificeras"
 
-#: ../pykickstart/commands/network.py:889
+#: ../pykickstart/commands/network.py:892
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
 msgstr "Flaggan --ipv4-ignore-auto-dns kräver att --device specificeras"
 
-#: ../pykickstart/commands/network.py:886
+#: ../pykickstart/commands/network.py:889
 msgid "Option --ipv6-dns-search requires --device to be specified"
 msgstr "Flaggan --ipv6-dns-search kräver att --device specificeras"
 
-#: ../pykickstart/commands/network.py:892
+#: ../pykickstart/commands/network.py:895
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
 msgstr "Flaggan --ipv6-ignore-auto-dns kräver att --device specificeras"
 
@@ -745,7 +746,7 @@ msgstr ""
 "Flaggan --fstype=tmpfs kan inte användas tillsammans med --grow eller --"
 "maxsize"
 
-#: ../pykickstart/commands/module.py:137
+#: ../pykickstart/commands/module.py:140
 msgid "The enable module command does not take position arguments!"
 msgstr "Kommandot enable module tar inga positionsargument!"
 
@@ -842,7 +843,7 @@ msgstr "Kommandot syspurpose tar inga positionsargument!"
 msgid "The version %s is not supported by pykickstart"
 msgstr "Versionen %s stöds inte av pykickstart"
 
-#: ../pykickstart/commands/network.py:1026
+#: ../pykickstart/commands/network.py:1029
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr "Vlan-id:t ligger utanför vlan-id-intervallet %(minimum)d-%(maximum)d."
@@ -877,7 +878,7 @@ msgstr "Kan inte öppna indata-kickstart-filen: %s"
 #: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:151
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
-#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:113
+#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
 #: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
 #: ../pykickstart/commands/updates.py:69
 #, python-format
@@ -910,9 +911,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Rikeskommandot ”%s” stödjs ej"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:141 ../pykickstart/version.py:150
-#: ../pykickstart/version.py:153 ../pykickstart/version.py:169
-#: ../pykickstart/version.py:221
+#: ../pykickstart/version.py:147 ../pykickstart/version.py:156
+#: ../pykickstart/version.py:159 ../pykickstart/version.py:175
+#: ../pykickstart/version.py:228
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Version som inte stöds angiven: %s"
@@ -927,7 +928,7 @@ msgstr ""
 "Varning: Följande fel inträffade vid bearbetning av infilen:\n"
 "%s\n"
 
-#: ../pykickstart/commands/network.py:1008
+#: ../pykickstart/commands/network.py:1011
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."
@@ -958,6 +959,7 @@ msgstr ""
 "istället"
 
 #: ../pykickstart/commands/autopart.py:541
+#: ../pykickstart/commands/autopart.py:611
 msgid "autopart --type=btrfs is not supported"
 msgstr "autopart --type=btrfs stödjs inte"
 
@@ -1018,11 +1020,11 @@ msgstr ""
 msgid "version of kickstart syntax to validate against"
 msgstr "version av kickstart-syntax att validera mot"
 
-#: ../pykickstart/commands/volgroup.py:170
+#: ../pykickstart/commands/volgroup.py:173
 msgid "volgroup must be given a VG name"
 msgstr "volgroup måste ges ett VG-namn"
 
-#: ../pykickstart/commands/volgroup.py:173
+#: ../pykickstart/commands/volgroup.py:176
 msgid "volgroup must be given a list of partitions"
 msgstr "volgroup måste ges en lista av partitioner"
 

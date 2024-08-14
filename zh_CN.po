@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 14:02-0800\n"
+"POT-Creation-Date: 2024-05-13 11:36-0700\n"
 "PO-Revision-Date: 2023-12-10 09:44+0000\n"
 "Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -52,8 +52,8 @@ msgstr "%s 已删除。"
 msgid "'--mkfsoptions' requires --reformat"
 msgstr "'--mkfsoptions' 需要 --reformat"
 
-#: ../pykickstart/commands/network.py:845
-#: ../pykickstart/commands/network.py:1118
+#: ../pykickstart/commands/network.py:848
+#: ../pykickstart/commands/network.py:1121
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
 msgstr "这个类型的设备不支持 --bindto=%s"
@@ -124,7 +124,7 @@ msgid ""
 "been defined."
 msgstr "已定义名为 %(name)s 的 DM RAID 设备 %(devices)s。"
 
-#: ../pykickstart/commands/fcoe.py:146
+#: ../pykickstart/commands/fcoe.py:149
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
 msgstr "已定义名为 %s 的 FCOE 设备。"
@@ -157,7 +157,7 @@ msgstr ""
 msgid "A module with the name %s has already been defined."
 msgstr "已定义名为 %s 的模块。"
 
-#: ../pykickstart/commands/network.py:494
+#: ../pykickstart/commands/network.py:497
 #, python-format
 msgid "A network device with the name %s has already been defined."
 msgstr "已定义名为 %s 的网络设备。"
@@ -183,12 +183,12 @@ msgstr "%s 命令应只有一个参数"
 msgid "A user with the name %s has already been defined."
 msgstr "已定义名为 %s 的用户。"
 
-#: ../pykickstart/commands/volgroup.py:183
+#: ../pykickstart/commands/volgroup.py:186
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
 msgstr "已定义名为 %s 的 volgroup。"
 
-#: ../pykickstart/commands/zfcp.py:132
+#: ../pykickstart/commands/zfcp.py:135
 msgid "A zfcp with this information has already been defined."
 msgstr "已定义使用这个信息的 zfcp。"
 
@@ -224,7 +224,7 @@ msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
 msgstr "命名空间 %(namespace)s 中的一个操作 %(action)s 已被定义。"
 
-#: ../pykickstart/commands/sshkey.py:120 ../pykickstart/commands/sshpw.py:170
+#: ../pykickstart/commands/sshkey.py:123 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
 msgstr "已定义名为 %s 的 ssh 用户。"
@@ -235,8 +235,8 @@ msgstr "已定义名为 %s 的 ssh 用户。"
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr "%s 命令至少需要一个选项和/或参数"
 
-#: ../pykickstart/commands/network.py:763
-#: ../pykickstart/commands/network.py:1113
+#: ../pykickstart/commands/network.py:766
+#: ../pykickstart/commands/network.py:1116
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr "--bridgeopts 的错误格式，应为使用 ',' 的 key=value 选项"
@@ -340,11 +340,11 @@ msgstr "输入文件中的 kickstart 错误"
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "组无法同时指定--nodefaults 和--optional"
 
-#: ../pykickstart/commands/network.py:1012
+#: ../pykickstart/commands/network.py:1015
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr "如果网络 --interfacename 包含a '.'，则后接有效 vlan id。"
 
-#: ../pykickstart/commands/network.py:1021
+#: ../pykickstart/commands/network.py:1024
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr "如果网络 --interfacename 以 'vlan' 开始，则后接有效 vlan id。"
@@ -467,7 +467,7 @@ msgstr "解析 config 的 kickstart 版本"
 msgid "Members may not be specified for preexisting RAID device"
 msgstr "不得为已有 RAID 设备指定任何成员"
 
-#: ../pykickstart/commands/volgroup.py:175
+#: ../pykickstart/commands/volgroup.py:178
 msgid "Members may not be specified for preexisting volgroup"
 msgstr "不得为已有 volgroup 指定任何成员"
 
@@ -547,7 +547,7 @@ msgstr "必须指定 biospart 或分区选项之一。"
 msgid "One or zero arguments are expected for the %s command"
 msgstr "%s 命令应有一个或没有参数"
 
-#: ../pykickstart/commands/zfcp.py:209
+#: ../pykickstart/commands/zfcp.py:212
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
 msgstr "只允许使用 --devnum 或 --devnum 与 --wwpn 和 --fcplun 一起使用。"
 
@@ -617,24 +617,24 @@ msgstr "driverdisk 命令指定 --source 和分区之一。"
 msgid "Only one partition may be specified for driverdisk command."
 msgstr "driverdisk 命令只能指定一个分区。"
 
-#: ../pykickstart/commands/network.py:757
-#: ../pykickstart/commands/network.py:1107
+#: ../pykickstart/commands/network.py:760
+#: ../pykickstart/commands/network.py:1110
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgstr "选项 --bridgeopts 需要指定 --bridgeslaves"
 
-#: ../pykickstart/commands/network.py:883
+#: ../pykickstart/commands/network.py:886
 msgid "Option --ipv4-dns-search requires --device to be specified"
 msgstr "选项 --ipv4-dns-search 要求指定 --device"
 
-#: ../pykickstart/commands/network.py:889
+#: ../pykickstart/commands/network.py:892
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
 msgstr "选项 --ipv4-ignore-auto-dns 需要指定 --device"
 
-#: ../pykickstart/commands/network.py:886
+#: ../pykickstart/commands/network.py:889
 msgid "Option --ipv6-dns-search requires --device to be specified"
 msgstr "选项 --ipv6-dns-search 需要指定 --device"
 
-#: ../pykickstart/commands/network.py:892
+#: ../pykickstart/commands/network.py:895
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
 msgstr "选项 --ipv6-ignore-auto-dns 需要指定 --device"
 
@@ -716,7 +716,7 @@ msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr "--fstype=tmpfs 选项无法与 --grow 或者 --maxsize 一同使用"
 
-#: ../pykickstart/commands/module.py:137
+#: ../pykickstart/commands/module.py:140
 msgid "The enable module command does not take position arguments!"
 msgstr "enable module 命令不能使用位置参数！"
 
@@ -809,7 +809,7 @@ msgstr "syspurpose 命令不能使用位置参数！"
 msgid "The version %s is not supported by pykickstart"
 msgstr "%s版本不被pykickstart支持"
 
-#: ../pykickstart/commands/network.py:1026
+#: ../pykickstart/commands/network.py:1029
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
 msgstr "vlan id 不在 %(minimum)d-%(maximum)d vlan id 范围内。"
@@ -844,7 +844,7 @@ msgstr "无法打开 input kickstart 文件：%s"
 #: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:151
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
-#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:113
+#: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
 #: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
 #: ../pykickstart/commands/updates.py:69
 #, python-format
@@ -877,9 +877,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "不支持的 realm '%s' 命令"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:141 ../pykickstart/version.py:150
-#: ../pykickstart/version.py:153 ../pykickstart/version.py:169
-#: ../pykickstart/version.py:221
+#: ../pykickstart/version.py:147 ../pykickstart/version.py:156
+#: ../pykickstart/version.py:159 ../pykickstart/version.py:175
+#: ../pykickstart/version.py:228
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "指定了不支持的版本：%s"
@@ -894,7 +894,7 @@ msgstr ""
 "警告:  在处理输入文件时发生以下错误:\n"
 "%s\n"
 
-#: ../pykickstart/commands/network.py:1008
+#: ../pykickstart/commands/network.py:1011
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."
@@ -921,6 +921,7 @@ msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr "autopart --fstype=btrfs 不是有效 fstype，请使用 --type=btrfs"
 
 #: ../pykickstart/commands/autopart.py:541
+#: ../pykickstart/commands/autopart.py:611
 msgid "autopart --type=btrfs is not supported"
 msgstr "不支持 autopart --type=btrfs"
 
@@ -979,11 +980,11 @@ msgstr "未给出写入完成的 kickstart 文件位置，或者标准输出"
 msgid "version of kickstart syntax to validate against"
 msgstr "kickstart语法版本证实冲突"
 
-#: ../pykickstart/commands/volgroup.py:170
+#: ../pykickstart/commands/volgroup.py:173
 msgid "volgroup must be given a VG name"
 msgstr "必须为 volgroup 指定一个 VG 名称"
 
-#: ../pykickstart/commands/volgroup.py:173
+#: ../pykickstart/commands/volgroup.py:176
 msgid "volgroup must be given a list of partitions"
 msgstr "必须为 volgroup 指定分区列表"
 
