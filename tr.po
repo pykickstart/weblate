@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 11:36-0700\n"
-"PO-Revision-Date: 2024-04-06 10:40+0000\n"
+"PO-Revision-Date: 2024-08-14 13:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/tr/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -229,7 +229,7 @@ msgstr "%(blockdevs)s aygıtlarında %(action)s eylemi zaten tanımlanmış."
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
-msgstr "%(namespace)s isim uzayında %(action)s eylemi zaten tanımlanmış."
+msgstr "%(namespace)s ad uzayında %(action)s eylemi zaten tanımlandı."
 
 #: ../pykickstart/commands/sshkey.py:123 ../pykickstart/commands/sshpw.py:170
 #, python-format
@@ -1016,7 +1016,7 @@ msgstr "btrfs subvol, üst birimin belirtilmesini gerektirmektedir"
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
-msgstr "btrfs alt birimi, bir isim gerektirmektedir"
+msgstr "btrfs alt birimi, bir ad gerektirmektedir"
 
 #: ../pykickstart/commands/device.py:115
 msgid "device command requires two arguments: module type and name"
