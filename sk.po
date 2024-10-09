@@ -14,16 +14,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:39-0800\n"
-"PO-Revision-Date: 2021-04-20 19:02+0000\n"
+"PO-Revision-Date: 2024-10-10 15:38+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/"
-"pykickstart/master/sk/>\n"
+"pykickstart/rhel10-branch/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -31,6 +31,8 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"Kontrola kickstart súboru %(filename)s\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -570,7 +572,7 @@ msgstr "Je očakávaný jeden alebo žiadny argument pre príkaz %s"
 
 #: ../pykickstart/commands/zfcp.py:209
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "Povolené sú iba voľby --devnum alebo --devnum s --wwpn a --fcplun."
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -613,10 +615,8 @@ msgstr ""
 "V príkaze rescue je možné použiť iba jednu z volieb --nomount a --romount."
 
 #: ../pykickstart/commands/autopart.py:686
-#, fuzzy
-#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr "Je možné použiť iba jednu z volieb  --pbkdf-time a --pbkdf-iterations."
+msgstr "Je možné použiť iba jednu z volieb --noswap a --hibernation."
 
 #: ../pykickstart/commands/autopart.py:616
 #: ../pykickstart/commands/logvol.py:919
@@ -641,28 +641,20 @@ msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgstr "Voľba --bridgeopts vyžaduje uvedenú voľbu --bridgeslaves"
 
 #: ../pykickstart/commands/network.py:883
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr "Voľba --bridgeopts vyžaduje uvedenú voľbu --bridgeslaves"
+msgstr "Voľba --ipv4-dns-search vyžaduje uvedenú voľbu --device"
 
 #: ../pykickstart/commands/network.py:889
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
-msgstr "Voľba --bridgeopts vyžaduje uvedenú voľbu --bridgeslaves"
+msgstr "Voľba --ipv4-ignore-auto-dns vyžaduje uvedenú voľbu --device"
 
 #: ../pykickstart/commands/network.py:886
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr "Voľba --bridgeopts vyžaduje uvedenú voľbu --bridgeslaves"
+msgstr "Voľba --ipv6-dns-search vyžaduje uvedenú voľbu --device"
 
 #: ../pykickstart/commands/network.py:892
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
-msgstr "Voľba --bridgeopts vyžaduje uvedenú voľbu --bridgeslaves"
+msgstr "Voľba --ipv6-ignore-auto-dns vyžaduje uvedenú voľbu --device"
 
 #: ../pykickstart/commands/timezone.py:171
 #: ../pykickstart/commands/timezone.py:187
