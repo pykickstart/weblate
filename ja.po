@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 11:36-0700\n"
+"POT-Creation-Date: 2024-08-16 13:16-0700\n"
 "PO-Revision-Date: 2023-03-02 08:20+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -68,11 +68,11 @@ msgstr "--boot-drive は、引数を 1 つだけ受け入れます"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize と --metadatasize は、シンプールにしか使用しません"
 
-#: ../pykickstart/sections.py:789
+#: ../pykickstart/sections.py:797
 msgid "--default and --nobase cannot be used together"
 msgstr "--default と --nobase は併用できません"
 
-#: ../pykickstart/sections.py:802
+#: ../pykickstart/sections.py:810
 msgid "--default and --nocore cannot be used together"
 msgstr "--default と --nocore は併用できません"
 
@@ -244,8 +244,9 @@ msgstr ""
 msgid "An ssh user with the name %s has already been defined."
 msgstr "%s という名前の ssh ユーザーはすでに定義されています。"
 
-#: ../pykickstart/commands/timezone.py:267
-#: ../pykickstart/commands/timezone.py:372
+#: ../pykickstart/commands/timezone.py:268
+#: ../pykickstart/commands/timezone.py:373
+#: ../pykickstart/commands/timezone.py:509
 #, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr ""
@@ -593,8 +594,9 @@ msgstr ""
 "biospart オプションまたは partition オプションのいずれかを指定する必要があり"
 "ます。"
 
-#: ../pykickstart/commands/timezone.py:280
-#: ../pykickstart/commands/timezone.py:385
+#: ../pykickstart/commands/timezone.py:281
+#: ../pykickstart/commands/timezone.py:386
+#: ../pykickstart/commands/timezone.py:522
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
 msgstr "%s コマンドには引数を 1 つ指定するか、何も指定しないでください"
@@ -713,10 +715,10 @@ msgstr "--bridgeopts オプションには、--bridgeslaves を指定する必�
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
 msgstr "--bridgeopts オプションには、--bridgeslaves を指定する必要があります"
 
-#: ../pykickstart/commands/timezone.py:171
-#: ../pykickstart/commands/timezone.py:187
-#: ../pykickstart/commands/timezone.py:284
-#: ../pykickstart/commands/timezone.py:389
+#: ../pykickstart/commands/timezone.py:172
+#: ../pykickstart/commands/timezone.py:188
+#: ../pykickstart/commands/timezone.py:285
+#: ../pykickstart/commands/timezone.py:390
 msgid "Options --nontp and --ntpservers are mutually exclusive"
 msgstr "--nontp オプションと --ntpservers オプションは相互に排他的です"
 
@@ -776,7 +778,7 @@ msgstr "%s という名前のスナップショットはすでに定義されて
 msgid "Specify only one realm to join"
 msgstr "参加するレルムを 1 つだけ指定します"
 
-#: ../pykickstart/sections.py:838
+#: ../pykickstart/sections.py:846
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -855,7 +857,7 @@ msgstr ""
 "\n"
 "%(msg)s\n"
 
-#: ../pykickstart/commands/timezone.py:421
+#: ../pykickstart/commands/timezone.py:422
 msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
@@ -863,7 +865,7 @@ msgstr ""
 "--isUtc オプションは、今後のリリースで非推奨になります。キックスタートファイ"
 "ルを変更して、このオプションを希望のエイリアス --utc に置き換えます。"
 
-#: ../pykickstart/commands/timezone.py:445
+#: ../pykickstart/commands/timezone.py:446
 msgid ""
 "The option --nontp will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with timesource --ntp-disable command "
@@ -873,7 +875,7 @@ msgstr ""
 "ルを変更して、このオプションを timesource --ntp-disable コマンド呼び出しに置"
 "き換えてください。"
 
-#: ../pykickstart/commands/timezone.py:439
+#: ../pykickstart/commands/timezone.py:440
 msgid ""
 "The option --ntpservers will be deprecated in future releases. Please modify "
 "your kickstart file to replace this option with timesource --ntp-server "
@@ -934,7 +936,7 @@ msgstr "指定された kickstart ファイルを開けません: %s"
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
-#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:83
 #: ../pykickstart/commands/updates.py:69
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
