@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 11:36-0700\n"
-"PO-Revision-Date: 2024-04-05 08:36+0000\n"
+"PO-Revision-Date: 2024-10-10 15:38+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/sk/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -572,7 +572,7 @@ msgstr "Je očakávaný jeden alebo žiadny argument pre príkaz %s"
 
 #: ../pykickstart/commands/zfcp.py:212
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "Povolené sú iba voľby --devnum alebo --devnum s --wwpn a --fcplun."
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -615,10 +615,8 @@ msgstr ""
 "V príkaze rescue je možné použiť iba jednu z volieb --nomount a --romount."
 
 #: ../pykickstart/commands/autopart.py:596
-#, fuzzy
-#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr "Je možné použiť iba jednu z volieb  --pbkdf-time a --pbkdf-iterations."
+msgstr "Je možné použiť iba jednu z volieb --noswap a --hibernation."
 
 #: ../pykickstart/commands/autopart.py:526
 #: ../pykickstart/commands/logvol.py:906
@@ -627,14 +625,11 @@ msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr "Je možné použiť iba jednu z volieb  --pbkdf-time a --pbkdf-iterations."
 
 #: ../pykickstart/commands/bootloader.py:550
-#, fuzzy
-#| msgid ""
-#| "Only one of --biospart and --source may be specified for driverdisk "
-#| "command."
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
 msgstr ""
-"V príkaze driverdisk je možné použiť iba jednu z volieb -biospart a --source."
+"V príkaze bootloader je možné použiť iba jednu z volieb --sdboot a "
+"--extlinux."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -653,28 +648,20 @@ msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgstr "Voľba --bridgeopts vyžaduje uvedenú voľbu --bridgeslaves"
 
 #: ../pykickstart/commands/network.py:886
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr "Voľba --bridgeopts vyžaduje uvedenú voľbu --bridgeslaves"
+msgstr "Voľba --ipv4-dns-search vyžaduje uvedenú voľbu --device"
 
 #: ../pykickstart/commands/network.py:892
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
-msgstr "Voľba --bridgeopts vyžaduje uvedenú voľbu --bridgeslaves"
+msgstr "Voľba --ipv4-ignore-auto-dns vyžaduje uvedenú voľbu --device"
 
 #: ../pykickstart/commands/network.py:889
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr "Voľba --bridgeopts vyžaduje uvedenú voľbu --bridgeslaves"
+msgstr "Voľba --ipv6-dns-search vyžaduje uvedenú voľbu --device"
 
 #: ../pykickstart/commands/network.py:895
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
-msgstr "Voľba --bridgeopts vyžaduje uvedenú voľbu --bridgeslaves"
+msgstr "Voľba --ipv6-ignore-auto-dns vyžaduje uvedenú voľbu --device"
 
 #: ../pykickstart/commands/timezone.py:171
 #: ../pykickstart/commands/timezone.py:187
@@ -745,10 +732,9 @@ msgstr ""
 "aliasom %(new_option)s."
 
 #: ../pykickstart/base.py:449
-#, fuzzy, python-format
-#| msgid "The %s and reqpart commands can't be used at the same time"
+#, python-format
 msgid "The %s and %s commands can't be used at the same time."
-msgstr "Príkazy %s a reqpart sa nedajú použiť súčasne"
+msgstr "Príkazy %s a %s sa nedajú použiť súčasne."
 
 #: ../pykickstart/commands/partition.py:639
 msgid ""
