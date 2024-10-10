@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 11:36-0700\n"
+"POT-Creation-Date: 2024-08-16 13:16-0700\n"
 "PO-Revision-Date: 2024-04-06 10:40+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -64,11 +64,11 @@ msgstr "--boot-drive는 하나의 인수만 허용합니다"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize 및 --metadatasize는 가상 풀 전용입니다"
 
-#: ../pykickstart/sections.py:789
+#: ../pykickstart/sections.py:797
 msgid "--default and --nobase cannot be used together"
 msgstr "--default와 --nobase는 함께 사용 할 수 없습니다"
 
-#: ../pykickstart/sections.py:802
+#: ../pykickstart/sections.py:810
 msgid "--default and --nocore cannot be used together"
 msgstr "--default와 --nocore는 함께 사용 할 수 없습니다"
 
@@ -230,8 +230,9 @@ msgstr "이름공간 %(namespace)s에 작동 %(action)s은 이미 정의되었�
 msgid "An ssh user with the name %s has already been defined."
 msgstr "이름 %s을 가진 ssh 사용자는 이미 정의되었습니다."
 
-#: ../pykickstart/commands/timezone.py:267
-#: ../pykickstart/commands/timezone.py:372
+#: ../pykickstart/commands/timezone.py:268
+#: ../pykickstart/commands/timezone.py:373
+#: ../pykickstart/commands/timezone.py:509
 #, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr "최소 하나의 선택 과/또는 인수가 %s 명령을 위해 예상됩니다"
@@ -560,8 +561,9 @@ msgstr ""
 msgid "One of biospart or partition options must be specified."
 msgstr "biospart 또는 파티션 선택 중 하나는 지정해야 합니다."
 
-#: ../pykickstart/commands/timezone.py:280
-#: ../pykickstart/commands/timezone.py:385
+#: ../pykickstart/commands/timezone.py:281
+#: ../pykickstart/commands/timezone.py:386
+#: ../pykickstart/commands/timezone.py:522
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
 msgstr "1 또는 0 인수는 %s 명령을 위하여 예상됩니다"
@@ -662,10 +664,10 @@ msgstr "옵션 --ipv6-dns-search는 --device를 지정해야 합니다"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
 msgstr "옵션 --ipv6-ignore-auto-dns는 --device를 지정해야 합니다"
 
-#: ../pykickstart/commands/timezone.py:171
-#: ../pykickstart/commands/timezone.py:187
-#: ../pykickstart/commands/timezone.py:284
-#: ../pykickstart/commands/timezone.py:389
+#: ../pykickstart/commands/timezone.py:172
+#: ../pykickstart/commands/timezone.py:188
+#: ../pykickstart/commands/timezone.py:285
+#: ../pykickstart/commands/timezone.py:390
 msgid "Options --nontp and --ntpservers are mutually exclusive"
 msgstr "선택 --nontp와 --ntpservers는 함께 사용 할 수 없습니다"
 
@@ -719,7 +721,7 @@ msgstr "이름 %s가 있는 순간찍기는 이미 정의 되었습니다!"
 msgid "Specify only one realm to join"
 msgstr "가입 할 영역을 하나만 지정하십시오"
 
-#: ../pykickstart/sections.py:838
+#: ../pykickstart/sections.py:846
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -794,7 +796,7 @@ msgstr ""
 "\n"
 "%(msg)s\n"
 
-#: ../pykickstart/commands/timezone.py:421
+#: ../pykickstart/commands/timezone.py:422
 msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
@@ -802,7 +804,7 @@ msgstr ""
 "이 선택 --isUtc는 미래의 출시에서 없어질 것입니다. 언급되어진 별칭 --utc와 함"
 "께 이 선택은 대체하는 킥스타트 파일을 수정해주기 바랍니다."
 
-#: ../pykickstart/commands/timezone.py:445
+#: ../pykickstart/commands/timezone.py:446
 msgid ""
 "The option --nontp will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with timesource --ntp-disable command "
@@ -811,7 +813,7 @@ msgstr ""
 "선택 --nontp는 미래 출시에서 사라질 것입니다. 시간원 --ntp-disable 명령 호출"
 "과 함께 이 선택을 대체하기 위해 킥스타트 파일을 수정해주세요."
 
-#: ../pykickstart/commands/timezone.py:439
+#: ../pykickstart/commands/timezone.py:440
 msgid ""
 "The option --ntpservers will be deprecated in future releases. Please modify "
 "your kickstart file to replace this option with timesource --ntp-server "
@@ -872,7 +874,7 @@ msgstr "지정된 kickstart 파일을 열 수 없음: %s"
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
-#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:83
 #: ../pykickstart/commands/updates.py:69
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"

@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 11:36-0700\n"
+"POT-Creation-Date: 2024-08-16 13:16-0700\n"
 "PO-Revision-Date: 2024-01-16 14:25+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -68,11 +68,11 @@ msgstr "--boot-drive aceita somente um argumento"
 msgid "--chunksize and --metadatasize are for thin pools only"
 msgstr "--chunksize e --metadatasize são somente para thin pools"
 
-#: ../pykickstart/sections.py:789
+#: ../pykickstart/sections.py:797
 msgid "--default and --nobase cannot be used together"
 msgstr "--default e --nobase não podem ser utilizados juntos"
 
-#: ../pykickstart/sections.py:802
+#: ../pykickstart/sections.py:810
 msgid "--default and --nocore cannot be used together"
 msgstr "--default e --nocore não podem ser utilizados juntos"
 
@@ -239,8 +239,9 @@ msgstr "Uma ação %(action)s no namespace %(namespace)s já foi definido."
 msgid "An ssh user with the name %s has already been defined."
 msgstr "Um usuário ssh com nome %s já foi definido."
 
-#: ../pykickstart/commands/timezone.py:267
-#: ../pykickstart/commands/timezone.py:372
+#: ../pykickstart/commands/timezone.py:268
+#: ../pykickstart/commands/timezone.py:373
+#: ../pykickstart/commands/timezone.py:509
 #, python-format
 msgid "At least one option and/or an argument are expected for the %s command"
 msgstr "Pelo menos uma opção e/ou um argumento são esperados para o comando %s"
@@ -577,8 +578,9 @@ msgstr ""
 msgid "One of biospart or partition options must be specified."
 msgstr "Um dos biospart ou opções de partition deve ser especificado."
 
-#: ../pykickstart/commands/timezone.py:280
-#: ../pykickstart/commands/timezone.py:385
+#: ../pykickstart/commands/timezone.py:281
+#: ../pykickstart/commands/timezone.py:386
+#: ../pykickstart/commands/timezone.py:522
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
 msgstr "Um ou nenhum argumento é esperado para o comando %s"
@@ -693,10 +695,10 @@ msgstr "A opção --ipv6-dns-search requer que --device seja especificada"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
 msgstr "A opção --ipv6-ignore-auto-dns requer que --device seja especificada"
 
-#: ../pykickstart/commands/timezone.py:171
-#: ../pykickstart/commands/timezone.py:187
-#: ../pykickstart/commands/timezone.py:284
-#: ../pykickstart/commands/timezone.py:389
+#: ../pykickstart/commands/timezone.py:172
+#: ../pykickstart/commands/timezone.py:188
+#: ../pykickstart/commands/timezone.py:285
+#: ../pykickstart/commands/timezone.py:390
 msgid "Options --nontp and --ntpservers are mutually exclusive"
 msgstr "As opções --nontp e --ntpservers são mutualmente exclusivas"
 
@@ -751,7 +753,7 @@ msgstr "Instantâneo com o nome %s já foi definido!"
 msgid "Specify only one realm to join"
 msgstr "Especifique somente uma área de autenticação para adicionar"
 
-#: ../pykickstart/sections.py:838
+#: ../pykickstart/sections.py:846
 #, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
@@ -832,7 +834,7 @@ msgstr ""
 "\n"
 "%(msg)s\n"
 
-#: ../pykickstart/commands/timezone.py:421
+#: ../pykickstart/commands/timezone.py:422
 msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
@@ -841,7 +843,7 @@ msgstr ""
 "seu arquivo de kickstart para substituir esta opção por seu apelido "
 "preferido --utc."
 
-#: ../pykickstart/commands/timezone.py:445
+#: ../pykickstart/commands/timezone.py:446
 msgid ""
 "The option --nontp will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with timesource --ntp-disable command "
@@ -851,7 +853,7 @@ msgstr ""
 "seu arquivo de kickstart para substituir esta opção com a invocação do "
 "comando timesource --ntp-disable."
 
-#: ../pykickstart/commands/timezone.py:439
+#: ../pykickstart/commands/timezone.py:440
 msgid ""
 "The option --ntpservers will be deprecated in future releases. Please modify "
 "your kickstart file to replace this option with timesource --ntp-server "
@@ -914,7 +916,7 @@ msgstr "Não foi possível abrir o arquivo kickstart: %s"
 #: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
-#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:82
+#: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:83
 #: ../pykickstart/commands/updates.py:69
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
