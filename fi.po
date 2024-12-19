@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2022-04-01 09:25+0000\n"
+"PO-Revision-Date: 2024-12-20 13:01+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/fi/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -519,7 +519,7 @@ msgstr "Yksi nästä '--url' tai '--mirrorlist' on määritettävä url-komennol
 #: ../pykickstart/commands/partition.py:314
 #, python-format
 msgid "Mount point required for %s"
-msgstr "Kiinnityskohta vaaditaan %s:lle"
+msgstr "Liitoskohta vaaditaan %s:lle"
 
 #: ../pykickstart/commands/raid.py:325
 #, python-format
