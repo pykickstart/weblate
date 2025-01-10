@@ -6,15 +6,15 @@
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2007, 2010
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2011, 2012
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
-# Ricky Tigg <ricky.tigg@gmail.com>, 2021.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2021, 2025.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-16 13:16-0700\n"
-"PO-Revision-Date: 2024-05-08 19:36+0000\n"
-"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"PO-Revision-Date: 2025-01-10 21:43+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fi/>\n"
 "Language: fi\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -202,7 +202,9 @@ msgstr "Toimi %(action)s vaatii argumentti '--namespace' määritettäväksi"
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
-msgstr "Toimi %(action)s vaatii argumentti '--blockdevs' määritettäväksi"
+msgstr ""
+"Toiminto %(action)s vaatii --namespace- tai --blockdevs-argumentin "
+"asettamisen"
 
 #: ../pykickstart/commands/nvdimm.py:157
 #, python-format
@@ -635,7 +637,7 @@ msgstr "Vain joko --noswap tai --hibernation voidaan määrittää."
 #: ../pykickstart/commands/logvol.py:906
 #: ../pykickstart/commands/partition.py:721 ../pykickstart/commands/raid.py:765
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
-msgstr "Vain yksi --pbkdf-time ja --pbkdf-iteraatioista voidaan määrittää."
+msgstr "Vain yksi --pbkdf-time ja --pbkdf-iterations voidaan määrittää."
 
 #: ../pykickstart/commands/bootloader.py:550
 msgid ""
@@ -660,7 +662,7 @@ msgstr "Vain yksi partition voidaan määrittää driverdisk-komennolle."
 #: ../pykickstart/commands/network.py:760
 #: ../pykickstart/commands/network.py:1110
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr "Vaihtoehto - bridgeopts vaatii --bridgeslaves määriteltävän"
+msgstr "Vaihtoehto --bridgeopts vaatii --bridgeslaves:n määrittämisen"
 
 #: ../pykickstart/commands/network.py:886
 msgid "Option --ipv4-dns-search requires --device to be specified"
@@ -856,7 +858,7 @@ msgstr "Syspurpose-komento ei ota sijaintiparametreja!"
 #: ../tools/ksverdiff.py:66
 #, python-format
 msgid "The version %s is not supported by pykickstart"
-msgstr "Pykickstart ei tue versiota %s"
+msgstr "pykickstart ei tue versiota %s"
 
 #: ../pykickstart/commands/network.py:1029
 #, python-format
@@ -966,7 +968,7 @@ msgstr ""
 
 #: ../pykickstart/commands/autopart.py:360
 msgid "autopart --fstype cannot be used with --type=btrfs"
-msgstr "autopart --fstype ei voi käyttää parametrin --type = btrfs kanssa"
+msgstr "autopart --fstype ei voi käyttää --type=btrfs:n kanssa"
 
 #: ../pykickstart/commands/autopart.py:357
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
