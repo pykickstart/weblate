@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2020-07-20 13:28+0000\n"
-"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
+"PO-Revision-Date: 2025-04-10 00:53+0000\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/es/>\n"
 "Language: es\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -91,7 +91,7 @@ msgstr "No se pudo abrir el archivo kickstart de entrada: %s"
 
 #: ../pykickstart/parser.py:439
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr "El grupo no puede especificar --nodefaults y --optional a la vez."
+msgstr "El grupo no puede especificar a la vez --nodefaults y --optional"
 
 #: ../pykickstart/parser.py:618 ../pykickstart/parser.py:659
 #, python-format
@@ -132,7 +132,7 @@ msgid ""
 " kickstart syntax version %(version)s."
 msgstr ""
 "La opción %(option)s fue introducida en la versión %(intro)s, y usted está "
-"usando la  versión de sintaxis %(version)s"
+"usando la versión de sintaxis %(version)s."
 
 #: ../pykickstart/options.py:185
 #, python-format
@@ -145,8 +145,8 @@ msgid ""
 "The %(option)s option was removed in version %(removed)s, but you are using "
 "kickstart syntax version %(version)s."
 msgstr ""
-"La opción %(option)s fue eliminada en la versión %(removed)s, y usted está "
-"usando la  versión de sintaxis %(version)s"
+"La opción %(option)s fue eliminada en la versión %(removed)s, pero usted "
+"está usando la versión de sintaxis %(version)s de kickstart."
 
 #: ../pykickstart/options.py:190
 #, python-format
@@ -156,9 +156,9 @@ msgid ""
 " releases, which will result in a fatal error from kickstart.  Please modify"
 " your kickstart file to remove this option."
 msgstr ""
-"Se ignora una opción obsoleta de la línea %(lineno)s: la opción %(option)s "
-"ha sido descartada y ya no tiene efecto. Puede ser borrada en versiones "
-"futuras, lo que resultará en un error. Por favor, modifique su archivo "
+"Se ignora una opción obsoleta de la línea %(lineno)s:  la opción %(option)s "
+"ha sido descartada y ya no tiene efecto.  Puede ser retirada en versiones "
+"futuras, lo que resultará en un error fatal. Por favor, modifique su archivo "
 "kickstart y elimine esta opción."
 
 #: ../pykickstart/sections.py:625
@@ -206,7 +206,7 @@ msgstr "Argumentos inesperados para el comando %(command)s: %(options)s"
 
 #: ../pykickstart/commands/harddrive.py:88
 msgid "One of biospart or partition options must be specified."
-msgstr "Debe elegir entre una de las opciones --biospart o --partition."
+msgstr "Una de las opciones biospart o partición debe estar especificada."
 
 #: ../pykickstart/commands/ignoredisk.py:90
 #: ../pykickstart/commands/ignoredisk.py:175
@@ -232,15 +232,21 @@ msgid ""
 "fatal error from kickstart. Please modify your kickstart file to remove the "
 "option."
 msgstr ""
+"Se hace caso omiso a la opción obsoleta en la línea %s:  La instrucción "
+"ignoredisk no está admitida más en la opción --interactiva.  En "
+"publicaciones futuras, resultará en un error fatal desde kickstart. "
+"Modifique su archivo kickstart para eliminar la opción."
 
 #: ../pykickstart/commands/ignoredisk.py:172
 msgid "--interactive option of ignoredisk command is no longer supported."
 msgstr ""
+"la opción --interactive de comandos para descartar disco no está más "
+"mantenida."
 
 #: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
-msgstr "Ya se ha definido un usuario ssh de nombre %s."
+msgstr "Ya se ha definido un usuario ssh con el nombre %s."
 
 #: ../pykickstart/commands/volgroup.py:167
 msgid "volgroup must be given a VG name"
@@ -624,7 +630,7 @@ msgstr "--resize sólo se puede usar con --useexisting"
 
 #: ../pykickstart/commands/logvol.py:684
 msgid "--resize requires --size to indicate new size"
-msgstr "--resize necesita --size para indicar el nuevo tamaño"
+msgstr "--resize requiere --size para indicar el tamaño nuevo"
 
 #: ../pykickstart/commands/logvol.py:756
 msgid "The logvol and mount commands can't be used at the same time"
@@ -657,7 +663,8 @@ msgstr "No se puede usar caché para volúmenes \"delgados\""
 #: ../pykickstart/commands/logvol.py:855
 msgid "Cache needs to have a list of (fast) PVs specified"
 msgstr ""
-"La caché necesita una lista de volúmenes físicos (que además sean rápidos)"
+"La caché necesita tener especificada una lista de volúmenes físicos (que "
+"además sean rápidos)"
 
 #: ../pykickstart/commands/logvol.py:859
 msgid "Cache needs to have size specified"
@@ -716,7 +723,7 @@ msgstr "No se puede usar --fstype=tmpfs con --grow ni --maxsize"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
-msgstr "Debe usar --host para poder indicar --port."
+msgstr "No puede especificar --port sin indicar --host."
 
 #: ../pykickstart/commands/updates.py:64
 #, python-format
@@ -797,11 +804,11 @@ msgstr "btrfs necesita un punto de montaje"
 
 #: ../pykickstart/commands/btrfs.py:224
 msgid "btrfs must be given a list of partitions"
-msgstr "btrfs necesita una lista de particiones"
+msgstr "btrfs necesita un listado de particiones"
 
 #: ../pykickstart/commands/btrfs.py:226
 msgid "btrfs subvol requires specification of parent volume"
-msgstr "btrfs subvol necesita que se indique el volumen que lo contiene"
+msgstr "btrfs subvol requiere que se indique el volumen que lo contiene"
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
@@ -1034,7 +1041,7 @@ msgstr "Error general en el archivo de entrada: %s"
 
 #: ../tools/ksshell.py:146
 msgid "a basis file to use for seeding the kickstart data (optional)"
-msgstr "archivo base a partir del cual se va a trabajar (opcional)"
+msgstr "un archivo base a partir del cual se va a trabajar (opcional)"
 
 #: ../tools/ksshell.py:148
 msgid ""
