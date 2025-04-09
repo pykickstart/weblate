@@ -20,16 +20,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2020-07-20 13:28+0000\n"
-"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
+"PO-Revision-Date: 2025-04-10 02:09+0000\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
-"pykickstart/master/es/>\n"
+"pykickstart/rhel9-branch/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -39,7 +39,7 @@ msgstr "El comando %(command)s necesita un único argumento: %(argument)s"
 #: ../pykickstart/base.py:252
 #, python-format
 msgid "%s has been removed."
-msgstr ""
+msgstr "%s ha sido retirado."
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
@@ -92,7 +92,7 @@ msgstr "--resize sólo se puede usar con --useexisting"
 
 #: ../pykickstart/commands/logvol.py:686
 msgid "--resize requires --size to indicate new size"
-msgstr "--resize necesita --size para indicar el nuevo tamaño"
+msgstr "--resize requiere --size para indicar el tamaño nuevo"
 
 #: ../pykickstart/commands/partition.py:614
 msgid "--resize requires --size to specify new size"
@@ -226,7 +226,7 @@ msgstr ""
 #: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
-msgstr "Ya se ha definido un usuario ssh de nombre %s."
+msgstr "Ya se ha definido un usuario ssh con el nombre %s."
 
 #: ../pykickstart/commands/timezone.py:267
 #: ../pykickstart/commands/timezone.py:368
@@ -250,7 +250,8 @@ msgstr "No se admite el sistema de ficheros btrfs"
 #: ../pykickstart/commands/logvol.py:857
 msgid "Cache needs to have a list of (fast) PVs specified"
 msgstr ""
-"La caché necesita una lista de volúmenes físicos (que además sean rápidos)"
+"La caché necesita tener especificada una lista de volúmenes físicos (que "
+"además sean rápidos)"
 
 #: ../pykickstart/commands/logvol.py:861
 msgid "Cache needs to have size specified"
@@ -258,7 +259,7 @@ msgstr "La caché necesita que se indique un tamaño"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
-msgstr "Debe usar --host para poder indicar --port."
+msgstr "No puede especificar --port sin indicar --host."
 
 #: ../pykickstart/commands/multipath.py:98
 #, python-format
@@ -340,7 +341,7 @@ msgstr "Error general en el archivo de respuestas (kickstart) de entrada"
 
 #: ../pykickstart/parser.py:450
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr "El grupo no puede especificar --nodefaults y --optional a la vez."
+msgstr "El grupo no puede especificar a la vez --nodefaults y --optional"
 
 #: ../pykickstart/commands/network.py:942
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
@@ -566,7 +567,7 @@ msgstr ""
 
 #: ../pykickstart/commands/harddrive.py:90
 msgid "One of biospart or partition options must be specified."
-msgstr "Debe elegir entre una de las opciones --biospart o --partition."
+msgstr "Una de las opciones biospart o partición debe estar especificada."
 
 #: ../pykickstart/commands/timezone.py:280
 #: ../pykickstart/commands/timezone.py:381
@@ -996,7 +997,7 @@ msgstr "Debe especificar dos versiones de sintaxis."
 
 #: ../tools/ksshell.py:152
 msgid "a basis file to use for seeding the kickstart data (optional)"
-msgstr "archivo base a partir del cual se va a trabajar (opcional)"
+msgstr "un archivo base a partir del cual se va a trabajar (opcional)"
 
 #: ../pykickstart/commands/autopart.py:423
 msgid "autopart --fstype cannot be used with --type=btrfs"
@@ -1012,7 +1013,7 @@ msgstr "No se admite autopart --type=btrfs"
 
 #: ../pykickstart/commands/btrfs.py:224
 msgid "btrfs must be given a list of partitions"
-msgstr "btrfs necesita una lista de particiones"
+msgstr "btrfs necesita un listado de particiones"
 
 #: ../pykickstart/commands/btrfs.py:215
 msgid "btrfs must be given a mountpoint"
@@ -1020,7 +1021,7 @@ msgstr "btrfs necesita un punto de montaje"
 
 #: ../pykickstart/commands/btrfs.py:226
 msgid "btrfs subvol requires specification of parent volume"
-msgstr "btrfs subvol necesita que se indique el volumen que lo contiene"
+msgstr "btrfs subvol requiere que se indique el volumen que lo contiene"
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
