@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-16 13:16-0700\n"
+"POT-Creation-Date: 2025-01-29 13:47-0800\n"
 "PO-Revision-Date: 2025-04-09 01:53+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -72,12 +72,12 @@ msgid "--default and --nocore cannot be used together"
 msgstr "--default 及 --nocore 不得同時使用"
 
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
-#: ../pykickstart/commands/partition.py:669 ../pykickstart/commands/raid.py:703
+#: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:703
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr "--mkfsoptions和--fsprofile不能一起使用。"
 
 #: ../pykickstart/commands/logvol.py:799 ../pykickstart/commands/logvol.py:856
-#: ../pykickstart/commands/partition.py:666 ../pykickstart/commands/raid.py:700
+#: ../pykickstart/commands/partition.py:679 ../pykickstart/commands/raid.py:700
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr "--mkfsoptions 與--noformat無效。"
 
@@ -85,7 +85,7 @@ msgstr "--mkfsoptions 與--noformat無效。"
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr "--mkfsoptions 與--noformat或--useexisting無效。"
 
-#: ../pykickstart/commands/partition.py:603
+#: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
 msgstr "--resize只能與--onpart一起使用"
 
@@ -97,7 +97,7 @@ msgstr "--resize只能與--useexisting一起使用"
 msgid "--resize requires --size to indicate new size"
 msgstr "--resize需要--size來表示新的大小"
 
-#: ../pykickstart/commands/partition.py:606
+#: ../pykickstart/commands/partition.py:619
 msgid "--resize requires --size to specify new size"
 msgstr "--resize需要--size指定新的大小"
 
@@ -145,7 +145,8 @@ msgstr "一個名字的小組 %s 已經定義了。"
 msgid ""
 "A logical volume with the name %(logical_volume_name)s has already been "
 "defined in volume group %(volume_group)s."
-msgstr "具有名稱的邏輯卷 %(logical_volume_name)s 已在卷組中定義 %(volume_group)s。"
+msgstr ""
+"具有名稱的邏輯卷 %(logical_volume_name)s 已在卷組中定義 %(volume_group)s。"
 
 #: ../pykickstart/commands/device.py:156
 #, python-format
@@ -157,7 +158,7 @@ msgstr "具有名稱的模塊 %s 已經定義了。"
 msgid "A network device with the name %s has already been defined."
 msgstr "具有名稱的網絡設備 %s 已經定義了。"
 
-#: ../pykickstart/commands/partition.py:448
+#: ../pykickstart/commands/partition.py:461
 #, python-format
 msgid "A partition with the mountpoint %s has already been defined."
 msgstr "具有掛載點的分區 %s 已經定義了。"
@@ -238,8 +239,8 @@ msgid ""
 msgstr "--bridgeopts格式不正確，期望key = value選項以'，'分隔"
 
 #: ../pykickstart/commands/logvol.py:918
-#: ../pykickstart/commands/partition.py:733
-#: ../pykickstart/commands/partition.py:765 ../pykickstart/commands/raid.py:777
+#: ../pykickstart/commands/partition.py:746
+#: ../pykickstart/commands/partition.py:778 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
 msgstr "不支持Btrfs文件系統"
 
@@ -332,7 +333,7 @@ msgstr "輸入檔中發生一般錯誤：%s"
 msgid "General kickstart error in input file"
 msgstr "在輸入檔中發生一般 kickstart 錯誤"
 
-#: ../pykickstart/parser.py:446
+#: ../pykickstart/parser.py:481
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "群組不可同時指定 --nodefaults 和 --optional"
 
@@ -357,7 +358,7 @@ msgstr ""
 "會自未來的版本中移除，這會讓 kickstart 執行時產生嚴重的錯誤。請修改您的 "
 "kickstart 檔案，移除這選項。"
 
-#: ../pykickstart/options.py:188
+#: ../pykickstart/options.py:202
 #, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
@@ -365,9 +366,9 @@ msgid ""
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"忽略第 %(lineno)s 行中的過時選項：%(option)s "
-"選項已經淘汰，不再起任何作用。這選項可能會自未來的版本中移除，這會讓 "
-"kickstart 執行時產生嚴重的錯誤。請修改您的 kickstart 檔案，移除這選項。"
+"忽略第 %(lineno)s 行中的過時選項：%(option)s 選項已經淘汰，不再起任何作用。這"
+"選項可能會自未來的版本中移除，這會讓 kickstart 執行時產生嚴重的錯誤。請修改您"
+"的 kickstart 檔案，移除這選項。"
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -376,11 +377,10 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
-"在線忽略已棄用的選項 "
-"%s：zerombr命令不再採用任何選項。在將來的版本中，這將導致kickstart出現致命錯"
-"誤。請修改您的kickstart文件以刪除任何選項。"
+"在線忽略已棄用的選項 %s：zerombr命令不再採用任何選項。在將來的版本中，這將導"
+"致kickstart出現致命錯誤。請修改您的kickstart文件以刪除任何選項。"
 
-#: ../pykickstart/parser.py:83
+#: ../pykickstart/parser.py:86
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
 msgstr "不合規定的 %%ksappend url：%s"
@@ -591,7 +591,7 @@ msgstr "只能指定 --noswap 和 --hibernation 之一。"
 
 #: ../pykickstart/commands/autopart.py:526
 #: ../pykickstart/commands/logvol.py:906
-#: ../pykickstart/commands/partition.py:721 ../pykickstart/commands/raid.py:765
+#: ../pykickstart/commands/partition.py:734 ../pykickstart/commands/raid.py:765
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr "只能指定--pbkdf-time和--pbkdf-iterations中的一個。"
 
@@ -656,12 +656,12 @@ msgstr "百分比的值必須介於 0 到 100。"
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:767
+#: ../pykickstart/parser.py:802
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr "於第 %(lineno)s 行發現潛在的未知部分：%(sectionName)s"
 
-#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
+#: ../pykickstart/parser.py:660 ../pykickstart/parser.py:701
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "%s 區段並非以 %%end 結尾。"
@@ -699,17 +699,22 @@ msgstr ""
 "在未來的版本中，%(lineno)s 行上的 %(option)s 選項將會被廢棄。 請修改您的 "
 "kickstart 檔案，以 %(new_option)s 取代這個選項。"
 
+#: ../pykickstart/sections.py:919
+#, python-format
+msgid "The %certificate section is empty"
+msgstr ""
+
 #: ../pykickstart/base.py:449
 #, python-format
 msgid "The %s and %s commands can't be used at the same time."
 msgstr "%s 和 %s 指令不能同時使用。"
 
-#: ../pykickstart/commands/partition.py:639
+#: ../pykickstart/commands/partition.py:652
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr "--fstype = tmpfs選項不能與--grow或--maxsize一起使用"
 
-#: ../pykickstart/commands/module.py:140
+#: ../pykickstart/commands/module.py:139
 msgid "The enable module command does not take position arguments!"
 msgstr "enable module命令不接受位置參數！"
 
@@ -764,8 +769,9 @@ msgstr ""
 msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
-msgstr "在未來的版本中，選項 --isUtc 將被廢棄。 請修改您的 kickstart 檔案，"
-"將這個選項換成它的首選別名 --utc 。"
+msgstr ""
+"在未來的版本中，選項 --isUtc 將被廢棄。 請修改您的 kickstart 檔案，將這個選項"
+"換成它的首選別名 --utc 。"
 
 #: ../pykickstart/commands/timezone.py:446
 msgid ""
@@ -783,8 +789,8 @@ msgid ""
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
 "在未來的版本中，選項 --ntpservers 將被廢棄。 請修改您的 kickstart 檔案，以 "
-"Timesource --ntp-server <伺服器主機名稱> 指令來取代此選項，每個 NTP "
-"伺服器都有一個。"
+"Timesource --ntp-server <伺服器主機名稱> 指令來取代此選項，每個 NTP 伺服器都"
+"有一個。"
 
 #: ../pykickstart/commands/realm.py:42
 msgid "The realm command 'join' should only be specified once"
@@ -815,12 +821,12 @@ msgstr "讀取 kickstart 檔案時，在第 %s 行發生問題"
 msgid "Thin volumes cannot be cached"
 msgstr "無法緩存精簡卷"
 
-#: ../pykickstart/parser.py:88
+#: ../pykickstart/parser.py:91
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
 msgstr "無法開啟 %%ksappend 檔案：%s"
 
-#: ../pykickstart/parser.py:116 ../pykickstart/parser.py:822
+#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:857
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "無法開啟 kickstart 輸入檔案：%s"
@@ -834,7 +840,7 @@ msgstr "無法開啟 kickstart 輸入檔案：%s"
 #: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/key.py:64
 #: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/langsupport.py:59
 #: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:151
-#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
+#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:452
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
 #: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:83
@@ -858,7 +864,7 @@ msgstr "未知的命令 %s"
 msgid "Unknown command: %s"
 msgstr "不明指令：%s"
 
-#: ../pykickstart/parser.py:761
+#: ../pykickstart/parser.py:796
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "未知 kickstart 區段：%s"
@@ -869,9 +875,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "不支持的領域'%s'命令"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:147 ../pykickstart/version.py:156
-#: ../pykickstart/version.py:159 ../pykickstart/version.py:175
-#: ../pykickstart/version.py:228
+#: ../pykickstart/version.py:148 ../pykickstart/version.py:157
+#: ../pykickstart/version.py:160 ../pykickstart/version.py:176
+#: ../pykickstart/version.py:229
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "指定了不支援的版本：%s"
@@ -944,6 +950,12 @@ msgstr "要讀取的文件名或URL"
 #: ../tools/ksvalidator.py:56
 msgid "halt after the first error or warning"
 msgstr "在第一次錯誤或警告時中止執行"
+
+#: ../pykickstart/commands/autopart.py:664
+#: ../pykickstart/commands/partition.py:812
+msgid ""
+"hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
+msgstr ""
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
