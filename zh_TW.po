@@ -14,16 +14,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2020-01-17 02:24+0000\n"
-"Last-Translator: Peter Pan <pan93412@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://translate.stg.fedoraproject."
-"org/projects/pykickstart/rhel8-branch/zh_TW/>\n"
+"PO-Revision-Date: 2025-04-10 00:53+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
+"projects/pykickstart/rhel8-branch/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -206,7 +206,7 @@ msgstr "必須為ignoredisk命令指定--drives或--only-use之一。"
 msgid ""
 "One of --drives , --only-use , or --interactive must be specified for "
 "ignoredisk command."
-msgstr "必須為ignoredisk命令指定--drives， -  only-use或--interactive之一。"
+msgstr "必須為ignoredisk命令指定--drives， --only-use或--interactive之一。"
 
 #: ../pykickstart/commands/ignoredisk.py:165
 #, python-format
@@ -303,11 +303,11 @@ msgstr "無效的autopart類型： %s"
 
 #: ../pykickstart/commands/autopart.py:420
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
-msgstr "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
+msgstr "autopart --fstype=btrfs 不是有效的 fstype，請改用 --type=btrfs"
 
 #: ../pykickstart/commands/autopart.py:423
 msgid "autopart --fstype cannot be used with --type=btrfs"
-msgstr "autopart --fstype cannot be used with --type=btrfs"
+msgstr "autopart --fstype 不能與 --type=btrfs 搭配使用"
 
 #: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
 #: ../pykickstart/commands/logvol.py:917
@@ -317,7 +317,7 @@ msgstr "只能指定--pbkdf-time和--pbkdf-iterations中的一個。"
 
 #: ../pykickstart/commands/autopart.py:630
 msgid "autopart --type=btrfs is not supported"
-msgstr "autopart --type=btrfs is not supported"
+msgstr "不支援 autopart --type=btrfs"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/mount.py:167
@@ -472,7 +472,7 @@ msgstr "只能為driverdisk命令指定--biospart和--source中的一個。"
 msgid ""
 "One of --source, --biospart, or partition must be specified for driverdisk "
 "command."
-msgstr "必須為driverdisk命令指定其中一個--source， -  biospart或分區。"
+msgstr "必須為driverdisk命令指定其中一個--source， --biospart 或分區。"
 
 #: ../pykickstart/commands/zfcp.py:120
 msgid "A zfcp with this information has already been defined."
@@ -490,7 +490,7 @@ msgstr "只有一個 %(options_list)s 可以為url命令指定選項。"
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "空字串不是有效的啟動金鑰。"
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
@@ -523,7 +523,7 @@ msgstr "raid和mount命令不能同時使用"
 #: ../pykickstart/commands/logvol.py:867
 #: ../pykickstart/commands/partition.py:682
 msgid "--mkfsoptions with --noformat has no effect."
-msgstr "--moffsoptions與--noformat無效。"
+msgstr "--mkfsoptions 與--noformat無效。"
 
 #: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/logvol.py:813
 #: ../pykickstart/commands/logvol.py:870
@@ -590,7 +590,8 @@ msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, "
 "--size, --percent, or --hibernation."
 msgstr ""
-"沒有給出邏輯卷的大小。使用--useexisting， -  nonofor， -  size， -  percent或--hibernation之一。"
+"沒有給出邏輯卷的大小。使用--useexisting, --noformat, --size, --percent或--"
+"hibernation之一。"
 
 #: ../pykickstart/commands/logvol.py:764
 msgid "Percentage must be between 0 and 100."
@@ -689,7 +690,7 @@ msgstr "具有名稱的網絡設備 %s 已經定義了。"
 #: ../pykickstart/commands/network.py:746
 #: ../pykickstart/commands/network.py:1049
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr "選項--bridgeopts要求 - 指定橋樑"
+msgstr "選項--bridgeopts 要求 --bridgeslaves 指定橋樑"
 
 #: ../pykickstart/commands/network.py:752
 #: ../pykickstart/commands/network.py:1055
@@ -722,7 +723,7 @@ msgstr "如果network --interfacename以'vlan'開頭，則應遵循有效的vlan
 #: ../pykickstart/commands/network.py:968
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
-msgstr "vlan id不在 %(minimum)D-%(maximum)d vlan id範圍。"
+msgstr "vlan id不在 %(minimum)d-%(maximum)d vlan id範圍。"
 
 #: ../pykickstart/commands/multipath.py:98
 #, python-format
@@ -757,7 +758,7 @@ msgstr "帶有掛載點的btrfs卷 %s 已經定義了。"
 
 #: ../pykickstart/commands/btrfs.py:264
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
-msgstr "--moffsoptions與--noformat或--useexisting無效。"
+msgstr "--mkfsoptions 與--noformat或--useexisting無效。"
 
 #: ../pykickstart/commands/realm.py:43
 msgid "The realm command 'join' should only be specified once"
@@ -925,7 +926,7 @@ msgstr "在第一次錯誤或警告時中止執行"
 #: ../tools/ksvalidator.py:57
 #, python-format
 msgid "parse include files when %%include is seen"
-msgstr "在％時解析包含文件%include 被看見了"
+msgstr "在 %%include 時解析包含文件 被看見了"
 
 #: ../tools/ksvalidator.py:62 ../tools/ksshell.py:150
 msgid "version of kickstart syntax to validate against"
