@@ -13,15 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2017-11-07 11:21+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/pykickstart/language/zh_TW/)\n"
+"PO-Revision-Date: 2025-04-09 01:53+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
+"projects/pykickstart/rhel7-branch/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -146,7 +147,7 @@ msgstr ""
 
 #: ../pykickstart/sections.py:272
 msgid "--default and --nocore cannot be used together"
-msgstr ""
+msgstr "--default 及 --nocore 不得同時使用"
 
 #: ../pykickstart/errors.py:46
 #, python-format
@@ -175,28 +176,28 @@ msgstr ""
 #: ../pykickstart/commands/snapshot.py:114
 #, python-format
 msgid "Snapshot with the name %s has been already defined!"
-msgstr ""
+msgstr "帶有名稱的快照 %s 已經定義了！"
 
 #: ../pykickstart/commands/snapshot.py:118
 msgid "Snapshot \"when\" parameter must be specified!"
-msgstr ""
+msgstr "必須指定快照“when”參數！"
 
 #: ../pykickstart/commands/snapshot.py:123
 #, python-format
 msgid "Snapshot origin %s must be specified by VG/LV!"
-msgstr ""
+msgstr "快照來源 %s 必須由VG / LV指定！"
 
 #: ../pykickstart/commands/snapshot.py:128
 #, python-format
 msgid "Snapshot when param must have one of these values %s!"
-msgstr ""
+msgstr "param必須具有其中一個值時的快照 %s！"
 
 #: ../pykickstart/commands/repo.py:206 ../pykickstart/commands/fcoe.py:116
 #: ../pykickstart/commands/iscsi.py:145 ../pykickstart/commands/xconfig.py:99
 #: ../pykickstart/commands/firewall.py:118
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
-msgstr ""
+msgstr "意外的爭論 %(command)s 命令： %(options)s"
 
 #: ../pykickstart/commands/repo.py:211
 msgid ""
@@ -210,23 +211,23 @@ msgstr ""
 #: ../pykickstart/commands/repo.py:222
 #, python-format
 msgid "A repo with the name %s has already been defined."
-msgstr ""
+msgstr "一個名為的回購 %s 已經定義了。"
 
 #: ../pykickstart/commands/repo.py:255
 msgid "Method must be a url to be added to the repo list."
-msgstr ""
+msgstr "方法必須是要添加到回購列表的URL。"
 
 #: ../pykickstart/commands/iscsiname.py:52 ../pykickstart/commands/key.py:60
 #: ../pykickstart/commands/keyboard.py:52 ../pykickstart/commands/mouse.py:63
 #: ../pykickstart/commands/lang.py:51
 #, python-format
 msgid "Kickstart command %s requires one argument"
-msgstr ""
+msgstr "Kickstart命令 %s 需要一個論點"
 
 #: ../pykickstart/commands/group.py:87
 #, python-format
 msgid "A group with the name %s has already been defined."
-msgstr ""
+msgstr "一個名字的小組 %s 已經定義了。"
 
 #: ../pykickstart/commands/skipx.py:51 ../pykickstart/commands/upgrade.py:57
 #: ../pykickstart/commands/upgrade.py:94 ../pykickstart/commands/eula.py:64
@@ -240,11 +241,11 @@ msgstr ""
 #: ../pykickstart/commands/lilocheck.py:51
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
-msgstr ""
+msgstr "Kickstart命令 %s 不接受任何爭論"
 
 #: ../pykickstart/commands/harddrive.py:76
 msgid "One of biospart or partition options must be specified."
-msgstr ""
+msgstr "必須指定一個biospart或分區選項。"
 
 #: ../pykickstart/commands/sshkey.py:90
 #: ../pykickstart/commands/keyboard.py:124
@@ -252,29 +253,29 @@ msgstr ""
 #: ../pykickstart/commands/timezone.py:63 ../pykickstart/commands/sshpw.py:128
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr ""
+msgstr "預計會有一個參數 %s 命令"
 
 #: ../pykickstart/commands/sshkey.py:94 ../pykickstart/commands/sshpw.py:133
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
-msgstr ""
+msgstr "名稱為ssh的用戶 %s 已經定義了。"
 
 #: ../pykickstart/commands/volgroup.py:133
 msgid "volgroup must be given a VG name"
-msgstr ""
+msgstr "必須為volgroup指定一個VG名稱"
 
 #: ../pykickstart/commands/volgroup.py:136
 msgid "volgroup must be given a list of partitions"
-msgstr ""
+msgstr "必須為volgroup提供分區列表"
 
 #: ../pykickstart/commands/volgroup.py:138
 msgid "Members may not be specified for preexisting volgroup"
-msgstr ""
+msgstr "可能不會為預先存在的volgroup指定成員"
 
 #: ../pykickstart/commands/volgroup.py:147
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
-msgstr ""
+msgstr "一個名為volgroup的人 %s 已經定義了。"
 
 #: ../pykickstart/commands/volgroup.py:183
 #: ../pykickstart/commands/volgroup.py:196
@@ -288,18 +289,18 @@ msgstr ""
 #: ../pykickstart/commands/ignoredisk.py:84
 msgid ""
 "One of --drives or --only-use must be specified for ignoredisk command."
-msgstr ""
+msgstr "必須為ignoredisk命令指定--drives或--only-use之一。"
 
 #: ../pykickstart/commands/ignoredisk.py:139
 msgid ""
 "One of --drives , --only-use , or --interactive must be specified for "
 "ignoredisk command."
-msgstr ""
+msgstr "必須為ignoredisk命令指定--drives， --only-use或--interactive之一。"
 
 #: ../pykickstart/commands/rescue.py:64
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
-msgstr ""
+msgstr "只能為rescue命令指定--nomount和--romount中的一個。"
 
 #: ../pykickstart/commands/upgrade.py:97
 #, python-format
@@ -308,7 +309,7 @@ msgstr ""
 
 #: ../pykickstart/commands/eula.py:67
 msgid "Kickstart command eula expects the --agreed option"
-msgstr ""
+msgstr "Kickstart命令eula期望--agreed選項"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:181
@@ -319,11 +320,11 @@ msgstr ""
 
 #: ../pykickstart/commands/autopart.py:379
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
-msgstr ""
+msgstr "autopart --fstype=btrfs 不是有效的 fstype，請改用 --type=btrfs"
 
 #: ../pykickstart/commands/autopart.py:383
 msgid "autopart --fstype cannot be used with --type=btrfs"
-msgstr ""
+msgstr "autopart --fstype 不能與 --type=btrfs 搭配使用"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/mount.py:124
@@ -339,11 +340,11 @@ msgstr ""
 #: ../pykickstart/commands/mount.py:136
 #, python-format
 msgid "Invalid mount point '%s' given"
-msgstr ""
+msgstr "無效的掛載點'%s'給定"
 
 #: ../pykickstart/commands/mount.py:140
 msgid "'--mkfsoptions' requires --reformat"
-msgstr ""
+msgstr "'--mkfsoptions'需要--reformat"
 
 #: ../pykickstart/commands/monitor.py:67
 #, python-format
@@ -357,15 +358,18 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
+"在線忽略已棄用的選項 "
+"%s：zerombr命令不再採用任何選項。在將來的版本中，這將導致kickstart出現致命錯"
+"誤。請修改您的kickstart文件以刪除任何選項。"
 
 #: ../pykickstart/commands/bootloader.py:248
 msgid "--boot-drive accepts only one argument"
-msgstr ""
+msgstr "--boot-drive只接受一個參數"
 
 #: ../pykickstart/commands/user.py:170
 #, python-format
 msgid "A user with the name %s has already been defined."
-msgstr ""
+msgstr "具有名稱的用戶 %s 已經定義了。"
 
 #: ../pykickstart/commands/vnc.py:125
 msgid "VNC password must be six to eight characters long"
@@ -373,7 +377,7 @@ msgstr ""
 
 #: ../pykickstart/commands/services.py:69
 msgid "One of --disabled or --enabled must be provided."
-msgstr ""
+msgstr "必須提供--disabled或--enabled之一。"
 
 #: ../pykickstart/commands/dmraid.py:91
 #, python-format
@@ -384,7 +388,7 @@ msgstr ""
 #: ../pykickstart/commands/nvdimm.py:118
 #, python-format
 msgid "Unexpected arguments to nvdimm command: %(arguments)s"
-msgstr ""
+msgstr "nvdimm命令的意外參數： %(arguments)s"
 
 #: ../pykickstart/commands/nvdimm.py:122
 msgid "Action argument is required for nvdimm command"
@@ -398,79 +402,79 @@ msgstr ""
 #: ../pykickstart/commands/nvdimm.py:138
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
-msgstr ""
+msgstr "只能使用--namespace和--blockdevs設備規範中的一個"
 
 #: ../pykickstart/commands/nvdimm.py:144
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
-msgstr ""
+msgstr "一種行為 %(action)s 在命名空間 %(namespace)s 已經定義了。"
 
 #: ../pykickstart/commands/nvdimm.py:147
 #, python-format
 msgid ""
 "An action %(action)s on devices %(blockdevs)s has already been defined."
-msgstr ""
+msgstr "一種行為 %(action)s 在設備上 %(blockdevs)s 已經定義了。"
 
 #: ../pykickstart/commands/nvdimm.py:152
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr ""
+msgstr "行動 %(action)s 要求設置--namespace參數"
 
 #: ../pykickstart/commands/nvdimm.py:156
 #, python-format
 msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be "
 "set"
-msgstr ""
+msgstr "行動 %(action)s 用模式 %(mode)s 需要設置--sectorsize參數"
 
 #: ../pykickstart/commands/nvdimm.py:161
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
-msgstr ""
+msgstr "行動 %(action)s 要求設置--namespace或--blockdevs參數"
 
 #: ../pykickstart/commands/keyboard.py:129
 msgid ""
 "One of --xlayouts, --vckeymap options with value(s) or argument is expected "
 "for the keyboard command"
-msgstr ""
+msgstr "鍵盤命令需要--xlayouts之一，帶有值或參數的--vckeymap選項"
 
 #: ../pykickstart/commands/driverdisk.py:117
 #: ../pykickstart/commands/driverdisk.py:149
 msgid "Only one partition may be specified for driverdisk command."
-msgstr ""
+msgstr "只能為driverdisk命令指定一個分區。"
 
 #: ../pykickstart/commands/driverdisk.py:120
 #: ../pykickstart/commands/driverdisk.py:152
 msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
-msgstr ""
+msgstr "只能為driverdisk命令指定--source和partition中的一個。"
 
 #: ../pykickstart/commands/driverdisk.py:123
 msgid "One of --source or partition must be specified for driverdisk command."
-msgstr ""
+msgstr "必須為driverdisk命令指定其中一個--source或partition。"
 
 #: ../pykickstart/commands/driverdisk.py:154
 msgid ""
 "Only one of --biospart and partition may be specified for driverdisk "
 "command."
-msgstr ""
+msgstr "只能為driverdisk命令指定--biospart和partition中的一個。"
 
 #: ../pykickstart/commands/driverdisk.py:156
 msgid ""
 "Only one of --biospart and --source may be specified for driverdisk command."
-msgstr ""
+msgstr "只能為driverdisk命令指定--biospart和--source中的一個。"
 
 #: ../pykickstart/commands/driverdisk.py:159
 msgid ""
 "One of --source, --biospart, or partition must be specified for driverdisk "
 "command."
-msgstr ""
+msgstr "必須為driverdisk命令指定其中一個--source， --biospart 或分區。"
 
 #: ../pykickstart/commands/zfcp.py:111
 msgid "A zfcp with this information has already been defined."
-msgstr ""
+msgstr "已經定義了具有此信息的zfcp。"
 
 #: ../pykickstart/commands/url.py:170
 msgid "Only one of --url and --mirrorlist may be specified for url command."
@@ -489,16 +493,16 @@ msgstr ""
 #: ../pykickstart/commands/raid.py:325
 #, python-format
 msgid "Partitions required for %s"
-msgstr ""
+msgstr "需要分區 %s"
 
 #: ../pykickstart/commands/raid.py:327
 msgid "Members may not be specified for preexisting RAID device"
-msgstr ""
+msgstr "不能為預先存在的RAID設備指定成員"
 
 #: ../pykickstart/commands/raid.py:345
 #, python-format
 msgid "A RAID device with the name %s has already been defined."
-msgstr ""
+msgstr "具有名稱的RAID設備 %s 已經定義了。"
 
 #: ../pykickstart/commands/raid.py:447 ../pykickstart/commands/raid.py:489
 msgid "The raid and autopart commands can't be used at the same time"
@@ -511,16 +515,16 @@ msgstr ""
 #: ../pykickstart/commands/raid.py:511 ../pykickstart/commands/logvol.py:569
 #: ../pykickstart/commands/partition.py:507
 msgid "--mkfsoptions with --noformat has no effect."
-msgstr ""
+msgstr "--mkfsoptions 與--noformat無效。"
 
 #: ../pykickstart/commands/raid.py:514 ../pykickstart/commands/logvol.py:572
 #: ../pykickstart/commands/partition.py:510
 msgid "--mkfsoptions and --fsprofile cannot be used together."
-msgstr ""
+msgstr "--mkfsoptions和--fsprofile不能一起使用。"
 
 #: ../pykickstart/commands/device.py:98
 msgid "device command requires two arguments: module type and name"
-msgstr ""
+msgstr "device命令需要兩個參數：模塊類型和名稱"
 
 #: ../pykickstart/commands/device.py:124
 #, python-format
@@ -530,7 +534,7 @@ msgstr ""
 #: ../pykickstart/commands/device.py:133
 #, python-format
 msgid "A module with the name %s has already been defined."
-msgstr ""
+msgstr "具有名稱的模塊 %s 已經定義了。"
 
 #: ../pykickstart/commands/logvol.py:359
 #, python-format
@@ -545,23 +549,23 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:460
 msgid "--resize can only be used in conjunction with --useexisting"
-msgstr ""
+msgstr "--resize只能與--useexisting一起使用"
 
 #: ../pykickstart/commands/logvol.py:463
 msgid "--resize requires --size to indicate new size"
-msgstr ""
+msgstr "--resize需要--size來表示新的大小"
 
 #: ../pykickstart/commands/logvol.py:491
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
-msgstr ""
+msgstr "--thin和--thinpool不能同時為同一個logvol指定"
 
 #: ../pykickstart/commands/logvol.py:497
 msgid "--thin requires --poolname to specify pool name"
-msgstr ""
+msgstr "--thin要求--poolname指定池名稱"
 
 #: ../pykickstart/commands/logvol.py:504
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr ""
+msgstr "--chunksize和--metadatasize僅適用於精簡池"
 
 #: ../pykickstart/commands/logvol.py:515
 msgid "The logvol and mount commands can't be used at the same time"
@@ -573,37 +577,37 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:523
 msgid "Percentage must be between 0 and 100."
-msgstr ""
+msgstr "百分比的值必須介於 0 到 100。"
 
 #: ../pykickstart/commands/logvol.py:540
 msgid "--size and --percent cannot both be specified for the same logvol"
-msgstr ""
+msgstr "--size和--percent不能同時為同一個logvol指定"
 
 #: ../pykickstart/commands/logvol.py:576
 msgid "Adding a cache to an existing logical volume is not supported"
-msgstr ""
+msgstr "不支持將緩存添加到現有邏輯卷"
 
 #: ../pykickstart/commands/logvol.py:580
 msgid "Thin volumes cannot be cached"
-msgstr ""
+msgstr "無法緩存精簡卷"
 
 #: ../pykickstart/commands/logvol.py:584
 msgid "Cache needs to have a list of (fast) PVs specified"
-msgstr ""
+msgstr "緩存需要具有指定的（快速）PV列表"
 
 #: ../pykickstart/commands/logvol.py:588
 msgid "Cache needs to have size specified"
-msgstr ""
+msgstr "緩存需要指定大小"
 
 #: ../pykickstart/commands/logvol.py:592
 #, python-format
 msgid "Invalid cache mode given: %s"
-msgstr ""
+msgstr "給出的緩存模式無效： %s"
 
 #: ../pykickstart/commands/fcoe.py:123
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
-msgstr ""
+msgstr "具有名稱的FCOE設備 %s 已經定義了。"
 
 #: ../pykickstart/commands/reqpart.py:60
 #, python-format
@@ -617,7 +621,7 @@ msgstr ""
 #: ../pykickstart/commands/partition.py:323
 #, python-format
 msgid "A partition with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "具有掛載點的分區 %s 已經定義了。"
 
 #: ../pykickstart/commands/partition.py:431
 #: ../pykickstart/commands/partition.py:478
@@ -627,11 +631,11 @@ msgstr ""
 
 #: ../pykickstart/commands/partition.py:456
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr ""
+msgstr "--resize只能與--onpart一起使用"
 
 #: ../pykickstart/commands/partition.py:459
 msgid "--resize requires --size to specify new size"
-msgstr ""
+msgstr "--resize需要--size指定新的大小"
 
 #: ../pykickstart/commands/partition.py:482
 msgid "The part/partition and mount commands can't be used at the same time"
@@ -640,48 +644,48 @@ msgstr ""
 #: ../pykickstart/commands/partition.py:488
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
-msgstr ""
+msgstr "--fstype = tmpfs選項不能與--grow或--maxsize一起使用"
 
 #: ../pykickstart/commands/logging.py:69
 msgid "Can't specify --port without --host."
-msgstr ""
+msgstr "無法指定--port而不使用--host。"
 
 #: ../pykickstart/commands/updates.py:54
 #, python-format
 msgid "Kickstart command %s only takes one argument"
-msgstr ""
+msgstr "Kickstart命令 %s 只需要一個參數"
 
 #: ../pykickstart/commands/network.py:379
 #, python-format
 msgid "A network device with the name %s has already been defined."
-msgstr ""
+msgstr "具有名稱的網絡設備 %s 已經定義了。"
 
 #: ../pykickstart/commands/network.py:542
 #: ../pykickstart/commands/network.py:669
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr ""
+msgstr "選項--bridgeopts 要求 --bridgeslaves 指定橋樑"
 
 #: ../pykickstart/commands/network.py:549
 #: ../pykickstart/commands/network.py:676
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
-msgstr ""
+msgstr "--bridgeopts格式不正確，期望key = value選項以'，'分隔"
 
 #: ../pykickstart/commands/network.py:617
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be"
 " equal to 'vlan'."
-msgstr ""
+msgstr "使用時 <prefix>。<vlan id> 接口名稱表示法， <prefix> 不能等於'vlan'。"
 
 #: ../pykickstart/commands/network.py:621
 msgid ""
 "If network --interfacename contains a '.', valid vlan id should follow."
-msgstr ""
+msgstr "如果network --interfacename包含'。'，則應遵循有效的vlan id。"
 
 #: ../pykickstart/commands/network.py:630
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
-msgstr ""
+msgstr "如果network --interfacename以'vlan'開頭，則應遵循有效的vlan id。"
 
 #: ../pykickstart/commands/network.py:635
 #, python-format
@@ -691,42 +695,42 @@ msgstr ""
 #: ../pykickstart/commands/network.py:681
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
-msgstr ""
+msgstr "--bindto =%s 此類設備不支持此功能"
 
 #: ../pykickstart/commands/multipath.py:98
 #, python-format
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
-msgstr ""
+msgstr "設備'%(device)s'已用於多路徑'%(multipathdev)s“"
 
 #: ../pykickstart/commands/btrfs.py:162
 msgid "btrfs must be given a mountpoint"
-msgstr ""
+msgstr "必須為btrfs指定一個掛載點"
 
 #: ../pykickstart/commands/btrfs.py:165
 msgid "btrfs must be given a list of partitions"
-msgstr ""
+msgstr "必須為btrfs提供分區列表"
 
 #: ../pykickstart/commands/btrfs.py:167
 msgid "btrfs subvol requires specification of parent volume"
-msgstr ""
+msgstr "btrfs subvol需要指定父卷"
 
 #: ../pykickstart/commands/btrfs.py:170
 msgid "btrfs subvolume requires a name"
-msgstr ""
+msgstr "btrfs子卷需要一個名稱"
 
 #: ../pykickstart/commands/btrfs.py:177
 #, python-format
 msgid "A btrfs volume with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "帶有掛載點的btrfs卷 %s 已經定義了。"
 
 #: ../pykickstart/commands/btrfs.py:198
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
-msgstr ""
+msgstr "--mkfsoptions 與--noformat或--useexisting無效。"
 
 #: ../pykickstart/commands/timezone.py:140
 #: ../pykickstart/commands/timezone.py:175
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr ""
+msgstr "選項--nontp和--ntpservers是互斥的"
 
 #: ../pykickstart/commands/timezone.py:157
 #, python-format
@@ -737,45 +741,45 @@ msgstr ""
 #: ../pykickstart/commands/timezone.py:168
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
-msgstr ""
+msgstr "期望一個或零個參數 %s 命令"
 
 #: ../pykickstart/commands/realm.py:44
 msgid "The realm command 'join' should only be specified once"
-msgstr ""
+msgstr "領域命令'join'應該只指定一次"
 
 #: ../pykickstart/commands/realm.py:48
 msgid "Missing realm command arguments"
-msgstr ""
+msgstr "缺少領域命令參數"
 
 #: ../pykickstart/commands/realm.py:54
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr ""
+msgstr "不支持的領域'%s'命令"
 
 #: ../pykickstart/commands/realm.py:67
 #, python-format
 msgid "Invalid realm arguments: %s"
-msgstr ""
+msgstr "無效的領域參數： %s"
 
 #: ../pykickstart/commands/realm.py:71
 msgid "Specify only one realm to join"
-msgstr ""
+msgstr "僅指定一個要加入的領域"
 
 #: ../tools/ksflatten:38
 msgid "Path to kickstart config file"
-msgstr ""
+msgstr "kickstart配置文件的路徑"
 
 #: ../tools/ksflatten:40
 msgid "Kickstart version to use for interpreting config"
-msgstr ""
+msgstr "用於解釋配置的Kickstart版本"
 
 #: ../tools/ksflatten:42
 msgid "Write flattened config to OUTPUT"
-msgstr ""
+msgstr "將展平配置寫入OUTPUT"
 
 #: ../tools/ksflatten:49
 msgid "Need to specify a config to flatten"
-msgstr ""
+msgstr "需要指定配置以展平"
 
 #: ../tools/ksflatten:57
 #, python-format
@@ -865,7 +869,7 @@ msgstr "下列選項已移除自 %s 命令於 %s 之中："
 
 #: ../tools/ksvalidator:51
 msgid "filename or URL to read from"
-msgstr ""
+msgstr "要讀取的文件名或URL"
 
 #: ../tools/ksvalidator:53
 msgid "halt after the first error or warning"
@@ -874,7 +878,7 @@ msgstr "在第一次錯誤或警告時中止執行"
 #: ../tools/ksvalidator:56
 #, python-format
 msgid "parse include files when %%include is seen"
-msgstr ""
+msgstr "在 %%include 時解析包含文件 被看見了"
 
 #: ../tools/ksvalidator:79
 #, python-format
