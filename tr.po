@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-16 13:16-0700\n"
+"POT-Creation-Date: 2025-01-29 13:47-0800\n"
 "PO-Revision-Date: 2024-08-14 13:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -72,12 +72,12 @@ msgid "--default and --nocore cannot be used together"
 msgstr "--default ve --nocore birlikte kullanılamaz"
 
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
-#: ../pykickstart/commands/partition.py:669 ../pykickstart/commands/raid.py:703
+#: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:703
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr "--mkfsoptions ve --fsprofile birlikte kullanılamaz."
 
 #: ../pykickstart/commands/logvol.py:799 ../pykickstart/commands/logvol.py:856
-#: ../pykickstart/commands/partition.py:666 ../pykickstart/commands/raid.py:700
+#: ../pykickstart/commands/partition.py:679 ../pykickstart/commands/raid.py:700
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr ""
 "--mkfsoptions ile --noformat birlikte kullanıldığında bir etkisi yoktur."
@@ -88,7 +88,7 @@ msgstr ""
 "--mkfsoptions, --noformat veya --useexisting ile birlikte kullanıldığında "
 "bir etkisi yoktur."
 
-#: ../pykickstart/commands/partition.py:603
+#: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
 msgstr "--resize, yalnızca --onpart ile birlikte kullanılabilir"
 
@@ -100,7 +100,7 @@ msgstr "--resize, yalnızca --useexisting ile birlikte kullanılabilir"
 msgid "--resize requires --size to indicate new size"
 msgstr "--resize, yeni boyutu belirtmek için --size gerektirmektedir"
 
-#: ../pykickstart/commands/partition.py:606
+#: ../pykickstart/commands/partition.py:619
 msgid "--resize requires --size to specify new size"
 msgstr "--resize, yeni boyutu belirtmek için --size gerektirmektedir"
 
@@ -164,7 +164,7 @@ msgstr "%s adında bir modül zaten tanımlanmış."
 msgid "A network device with the name %s has already been defined."
 msgstr "%s adında bir ağ aygıtı zaten tanımlanmış."
 
-#: ../pykickstart/commands/partition.py:448
+#: ../pykickstart/commands/partition.py:461
 #, python-format
 msgid "A partition with the mountpoint %s has already been defined."
 msgstr "%s bağlama noktasına sahip bir bölüm zaten tanımlanmış."
@@ -252,8 +252,8 @@ msgstr ""
 "seçenekleri bekleniyor"
 
 #: ../pykickstart/commands/logvol.py:918
-#: ../pykickstart/commands/partition.py:733
-#: ../pykickstart/commands/partition.py:765 ../pykickstart/commands/raid.py:777
+#: ../pykickstart/commands/partition.py:746
+#: ../pykickstart/commands/partition.py:778 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
 msgstr "Btrfs dosya sistemi desteklenmemektedir"
 
@@ -347,7 +347,7 @@ msgstr "Girdi dosyasında genel hata: %s"
 msgid "General kickstart error in input file"
 msgstr "Girdi dosyasında genel kickstart hatası"
 
-#: ../pykickstart/parser.py:446
+#: ../pykickstart/parser.py:481
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Grup aynı anda hem --nodefaults hem de --optional belirtemez"
 
@@ -378,7 +378,7 @@ msgstr ""
 "hataya neden olur.  Bu komutu kaldırmak için lütfen kickstart dosyanızı "
 "değiştirin."
 
-#: ../pykickstart/options.py:188
+#: ../pykickstart/options.py:202
 #, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
@@ -404,7 +404,7 @@ msgstr ""
 "kickstart'ta ölümcül hatalara sebep olabilir.  Lütfen kickstart dosyanızı, "
 "bu seçenekleri kaldıracak şekilde yeniden düzenleyin."
 
-#: ../pykickstart/parser.py:83
+#: ../pykickstart/parser.py:86
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
 msgstr "%%ksappend için kuraldışı url: %s"
@@ -648,7 +648,7 @@ msgstr ""
 
 #: ../pykickstart/commands/autopart.py:526
 #: ../pykickstart/commands/logvol.py:906
-#: ../pykickstart/commands/partition.py:721 ../pykickstart/commands/raid.py:765
+#: ../pykickstart/commands/partition.py:734 ../pykickstart/commands/raid.py:765
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
 "--pbkdf-time ve --pbkdf-iterations seçeneklerinden yalnızca biri "
@@ -721,14 +721,14 @@ msgstr "Yüzdelik değeri, 0 ile 100 arasında olmalıdır."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:767
+#: ../pykickstart/parser.py:802
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
 "%(lineno)s. satırda görülen potansiyel olarak bilinmeyen bölüm: "
 "%(sectionName)s"
 
-#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
+#: ../pykickstart/parser.py:660 ../pykickstart/parser.py:701
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "%s. bölüm %%end ile bitmiyor."
@@ -770,18 +770,23 @@ msgstr ""
 "kaldırılacaktır. Lütfen kickstart dosyanızı bu seçeneği tercih edilen "
 "%(new_option)s takma adıyla değiştirecek şekilde değiştirin."
 
+#: ../pykickstart/sections.py:919
+#, python-format
+msgid "The %certificate section is empty"
+msgstr ""
+
 #: ../pykickstart/base.py:449
 #, python-format
 msgid "The %s and %s commands can't be used at the same time."
 msgstr "%s ve %s komutları aynı anda kullanılamaz."
 
-#: ../pykickstart/commands/partition.py:639
+#: ../pykickstart/commands/partition.py:652
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr ""
 "--fstype=tmpfs seçeneği --grow veya --maxsize ile birlikte kullanılamaz"
 
-#: ../pykickstart/commands/module.py:140
+#: ../pykickstart/commands/module.py:139
 msgid "The enable module command does not take position arguments!"
 msgstr "enable module komutu konum argümanları almamaktadır!"
 
@@ -896,12 +901,12 @@ msgstr "Kickstart dosyasının %s . satırını okurken bir sorun oluştu"
 msgid "Thin volumes cannot be cached"
 msgstr "İnce (thin) birimler önbelleğe alınamaz"
 
-#: ../pykickstart/parser.py:88
+#: ../pykickstart/parser.py:91
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
 msgstr "%%ksappend dosyası açılamıyor: %s"
 
-#: ../pykickstart/parser.py:116 ../pykickstart/parser.py:822
+#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:857
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "Kickstart girdi dosyası açılamıyor: %s"
@@ -915,7 +920,7 @@ msgstr "Kickstart girdi dosyası açılamıyor: %s"
 #: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/key.py:64
 #: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/langsupport.py:59
 #: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:151
-#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
+#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:452
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
 #: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:83
@@ -939,7 +944,7 @@ msgstr "Bilinmeyen komut: %s"
 msgid "Unknown command: %s"
 msgstr "Bilinmeyen komut: %s"
 
-#: ../pykickstart/parser.py:761
+#: ../pykickstart/parser.py:796
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Bilinmeyen kickstart bölümü: %s"
@@ -950,9 +955,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Desteklenmeyen realm '%s' komutu"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:147 ../pykickstart/version.py:156
-#: ../pykickstart/version.py:159 ../pykickstart/version.py:175
-#: ../pykickstart/version.py:228
+#: ../pykickstart/version.py:148 ../pykickstart/version.py:157
+#: ../pykickstart/version.py:160 ../pykickstart/version.py:176
+#: ../pykickstart/version.py:229
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Desteklenmeyen sürüm belirtildi: %s"
@@ -1031,6 +1036,12 @@ msgstr "okunacak dosya adı veya URL"
 #: ../tools/ksvalidator.py:56
 msgid "halt after the first error or warning"
 msgstr "ilk hata veya uyarı sonrası durdur"
+
+#: ../pykickstart/commands/autopart.py:664
+#: ../pykickstart/commands/partition.py:812
+msgid ""
+"hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
+msgstr ""
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format

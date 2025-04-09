@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-16 13:16-0700\n"
+"POT-Creation-Date: 2025-01-29 13:47-0800\n"
 "PO-Revision-Date: 2024-04-06 10:40+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -76,12 +76,12 @@ msgid "--default and --nocore cannot be used together"
 msgstr "--default och --nocore kan inte användas tillsammans"
 
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
-#: ../pykickstart/commands/partition.py:669 ../pykickstart/commands/raid.py:703
+#: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:703
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr "--mkfsoptions och --fsprofile kan inte användas tillsammans."
 
 #: ../pykickstart/commands/logvol.py:799 ../pykickstart/commands/logvol.py:856
-#: ../pykickstart/commands/partition.py:666 ../pykickstart/commands/raid.py:700
+#: ../pykickstart/commands/partition.py:679 ../pykickstart/commands/raid.py:700
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr "--mkfsoptions med --noformat har ingen effekt."
 
@@ -89,7 +89,7 @@ msgstr "--mkfsoptions med --noformat har ingen effekt."
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr "--mkfsoptions med --noformat eller --useexisting har ingen effekt."
 
-#: ../pykickstart/commands/partition.py:603
+#: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
 msgstr "--resize kan endast användas tillsammans med --onpart"
 
@@ -101,7 +101,7 @@ msgstr "--resize kan endast användas tillsammans med --useexisting"
 msgid "--resize requires --size to indicate new size"
 msgstr "--resize kräver --size för att ange den nya storleken"
 
-#: ../pykickstart/commands/partition.py:606
+#: ../pykickstart/commands/partition.py:619
 msgid "--resize requires --size to specify new size"
 msgstr "--resize kräver --size för att ange den nya storleken"
 
@@ -165,7 +165,7 @@ msgstr "En modul med namnet %s har redan definierats."
 msgid "A network device with the name %s has already been defined."
 msgstr "En nätverksenhet med namnet %s har redan definierats."
 
-#: ../pykickstart/commands/partition.py:448
+#: ../pykickstart/commands/partition.py:461
 #, python-format
 msgid "A partition with the mountpoint %s has already been defined."
 msgstr "En partition med monteringspunkten %s har redan definierats."
@@ -253,8 +253,8 @@ msgstr ""
 "förväntades"
 
 #: ../pykickstart/commands/logvol.py:918
-#: ../pykickstart/commands/partition.py:733
-#: ../pykickstart/commands/partition.py:765 ../pykickstart/commands/raid.py:777
+#: ../pykickstart/commands/partition.py:746
+#: ../pykickstart/commands/partition.py:778 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
 msgstr "Filsystemstypen btrfs stödjs inte"
 
@@ -347,7 +347,7 @@ msgstr "Allmänt fel i indatafil: %s"
 msgid "General kickstart error in input file"
 msgstr "Allmänt kickstart-fel i indatafil"
 
-#: ../pykickstart/parser.py:446
+#: ../pykickstart/parser.py:481
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Grupp kan inte ange både --nodefaults och --optional"
 
@@ -377,7 +377,7 @@ msgstr ""
 "framtida utgåvor, vilket kommer att resultera i ett ödesdigert fel från "
 "kickstart. Ändra din kickstart-fil och ta bort detta kommando."
 
-#: ../pykickstart/options.py:188
+#: ../pykickstart/options.py:202
 #, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
@@ -402,7 +402,7 @@ msgstr ""
 "ödesdigra fel från kickstart.  Ändra din kickstart-fil och ta bort "
 "eventuella flaggor."
 
-#: ../pykickstart/parser.py:83
+#: ../pykickstart/parser.py:86
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
 msgstr "Ogiltig url för %%ksappend: %s"
@@ -625,7 +625,7 @@ msgstr "Endast en av --noswap och --hibernation kan anges."
 
 #: ../pykickstart/commands/autopart.py:526
 #: ../pykickstart/commands/logvol.py:906
-#: ../pykickstart/commands/partition.py:721 ../pykickstart/commands/raid.py:765
+#: ../pykickstart/commands/partition.py:734 ../pykickstart/commands/raid.py:765
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr "Endast en av --pbkdf-time och --pbkdf-iterations kan anges."
 
@@ -692,12 +692,12 @@ msgstr "Procentsatsen måste vara mellan 0 och 100."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:767
+#: ../pykickstart/parser.py:802
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr "Potentiellt okänd sektion vid rad %(lineno)s: %(sectionName)s\""
 
-#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
+#: ../pykickstart/parser.py:660 ../pykickstart/parser.py:701
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "Sektion %s slutar inte med %%end."
@@ -736,19 +736,24 @@ msgstr ""
 "Ändra din kickstart-fil och ersätt denna flagga med dess rekommenderade "
 "alias %(new_option)s."
 
+#: ../pykickstart/sections.py:919
+#, python-format
+msgid "The %certificate section is empty"
+msgstr ""
+
 #: ../pykickstart/base.py:449
 #, python-format
 msgid "The %s and %s commands can't be used at the same time."
 msgstr "Kommandona %s och %s kan inte användas på samma gång."
 
-#: ../pykickstart/commands/partition.py:639
+#: ../pykickstart/commands/partition.py:652
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr ""
 "Flaggan --fstype=tmpfs kan inte användas tillsammans med --grow eller --"
 "maxsize"
 
-#: ../pykickstart/commands/module.py:140
+#: ../pykickstart/commands/module.py:139
 msgid "The enable module command does not take position arguments!"
 msgstr "Kommandot enable module tar inga positionsargument!"
 
@@ -859,12 +864,12 @@ msgstr "Det uppstod ett problem vid inläsning från rad %s av kickstart-filen"
 msgid "Thin volumes cannot be cached"
 msgstr "Tunna volymer kan inte cache:as"
 
-#: ../pykickstart/parser.py:88
+#: ../pykickstart/parser.py:91
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
 msgstr "Kan inte öppna %%ksappend-filen: %s"
 
-#: ../pykickstart/parser.py:116 ../pykickstart/parser.py:822
+#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:857
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "Kan inte öppna indata-kickstart-filen: %s"
@@ -878,7 +883,7 @@ msgstr "Kan inte öppna indata-kickstart-filen: %s"
 #: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/key.py:64
 #: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/langsupport.py:59
 #: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:151
-#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
+#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:452
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
 #: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:83
@@ -902,7 +907,7 @@ msgstr "Okänt kommando %s"
 msgid "Unknown command: %s"
 msgstr "Okänt kommando: %s"
 
-#: ../pykickstart/parser.py:761
+#: ../pykickstart/parser.py:796
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Okänt kickstart-avsnitt: %s"
@@ -913,9 +918,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Rikeskommandot ”%s” stödjs ej"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:147 ../pykickstart/version.py:156
-#: ../pykickstart/version.py:159 ../pykickstart/version.py:175
-#: ../pykickstart/version.py:228
+#: ../pykickstart/version.py:148 ../pykickstart/version.py:157
+#: ../pykickstart/version.py:160 ../pykickstart/version.py:176
+#: ../pykickstart/version.py:229
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Version som inte stöds angiven: %s"
@@ -992,6 +997,12 @@ msgstr "filnamn eller URL att läsa ifrån"
 #: ../tools/ksvalidator.py:56
 msgid "halt after the first error or warning"
 msgstr "stanna efter det första felet eller den första varningen"
+
+#: ../pykickstart/commands/autopart.py:664
+#: ../pykickstart/commands/partition.py:812
+msgid ""
+"hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
+msgstr ""
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format

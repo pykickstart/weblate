@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-16 13:16-0700\n"
+"POT-Creation-Date: 2025-01-29 13:47-0800\n"
 "PO-Revision-Date: 2024-04-06 10:40+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
@@ -72,12 +72,12 @@ msgid "--default and --nocore cannot be used together"
 msgstr "--default i --nocore nie mogą być razem używane"
 
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
-#: ../pykickstart/commands/partition.py:669 ../pykickstart/commands/raid.py:703
+#: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:703
 msgid "--mkfsoptions and --fsprofile cannot be used together."
 msgstr "Nie można używać --mkfsoptions i --fsprofile razem."
 
 #: ../pykickstart/commands/logvol.py:799 ../pykickstart/commands/logvol.py:856
-#: ../pykickstart/commands/partition.py:666 ../pykickstart/commands/raid.py:700
+#: ../pykickstart/commands/partition.py:679 ../pykickstart/commands/raid.py:700
 msgid "--mkfsoptions with --noformat has no effect."
 msgstr "--mkfsoptions z --noformat nic nie robi."
 
@@ -85,7 +85,7 @@ msgstr "--mkfsoptions z --noformat nic nie robi."
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr "--mkfsoptions z --noformat lub --useexisting nic nie robi."
 
-#: ../pykickstart/commands/partition.py:603
+#: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
 msgstr "Opcja --resize może być używana tylko w połączeniu z opcją --onpart"
 
@@ -98,7 +98,7 @@ msgstr ""
 msgid "--resize requires --size to indicate new size"
 msgstr "Opcja --resize wymaga --size, aby wskazać nowy rozmiar"
 
-#: ../pykickstart/commands/partition.py:606
+#: ../pykickstart/commands/partition.py:619
 msgid "--resize requires --size to specify new size"
 msgstr "Opcja --resize wymaga --size, aby podać nowy rozmiar"
 
@@ -166,7 +166,7 @@ msgstr "Określono już moduł o nazwie %s."
 msgid "A network device with the name %s has already been defined."
 msgstr "Określono już urządzenie sieciowe o nazwie %s."
 
-#: ../pykickstart/commands/partition.py:448
+#: ../pykickstart/commands/partition.py:461
 #, python-format
 msgid "A partition with the mountpoint %s has already been defined."
 msgstr "Określono już partycję o punkcie montowania %s."
@@ -254,8 +254,8 @@ msgstr ""
 "rozdzielonych znakiem „,”"
 
 #: ../pykickstart/commands/logvol.py:918
-#: ../pykickstart/commands/partition.py:733
-#: ../pykickstart/commands/partition.py:765 ../pykickstart/commands/raid.py:777
+#: ../pykickstart/commands/partition.py:746
+#: ../pykickstart/commands/partition.py:778 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
 msgstr "System plików Btrfs jest nieobsługiwany"
 
@@ -355,7 +355,7 @@ msgstr "Ogólny błąd w pliku wejściowym: %s"
 msgid "General kickstart error in input file"
 msgstr "Ogólny błąd kickstart w pliku wejściowym"
 
-#: ../pykickstart/parser.py:446
+#: ../pykickstart/parser.py:481
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Grupa nie może podać zarówno --nodefaults, jak i --optional"
 
@@ -385,7 +385,7 @@ msgstr ""
 "zostać usunięte z przyszłych wydań, co spowoduje krytyczny błąd pliku "
 "kickstart. Należy zmodyfikować plik kickstart, aby usunąć to polecenie."
 
-#: ../pykickstart/options.py:188
+#: ../pykickstart/options.py:202
 #, python-format
 msgid ""
 "Ignoring deprecated option on line %(lineno)s: The %(option)s option has "
@@ -410,7 +410,7 @@ msgstr ""
 "błąd kickstart. Należy zmodyfikować plik kickstart, aby usunąć wszystkie "
 "opcje."
 
-#: ../pykickstart/parser.py:83
+#: ../pykickstart/parser.py:86
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
 msgstr "Niedozwolony adres URL dla %%ksappend: %s"
@@ -644,7 +644,7 @@ msgstr "Można podać tylko jedną opcję z --noswap lub --hibernation."
 
 #: ../pykickstart/commands/autopart.py:526
 #: ../pykickstart/commands/logvol.py:906
-#: ../pykickstart/commands/partition.py:721 ../pykickstart/commands/raid.py:765
+#: ../pykickstart/commands/partition.py:734 ../pykickstart/commands/raid.py:765
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr "Można podać tylko jedną opcję z --pbkdf-time lub --pbkdf-iterations."
 
@@ -713,12 +713,12 @@ msgstr "Procent musi wynosić od 0 do 100."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:767
+#: ../pykickstart/parser.py:802
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr "Potencjalnie nieznana sekcja w %(lineno)s. wierszu: %(sectionName)s"
 
-#: ../pykickstart/parser.py:625 ../pykickstart/parser.py:666
+#: ../pykickstart/parser.py:660 ../pykickstart/parser.py:701
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "Sekcja %s nie kończy się na %%end."
@@ -758,17 +758,22 @@ msgstr ""
 "wydaniach. Proszę zmodyfikować plik kickstart, aby zastąpić tę opcję jej "
 "preferowanym aliasem %(new_option)s."
 
+#: ../pykickstart/sections.py:919
+#, python-format
+msgid "The %certificate section is empty"
+msgstr ""
+
 #: ../pykickstart/base.py:449
 #, python-format
 msgid "The %s and %s commands can't be used at the same time."
 msgstr "Polecenia %s i %s nie mogą być używane w tym samym czasie."
 
-#: ../pykickstart/commands/partition.py:639
+#: ../pykickstart/commands/partition.py:652
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr "Opcja --fstype=tmpfs nie może być używana razem z --grow lub --maxsize"
 
-#: ../pykickstart/commands/module.py:140
+#: ../pykickstart/commands/module.py:139
 msgid "The enable module command does not take position arguments!"
 msgstr "Polecenie włączenia modułu nie przyjmuje parametrów pozycji."
 
@@ -883,12 +888,12 @@ msgstr "Wystąpił problem podczas odczytywania z %s. wiersza pliku kickstart"
 msgid "Thin volumes cannot be cached"
 msgstr "Cienkie woluminy nie mogą być w pamięci podręcznej"
 
-#: ../pykickstart/parser.py:88
+#: ../pykickstart/parser.py:91
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
 msgstr "Nie można otworzyć pliku %%ksappend: %s"
 
-#: ../pykickstart/parser.py:116 ../pykickstart/parser.py:822
+#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:857
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "Nie można otworzyć wejściowego pliku kickstart: %s"
@@ -902,7 +907,7 @@ msgstr "Nie można otworzyć wejściowego pliku kickstart: %s"
 #: ../pykickstart/commands/keyboard.py:167 ../pykickstart/commands/key.py:64
 #: ../pykickstart/commands/lang.py:71 ../pykickstart/commands/langsupport.py:59
 #: ../pykickstart/commands/logvol.py:470 ../pykickstart/commands/mount.py:151
-#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:439
+#: ../pykickstart/commands/mouse.py:68 ../pykickstart/commands/partition.py:452
 #: ../pykickstart/commands/raid.py:425 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshkey.py:116
 #: ../pykickstart/commands/sshpw.py:163 ../pykickstart/commands/timezone.py:83
@@ -926,7 +931,7 @@ msgstr "Nieznane polecenie %s"
 msgid "Unknown command: %s"
 msgstr "Nieznane polecenie: %s"
 
-#: ../pykickstart/parser.py:761
+#: ../pykickstart/parser.py:796
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Nieznana sekcja kickstart: %s"
@@ -937,9 +942,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Nieobsługiwane polecenie „%s” obszaru"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:147 ../pykickstart/version.py:156
-#: ../pykickstart/version.py:159 ../pykickstart/version.py:175
-#: ../pykickstart/version.py:228
+#: ../pykickstart/version.py:148 ../pykickstart/version.py:157
+#: ../pykickstart/version.py:160 ../pykickstart/version.py:176
+#: ../pykickstart/version.py:229
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Podano nieobsługiwaną wersję: %s"
@@ -1017,6 +1022,12 @@ msgstr "nazwa pliku lub adres URL, z którego odczytać"
 #: ../tools/ksvalidator.py:56
 msgid "halt after the first error or warning"
 msgstr "wyłączenie po pierwszym błędzie lub ostrzeżeniu"
+
+#: ../pykickstart/commands/autopart.py:664
+#: ../pykickstart/commands/partition.py:812
+msgid ""
+"hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
+msgstr ""
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
