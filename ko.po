@@ -9,13 +9,13 @@
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2020.
 # simmon <simmon@nplob.com>, 2021.
-# 김인수 <simmon@nplob.com>, 2022, 2023, 2024.
+# 김인수 <simmon@nplob.com>, 2022, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-29 13:47-0800\n"
-"PO-Revision-Date: 2024-04-06 10:40+0000\n"
+"PO-Revision-Date: 2025-04-10 15:47+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/ko/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -735,7 +735,7 @@ msgstr ""
 #: ../pykickstart/sections.py:919
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "%certificate 부분이 비어 있습니다"
 
 #: ../pykickstart/base.py:449
 #, python-format
@@ -995,7 +995,7 @@ msgstr "처음 오류 혹은 경고 후에 정지"
 #: ../pykickstart/commands/partition.py:812
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
-msgstr ""
+msgstr "hw-passphrase는 LUKSv2 HW-OPAL 암호화된 장치로만 지정됩니다"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
