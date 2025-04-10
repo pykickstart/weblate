@@ -16,13 +16,13 @@
 # Julien Humbert <julroy67@gmail.com>, 2020, 2021.
 # Transtats <suanand@redhat.com>, 2023.
 # grimst <grimaitres@gmail.com>, 2023.
-# Léane GRASSER <leane.grasser@proton.me>, 2024.
+# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-29 13:47-0800\n"
-"PO-Revision-Date: 2024-06-27 13:36+0000\n"
+"PO-Revision-Date: 2025-04-10 02:09+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fr/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -776,7 +776,7 @@ msgstr ""
 #: ../pykickstart/sections.py:919
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "La section %certificate est vide"
 
 #: ../pykickstart/base.py:449
 #, python-format
@@ -1052,6 +1052,8 @@ msgstr "arrêt après le premier message d’avertissement ou d’erreur"
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
 msgstr ""
+"hw-passphrase peut être spécifié uniquement avec les périphériques chiffrés "
+"avec LUKSv2 HW-OPAL"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
