@@ -2,17 +2,17 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Translators:
-# Piotr Drąg <piotrdrag@gmail.com>, 2006,2011,2013-2014, 2020, 2021, 2022, 2023, 2024.
-# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Piotr Drąg <piotrdrag@gmail.com>, 2016. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Piotr Drąg <piotrdrag@gmail.com>, 2017. #zanata, 2020, 2021, 2022, 2023, 2024.
-# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2020, 2021, 2022, 2023, 2024.
+# Piotr Drąg <piotrdrag@gmail.com>, 2006,2011,2013-2014, 2020, 2021, 2022, 2023, 2024, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2016. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2017. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
+# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2020, 2021, 2022, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-29 13:47-0800\n"
-"PO-Revision-Date: 2024-04-06 10:40+0000\n"
+"PO-Revision-Date: 2025-04-10 15:48+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/pl/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -754,14 +754,14 @@ msgid ""
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
-"Opcja %(option)s w %(lineno)s wierszu stanie się przestarzała w przyszłych "
+"Opcja %(option)s w %(lineno)s. wierszu stanie się przestarzała w przyszłych "
 "wydaniach. Proszę zmodyfikować plik kickstart, aby zastąpić tę opcję jej "
 "preferowanym aliasem %(new_option)s."
 
 #: ../pykickstart/sections.py:919
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "Sekcja %certificate jest pusta"
 
 #: ../pykickstart/base.py:449
 #, python-format
@@ -1028,6 +1028,8 @@ msgstr "wyłączenie po pierwszym błędzie lub ostrzeżeniu"
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
 msgstr ""
+"„hw-passphrase” może być podane tylko z zaszyfrowanymi urządzeniami HW-OPAL "
+"LUKSv2"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
