@@ -12,14 +12,14 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021, 2024.
 # Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021, 2024.
 # Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021, 2024.
-# Luna Jernberg <bittin@reimu.nl>, 2022, 2023.
+# Luna Jernberg <bittin@reimu.nl>, 2022, 2023, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-29 13:47-0800\n"
-"PO-Revision-Date: 2024-04-06 10:40+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"PO-Revision-Date: 2025-04-10 15:47+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/sv/>\n"
 "Language: sv\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -739,7 +739,7 @@ msgstr ""
 #: ../pykickstart/sections.py:919
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "%certifikatsektionen är tom"
 
 #: ../pykickstart/base.py:449
 #, python-format
@@ -1003,6 +1003,7 @@ msgstr "stanna efter det första felet eller den första varningen"
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
 msgstr ""
+"hw-passphrase kan endast speciferas med LUKSv2 HW-OPAL-krypterade enheter"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
