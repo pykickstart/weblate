@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2025-04-10 02:09+0000\n"
+"PO-Revision-Date: 2025-04-12 18:53+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel9-branch/es/>\n"
@@ -96,7 +96,7 @@ msgstr "--resize requiere --size para indicar el tamaño nuevo"
 
 #: ../pykickstart/commands/partition.py:614
 msgid "--resize requires --size to specify new size"
-msgstr "--resize necesita --size para indicar el nuevo tamaño"
+msgstr "--resize necesita --size para indicar el tamaño nuevo"
 
 #: ../pykickstart/commands/logvol.py:787
 msgid "--size and --percent cannot both be specified for the same logvol"
@@ -172,7 +172,7 @@ msgstr "Ya se ha definido un repositorio con el nombre %s."
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr "Se espera un único argumento para %s"
+msgstr "Ya se espera un único argumento para %s"
 
 #: ../pykickstart/commands/user.py:202
 #, python-format
@@ -186,24 +186,29 @@ msgstr "Ya se ha definido un grupo de volúmenes de nombre %s."
 
 #: ../pykickstart/commands/zfcp.py:120
 msgid "A zfcp with this information has already been defined."
-msgstr "Ya se ha definido un zFCP con estos datos."
+msgstr "Ya ha sido definido un zFCP con esta información."
 
 #: ../pykickstart/commands/nvdimm.py:155
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr "La acción %(action)s obliga a usar --namespace"
+msgstr ""
+"La acción %(action)s requiere argumento --namespace para ser establecido"
 
 #: ../pykickstart/commands/nvdimm.py:162
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
-msgstr "La acción %(action)s necesita --namespace o --blockdevs"
+msgstr ""
+"La acción %(action)s requiere argumento --namespace o --blockdevs para ser "
+"establecido"
 
 #: ../pykickstart/commands/nvdimm.py:158
 #, python-format
 msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be set"
-msgstr "La acción %(action)s con modo %(mode)s necesita --sectorsize"
+msgstr ""
+"La acción %(action)s con modo %(mode)s requiere argumento --sectorsize para "
+"ser establecido"
 
 #: ../pykickstart/commands/logvol.py:849
 msgid "Adding a cache to an existing logical volume is not supported"
@@ -512,12 +517,12 @@ msgstr ""
 "%(options_list)s."
 
 #: ../pykickstart/commands/timesource.py:136
-#, fuzzy, python-format
-#| msgid "One of -%(options_list)s options must be specified for url command."
+#, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
 msgstr ""
-"Para el comando url se debe indicar alguna de las opciones: %(options_list)s."
+"Una de las opciones -%(options_list)s debe estar especificada para la "
+"instrucción timesource."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -583,21 +588,19 @@ msgstr ""
 "%(options_list)s."
 
 #: ../pykickstart/commands/timesource.py:139
-#, fuzzy, python-format
-#| msgid ""
-#| "Only one of %(options_list)s options may be specified for url command."
+#, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
 msgstr ""
-"Para el comando url se debe indicar sólo una de las opciones: "
-"%(options_list)s."
+"solo una de las opciones %(options_list)s puede ser especificada para la "
+"instrucción timesource."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for url command."
 msgstr ""
-"Para el comando url se debe indicar sólo una de las opciones: "
-"%(options_list)s."
+"Solo una de las opciones %(options_list)s pueden ser especificadas para "
+"comando url."
 
 #: ../pykickstart/commands/driverdisk.py:183
 msgid ""
@@ -653,7 +656,7 @@ msgstr "La opción --bridgeopts necesita --bridgeslaves"
 #: ../pykickstart/commands/timezone.py:284
 #: ../pykickstart/commands/timezone.py:385
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr "Las options --nontp y --ntpservers son mutuamente excluyentes"
+msgstr "Las opciones --nontp y --ntpservers son mutuamente excluyentes"
 
 #: ../pykickstart/commands/raid.py:438
 #, python-format
@@ -707,18 +710,14 @@ msgid "Specify only one realm to join"
 msgstr "Indique sólo un dominio al que unirse"
 
 #: ../pykickstart/sections.py:785
-#, fuzzy, python-format
-#| msgid ""
-#| "The %(option)s option on line %(lineno)s will be deprecated infuture "
-#| "releases. Please modify your kickstart file to replacethis option with "
-#| "its preferred alias %(new_option)s."
+#, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
 "La opción %(option)s en la línea %(lineno)s será obsoleta en futuras "
-"revisiones. Por favor modifique su fichero kickstart para reemplazar esta "
+"revisiones. Por favor modifique su archivo kickstart para remplazar esta "
 "opción con su alias preferido %(new_option)s."
 
 #. allow for translation of the error message
@@ -748,7 +747,7 @@ msgstr "No se puede usar --fstype=tmpfs con --grow ni --maxsize"
 
 #: ../pykickstart/commands/module.py:137
 msgid "The enable module command does not take position arguments!"
-msgstr "El comando enable module no acepta parámetros posicionales."
+msgstr "El comando enable module no toma parámetros posicionales."
 
 #: ../tools/ksverdiff.py:84
 #, python-format
@@ -825,32 +824,25 @@ msgstr ""
 "utc."
 
 #: ../pykickstart/commands/timezone.py:441
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --nontp will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
-"La opción --isUtc será obsoleta en futuras revisiones. Por favor modifique "
-"su fichero kickstart para reemplazar esta opción con su alias preferido --"
-"utc."
+"La opción --nontp será obsoleta en futuras revisiones. Por favor modifique "
+"su archivo kickstart para reemplazar esta opción con hora inicial de "
+"invocación de instrucción --ntp-disable."
 
 #: ../pykickstart/commands/timezone.py:435
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --ntpservers will be deprecated in future releases. Please modify "
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
-"La opción --isUtc será obsoleta en futuras revisiones. Por favor modifique "
-"su fichero kickstart para reemplazar esta opción con su alias preferido --"
-"utc."
+"La opción --ntpservers será obsoleta en futuras revisiones. Por favor "
+"modifique su fichero kickstart para reemplazar esta opción con hora inicial "
+"comando de invocación --ntp-server <servidor nombre-host>, una por servidor "
+"NTP."
 
 #: ../pykickstart/commands/partition.py:579
 #: ../pykickstart/commands/partition.py:645
@@ -958,7 +950,7 @@ msgstr "Sección kickstart desconocida: %s"
 #: ../pykickstart/commands/realm.py:51
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Comando de dominio '%s' no soportado"
+msgstr "Comando de realm '%s' no soportado"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:133 ../pykickstart/version.py:142
@@ -1037,7 +1029,7 @@ msgstr "nombre de archivo o URL desde donde leer"
 
 #: ../tools/ksvalidator.py:55
 msgid "halt after the first error or warning"
-msgstr "parar después del primer error o advertencia"
+msgstr "detener tras el primer error o advertencia"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
@@ -1061,8 +1053,8 @@ msgstr "muestre este mensaje de ayuda y salga"
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
-"ubicación donde escribir el archivo kickstart final (salida estándar si no "
-"se indica)"
+"el lugar donde escribir el archivo kickstart finalizad, o salida estándar si "
+"no se indica"
 
 #: ../tools/ksvalidator.py:63 ../tools/ksshell.py:156
 msgid "version of kickstart syntax to validate against"
