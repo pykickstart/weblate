@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2025-04-10 02:09+0000\n"
+"PO-Revision-Date: 2025-04-12 18:53+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/es/>\n"
@@ -287,7 +287,7 @@ msgstr "Una de las opciones biospart o partición debe estar especificada."
 #: ../pykickstart/commands/timezone.py:63 ../pykickstart/commands/sshpw.py:128
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr "Se espera un único argumento para %s"
+msgstr "Ya se espera un único argumento para %s"
 
 # auto translated by TM merge from project: Pykickstart, version: master,
 # DocId: pykickstart
@@ -505,20 +505,25 @@ msgstr ""
 #: ../pykickstart/commands/nvdimm.py:152
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr "La acción %(action)s obliga a usar --namespace"
+msgstr ""
+"La acción %(action)s requiere argumento --namespace para ser establecido"
 
 #: ../pykickstart/commands/nvdimm.py:156
 #, python-format
 msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be "
 "set"
-msgstr "La acción %(action)s con modo %(mode)s necesita --sectorsize"
+msgstr ""
+"La acción %(action)s con modo %(mode)s requiere argumento --sectorsize para "
+"ser establecido"
 
 #: ../pykickstart/commands/nvdimm.py:161
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
-msgstr "La acción %(action)s necesita --namespace o --blockdevs"
+msgstr ""
+"La acción %(action)s requiere argumento --namespace o --blockdevs para ser "
+"establecido"
 
 # auto translated by TM merge from project: Pykickstart, version: master,
 # DocId: pykickstart
@@ -587,7 +592,7 @@ msgstr ""
 # DocId: pykickstart
 #: ../pykickstart/commands/zfcp.py:111
 msgid "A zfcp with this information has already been defined."
-msgstr "Ya se ha definido un zFCP con estos datos."
+msgstr "Ya ha sido definido un zFCP con esta información."
 
 # auto translated by TM merge from project: Pykickstart, version: master,
 # DocId: pykickstart
@@ -814,7 +819,7 @@ msgstr "--resize sólo se puede usar con --onpart"
 # DocId: pykickstart
 #: ../pykickstart/commands/partition.py:459
 msgid "--resize requires --size to specify new size"
-msgstr "--resize necesita --size para indicar el nuevo tamaño"
+msgstr "--resize necesita --size para indicar el tamaño nuevo"
 
 #: ../pykickstart/commands/partition.py:482
 msgid "The part/partition and mount commands can't be used at the same time"
@@ -954,7 +959,7 @@ msgstr "--mkfsoptions no tiene ningún efecto con --noformat o --useexisting."
 #: ../pykickstart/commands/timezone.py:140
 #: ../pykickstart/commands/timezone.py:175
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr "Las options --nontp y --ntpservers son mutuamente excluyentes"
+msgstr "Las opciones --nontp y --ntpservers son mutuamente excluyentes"
 
 # auto translated by TM merge from project: Pykickstart, version: master,
 # DocId: pykickstart
@@ -982,7 +987,7 @@ msgstr "Faltan los argumentos del comando de dominio"
 #: ../pykickstart/commands/realm.py:54
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Comando de dominio '%s' no soportado"
+msgstr "Comando de realm '%s' no soportado"
 
 # auto translated by TM merge from project: Pykickstart, version: master,
 # DocId: pykickstart
@@ -1036,7 +1041,7 @@ msgstr "un archivo base a partir del cual se va a trabajar (opcional)"
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
-"la ubicación donde escribir el archivo kickstar final, o salida estandar si "
+"el lugar donde escribir el archivo kickstart finalizad, o salida estándar si "
 "no se indica"
 
 #: ../tools/ksshell:151 ../tools/ksvalidator:61
@@ -1108,7 +1113,7 @@ msgstr "nombre de archivo o URL desde donde leer"
 
 #: ../tools/ksvalidator:53
 msgid "halt after the first error or warning"
-msgstr "parar después del primer error o advertencia"
+msgstr "detener tras el primer error o advertencia"
 
 #: ../tools/ksvalidator:56
 #, python-format
