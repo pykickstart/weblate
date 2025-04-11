@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2025-04-10 00:53+0000\n"
+"PO-Revision-Date: 2025-04-12 18:53+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/es/>\n"
@@ -278,7 +278,7 @@ msgstr "No se pueden usar los comandos volgroup y mount a la vez"
 #: ../pykickstart/commands/timezone.py:283
 #: ../pykickstart/commands/timezone.py:358
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr "Las options --nontp y --ntpservers son mutuamente excluyentes"
+msgstr "Las opciones --nontp y --ntpservers son mutuamente excluyentes"
 
 #: ../pykickstart/commands/timezone.py:266
 #: ../pykickstart/commands/timezone.py:341
@@ -436,20 +436,25 @@ msgstr ""
 #: ../pykickstart/commands/nvdimm.py:155
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr "La acción %(action)s obliga a usar --namespace"
+msgstr ""
+"La acción %(action)s requiere argumento --namespace para ser establecido"
 
 #: ../pykickstart/commands/nvdimm.py:158
 #, python-format
 msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be "
 "set"
-msgstr "La acción %(action)s con modo %(mode)s necesita --sectorsize"
+msgstr ""
+"La acción %(action)s con modo %(mode)s requiere argumento --sectorsize para "
+"ser establecido"
 
 #: ../pykickstart/commands/nvdimm.py:162
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
-msgstr "La acción %(action)s necesita --namespace o --blockdevs"
+msgstr ""
+"La acción %(action)s requiere argumento --namespace o --blockdevs para ser "
+"establecido"
 
 #: ../pykickstart/commands/rescue.py:77
 msgid ""
@@ -468,7 +473,7 @@ msgstr "El comando %s necesita un argumento"
 #: ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr "Se espera un único argumento para %s"
+msgstr "Ya se espera un único argumento para %s"
 
 #: ../pykickstart/commands/keyboard.py:169
 msgid ""
@@ -521,7 +526,7 @@ msgstr ""
 
 #: ../pykickstart/commands/zfcp.py:120
 msgid "A zfcp with this information has already been defined."
-msgstr "Ya se ha definido un zFCP con estos datos."
+msgstr "Ya ha sido definido un zFCP con esta información."
 
 #: ../pykickstart/commands/url.py:194
 #, python-format
@@ -534,8 +539,8 @@ msgstr ""
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for url command."
 msgstr ""
-"Para el comando url se debe indicar sólo una de las opciones: "
-"%(options_list)s."
+"Solo una de las opciones %(options_list)s pueden ser especificadas para "
+"comando url."
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
@@ -691,7 +696,7 @@ msgstr "No se pueden usar los comandos mount y reqpart a la vez"
 
 #: ../pykickstart/commands/module.py:134
 msgid "The enable module command does not take position arguments!"
-msgstr "El comando enable module no acepta parámetros posicionales."
+msgstr "El comando enable module no toma parámetros posicionales."
 
 #: ../pykickstart/commands/partition.py:448
 #, python-format
@@ -710,7 +715,7 @@ msgstr "--resize sólo se puede usar con --onpart"
 
 #: ../pykickstart/commands/partition.py:614
 msgid "--resize requires --size to specify new size"
-msgstr "--resize necesita --size para indicar el nuevo tamaño"
+msgstr "--resize necesita --size para indicar el tamaño nuevo"
 
 #: ../pykickstart/commands/partition.py:649
 msgid "The part/partition and mount commands can't be used at the same time"
@@ -834,7 +839,7 @@ msgstr "Faltan los argumentos del comando de dominio"
 #: ../pykickstart/commands/realm.py:51
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Comando de dominio '%s' no soportado"
+msgstr "Comando de realm '%s' no soportado"
 
 #: ../pykickstart/commands/realm.py:63
 #, python-format
@@ -997,7 +1002,7 @@ msgstr "nombre de archivo o URL desde donde leer"
 
 #: ../tools/ksvalidator.py:54
 msgid "halt after the first error or warning"
-msgstr "parar después del primer error o advertencia"
+msgstr "detener tras el primer error o advertencia"
 
 #: ../tools/ksvalidator.py:57
 #, python-format
@@ -1047,8 +1052,8 @@ msgstr "un archivo base a partir del cual se va a trabajar (opcional)"
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
-"ubicación donde escribir el archivo kickstart final (salida estándar si no "
-"se indica)"
+"el lugar donde escribir el archivo kickstart finalizad, o salida estándar si "
+"no se indica"
 
 #. Errors should just dump you to the prompt anyway.
 #: ../tools/ksshell.py:173
