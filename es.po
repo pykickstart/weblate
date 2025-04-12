@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-29 13:47-0800\n"
-"PO-Revision-Date: 2025-04-10 02:09+0000\n"
+"PO-Revision-Date: 2025-04-12 18:53+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/es/>\n"
@@ -38,6 +38,8 @@ msgid ""
 "\n"
 "Checking kickstart file %(filename)s\n"
 msgstr ""
+"\n"
+"Comprobando archivo kickstart %(filename)s\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -104,7 +106,7 @@ msgstr "--resize requiere --size para indicar el tamaño nuevo"
 
 #: ../pykickstart/commands/partition.py:619
 msgid "--resize requires --size to specify new size"
-msgstr "--resize necesita --size para indicar el nuevo tamaño"
+msgstr "--resize necesita --size para indicar el tamaño nuevo"
 
 #: ../pykickstart/commands/logvol.py:774
 msgid "--size and --percent cannot both be specified for the same logvol"
@@ -180,7 +182,7 @@ msgstr "Ya se ha definido un repositorio con el nombre %s."
 #: ../pykickstart/commands/rootpw.py:139 ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr "Se espera un único argumento para %s"
+msgstr "Ya se espera un único argumento para %s"
 
 #: ../pykickstart/commands/user.py:205
 #, python-format
@@ -194,24 +196,29 @@ msgstr "Ya se ha definido un grupo de volúmenes de nombre %s."
 
 #: ../pykickstart/commands/zfcp.py:135
 msgid "A zfcp with this information has already been defined."
-msgstr "Ya se ha definido un zFCP con estos datos."
+msgstr "Ya ha sido definido un zFCP con esta información."
 
 #: ../pykickstart/commands/nvdimm.py:154
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr "La acción %(action)s obliga a usar --namespace"
+msgstr ""
+"La acción %(action)s requiere argumento --namespace para ser establecido"
 
 #: ../pykickstart/commands/nvdimm.py:161
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
-msgstr "La acción %(action)s necesita --namespace o --blockdevs"
+msgstr ""
+"La acción %(action)s requiere argumento --namespace o --blockdevs para ser "
+"establecido"
 
 #: ../pykickstart/commands/nvdimm.py:157
 #, python-format
 msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be set"
-msgstr "La acción %(action)s con modo %(mode)s necesita --sectorsize"
+msgstr ""
+"La acción %(action)s con modo %(mode)s requiere argumento --sectorsize para "
+"ser establecido"
 
 #: ../pykickstart/commands/logvol.py:836
 msgid "Adding a cache to an existing logical volume is not supported"
@@ -522,12 +529,12 @@ msgstr ""
 "%(options_list)s."
 
 #: ../pykickstart/commands/timesource.py:136
-#, fuzzy, python-format
-#| msgid "One of -%(options_list)s options must be specified for url command."
+#, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
 msgstr ""
-"Para el comando url se debe indicar alguna de las opciones: %(options_list)s."
+"Una de las opciones -%(options_list)s debe estar especificada para la "
+"instrucción timesource."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -588,7 +595,7 @@ msgstr "Para el comando %s se espera un argumento o ninguno"
 
 #: ../pykickstart/commands/zfcp.py:212
 msgid "Only --devnum or --devnum with --wwpn and --fcplun are allowed."
-msgstr ""
+msgstr "Solo están permitidos --devnum o --devnum con --wwpn y --fcplun."
 
 #: ../pykickstart/commands/repo.py:286
 #, python-format
@@ -598,21 +605,19 @@ msgstr ""
 "%(options_list)s."
 
 #: ../pykickstart/commands/timesource.py:139
-#, fuzzy, python-format
-#| msgid ""
-#| "Only one of %(options_list)s options may be specified for url command."
+#, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
 msgstr ""
-"Para el comando url se debe indicar sólo una de las opciones: "
-"%(options_list)s."
+"solo una de las opciones %(options_list)s puede ser especificada para la "
+"instrucción timesource."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for url command."
 msgstr ""
-"Para el comando url se debe indicar sólo una de las opciones: "
-"%(options_list)s."
+"Solo una de las opciones %(options_list)s pueden ser especificadas para "
+"comando url."
 
 #: ../pykickstart/commands/driverdisk.py:183
 msgid ""
@@ -640,10 +645,8 @@ msgid ""
 msgstr "No se pueden usar a la vez --nomount y --romount en un comando rescue."
 
 #: ../pykickstart/commands/autopart.py:596
-#, fuzzy
-#| msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr "No se pueden usar a la vez --pbkdf-time y --pbkdf-iterations."
+msgstr "Solo uno de --noswap e --hibernation puede estar especificado."
 
 #: ../pykickstart/commands/autopart.py:526
 #: ../pykickstart/commands/logvol.py:906
@@ -652,14 +655,11 @@ msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr "No se pueden usar a la vez --pbkdf-time y --pbkdf-iterations."
 
 #: ../pykickstart/commands/bootloader.py:550
-#, fuzzy
-#| msgid ""
-#| "Only one of --biospart and --source may be specified for driverdisk "
-#| "command."
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
 msgstr ""
-"No se pueden usar a la vez --biospart y --source en un comando driverdisk."
+"Solo uno de --sdboot y --extlinux puede ser especificado para comando de "
+"cargador de arranque."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -680,35 +680,29 @@ msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgstr "La opción --bridgeopts necesita --bridgeslaves"
 
 #: ../pykickstart/commands/network.py:886
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-dns-search requires --device to be specified"
-msgstr "La opción --bridgeopts necesita --bridgeslaves"
+msgstr "La opción --ipv4-dns-search requiere que --device está especificado"
 
 #: ../pykickstart/commands/network.py:892
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv4-ignore-auto-dns requires --device to be specified"
-msgstr "La opción --bridgeopts necesita --bridgeslaves"
+msgstr ""
+"La opción --ipv4-ignore-auto-dns requiere --device para ser especificado"
 
 #: ../pykickstart/commands/network.py:889
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-dns-search requires --device to be specified"
-msgstr "La opción --bridgeopts necesita --bridgeslaves"
+msgstr "La opción --ipv6-dns-search requiere --device para ser especificado"
 
 #: ../pykickstart/commands/network.py:895
-#, fuzzy
-#| msgid "Option --bridgeopts requires --bridgeslaves to be specified"
 msgid "Option --ipv6-ignore-auto-dns requires --device to be specified"
-msgstr "La opción --bridgeopts necesita --bridgeslaves"
+msgstr ""
+"La opción --ipv6-ignore-auto-dns requiere --device para ser especificado"
 
 #: ../pykickstart/commands/timezone.py:172
 #: ../pykickstart/commands/timezone.py:188
 #: ../pykickstart/commands/timezone.py:285
 #: ../pykickstart/commands/timezone.py:390
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr "Las options --nontp y --ntpservers son mutuamente excluyentes"
+msgstr "Las opciones --nontp y --ntpservers son mutuamente excluyentes"
 
 #: ../pykickstart/commands/raid.py:438
 #, python-format
@@ -762,30 +756,25 @@ msgid "Specify only one realm to join"
 msgstr "Indique sólo un dominio al que unirse"
 
 #: ../pykickstart/sections.py:846
-#, fuzzy, python-format
-#| msgid ""
-#| "The %(option)s option on line %(lineno)s will be deprecated infuture "
-#| "releases. Please modify your kickstart file to replacethis option with "
-#| "its preferred alias %(new_option)s."
+#, python-format
 msgid ""
 "The %(option)s option on line %(lineno)s will be deprecated in future "
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
 "La opción %(option)s en la línea %(lineno)s será obsoleta en futuras "
-"revisiones. Por favor modifique su fichero kickstart para reemplazar esta "
+"revisiones. Por favor modifique su archivo kickstart para remplazar esta "
 "opción con su alias preferido %(new_option)s."
 
 #: ../pykickstart/sections.py:919
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "La sección %certificate está vacía"
 
 #: ../pykickstart/base.py:449
-#, fuzzy, python-format
-#| msgid "The %s and reqpart commands can't be used at the same time"
+#, python-format
 msgid "The %s and %s commands can't be used at the same time."
-msgstr "No se pueden usar a la vez los comandos %s y reqpart"
+msgstr "Las instrucciones %s y %s no pueden ser utilizadas a la vez."
 
 #: ../pykickstart/commands/partition.py:652
 msgid ""
@@ -794,7 +783,7 @@ msgstr "No se puede usar --fstype=tmpfs con --grow ni --maxsize"
 
 #: ../pykickstart/commands/module.py:139
 msgid "The enable module command does not take position arguments!"
-msgstr "El comando enable module no acepta parámetros posicionales."
+msgstr "El comando enable module no toma parámetros posicionales."
 
 #: ../tools/ksverdiff.py:84
 #, python-format
@@ -859,32 +848,25 @@ msgstr ""
 "utc."
 
 #: ../pykickstart/commands/timezone.py:446
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --nontp will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
-"La opción --isUtc será obsoleta en futuras revisiones. Por favor modifique "
-"su fichero kickstart para reemplazar esta opción con su alias preferido --"
-"utc."
+"La opción --nontp será obsoleta en futuras revisiones. Por favor modifique "
+"su archivo kickstart para reemplazar esta opción con hora inicial de "
+"invocación de instrucción --ntp-disable."
 
 #: ../pykickstart/commands/timezone.py:440
-#, fuzzy
-#| msgid ""
-#| "The option --isUtc will be deprecated in future releases. Please modify "
-#| "your kickstart file to replace this option with its preferred alias --utc."
 msgid ""
 "The option --ntpservers will be deprecated in future releases. Please modify "
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
-"La opción --isUtc será obsoleta en futuras revisiones. Por favor modifique "
-"su fichero kickstart para reemplazar esta opción con su alias preferido --"
-"utc."
+"La opción --ntpservers será obsoleta en futuras revisiones. Por favor "
+"modifique su fichero kickstart para reemplazar esta opción con hora inicial "
+"comando de invocación --ntp-server <servidor nombre-host>, una por servidor "
+"NTP."
 
 #: ../pykickstart/commands/realm.py:42
 msgid "The realm command 'join' should only be specified once"
@@ -966,7 +948,7 @@ msgstr "Sección kickstart desconocida: %s"
 #: ../pykickstart/commands/realm.py:50
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Comando de dominio '%s' no soportado"
+msgstr "Comando de realm '%s' no soportado"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:148 ../pykickstart/version.py:157
@@ -1046,13 +1028,15 @@ msgstr "nombre de archivo o URL desde donde leer"
 
 #: ../tools/ksvalidator.py:56
 msgid "halt after the first error or warning"
-msgstr "parar después del primer error o advertencia"
+msgstr "detener tras el primer error o advertencia"
 
 #: ../pykickstart/commands/autopart.py:664
 #: ../pykickstart/commands/partition.py:812
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
 msgstr ""
+"hw-passphrase puede estar especificada solo con dispositivos cifrados LUKSv2 "
+"HW-OPAL"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
@@ -1076,8 +1060,8 @@ msgstr "muestre este mensaje de ayuda y salga"
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
-"ubicación donde escribir el archivo kickstart final (salida estándar si no "
-"se indica)"
+"el lugar donde escribir el archivo kickstart finalizad, o salida estándar si "
+"no se indica"
 
 #: ../tools/ksshell.py:157 ../tools/ksvalidator.py:64
 msgid "version of kickstart syntax to validate against"
