@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2025-04-12 18:53+0000\n"
+"PO-Revision-Date: 2025-04-14 17:53+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/es/>\n"
@@ -449,7 +449,7 @@ msgstr "Ya se ha definido un usuario de nombre %s."
 
 #: ../pykickstart/commands/vnc.py:125
 msgid "VNC password must be six to eight characters long"
-msgstr "La clave de VNC debe tener de seis a ocho caracteres."
+msgstr "La clave de VNC debe tener de seis a ocho caracteres"
 
 # auto translated by TM merge from project: Pykickstart, version: master,
 # DocId: pykickstart
@@ -792,7 +792,7 @@ msgstr "No se pueden usar a la vez los comandos %s y reqpart"
 
 #: ../pykickstart/commands/reqpart.py:65
 msgid "The mount and reqpart commands can't be used at the same time"
-msgstr "No se pueden usar a la vez los comandos mount y reqpart"
+msgstr "No se pueden usar los comandos mount y reqpart a la vez"
 
 # auto translated by TM merge from project: Pykickstart, version: master,
 # DocId: pykickstart
