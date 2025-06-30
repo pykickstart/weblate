@@ -13,15 +13,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2015-04-10 10:55+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/pykickstart/language/el/)\n"
+"PO-Revision-Date: 2025-06-30 14:20+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://translate.fedoraproject.org/projects/"
+"pykickstart/rhel7-branch/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -91,7 +92,7 @@ msgstr ""
 #: ../pykickstart/version.py:196
 #, python-format
 msgid "Unsupported version specified: %s"
-msgstr "Μη υποστηριζόμενη  έκδοση: %s"
+msgstr "Καθορίστηκε μη υποστηριζόμενη έκδοση: %s"
 
 #: ../pykickstart/options.py:82
 #, python-format
