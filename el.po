@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:39-0800\n"
-"PO-Revision-Date: 2025-06-17 10:35+0000\n"
+"PO-Revision-Date: 2025-06-30 14:20+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel10-branch/el/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.1\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -909,7 +909,7 @@ msgstr ""
 #: ../pykickstart/version.py:218
 #, python-format
 msgid "Unsupported version specified: %s"
-msgstr "Μη υποστηριζόμενη  έκδοση: %s"
+msgstr "Καθορίστηκε μη υποστηριζόμενη έκδοση: %s"
 
 #. Errors should just dump you to the prompt anyway.
 #: ../tools/ksshell.py:180
