@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2024-01-16 14:25+0000\n"
+"PO-Revision-Date: 2025-08-11 02:04+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/pykickstart/rhel8-branch/pt_BR/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -586,7 +586,7 @@ msgstr "O sistema de arquivos Btrfs não é suportado"
 
 #: ../pykickstart/commands/device.py:115
 msgid "device command requires two arguments: module type and name"
-msgstr "comando de dispositivo requer dois argumentos: tipo de módulo e nome"
+msgstr "O comando device requer dois argumentos: tipo de módulo e nome"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
