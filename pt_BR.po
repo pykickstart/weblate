@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2024-01-16 14:25+0000\n"
+"PO-Revision-Date: 2025-08-11 02:04+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/pykickstart/rhel7-branch/pt_BR/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -216,10 +216,13 @@ msgstr "Argumento inesperado para %(command)s comando: %(options)s"
 msgid ""
 "Only one of --baseurl and --mirrorlist may be specified for repo command."
 msgstr ""
+"Somente --baseurl e --mirrorlist podem ser especificados para o comando repo."
 
 #: ../pykickstart/commands/repo.py:214
 msgid "One of --baseurl or --mirrorlist must be specified for repo command."
 msgstr ""
+"Um dos seguintes: --baseurl ou --mirrorlist deve ser especificado para o "
+"comando repo."
 
 #: ../pykickstart/commands/repo.py:222
 #, python-format
@@ -323,7 +326,7 @@ msgstr ""
 #: ../pykickstart/commands/upgrade.py:97
 #, python-format
 msgid "Kickstart command %s does not accept empty parameter %s"
-msgstr ""
+msgstr "O comando Kickstart %s não aceita o parâmetro vazio %s"
 
 #: ../pykickstart/commands/eula.py:67
 msgid "Kickstart command eula expects the --agreed option"
@@ -353,7 +356,7 @@ msgstr "O comandos \"%s\" e \"mount\" não podem ser usados ao mesmo tempo"
 #: ../pykickstart/commands/mount.py:132
 #, python-format
 msgid "Device and mount point required for %s"
-msgstr ""
+msgstr "Dispositivo e ponto de montagem necessários para %s"
 
 #: ../pykickstart/commands/mount.py:136
 #, python-format
@@ -367,7 +370,7 @@ msgstr "'--mkfsoptions' requer --reformat"
 #: ../pykickstart/commands/monitor.py:67
 #, python-format
 msgid "Unexpected arguments to %(cmd)s command: %(options)s"
-msgstr ""
+msgstr "Argumentos inesperados para o comando %(cmd)s: %(options)s"
 
 #: ../pykickstart/commands/zerombr.py:54
 #, python-format
@@ -391,7 +394,7 @@ msgstr "Um usuário com o nome %s já foi definido."
 
 #: ../pykickstart/commands/vnc.py:125
 msgid "VNC password must be six to eight characters long"
-msgstr ""
+msgstr "A senha do VNC deve ter de seis a oito caracteres"
 
 #: ../pykickstart/commands/services.py:69
 msgid "One of --disabled or --enabled must be provided."
@@ -401,7 +404,7 @@ msgstr "Um de --disabled ou --enabled deve ser fornecido."
 #, python-format
 msgid ""
 "A DM RAID device with the name %s and devices %s has already been defined."
-msgstr ""
+msgstr "Um dispositivo DM RAID com o nome %s e dispositivos %s já foi definido."
 
 #: ../pykickstart/commands/nvdimm.py:118
 #, python-format
@@ -410,12 +413,12 @@ msgstr "Argumentos inesperados para o comando nvdimm: %(arguments)s"
 
 #: ../pykickstart/commands/nvdimm.py:122
 msgid "Action argument is required for nvdimm command"
-msgstr ""
+msgstr "O argumento de ação é necessário para o comando nvdimm"
 
 #: ../pykickstart/commands/nvdimm.py:128
 #, python-format
 msgid "Invalid action argument (choose from '%(valid_arguments)s')"
-msgstr ""
+msgstr "Argumento de ação inválido (escolha entre '%(valid_arguments)s')"
 
 #: ../pykickstart/commands/nvdimm.py:138
 msgid ""
@@ -514,16 +517,19 @@ msgstr "Um zfcp com esta informação já foi definido."
 #: ../pykickstart/commands/url.py:170
 msgid "Only one of --url and --mirrorlist may be specified for url command."
 msgstr ""
+"Somente --url e --mirrorlist podem ser especificados para o comando url."
 
 #: ../pykickstart/commands/url.py:173
 msgid "One of --url or --mirrorlist must be specified for url command."
 msgstr ""
+"Um dos seguintes: --url ou --mirrorlist deve ser especificado para o comando "
+"url."
 
 #: ../pykickstart/commands/raid.py:322 ../pykickstart/commands/logvol.py:350
 #: ../pykickstart/commands/partition.py:314
 #, python-format
 msgid "Mount point required for %s"
-msgstr ""
+msgstr "Ponto de montagem necessário para %s"
 
 #: ../pykickstart/commands/raid.py:325
 #, python-format
@@ -560,12 +566,12 @@ msgstr "--mkfsoptions e --fsprofile não podem ser utilizados juntos."
 
 #: ../pykickstart/commands/device.py:98
 msgid "device command requires two arguments: module type and name"
-msgstr "comando de dispositivo requer dois argumentos: tipo de módulo e nome"
+msgstr "O comando device requer dois argumentos: tipo de módulo e nome"
 
 #: ../pykickstart/commands/device.py:124
 #, python-format
 msgid "%s command requires a single argument: %s"
-msgstr ""
+msgstr "O comando %s requer um único argumento: %s"
 
 #: ../pykickstart/commands/device.py:133
 #, python-format
@@ -577,7 +583,7 @@ msgstr "Um módulo com o nome %s já foi definido."
 msgid ""
 "A logical volume with the name %s has already been defined in volume group "
 "%s."
-msgstr ""
+msgstr "Um volume lógico com o nome %s já foi definido no grupo de volumes %s."
 
 #: ../pykickstart/commands/logvol.py:428 ../pykickstart/commands/logvol.py:511
 msgid "The logvol and autopart commands can't be used at the same time"
@@ -610,7 +616,7 @@ msgstr "Os comandos logvol e mount não podem ser usados ao mesmo tempo"
 
 #: ../pykickstart/commands/logvol.py:519
 msgid "Size required"
-msgstr ""
+msgstr "Tamanho necessário"
 
 #: ../pykickstart/commands/logvol.py:523
 msgid "Percentage must be between 0 and 100."
