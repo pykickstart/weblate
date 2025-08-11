@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 13:47-0800\n"
+"POT-Creation-Date: 2025-04-25 10:46-0700\n"
 "PO-Revision-Date: 2018-03-05 03:56+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/pykickstart/"
@@ -442,7 +442,7 @@ msgstr "Дана неверная точка монтирования «%s»"
 msgid "Invalid parameter to --when= argument: %s"
 msgstr "Недопустимые аргументы команды realm: %s"
 
-#: ../pykickstart/commands/raid.py:348
+#: ../pykickstart/commands/raid.py:347
 #, python-format
 msgid "Invalid raid level: %s"
 msgstr "Неверный уровень RAID: %s"
@@ -766,7 +766,7 @@ msgid ""
 "preferred alias %(new_option)s."
 msgstr ""
 
-#: ../pykickstart/sections.py:919
+#: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
 msgstr ""
@@ -947,9 +947,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Неподдерживаемая команда realm: «%s» "
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:148 ../pykickstart/version.py:157
-#: ../pykickstart/version.py:160 ../pykickstart/version.py:176
-#: ../pykickstart/version.py:229
+#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
+#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
+#: ../pykickstart/version.py:230
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Указанная версия не поддерживается: %s"

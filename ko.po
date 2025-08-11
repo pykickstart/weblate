@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 13:47-0800\n"
+"POT-Creation-Date: 2025-04-25 10:46-0700\n"
 "PO-Revision-Date: 2025-04-10 15:47+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -428,7 +428,7 @@ msgstr "잘못된 적재 지점 '%s'이 주어졌습니다"
 msgid "Invalid parameter to --when= argument: %s"
 msgstr "--when= argument: %s에 대한 잘못된 매개변수"
 
-#: ../pykickstart/commands/raid.py:348
+#: ../pykickstart/commands/raid.py:347
 #, python-format
 msgid "Invalid raid level: %s"
 msgstr "잘못된 레이드 레벨: %s"
@@ -732,7 +732,7 @@ msgstr ""
 "이는 별칭 %(new_option)s으로 언급되는 것과 같은 이 선택을 대체하는 당신의 킥"
 "스타트 파일로 수정해주세요."
 
-#: ../pykickstart/sections.py:919
+#: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
 msgstr "%certificate 부분이 비어 있습니다"
@@ -911,9 +911,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "지원되지 않는 영역 '%s' 명령"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:148 ../pykickstart/version.py:157
-#: ../pykickstart/version.py:160 ../pykickstart/version.py:176
-#: ../pykickstart/version.py:229
+#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
+#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
+#: ../pykickstart/version.py:230
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "지원되지 않는 버전 지정: %s"

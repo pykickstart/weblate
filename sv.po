@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 13:47-0800\n"
+"POT-Creation-Date: 2025-04-25 10:46-0700\n"
 "PO-Revision-Date: 2025-04-10 15:47+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -437,7 +437,7 @@ msgstr "Felaktig monteringspunkt ”%s” angiven"
 msgid "Invalid parameter to --when= argument: %s"
 msgstr "Felaktiga parametrar till argumentet --when=: %s"
 
-#: ../pykickstart/commands/raid.py:348
+#: ../pykickstart/commands/raid.py:347
 #, python-format
 msgid "Invalid raid level: %s"
 msgstr "Felaktig raid-nivå: %s"
@@ -736,7 +736,7 @@ msgstr ""
 "Ändra din kickstart-fil och ersätt denna flagga med dess rekommenderade "
 "alias %(new_option)s."
 
-#: ../pykickstart/sections.py:919
+#: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
 msgstr "%certifikatsektionen är tom"
@@ -918,9 +918,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Rikeskommandot ”%s” stödjs ej"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:148 ../pykickstart/version.py:157
-#: ../pykickstart/version.py:160 ../pykickstart/version.py:176
-#: ../pykickstart/version.py:229
+#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
+#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
+#: ../pykickstart/version.py:230
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Version som inte stöds angiven: %s"

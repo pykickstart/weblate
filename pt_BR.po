@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 13:47-0800\n"
+"POT-Creation-Date: 2025-04-25 10:46-0700\n"
 "PO-Revision-Date: 2024-01-16 14:25+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -440,7 +440,7 @@ msgstr "Ponto de montagem inválido \"%s\" dado"
 msgid "Invalid parameter to --when= argument: %s"
 msgstr "Parâmetro inválido para o argumento --when: %s"
 
-#: ../pykickstart/commands/raid.py:348
+#: ../pykickstart/commands/raid.py:347
 #, python-format
 msgid "Invalid raid level: %s"
 msgstr "Nível de raid inválido: %s"
@@ -764,7 +764,7 @@ msgstr ""
 "futuras. Por favor, modifique seu arquivo kickstart para substituir esta "
 "opção por seu apelido preferido %(new_option)s."
 
-#: ../pykickstart/sections.py:919
+#: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
 msgstr ""
@@ -953,9 +953,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Comando '%s' da área de autenticação não suportado"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:148 ../pykickstart/version.py:157
-#: ../pykickstart/version.py:160 ../pykickstart/version.py:176
-#: ../pykickstart/version.py:229
+#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
+#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
+#: ../pykickstart/version.py:230
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Versão especificada não suportada: %s"
