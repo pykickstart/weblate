@@ -13,13 +13,13 @@
 # Daniel Lara <danniel@fedoraproject.org>, 2016. #zanata
 # Marco Aurélio Krause <ouesten@me.com>, 2016. #zanata
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2021.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2021, 2024.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2021, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-25 10:46-0700\n"
-"PO-Revision-Date: 2024-01-16 14:25+0000\n"
+"PO-Revision-Date: 2025-08-11 20:22+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/pykickstart/master/pt_BR/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -57,7 +57,7 @@ msgstr "'--mkfsoptions' requer --reformat"
 #: ../pykickstart/commands/network.py:1121
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
-msgstr "--bindto =%s não é suportado para este tipo de dispositivo"
+msgstr "--bindto=%s não é suportado para este tipo de dispositivo"
 
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:329
@@ -438,7 +438,7 @@ msgstr "Ponto de montagem inválido \"%s\" dado"
 #: ../pykickstart/commands/snapshot.py:90
 #, python-format
 msgid "Invalid parameter to --when= argument: %s"
-msgstr "Parâmetro inválido para o argumento --when: %s"
+msgstr "O argumento --when= recebeu um parâmetro inválido: %s"
 
 #: ../pykickstart/commands/raid.py:347
 #, python-format
@@ -502,7 +502,7 @@ msgstr "O método deve ser uma url para ser adicionada à lista da repo."
 
 #: ../pykickstart/commands/realm.py:45
 msgid "Missing realm command arguments"
-msgstr "Faltando argumentos de comando da área de autenticação"
+msgstr "Faltando argumentos de comando realm"
 
 #: ../tools/ksflatten.py:44
 msgid "Need to specify a config to flatten"
@@ -513,14 +513,14 @@ msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, --"
 "size, --percent, or --hibernation."
 msgstr ""
-"Nenhum tamanho dado para o volume lógico. Use um entre --useexisting, --"
+"Nenhum tamanho dado para o volume lógico. Use um de --useexisting, --"
 "noformat, --size, --percent ou --hibernation."
 
 #: ../pykickstart/commands/repo.py:283
 #, python-format
 msgid "One of -%(options_list)s options must be specified for repo command."
 msgstr ""
-"Uma das opçẽos -%(options_list)s devem ser especificadas para o comando repo."
+"Uma das opções -%(options_list)s deve ser especificada para o comando repo."
 
 #: ../pykickstart/commands/timesource.py:136
 #, python-format
@@ -534,7 +534,7 @@ msgstr ""
 #, python-format
 msgid "One of -%(options_list)s options must be specified for url command."
 msgstr ""
-"Um das opções -%(options_list)s devem ser especificadas para o comando url."
+"Uma das opções -%(options_list)s deve ser especificada para o comando url."
 
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
@@ -556,14 +556,14 @@ msgstr ""
 #: ../pykickstart/commands/driverdisk.py:141
 msgid "One of --source or partition must be specified for driverdisk command."
 msgstr ""
-"Um de --source ou partition deve ser especificado para o comando driverdisk."
+"Um de --source ou partição deve ser especificado para o comando driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:186
 msgid ""
 "One of --source, --biospart, or partition must be specified for driverdisk "
 "command."
 msgstr ""
-"Um de --source, --biospart ou partição deve ser especificada para o comando "
+"Um de --source, --biospart ou partição deve ser especificado para o comando "
 "driverdisk."
 
 #: ../pykickstart/commands/keyboard.py:169
@@ -572,11 +572,11 @@ msgid ""
 "for the keyboard command"
 msgstr ""
 "Uma das opções --xlayouts, --vckeymap com valor(es) ou argumento é esperada "
-"para o comando do teclado"
+"para o comando keyboard"
 
 #: ../pykickstart/commands/harddrive.py:90
 msgid "One of biospart or partition options must be specified."
-msgstr "Um dos biospart ou opções de partition deve ser especificado."
+msgstr "Uma das opções biospart ou partição deve ser especificada."
 
 #: ../pykickstart/commands/timezone.py:281
 #: ../pykickstart/commands/timezone.py:386
@@ -593,23 +593,23 @@ msgstr "Apenas --devnum ou --devnum com --wwpn e --fcplun são permitidas."
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for repo command."
 msgstr ""
-"Apenas uma das opções %(options_list)s podem ser especificadas para o "
-"comando repo."
+"Somente uma das opções %(options_list)s pode ser especificada para o comando "
+"repo."
 
 #: ../pykickstart/commands/timesource.py:139
 #, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
 msgstr ""
-"Somente uma das opções %(options_list)s pode ser especificada para comando "
+"Somente uma das opções %(options_list)s pode ser especificada para o comando "
 "timesource."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for url command."
 msgstr ""
-"Apenas uma das opções %(options_list)s podem ser especificadas para o "
-"comando url."
+"Somente uma das opções %(options_list)s pode ser especificada para o comando "
+"url."
 
 #: ../pykickstart/commands/driverdisk.py:183
 msgid ""
@@ -622,51 +622,47 @@ msgstr ""
 msgid ""
 "Only one of --biospart and partition may be specified for driverdisk command."
 msgstr ""
-"Somente uma de --biospart e partições deve ser especificada para o comando "
+"Somente um de --biospart e partições deve ser especificado para o comando "
 "driverdisk."
 
 #: ../pykickstart/commands/nvdimm.py:141
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
-"Apenas uma das especificações de dispositivo --namespace and --blockdevs "
+"Somente uma das especificações de dispositivo --namespace and --blockdevs "
 "pode ser usada"
 
 #: ../pykickstart/commands/rescue.py:77
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
 msgstr ""
-"Somente um de --nomount e --romount pode ser especificado para comando "
+"Somente um de --nomount e --romount pode ser especificado para o comando "
 "rescue."
 
 #: ../pykickstart/commands/autopart.py:596
 msgid "Only one of --noswap and --hibernation can be specified."
-msgstr "Apenas uma entre --noswap e --hibernation pode ser especificada."
+msgstr "Somente um entre --noswap e --hibernation pode ser especificado."
 
 #: ../pykickstart/commands/autopart.py:526
 #: ../pykickstart/commands/logvol.py:906
 #: ../pykickstart/commands/partition.py:734 ../pykickstart/commands/raid.py:765
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
-"Apenas uma entre --pbkdf-time and --pbkdf-iterations pode ser especificada."
+"Somente um entre --pbkdf-time and --pbkdf-iterations pode ser especificado."
 
 #: ../pykickstart/commands/bootloader.py:550
-#, fuzzy
-#| msgid ""
-#| "Only one of --biospart and --source may be specified for driverdisk "
-#| "command."
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
 msgstr ""
-"Somente um de --biospart e --source deve ser especificado para o comando "
-"driverdisk."
+"Somente um de --sdboot e --extlinux pode ser especificado para o comando "
+"bootloader."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
 msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
 msgstr ""
-"Somente um de --source e partições pode ser especificada para o comando "
+"Somente um de --source e partições pode ser especificado para o comando "
 "driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:132
@@ -700,7 +696,7 @@ msgstr "A opção --ipv6-ignore-auto-dns requer que --device seja especificada"
 #: ../pykickstart/commands/timezone.py:285
 #: ../pykickstart/commands/timezone.py:390
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr "As opções --nontp e --ntpservers são mutualmente exclusivas"
+msgstr "As opções --nontp e --ntpservers são mutuamente exclusivas"
 
 #: ../pykickstart/commands/raid.py:438
 #, python-format
@@ -732,12 +728,12 @@ msgstr "Seção %s não termina com %%end."
 
 #: ../pykickstart/commands/snapshot.py:126
 msgid "Snapshot \"when\" parameter must be specified!"
-msgstr "O instantâneo \"quando\" parâmetro deve ser especificado!"
+msgstr "O instantâneo \"when\" parâmetro deve ser especificado!"
 
 #: ../pykickstart/commands/snapshot.py:131
 #, python-format
 msgid "Snapshot origin %s must be specified by VG/LV!"
-msgstr "Origem instantânea %s deve ser especificado por VG / LV!"
+msgstr "A origem do instantâneo %s deve ser especificada por VG / LV!"
 
 #: ../pykickstart/commands/snapshot.py:136
 #, python-format
@@ -767,13 +763,12 @@ msgstr ""
 #: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "A seção %certificate está vazia"
 
 #: ../pykickstart/base.py:449
-#, fuzzy, python-format
-#| msgid "The %s and reqpart commands can't be used at the same time"
+#, python-format
 msgid "The %s and %s commands can't be used at the same time."
-msgstr "Os comandos %s e reqpart não podem ser usados ao mesmo tempo"
+msgstr "Os comandos %s e %s não podem ser usados ao mesmo tempo."
 
 #: ../pykickstart/commands/partition.py:652
 msgid ""
@@ -784,7 +779,7 @@ msgstr ""
 
 #: ../pykickstart/commands/module.py:139
 msgid "The enable module command does not take position arguments!"
-msgstr "O comando enable module não aceita argumentos de posição!"
+msgstr "O comando module para habilitação não aceita argumentos posicionais!"
 
 #: ../tools/ksverdiff.py:84
 #, python-format
@@ -794,7 +789,7 @@ msgstr "Os comandos a seguir foram adicionados em %s:"
 #: ../tools/ksverdiff.py:79
 #, python-format
 msgid "The following commands were deprecated in %s:"
-msgstr "Os seguintes comandos são obsoletos em %s:"
+msgstr "Os seguintes comandos são descontinuados em %s:"
 
 #: ../tools/ksverdiff.py:73
 #, python-format
@@ -816,7 +811,7 @@ msgid ""
 "The following options were deprecated from the %(command_name)s command in "
 "%(version)s:"
 msgstr ""
-"As seguintes opções foram preteridas do comando %(command_name)s em "
+"As seguintes opções foram descontinuadas do comando %(command_name)s em "
 "%(version)s:"
 
 #: ../tools/ksverdiff.py:114
@@ -925,7 +920,7 @@ msgstr "Não foi possível abrir o arquivo kickstart: %s"
 #: ../pykickstart/commands/updates.py:69
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
-msgstr "Argumento inesperado para %(command)s comando: %(options)s"
+msgstr "Argumentos inesperados para o comando %(command)s: %(options)s"
 
 #: ../pykickstart/commands/nvdimm.py:131
 #, python-format
@@ -950,7 +945,7 @@ msgstr "Seção desconhecida do kickstart: %s"
 #: ../pykickstart/commands/realm.py:50
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Comando '%s' da área de autenticação não suportado"
+msgstr "'%s' não é suportado pelo comando realm"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:149 ../pykickstart/version.py:158
@@ -1006,11 +1001,11 @@ msgstr "autopart --type=btrfs não é suportado"
 
 #: ../pykickstart/commands/btrfs.py:224
 msgid "btrfs must be given a list of partitions"
-msgstr "Uma lista de partições deve se dada a btrfs"
+msgstr "Uma lista de partições deve se fornecida a btrfs"
 
 #: ../pykickstart/commands/btrfs.py:215
 msgid "btrfs must be given a mountpoint"
-msgstr "ponto de montagem deve ser dado ao btrfs"
+msgstr "ponto de montagem deve ser fornecido ao btrfs"
 
 #: ../pykickstart/commands/btrfs.py:226
 msgid "btrfs subvol requires specification of parent volume"
@@ -1018,11 +1013,11 @@ msgstr "btrfs subvol requer especificação de volume primário"
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
-msgstr "volume secundário btrfs requer um nome"
+msgstr "subolume btrfs requer um nome"
 
 #: ../pykickstart/commands/device.py:115
 msgid "device command requires two arguments: module type and name"
-msgstr "comando de dispositivo requer dois argumentos: tipo de módulo e nome"
+msgstr "O comando device requer dois argumentos: tipo de módulo e nome"
 
 #: ../tools/ksvalidator.py:54
 msgid "filename or URL to read from"
@@ -1030,38 +1025,40 @@ msgstr "nome do arquivo ou URL para ler"
 
 #: ../tools/ksvalidator.py:56
 msgid "halt after the first error or warning"
-msgstr "parar após o primeiro erro ou aviso"
+msgstr "interrompe após o primeiro erro ou aviso"
 
 #: ../pykickstart/commands/autopart.py:664
 #: ../pykickstart/commands/partition.py:812
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
 msgstr ""
+"hw-passphrase pode ser especificado apenas com dispositivos criptografados "
+"com LUKSv2 HW-OPAL"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
 msgid "invalid boolean value: %r"
-msgstr "valor booliano inválido: %r"
+msgstr "valor booleano inválido: %r"
 
 #: ../tools/ksvalidator.py:62 ../tools/ksverdiff.py:49
 msgid "list the available versions of kickstart syntax"
-msgstr "lista das versões da sintaxe do kickstart disponíveis"
+msgstr "lista as versões da sintaxe do kickstart disponíveis"
 
 #: ../tools/ksvalidator.py:59
 #, python-format
 msgid "parse include files when %%include is seen"
-msgstr "analisar arquivos de inclusão quando %%include for visto"
+msgstr "analisa arquivos de inclusão quando %%include for visto"
 
 #: ../tools/ksvalidator.py:66
 msgid "show this help message and exit"
-msgstr "mostrar essa mensagem de ajuda e sair"
+msgstr "mostra essa mensagem de ajuda e sai"
 
 #: ../tools/ksshell.py:155
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
-"a localização para gravar o arquivo finalizado kickstart, ou stdout se não "
-"for fornecido"
+"a localização para gravar o arquivo finalizado de kickstart, ou stdout se "
+"não for fornecido"
 
 #: ../tools/ksshell.py:157 ../tools/ksvalidator.py:64
 msgid "version of kickstart syntax to validate against"
