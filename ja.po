@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 13:47-0800\n"
+"POT-Creation-Date: 2025-04-25 10:46-0700\n"
 "PO-Revision-Date: 2023-03-02 08:20+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -449,7 +449,7 @@ msgstr "無効なマウントポイント '%s' が指定されました"
 msgid "Invalid parameter to --when= argument: %s"
 msgstr "--when= argument に無効なパラメーターです: %s"
 
-#: ../pykickstart/commands/raid.py:348
+#: ../pykickstart/commands/raid.py:347
 #, python-format
 msgid "Invalid raid level: %s"
 msgstr "無効な RAID レベル: %s"
@@ -789,7 +789,7 @@ msgstr ""
 "キックスタートファイルを変更して、このオプションを希望のエイリアス "
 "%(new_option)s に置き換えてください。"
 
-#: ../pykickstart/sections.py:919
+#: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
 msgstr ""
@@ -973,9 +973,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "レルムの '%s' コマンドがありません"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:148 ../pykickstart/version.py:157
-#: ../pykickstart/version.py:160 ../pykickstart/version.py:176
-#: ../pykickstart/version.py:229
+#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
+#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
+#: ../pykickstart/version.py:230
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "サポートされていないバージョンが指定されています: %s"

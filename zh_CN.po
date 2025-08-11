@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 13:47-0800\n"
+"POT-Creation-Date: 2025-04-25 10:46-0700\n"
 "PO-Revision-Date: 2023-12-10 09:44+0000\n"
 "Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -419,7 +419,7 @@ msgstr "指定了无效的挂载点 '%s'"
 msgid "Invalid parameter to --when= argument: %s"
 msgstr "对 --when= 参数的无效参数：%s"
 
-#: ../pykickstart/commands/raid.py:348
+#: ../pykickstart/commands/raid.py:347
 #, python-format
 msgid "Invalid raid level: %s"
 msgstr "无效 raid 级别：%s"
@@ -707,7 +707,7 @@ msgstr ""
 "在以后的版本中，行 %(lineno)s 上的 %(option)s 选项将弃用。请修改您的 "
 "kickstart 文件，将这个选项替换为首选别名 %(new_option)s。"
 
-#: ../pykickstart/sections.py:919
+#: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
 msgstr ""
@@ -884,9 +884,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "不支持的 realm '%s' 命令"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:148 ../pykickstart/version.py:157
-#: ../pykickstart/version.py:160 ../pykickstart/version.py:176
-#: ../pykickstart/version.py:229
+#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
+#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
+#: ../pykickstart/version.py:230
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "指定了不支持的版本：%s"

@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-29 13:47-0800\n"
+"POT-Creation-Date: 2025-04-25 10:46-0700\n"
 "PO-Revision-Date: 2025-04-12 18:53+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
@@ -446,7 +446,7 @@ msgstr "El punto de montaje '%s' no es válido"
 msgid "Invalid parameter to --when= argument: %s"
 msgstr "Parámetro no válido para --when= argument: %s"
 
-#: ../pykickstart/commands/raid.py:348
+#: ../pykickstart/commands/raid.py:347
 #, python-format
 msgid "Invalid raid level: %s"
 msgstr "Nivel raid incorrecto: %s"
@@ -766,7 +766,7 @@ msgstr ""
 "revisiones. Por favor modifique su archivo kickstart para remplazar esta "
 "opción con su alias preferido %(new_option)s."
 
-#: ../pykickstart/sections.py:919
+#: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
 msgstr "La sección %certificate está vacía"
@@ -951,9 +951,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Comando de realm '%s' no soportado"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:148 ../pykickstart/version.py:157
-#: ../pykickstart/version.py:160 ../pykickstart/version.py:176
-#: ../pykickstart/version.py:229
+#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
+#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
+#: ../pykickstart/version.py:230
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Se especificó una versión no soportada: %s"
