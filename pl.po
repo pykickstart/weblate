@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2025-04-11 02:07+0000\n"
+"PO-Revision-Date: 2025-08-15 09:53+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel9-branch/pl/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -470,8 +470,7 @@ msgstr "Polecenie kickstart %s wymaga jednego parametru"
 
 #: ../pykickstart/commands/displaymode.py:108
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
-msgstr ""
-"Polecenie kickstart wiersza poleceń nie obsługuje parametru --non-interactive"
+msgstr "Polecenie kickstart „cmdline” nie obsługuje parametru --non-interactive"
 
 #: ../pykickstart/commands/eula.py:68
 msgid "Kickstart command eula expects the --agreed option"
@@ -496,7 +495,7 @@ msgstr ""
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
-msgstr "Brak parametrów polecenia obszaru"
+msgstr "Brak parametrów polecenia „realm”"
 
 #: ../tools/ksflatten.py:47
 msgid "Need to specify a config to flatten"
@@ -742,7 +741,7 @@ msgstr "Opcja --fstype=tmpfs nie może być używana razem z --grow lub --maxsi
 
 #: ../pykickstart/commands/module.py:137
 msgid "The enable module command does not take position arguments!"
-msgstr "Polecenie włączenia modułu nie przyjmuje parametrów pozycji."
+msgstr "Polecenie włączenia „module” nie przyjmuje parametrów pozycji."
 
 #: ../tools/ksverdiff.py:84
 #, python-format
@@ -946,7 +945,7 @@ msgstr "Nieznana sekcja kickstart: %s"
 #: ../pykickstart/commands/realm.py:51
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Nieobsługiwane polecenie „%s” obszaru"
+msgstr "Nieobsługiwane polecenie „realm %s”"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:133 ../pykickstart/version.py:142
@@ -1011,7 +1010,7 @@ msgstr "Należy podać punkt montowania dla btrfs"
 
 #: ../pykickstart/commands/btrfs.py:226
 msgid "btrfs subvol requires specification of parent volume"
-msgstr "Podwolumin btrfs wymaga podania woluminu nadrzędnego"
+msgstr "btrfs „subvol” wymaga podania woluminu nadrzędnego"
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
