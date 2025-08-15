@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2024-01-19 09:36+0000\n"
+"PO-Revision-Date: 2025-08-15 09:53+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel9-branch/ko/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -37,72 +37,72 @@ msgstr "%s는 제거되었습니다."
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
-msgstr "'--mkfsoptions'는 --reformat을 필요로 합니다"
+msgstr "'--mkfsoptions' 는 --reformat 이 필요합니다"
 
 #: ../pykickstart/commands/network.py:822
 #: ../pykickstart/commands/network.py:1048
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
-msgstr "--bindto =%s 이 유형의 장치에서는 지원되지 않습니다"
+msgstr "--bindto=%s 는 이 유형의 장치에서 지원되지 않습니다"
 
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:330
 msgid "--boot-drive accepts only one argument"
-msgstr "--boot-drive는 하나의 인수만 허용합니다"
+msgstr "--boot-drive 는 하나의 인수만 허용합니다"
 
 #: ../pykickstart/commands/logvol.py:639 ../pykickstart/commands/logvol.py:748
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr "--chunksize 및 --metadatasize는 가상 풀 전용입니다"
+msgstr "--chunksize 및 --metadatasize 는 씬 풀 전용입니다"
 
 #: ../pykickstart/sections.py:746
 msgid "--default and --nobase cannot be used together"
-msgstr "--default와 --nobase는 함께 사용 할 수 없습니다"
+msgstr "--default 와 --nobase 는 함께 사용 할 수 없습니다"
 
 #: ../pykickstart/sections.py:759
 msgid "--default and --nocore cannot be used together"
-msgstr "--default와 --nocore는 함께 사용 할 수 없습니다"
+msgstr "--default 와 --nocore 는 함께 사용 할 수 없습니다"
 
 #: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/partition.py:685
 #: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
 msgid "--mkfsoptions and --fsprofile cannot be used together."
-msgstr "--mkfsoptions와 --fsprofile은 함께 사용 할 수 없습니다."
+msgstr "--mkfsoptions 와 --fsprofile 는 함께 사용 할 수 없습니다."
 
 #: ../pykickstart/commands/raid.py:722 ../pykickstart/commands/partition.py:682
 #: ../pykickstart/commands/logvol.py:812 ../pykickstart/commands/logvol.py:869
 msgid "--mkfsoptions with --noformat has no effect."
-msgstr "--noformat을 사용하는 --mkfsoptions는 아무런 효과가 없습니다."
+msgstr "--noformat 을 사용하는 --mkfsoptions 는 아무런 효과가 없습니다."
 
 #: ../pykickstart/commands/btrfs.py:264
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
-msgstr "--noformat 또는 --useexisting을 사용하는 --mkfsoptions은 아무런 효과가 없습니다."
+msgstr "--noformat 또는 --useexisting 를 사용하는 --mkfsoptions 는 효과가 없습니다."
 
 #: ../pykickstart/commands/partition.py:611
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr "--resize는 --onpart와 함께 사용해야 합니다"
+msgstr "--resize 는 --onpart 와 함께만 사용해야 합니다"
 
 #: ../pykickstart/commands/logvol.py:683
 msgid "--resize can only be used in conjunction with --useexisting"
-msgstr "--resize는 --useexisting과 함께 만 사용할 수 있습니다"
+msgstr "--resize 는 --useexisting 과 함께만 사용 할 수 있습니다"
 
 #: ../pykickstart/commands/logvol.py:686
 msgid "--resize requires --size to indicate new size"
-msgstr "--resize는 새로운 크기를 나타내기 위해 --size가 필요합니다"
+msgstr "--resize 는 새로운 크기를 나타내기 위해 --size 가 필요합니다"
 
 #: ../pykickstart/commands/partition.py:614
 msgid "--resize requires --size to specify new size"
-msgstr "--resize는 새로운 크기를 지정하기 위해 --size가 필요합니다"
+msgstr "--resize 는 새로운 크기를 지정하기 위해 --size 가 필요합니다"
 
 #: ../pykickstart/commands/logvol.py:787
 msgid "--size and --percent cannot both be specified for the same logvol"
-msgstr "--size와 --percent는 동일한 logvol에 대해 둘 다 지정할 수 없습니다"
+msgstr "--size 와 --percent 는 동일한 logvol에 대해 둘 다 지정 할 수 없습니다"
 
 #: ../pykickstart/commands/logvol.py:629 ../pykickstart/commands/logvol.py:739
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
-msgstr "--thin과 --thinpool은 동일한 logvol에 대해 둘 다 지정할 수 없습니다"
+msgstr "--thin 과 --thinpool 는 동일한 logvol에 대해 둘 다 지정 할 수 없습니다"
 
 #: ../pykickstart/commands/logvol.py:634 ../pykickstart/commands/logvol.py:743
 msgid "--thin requires --poolname to specify pool name"
-msgstr "--thin는 풀 이름을 지정하기 위해 --poolname이 필요합니다"
+msgstr "--thin 는 풀 이름을 지정하기 위해 --poolname 이 필요합니다"
 
 #: ../pykickstart/commands/dmraid.py:91
 #, python-format
@@ -226,7 +226,7 @@ msgstr "최소 하나의 선택 과/또는 인수가 %s 명령을 위해 예상�
 #: ../pykickstart/commands/network.py:1043
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
-msgstr "--bridgeopts의 잘못된 형식, ','로 구분된 key = value 선택을 예상하기"
+msgstr "--bridgeopts 의 잘못된 형식, ','로 구분된 key=value 옵션을 예상하기"
 
 #: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/partition.py:749
 #: ../pykickstart/commands/logvol.py:931
@@ -243,7 +243,7 @@ msgstr "캐쉬는 크기가 지정되어 있어야 합니다"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
-msgstr "--host 없이 --port를 지정 할 수 없습니다."
+msgstr "--host 없이 --port 를 지정 할 수 없습니다."
 
 #: ../pykickstart/commands/multipath.py:98
 #, python-format
@@ -297,12 +297,12 @@ msgstr "출력 파일 '%(filename)s': %(error_msg)s을 열기에 실패하였습
 #: ../tools/ksflatten.py:61
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
-msgstr "킥스타트 파일 '%(filename)s' : %(error_msg)s을 구문 분석에 실패하였습니다"
+msgstr "kickstart 파일 '%(filename)s' : %(error_msg)s 구문 분석에 실패함"
 
 #: ../tools/ksflatten.py:59
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
-msgstr "킥스타트 파일 '%(filename)s': %(error_msg)s 읽기에 실패하였습니다"
+msgstr "kickstart 파일 '%(filename)s' : %(error_msg)s 읽기에 실패함"
 
 #: ../tools/ksvalidator.py:110
 #, python-format
@@ -320,20 +320,22 @@ msgstr "입력 파일에서 일반적인 오류:  %s"
 
 #: ../tools/ksvalidator.py:115
 msgid "General kickstart error in input file"
-msgstr "입력 파일에서 일반적인 킥스타트 오류"
+msgstr "입력 파일에서 일반적인 kickstart 오류"
 
 #: ../pykickstart/parser.py:450
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr "그룹은 --nodefaults 및 --optional을 지정할 수 없음"
+msgstr "그룹은 --nodefaults 및 --optional 를 지정 할 수 없습니다"
 
 #: ../pykickstart/commands/network.py:942
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
-msgstr "network --interfacename에 '.'가 포함되어 있으면, 유효한 vlan id가 제시되어야 합니다."
+msgstr "만약 네트워크 --interfacename 에 '.'가 포함되어 있으면, 유효한 vlan id가 "
+"제시되어야 합니다."
 
 #: ../pykickstart/commands/network.py:951
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
-msgstr "네트워크 --interfacename이 'vlan' 으로 시작하면, 유효한 vlan id가 제시되어야 합니다."
+msgstr "만약 네트워크 --interfacename 가 'vlan'으로 시작하면, 유효한 vlan id가 "
+"제시되어야 합니다."
 
 #: ../pykickstart/base.py:221
 #, python-format
@@ -343,10 +345,10 @@ msgid ""
 "releases, which will result in a fatal error from kickstart.  Please modify "
 "your kickstart file to remove this command."
 msgstr ""
-"%(lineno)s 번째 줄에서 앞으로 삭제될 명령은 무시됩니다.  %(cmd)s 명령은 삭제"
-"되었으며 더이상 아무런 효과를 가지고 있지 않습니다.  킥스타트에서 치명적인 오"
-"류를 가져오는 이 명령은 다음 배포판부터 완전히 삭제될 것입니다. 이 명령을 제"
-"거하기 위해 킥스타트 파일을 수정해 주시기 바랍니다."
+"%(lineno)s 번째 줄에서 앞으로 삭제될 명령은 무시됩니다.  %(cmd)s 명령은 "
+"삭제되었으며 더 이상 아무런 효과를 가지고 있지 않습니다.  kickstart에서 "
+"치명적인 오류를 가져오는 이 명령은 다음 배포판부터 완전히 삭제될 것입니다. "
+"이 명령을 제거하기 위해 kickstart 파일을 수정해 주시기 바랍니다."
 
 #: ../pykickstart/options.py:183
 #, python-format
@@ -356,9 +358,10 @@ msgid ""
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"%(lineno)s 번째 줄에서 앞으로 삭제될 옵션은 무시됩니다. %(option)s 옵션은 삭제되었으며 더 이상 아무런 효과를 가지고 "
-"있지 않습니다. 킥스타트에서 치명적인 오류를 가져오는 이 옵션은 다음 배포판부터 완전히 삭제될 것입니다. 이 옵션을 제거하기 위해 "
-"킥스타트 파일을 수정해 주시기 바랍니다."
+"%(lineno)s 번째 줄에서 앞으로 더 이상 사용하지 않는 옵션 무시하기. %(option)"
+"s 옵션은 더 이상 사용하지 않으며 어떤 효과를 가지고 있지 않습니다. kickstart "
+"에서 치명적인 오류를 가져오는 것으로, 다음 출시에서 제거 될 수 있습니다. 이 "
+"옵션을 제거하려면 자신의 kickstart 파일을 수정하세요."
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -367,8 +370,9 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
-"선 %s 에서 더 이상 사용되지 않는 옵션을 무시합니다. zerombr 명령은 더 이상 옵션을 사용하지 않습니다. 이 후 출시에서는 "
-"킥스타트로 치명적인 오류가 발생합니다. 선택을 제거하려면 킥스타트 파일을 수정하십시오."
+"행 %s 에서 더 이상 사용되지 않는 옵션을 무시하기. zerombr 명령은 더 이상 "
+"옵션을 사용하지 않습니다. 이 후 출시에서는 kickstart 에서 치명적인 오류가 "
+"발생합니다.  모든 옵션을 제거하려면 자신의 킥스타트 파일을 수정하세요."
 
 #: ../pykickstart/parser.py:93
 #, python-format
@@ -440,7 +444,7 @@ msgstr "킥스타트 명령 %s 하나의 독립변수가 필요합니다"
 
 #: ../pykickstart/commands/displaymode.py:108
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
-msgstr "킥스타트 명령 cmdline은 --non-interactive 매개 변수를 지원하지 않습니다"
+msgstr "Kickstart 명령 cmdline 는 --non-interactive 매개 변수를 지원하지 않습니다"
 
 #: ../pykickstart/commands/eula.py:68
 msgid "Kickstart command eula expects the --agreed option"
@@ -464,7 +468,7 @@ msgstr "Method는 저장소 목록에 추가 할 URL이어야 합니다."
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
-msgstr "누락된 범위 명령 인수"
+msgstr "누락된 realm 명령 인수"
 
 #: ../tools/ksflatten.py:47
 msgid "Need to specify a config to flatten"
@@ -481,13 +485,13 @@ msgstr ""
 #: ../pykickstart/commands/repo.py:283
 #, python-format
 msgid "One of -%(options_list)s options must be specified for repo command."
-msgstr "-%(options_list)s 선택 중 하나는 저장소 명령을 위해 지정해야 합니다."
+msgstr "-%(options_list)s 옵션 중 하나는 repo 명령을 위해 지정해야 합니다."
 
 #: ../pykickstart/commands/timesource.py:136
 #, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
-msgstr "-%(options_list)s 선택 중 하나는 시간원 명령을 위해 지정해야 합니다."
+msgstr "-%(options_list)s 옵션 중 하나는 timesource 명령을 위해 지정해야 합니다."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -524,7 +528,8 @@ msgstr "--source, --biospart 또는 partition 중 하나는 driverdisk 명령을
 msgid ""
 "One of --xlayouts, --vckeymap options with value(s) or argument is expected "
 "for the keyboard command"
-msgstr "값 또는 인수가 있는 --xlayouts, --vckeymap 선택 중 하나는 키보드 명령을 위해 필요합니다"
+msgstr "값 또는 인수가 있는 --xlayouts, --vckeymap 옵션 중 하나는 keyboard 명령을 "
+"위해 필요합니다"
 
 #: ../pykickstart/commands/harddrive.py:90
 msgid "One of biospart or partition options must be specified."
@@ -539,13 +544,13 @@ msgstr "1 또는 0 인수는 %s 명령을 위하여 예상됩니다"
 #: ../pykickstart/commands/repo.py:286
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for repo command."
-msgstr "%(options_list)s 선택 중 하나만 저장소 명령을 위하여 지정 될 수 있습니다."
+msgstr "%(options_list)s 옵션 중 하나만 repo 명령을 위하여 지정 될 수 있습니다."
 
 #: ../pykickstart/commands/timesource.py:139
 #, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
-msgstr "%(options_list)s 선택중 하나만 시간원 명령을 위하여 지정 될 수 있습니다."
+msgstr "%(options_list)s 옵션 중 하나만 timesource 명령을 위하여 지정 될 수 있습니다."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
@@ -570,7 +575,7 @@ msgstr "--namespace 및 --blockdevs 장치 사양 중 하나만 사용 할 수 �
 #: ../pykickstart/commands/rescue.py:77
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
-msgstr "--nomount 및 --romount 중 하나만 복구 명령을 위하여 지정 될 수 있습니다."
+msgstr "--nomount 및 --romount 중 하나만 rescue 명령을 위하여 지정 될 수 있습니다."
 
 #: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
 #: ../pykickstart/commands/partition.py:737
@@ -592,14 +597,14 @@ msgstr "하나의 파티션만 driverdisk 명령을 위하여 지정 될 수 있
 #: ../pykickstart/commands/network.py:734
 #: ../pykickstart/commands/network.py:1037
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr "옵션 --bridgeopts는 --bridgeslaves를 지정해야 합니다"
+msgstr "옵션 --bridgeopts 는 --bridgeslaves 를 지정해야 합니다"
 
 #: ../pykickstart/commands/timezone.py:171
 #: ../pykickstart/commands/timezone.py:187
 #: ../pykickstart/commands/timezone.py:284
 #: ../pykickstart/commands/timezone.py:385
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr "선택 --nontp와 --ntpservers는 함께 사용 할 수 없습니다"
+msgstr "옵션 --nontp 와 --ntpservers 는 함께 사용 할 수 없습니다"
 
 #: ../pykickstart/commands/raid.py:438
 #, python-format
@@ -608,7 +613,7 @@ msgstr "%s를 위하여 필요한 파티션"
 
 #: ../tools/ksflatten.py:36
 msgid "Path to kickstart config file"
-msgstr "킥스타트 설정 파일의 경로"
+msgstr "kickstart 구성 파일의 경로"
 
 #: ../pykickstart/commands/logvol.py:766
 msgid "Percentage must be between 0 and 100."
@@ -658,8 +663,9 @@ msgid ""
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
-"행 %(lineno)s에 있는 %(option)s 선택은 미래의 출시에 사용되지 않을 것입니다. 이는 별칭 %(new_option)s으로 "
-"언급되는 것과 같은 이 선택을 대체하는 당신의 킥스타트 파일로 수정해주세요."
+"행 %(lineno)s에 있는 %(option)s 옵션은 다음 출시에서 더 이상 사용되지 "
+"않습니다. 별칭 %(new_option)s으로 언급되는 것과 같은 이 선택을 대체하는 "
+"당신의 kickstart 파일로 수정해주세요."
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:212
@@ -684,11 +690,11 @@ msgstr "'%s'와' mount '명령을 동시에 사용 할 수 없습니다"
 #: ../pykickstart/commands/partition.py:655
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
-msgstr "--fstype = tmpfs 옵션은 --grow 또는 --maxsize와 함께 사용 할 수 없습니다"
+msgstr "--fstype=tmpfs 옵션은 --grow 또는 --maxsize 와 함께 사용 할 수 없습니다"
 
 #: ../pykickstart/commands/module.py:137
 msgid "The enable module command does not take position arguments!"
-msgstr "활성화 모듈 명령은 위치 인수를 가지지 않습니다!"
+msgstr "활성화 module 명령은 위치 인수를 가지지 않습니다!"
 
 #: ../tools/ksverdiff.py:84
 #, python-format
@@ -733,7 +739,7 @@ msgid ""
 "\n"
 "%(msg)s\n"
 msgstr ""
-"킥스타트 파일의 %(lineno)s번째 줄에서 다음과 같은 문제 발생:\n"
+"kickstart 파일의 행 %(lineno)s 에서 다음과 같은 문제 발생:\n"
 "\n"
 "%(msg)s\n"
 
@@ -754,8 +760,8 @@ msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
-"이 선택 --isUtc는 미래의 출시에서 없어질 것입니다. 언급되어진 별칭 --utc와 함께 이 선택은 대체하는 킥스타트 파일을 "
-"수정해주기 바랍니다."
+"옵션 --isUtc 는 미래의 출시에서 없어질 것입니다. 언급되어진 별칭 --utc 와 "
+"함께 이 선택은 대체하는 kickstart 파일을 수정해주기 바랍니다."
 
 #: ../pykickstart/commands/timezone.py:441
 msgid ""
@@ -763,8 +769,8 @@ msgid ""
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
-"선택 --nontp는 미래 출시에서 사라질 것입니다. 시간원 --ntp-disable 명령 호출과 함께 이 선택을 대체하기 위해 킥스타트 "
-"파일을 수정해주세요."
+"옵션 --nontp 는 미래 출시에서 사라질 것입니다. 시간원 --ntp-disable 명령 "
+"호출과 함께 이 선택을 대체하기 위해 kickstart 파일을 수정해주세요."
 
 #: ../pykickstart/commands/timezone.py:435
 msgid ""
@@ -772,8 +778,9 @@ msgid ""
 "your kickstart file to replace this option with timesource --ntp-server "
 "<server hostname> command invocation, one per NTP server."
 msgstr ""
-"선택 --ntpservers는 미래 출시에 사용하지 않을 것입니다. NTP 서버당 하나씩 시간원 --ntp-server <server "
-"hostname> 명령 호출로 이 선택을 교체하는 킥스타트 파일을 수정해 주세요."
+"옵션 --ntpservers 는 미래 출시에 사용하지 않을 것입니다. NTP 서버 당 하나 씩 "
+"시간원 --ntp-server <server hostname> 명령 호출로 이 선택을 교체하는 "
+"kickstart 파일을 수정해 주세요."
 
 #: ../pykickstart/commands/partition.py:579
 #: ../pykickstart/commands/partition.py:645
@@ -822,7 +829,7 @@ msgstr "volgroup 및 mount 명령은 동시에 사용 될 수 없습니다"
 #: ../pykickstart/errors.py:73
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr "킥스타트파일의 %s번째 줄을 읽는데 문제 발생"
+msgstr "kickstart 파일의 행 %s 에서 읽기 중 문제 발생"
 
 #: ../pykickstart/commands/logvol.py:853
 msgid "Thin volumes cannot be cached"
@@ -881,7 +888,7 @@ msgstr "알 수 없는 kickstart 섹션: %s"
 #: ../pykickstart/commands/realm.py:51
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "지원되지 않는 영역 '%s' 명령"
+msgstr "지원되지 않는 realm '%s' 명령"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:133 ../pykickstart/version.py:142
@@ -917,20 +924,20 @@ msgstr "두 가지 구문 버전을 지정해야 합니다."
 
 #: ../tools/ksshell.py:152
 msgid "a basis file to use for seeding the kickstart data (optional)"
-msgstr "킥스타트 자료 파종을 위해 사용하는 기본 파일 (선택사항)"
+msgstr "kickstart 자료 파종을 위해 사용하는 기본 파일 (선택)"
 
 #: ../pykickstart/commands/autopart.py:423
 msgid "autopart --fstype cannot be used with --type=btrfs"
-msgstr "autopart --fstype은 --type=btrfs와 함께 사용 될 수 없습니다"
+msgstr "autopart --fstype 은 --type=btrfs 와 함께 사용 될 수 없습니다"
 
 #: ../pykickstart/commands/autopart.py:420
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
-msgstr "autopart --fstype=btrfs는 유효한 fstype이 아니며, 대신에 --type=btrfs를 "
+msgstr "autopart --fstype=btrfs 는 유효한 fstype이 아니며, 대신에 --type=btrfs 를 "
 "사용하세요"
 
 #: ../pykickstart/commands/autopart.py:630
 msgid "autopart --type=btrfs is not supported"
-msgstr "autopart --type=btrfs이 지원되지 않습니다"
+msgstr "autopart --type=btrfs 이 지원되지 않습니다"
 
 #: ../pykickstart/commands/btrfs.py:224
 msgid "btrfs must be given a list of partitions"
@@ -942,7 +949,7 @@ msgstr "btrfs에는 적재점이 주어져야 합니다"
 
 #: ../pykickstart/commands/btrfs.py:226
 msgid "btrfs subvol requires specification of parent volume"
-msgstr "btrfs 하위 볼륨에는 상위 볼륨 지정이 필요합니다"
+msgstr "btrfs subvol 에는 상위 볼륨의 사양이 필요합니다"
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
@@ -981,19 +988,19 @@ msgstr "도움말 보기 및 종료"
 #: ../tools/ksshell.py:154
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
-msgstr "완성된 킥스타트 파일을 기록 할 위치 또는 지정되지 않은 경우 stdout"
+msgstr "완성된 kickstart 파일을 기록 할 위치나, 지정되지 않은 경우 stdout"
 
 #: ../tools/ksvalidator.py:63 ../tools/ksshell.py:156
 msgid "version of kickstart syntax to validate against"
-msgstr "확인을 위한 킥스타트 구문의 버전"
+msgstr "확인을 위한 kickstart 구문의 버전"
 
 #: ../pykickstart/commands/volgroup.py:167
 msgid "volgroup must be given a VG name"
-msgstr "볼륨그룹은 VG 이름이 지정되어야 합니다"
+msgstr "volgroup 은 VG 이름이 지정되어야 합니다"
 
 #: ../pykickstart/commands/volgroup.py:170
 msgid "volgroup must be given a list of partitions"
-msgstr "볼륨그룹에 파티션 목록이 제공되어야 합니다"
+msgstr "volgroup 은 파티션 목록이 제공되어야 합니다"
 
 #~ msgid ""
 #~ "The %(option)s option was introduced in version %(intro)s, but you are "
