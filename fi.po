@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-25 10:46-0700\n"
-"PO-Revision-Date: 2025-01-10 21:43+0000\n"
+"PO-Revision-Date: 2025-09-04 01:59+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fi/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.13\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -751,7 +751,7 @@ msgstr ""
 #: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "%certificate -osio on tyhjä"
 
 #: ../pykickstart/base.py:449
 #, python-format
@@ -1019,6 +1019,7 @@ msgstr "lopeta ensimmäisen virheen tai varoituksen jälkeen"
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
 msgstr ""
+"hw-passphrase voidaan määrittää vain LUKSv2 HW-OPAL -salatuilla laitteilla"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
