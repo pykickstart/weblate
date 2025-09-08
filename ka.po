@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-25 10:46-0700\n"
-"PO-Revision-Date: 2022-11-23 17:19+0000\n"
+"PO-Revision-Date: 2025-09-08 03:54+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.13.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr "--resize -ს --onpart-სთან ერთად თუ გამოიყენებთ"
+msgstr "--resize -ს --onpart -სთან ერთად თუ გამოიყენებთ"
 
 #: ../pykickstart/commands/logvol.py:679
 msgid "--resize can only be used in conjunction with --useexisting"
@@ -306,12 +306,12 @@ msgstr "გამოტანის ფაილის გახსნის შ
 #: ../tools/ksflatten.py:57
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
-msgstr "Kickstart ფაილის დამუშავების შეცდომა '%(filename)s' : %(error_msg)s"
+msgstr "kickstart ფაილის დამუშავების შეცდომა '%(filename)s' : %(error_msg)s"
 
 #: ../tools/ksflatten.py:55
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
-msgstr "Kickstart ფაილის დამუშავების შეცდომა '%(filename)s' : %(error_msg)s"
+msgstr "kickstart ფაილის დამუშავების შეცდომა '%(filename)s' : %(error_msg)s"
 
 #: ../tools/ksvalidator.py:130
 #, python-format
@@ -327,7 +327,7 @@ msgstr "შეცდომა შეყვანილ ფაილში:  %s"
 
 #: ../tools/ksvalidator.py:136
 msgid "General kickstart error in input file"
-msgstr "Kickstart-ის შეცდომა შეყვანილ ფაილში"
+msgstr "kickstart-ის შეცდომა შეყვანილ ფაილში"
 
 #: ../pykickstart/parser.py:481
 msgid "Group cannot specify both --nodefaults and --optional"
@@ -657,7 +657,7 @@ msgstr "სექცია %s %%end-ით არ მთავრდება."
 
 #: ../pykickstart/commands/snapshot.py:126
 msgid "Snapshot \"when\" parameter must be specified!"
-msgstr "სწრაფი ასლის \"როდის\" პარამეტრის მითითება აუცილებელია!"
+msgstr "სწრაფი ასლის \"when\" პარამეტრის მითითება აუცილებელია!"
 
 #: ../pykickstart/commands/snapshot.py:131
 #, python-format
@@ -844,12 +844,12 @@ msgstr "უცნობი ბრძანება: %s"
 #: ../pykickstart/parser.py:796
 #, python-format
 msgid "Unknown kickstart section: %s"
-msgstr "Kickstart-ის უცნობი სექცია: %s"
+msgstr "kickstart-ის უცნობი სექცია: %s"
 
 #: ../pykickstart/commands/realm.py:50
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Realm-ის უცნობი ბრძანება: %s"
+msgstr "realm-ის უცნობი ბრძანება: %s"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:149 ../pykickstart/version.py:158
