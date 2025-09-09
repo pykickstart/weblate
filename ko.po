@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2025-08-15 09:53+0000\n"
+"PO-Revision-Date: 2025-09-10 02:31+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/ko/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.13.2\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -208,7 +208,7 @@ msgstr "%(command)s 명령: %(options)s 에 대한 예상치 않은 인수"
 #: ../pykickstart/commands/repo.py:211
 msgid ""
 "Only one of --baseurl and --mirrorlist may be specified for repo command."
-msgstr "--baseurl과 --mirrorlist 중 하나만 저장소 명령을 위해 지정됩니다."
+msgstr "--baseurl 과 --mirrorlist 중 하나만 저장소 명령을 위해 지정됩니다."
 
 #: ../pykickstart/commands/repo.py:214
 msgid "One of --baseurl or --mirrorlist must be specified for repo command."
@@ -488,11 +488,11 @@ msgstr "이 정보가 있는 zfcp는 이미 정의되어 있습니다."
 
 #: ../pykickstart/commands/url.py:170
 msgid "Only one of --url and --mirrorlist may be specified for url command."
-msgstr "--url과 --mirrorlist 중 하나만 url 명령을 위해 지정 할 수 있습니다."
+msgstr "--url 과 --mirrorlist 중 하나만 url 명령을 위해 지정 할 수 있습니다."
 
 #: ../pykickstart/commands/url.py:173
 msgid "One of --url or --mirrorlist must be specified for url command."
-msgstr "--url 또는 --mirrorlist중 하나는 url 명령에 지정 할 수 있습니다."
+msgstr "--url 또는 --mirrorlist 중 하나는 url 명령에 지정 할 수 있습니다."
 
 #: ../pykickstart/commands/raid.py:322 ../pykickstart/commands/logvol.py:350
 #: ../pykickstart/commands/partition.py:314
@@ -796,12 +796,12 @@ msgstr "단조롭게 할 구성 지정이 필요합니다"
 #: ../tools/ksflatten:57
 #, python-format
 msgid "Failed to read kickstart file '%s' : %s"
-msgstr "킥스타트 파일 '%s' : %s 읽기에 실패하였습니다"
+msgstr "kickstart 파일 '%s' 를 읽는 데 실패했습니다 : %s"
 
 #: ../tools/ksflatten:60
 #, python-format
 msgid "Failed to parse kickstart file '%s' : %s"
-msgstr "킥스타트 파일 '%s' : %s 구문 분석에 실패하였습니다"
+msgstr "kickstart 파일 '%s' 구문 분석에 실패했습니다 : %s"
 
 #: ../tools/ksflatten:67
 #, python-format
