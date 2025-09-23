@@ -8,13 +8,13 @@
 # feonsu <feonsu@gmail.com>, 2017. #zanata
 # feonsu <feonsu@gmail.com>, 2018. #zanata
 # feonsu <feonsu@gmail.com>, 2019. #zanata
-# Ondrej Sulek <feonsu@gmail.com>, 2020, 2021, 2024.
+# Ondrej Sulek <feonsu@gmail.com>, 2020, 2021, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-25 10:46-0700\n"
-"PO-Revision-Date: 2024-10-10 15:38+0000\n"
+"PO-Revision-Date: 2025-09-23 04:47+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/sk/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -736,7 +736,7 @@ msgstr ""
 #: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "Sekcia %certificate je prázdna"
 
 #: ../pykickstart/base.py:449
 #, python-format
@@ -1000,6 +1000,8 @@ msgstr "zastaviť po prvej chybe alebo varovaní"
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
 msgstr ""
+"hw-passphrase je možné špecifikovať iba so zariadeniami šifrovanými pomocou "
+"LUKSv2 HW-OPAL"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
