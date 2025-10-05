@@ -7,13 +7,13 @@
 # Şenol Korkmaz <senol.korkmaz@gmail.com>, 2011
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
-# Oğuz Ersen <oguz@ersen.moe>, 2022, 2023, 2024.
+# Oğuz Ersen <oguz@ersen.moe>, 2022, 2023, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-25 10:46-0700\n"
-"PO-Revision-Date: 2024-08-14 13:40+0000\n"
+"PO-Revision-Date: 2025-10-05 13:54+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/tr/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -773,7 +773,7 @@ msgstr ""
 #: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "%certificate bölümü boş"
 
 #: ../pykickstart/base.py:449
 #, python-format
@@ -1041,7 +1041,7 @@ msgstr "ilk hata veya uyarı sonrası durdur"
 #: ../pykickstart/commands/partition.py:812
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
-msgstr ""
+msgstr "hw-passphrase yalnızca LUKSv2 HW-OPAL şifreli aygıtlarda belirtilebilir"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
