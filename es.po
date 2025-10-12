@@ -20,8 +20,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-18 11:11-0800\n"
-"PO-Revision-Date: 2025-04-14 17:53+0000\n"
-"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
+"PO-Revision-Date: 2025-10-13 08:54+0000\n"
+"Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel9-branch/es/>\n"
 "Language: es\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -104,7 +104,7 @@ msgstr "No se pueden usar --size y --percent para el mismo volumen lógico"
 
 #: ../pykickstart/commands/logvol.py:629 ../pykickstart/commands/logvol.py:739
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
-msgstr "No se pueden usar --thin y -thinpool para el mismo volumen lógico"
+msgstr "No se pueden usar --thin y --thinpool para el mismo volumen lógico"
 
 #: ../pykickstart/commands/logvol.py:634 ../pykickstart/commands/logvol.py:743
 msgid "--thin requires --poolname to specify pool name"
@@ -471,7 +471,8 @@ msgstr "El comando %s necesita un argumento"
 
 #: ../pykickstart/commands/displaymode.py:108
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
-msgstr "El comando cmdline no permite la opción --non-interactive"
+msgstr ""
+"El comando cmdline de Kickstart no admite el parámetro --non-interactive"
 
 #: ../pykickstart/commands/eula.py:68
 msgid "Kickstart command eula expects the --agreed option"
@@ -479,7 +480,7 @@ msgstr "El comando eula necesita la opción --agreed"
 
 #: ../tools/ksflatten.py:38
 msgid "Kickstart version to use for interpreting config"
-msgstr "Versión de kickstart a usar para interpretar la configuración"
+msgstr "Versión de Kickstart a usar para interpretar la configuración"
 
 #: ../pykickstart/commands/raid.py:440
 msgid "Members may not be specified for preexisting RAID device"
@@ -495,7 +496,7 @@ msgstr "Method debe ser una URL para añadirla a la lista de repositorios."
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
-msgstr "Faltan los argumentos del comando de dominio"
+msgstr "Faltan los argumentos del comando de realm"
 
 #: ../tools/ksflatten.py:47
 msgid "Need to specify a config to flatten"
@@ -891,7 +892,7 @@ msgstr "No se pueden usar los comandos volgroup y mount a la vez"
 #: ../pykickstart/errors.py:73
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr "Hubo un problema al leer la línea %s del archivo kickstar"
+msgstr "Hubo un problema al leer desde la línea %s del archivo kickstart"
 
 #: ../pykickstart/commands/logvol.py:853
 msgid "Thin volumes cannot be cached"
@@ -989,7 +990,7 @@ msgstr "Debe especificar dos versiones de sintaxis."
 
 #: ../tools/ksshell.py:152
 msgid "a basis file to use for seeding the kickstart data (optional)"
-msgstr "un archivo base a partir del cual se va a trabajar (opcional)"
+msgstr "un archivo base para sembrar los datos kickstart (opcional)"
 
 #: ../pykickstart/commands/autopart.py:423
 msgid "autopart --fstype cannot be used with --type=btrfs"
