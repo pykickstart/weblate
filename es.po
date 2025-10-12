@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2025-04-30 00:50+0000\n"
+"PO-Revision-Date: 2025-10-13 08:54+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/es/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -131,8 +131,8 @@ msgid ""
 "The %(option)s option was introduced in version %(intro)s, but you are using"
 " kickstart syntax version %(version)s."
 msgstr ""
-"La opción %(option)s fue introducida en la versión %(intro)s, y usted está "
-"usando la versión de sintaxis %(version)s."
+"La opción %(option)s fue introducida en la versión %(intro)s, pero usted "
+"está usando la versión de sintaxis kickstart %(version)s."
 
 #: ../pykickstart/options.py:185
 #, python-format
@@ -183,7 +183,7 @@ msgstr ""
 #: ../pykickstart/errors.py:73
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr "Hubo un problema al leer la línea %s del archivo kickstar"
+msgstr "Hubo un problema al leer desde la línea %s del archivo kickstart"
 
 #: ../pykickstart/commands/iscsiname.py:61
 #: ../pykickstart/commands/sshkey.py:102
@@ -404,7 +404,8 @@ msgstr "Comando %s desconocido"
 
 #: ../pykickstart/commands/displaymode.py:108
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
-msgstr "El comando cmdline no permite la opción --non-interactive"
+msgstr ""
+"El comando cmdline de Kickstart no admite el parámetro --non-interactive"
 
 #: ../pykickstart/commands/nvdimm.py:132
 #, python-format
@@ -619,7 +620,7 @@ msgstr "No se pueden usar los comandos logvol y autopart a la vez"
 
 #: ../pykickstart/commands/logvol.py:627 ../pykickstart/commands/logvol.py:737
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
-msgstr "No se pueden usar --thin y -thinpool para el mismo volumen lógico"
+msgstr "No se pueden usar --thin y --thinpool para el mismo volumen lógico"
 
 #: ../pykickstart/commands/logvol.py:632 ../pykickstart/commands/logvol.py:741
 msgid "--thin requires --poolname to specify pool name"
@@ -834,7 +835,7 @@ msgstr "El comando de dominio 'join' sólo se debería usar una vez"
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
-msgstr "Faltan los argumentos del comando de dominio"
+msgstr "Faltan los argumentos del comando de realm"
 
 #: ../pykickstart/commands/realm.py:51
 #, python-format
@@ -970,7 +971,7 @@ msgstr "Ruta del archivo kickstart de configuración"
 
 #: ../tools/ksflatten.py:38
 msgid "Kickstart version to use for interpreting config"
-msgstr "Versión de kickstart a usar para interpretar la configuración"
+msgstr "Versión de Kickstart a usar para interpretar la configuración"
 
 #: ../tools/ksflatten.py:40
 msgid "Write flattened config to OUTPUT"
@@ -1046,7 +1047,7 @@ msgstr "Error general en el archivo de entrada: %s"
 
 #: ../tools/ksshell.py:146
 msgid "a basis file to use for seeding the kickstart data (optional)"
-msgstr "un archivo base a partir del cual se va a trabajar (opcional)"
+msgstr "un archivo base para sembrar los datos kickstart (opcional)"
 
 #: ../tools/ksshell.py:148
 msgid ""
