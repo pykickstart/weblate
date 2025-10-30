@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-25 10:46-0700\n"
-"PO-Revision-Date: 2025-09-04 01:59+0000\n"
+"PO-Revision-Date: 2025-10-30 17:38+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fi/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -319,13 +319,12 @@ msgstr "Kohdetiedoston '%(filename)s' avaus epäonnistui : %(error_msg)s"
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
 msgstr ""
-"Kickstart-tiedoston '%(filename)s' jäsentäminen epäonnistui: %(error_msg)s"
+"kickstart-tiedoston '%(filename)s' jäsentäminen epäonnistui: %(error_msg)s"
 
 #: ../tools/ksflatten.py:55
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
-msgstr ""
-"Kickstart-tiedoston '%(filename)s' lukeminen epäonnistui: %(error_msg)s"
+msgstr "kickstart-tiedoston '%(filename)s' lukeminen epäonnistui: %(error_msg)s"
 
 #: ../tools/ksvalidator.py:130
 #, python-format
@@ -395,7 +394,7 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
-"Ohitetaan vanhentunut vaihtoehto rivillä %s: Zerombr-komento ei enää ota "
+"Ohitetaan vanhentunut vaihtoehto rivillä %s: zerombr-komento ei enää ota "
 "mitään vaihtoehtoja. Tulevissa julkaisuissa tämä johtaa kickstartin "
 "kohtalokkaaseen virheeseen. Poista mahdolliset vaihtoehdot muokkaamalla "
 "kickstart-tiedostoa."
@@ -495,7 +494,7 @@ msgstr "Menetelmän on oltava repo-luetteloon lisättävän URL-osoitteen."
 
 #: ../pykickstart/commands/realm.py:45
 msgid "Missing realm command arguments"
-msgstr "Alueen komentoparametrit puuttuvat"
+msgstr "realm-komentoparametrit puuttuvat"
 
 #: ../tools/ksflatten.py:44
 msgid "Need to specify a config to flatten"
@@ -643,8 +642,8 @@ msgstr "Vain yksi --pbkdf-time ja --pbkdf-iterations voidaan määrittää."
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
 msgstr ""
-"Bootloader-komennolle voidaan määrittää vain yksi seuraavista: --sdboot tai "
-"--extlinux."
+"bootloader-komennolle voidaan määrittää vain toinen vaihtoehdoista --sdboot "
+"ja --extlinux."
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -856,7 +855,7 @@ msgstr "Aluekomento 'join' tulisi määrittää vain kerran"
 
 #: ../pykickstart/commands/syspurpose.py:86
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "Syspurpose-komento ei ota sijaintiparametreja!"
+msgstr "syspurpose-komento ei ota sijaintiparametreja!"
 
 #. return immediately because bad version is fatal for all files
 #: ../tools/ksflatten.py:49 ../tools/ksshell.py:168 ../tools/ksvalidator.py:114
@@ -873,7 +872,7 @@ msgstr "Vlan-tunnus on %(minimum)d-%(maximum)d vlan-id-alueen ulkopuolella."
 #: ../pykickstart/errors.py:73
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr "Kickstart-tiedoston rivin %s lukemisessa oli ongelma"
+msgstr "kickstart-tiedoston rivin %s lukemisessa oli ongelma"
 
 #: ../pykickstart/commands/logvol.py:840
 msgid "Thin volumes cannot be cached"
@@ -930,7 +929,7 @@ msgstr "Tuntematon kickstart-osio: %s"
 #: ../pykickstart/commands/realm.py:50
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Aluekomentoa '%s' ei tueta"
+msgstr "Ei-tuettu realm-komento '%s'"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:149 ../pykickstart/version.py:158
