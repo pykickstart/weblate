@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2024-12-20 13:01+0000\n"
+"PO-Revision-Date: 2025-10-31 09:54+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/fi/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -102,8 +102,8 @@ msgid ""
 "The %(option)s option was introduced in version %(intro)s, but you are using"
 " kickstart syntax version %(version)s."
 msgstr ""
-"Valitsin %(option)s esiteltiin versiossa %(intro)s, mutta käytössä on "
-"kicstart-syntaksin versio %(version)s."
+"%(option)s-vaihtoehto otettiin käyttöön versiossa %(intro)s, mutta käytät "
+"kickstart-syntaksin versiota %(version)s."
 
 #: ../pykickstart/options.py:92
 #, python-format
@@ -168,7 +168,7 @@ msgstr ""
 #: ../pykickstart/errors.py:48
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr "Kickstart-tiedoston rivin %s lukemisessa oli ongelma"
+msgstr "kickstart-tiedoston rivin %s lukemisessa oli ongelma"
 
 #: ../pykickstart/commands/snapshot.py:101
 msgid "Snapshot origin must be specified!"
@@ -375,7 +375,7 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
-"Ohitetaan vanhentunut vaihtoehto rivillä %s: Zerombr-komento ei enää ota "
+"Ohitetaan vanhentunut vaihtoehto rivillä %s: zerombr-komento ei enää ota "
 "mitään vaihtoehtoja. Tulevissa julkaisuissa tämä johtaa kickstartin "
 "kohtalokkaaseen virheeseen. Poista mahdolliset vaihtoehdot muokkaamalla "
 "kickstart-tiedostoa."
@@ -791,12 +791,12 @@ msgstr "Aluekomento 'join' tulisi määrittää vain kerran"
 
 #: ../pykickstart/commands/realm.py:48
 msgid "Missing realm command arguments"
-msgstr "Alueen komentoparametrit puuttuvat"
+msgstr "realm-komentoparametrit puuttuvat"
 
 #: ../pykickstart/commands/realm.py:54
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Aluekomentoa '%s' ei tueta"
+msgstr "Ei-tuettu realm-komento '%s'"
 
 #: ../pykickstart/commands/realm.py:67
 #, python-format
@@ -826,12 +826,12 @@ msgstr "On määritettävä kokoonpano flatten:ille"
 #: ../tools/ksflatten:57
 #, python-format
 msgid "Failed to read kickstart file '%s' : %s"
-msgstr "Aloitustiedoston '%s' lukeminen epäonnistui: %s"
+msgstr "kickstart-tiedoston '%s' lukeminen epäonnistui: %s"
 
 #: ../tools/ksflatten:60
 #, python-format
 msgid "Failed to parse kickstart file '%s' : %s"
-msgstr "Aloitustiedoston '%s' jäsentäminen epäonnistui: %s"
+msgstr "kickstart-tiedoston '%s' jäsentäminen epäonnistui: %s"
 
 #: ../tools/ksflatten:67
 #, python-format
