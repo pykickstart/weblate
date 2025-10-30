@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2021-04-22 08:02+0000\n"
-"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"PO-Revision-Date: 2025-10-31 09:54+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/fi/>\n"
 "Language: fi\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -123,8 +123,8 @@ msgid ""
 "The %(option)s option was introduced in version %(intro)s, but you are using"
 " kickstart syntax version %(version)s."
 msgstr ""
-"Valitsin %(option)s esiteltiin versiossa %(intro)s, mutta käytössä on "
-"kicstart-syntaksin versio %(version)s."
+"%(option)s-vaihtoehto otettiin käyttöön versiossa %(intro)s, mutta käytät "
+"kickstart-syntaksin versiota %(version)s."
 
 #: ../pykickstart/options.py:185
 #, python-format
@@ -175,7 +175,7 @@ msgstr ""
 #: ../pykickstart/errors.py:73
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr "Kickstart-tiedoston rivin %s lukemisessa oli ongelma"
+msgstr "kickstart-tiedoston rivin %s lukemisessa oli ongelma"
 
 #: ../pykickstart/commands/iscsiname.py:61
 #: ../pykickstart/commands/sshkey.py:102
@@ -351,7 +351,7 @@ msgstr "'--mkfsoptions' vaatii '--reformat'"
 
 #: ../pykickstart/commands/syspurpose.py:86
 msgid "The syspurpose command does not take positional arguments!"
-msgstr "Syspurpose-komento ei ota sijaintiparametreja!"
+msgstr "syspurpose-komento ei ota sijaintiparametreja!"
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -360,7 +360,7 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
-"Ohitetaan vanhentunut vaihtoehto rivillä %s: Zerombr-komento ei enää ota "
+"Ohitetaan vanhentunut vaihtoehto rivillä %s: zerombr-komento ei enää ota "
 "mitään vaihtoehtoja. Tulevissa julkaisuissa tämä johtaa kickstartin "
 "kohtalokkaaseen virheeseen. Poista mahdolliset vaihtoehdot muokkaamalla "
 "kickstart-tiedostoa."
@@ -814,12 +814,12 @@ msgstr "Aluekomento 'join' tulisi määrittää vain kerran"
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
-msgstr "Alueen komentoparametrit puuttuvat"
+msgstr "realm-komentoparametrit puuttuvat"
 
 #: ../pykickstart/commands/realm.py:51
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr "Aluekomentoa '%s' ei tueta"
+msgstr "Ei-tuettu realm-komento '%s'"
 
 #: ../pykickstart/commands/realm.py:63
 #, python-format
@@ -957,13 +957,13 @@ msgstr "On määritettävä kokoonpano flatten:ille"
 #: ../tools/ksflatten.py:60
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
-msgstr "Kickstart-tiedoston '%(filename)s' lukeminen epäonnistui: %(error_msg)s"
+msgstr "kickstart-tiedoston '%(filename)s' lukeminen epäonnistui: %(error_msg)s"
 
 #: ../tools/ksflatten.py:63
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
 msgstr ""
-"Kickstart-tiedoston '%(filename)s' jäsentäminen epäonnistui: %(error_msg)s"
+"kickstart-tiedoston '%(filename)s' jäsentäminen epäonnistui: %(error_msg)s"
 
 #: ../tools/ksflatten.py:70
 #, python-format
