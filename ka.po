@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 10:46-0700\n"
+"POT-Creation-Date: 2025-12-02 10:56-0800\n"
 "PO-Revision-Date: 2025-09-08 03:54+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -259,7 +259,7 @@ msgstr "--port -ის --host -ის გარეშე მითითებ�
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
 msgstr ""
 
-#: ../pykickstart/commands/rhsm.py:109
+#: ../pykickstart/commands/rhsm.py:118
 msgid "Empty string is not a valid activation key."
 msgstr "ცარიელი სტრიქონი აქტივაციის სწორი გასაღები არაა."
 
@@ -852,9 +852,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "realm-ის უცნობი ბრძანება: %s"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
-#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
-#: ../pykickstart/version.py:230
+#: ../pykickstart/version.py:151 ../pykickstart/version.py:160
+#: ../pykickstart/version.py:163 ../pykickstart/version.py:179
+#: ../pykickstart/version.py:232
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "მითითებული ვერსია მხარდაუჭერელია: %s"

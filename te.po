@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 10:46-0700\n"
+"POT-Creation-Date: 2025-12-02 10:56-0800\n"
 "PO-Revision-Date: 2015-04-14 01:45+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Telugu (http://www.transifex.com/projects/p/pykickstart/"
@@ -257,7 +257,7 @@ msgstr ""
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
 msgstr ""
 
-#: ../pykickstart/commands/rhsm.py:109
+#: ../pykickstart/commands/rhsm.py:118
 msgid "Empty string is not a valid activation key."
 msgstr ""
 
@@ -349,8 +349,8 @@ msgid ""
 "your kickstart file to remove this command."
 msgstr ""
 "డిప్రికేటెడ్ ఆదేశం ఆన్ లైన్ %(lineno)s వదిలేయండి:  ఆదేశం %(cmd)s డిప్రికేట్ అయింది మరియు ఎటువంటి "
-"ప్రభావం కలుగచేయదు. ఏదైతే కిక్ స్టార్టు నుండి ఫాటల్ దోషాలను ఇస్తుందో, దానిని భవిష్య విడుదలలో తీసివేయవచ్చు."
-"ఈ ఆదేశాన్ని తొలగించుటకు కిక్ స్టార్టు దస్త్రాన్ని మార్చండి."
+"ప్రభావం కలుగచేయదు. ఏదైతే కిక్ స్టార్టు నుండి ఫాటల్ దోషాలను ఇస్తుందో, దానిని భవిష్య విడుదలలో "
+"తీసివేయవచ్చు.ఈ ఆదేశాన్ని తొలగించుటకు కిక్ స్టార్టు దస్త్రాన్ని మార్చండి."
 
 #: ../pykickstart/options.py:202
 #, fuzzy, python-format
@@ -861,9 +861,9 @@ msgid "Unsupported realm '%s' command"
 msgstr ""
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
-#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
-#: ../pykickstart/version.py:230
+#: ../pykickstart/version.py:151 ../pykickstart/version.py:160
+#: ../pykickstart/version.py:163 ../pykickstart/version.py:179
+#: ../pykickstart/version.py:232
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "మద్దతునీయని విడుదల తెలుపబడినది: %s"
@@ -980,8 +980,8 @@ msgstr ""
 #~ "The %(option)s option was introduced in version %(intro)s, but you are "
 #~ "using kickstart syntax version %(version)s."
 #~ msgstr ""
-#~ "ఆ అవకాశం %(option)s విడుదల%(intro)s లో పరిచయం చేయబడింది,అయితే మీరు విడుదల "
-#~ "%(version)s యొక్క కిక్ స్టార్టు సింటాక్సు వాడుతున్నారు."
+#~ "ఆ అవకాశం %(option)s విడుదల%(intro)s లో పరిచయం చేయబడింది,అయితే మీరు విడుదల %"
+#~ "(version)s యొక్క కిక్ స్టార్టు సింటాక్సు వాడుతున్నారు."
 
 #~ msgid "The %(option)s option is no longer supported."
 #~ msgstr "%(option)s ఎంపిక మద్దతు లేదు."
