@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 10:46-0700\n"
+"POT-Creation-Date: 2025-12-02 10:56-0800\n"
 "PO-Revision-Date: 2025-08-15 12:16+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -84,7 +84,8 @@ msgstr "--noformat 을 사용하는 --mkfsoptions 는 아무런 효과가 없습
 
 #: ../pykickstart/commands/btrfs.py:264
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
-msgstr "--noformat 또는 --useexisting 를 사용하는 --mkfsoptions 는 효과가 없습니다."
+msgstr ""
+"--noformat 또는 --useexisting 를 사용하는 --mkfsoptions 는 효과가 없습니다."
 
 #: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
@@ -264,7 +265,7 @@ msgstr "--host 없이 --port 를 지정 할 수 없습니다."
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
 msgstr "장치 '%(device)s'는 이미 다중 경로 '%(multipathdev)s'에서 사용중입니다"
 
-#: ../pykickstart/commands/rhsm.py:109
+#: ../pykickstart/commands/rhsm.py:118
 msgid "Empty string is not a valid activation key."
 msgstr "빈 문자열은 유효한 활성화 키가 아닙니다."
 
@@ -342,14 +343,16 @@ msgstr "그룹은 --nodefaults 및 --optional 를 지정 할 수 없습니다"
 
 #: ../pykickstart/commands/network.py:1015
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
-msgstr "만약 네트워크 --interfacename 에 '.'가 포함되어 있으면, 유효한 vlan id가 "
-"제시되어야 합니다."
+msgstr ""
+"만약 네트워크 --interfacename 에 '.'가 포함되어 있으면, 유효한 vlan id가 제시"
+"되어야 합니다."
 
 #: ../pykickstart/commands/network.py:1024
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
-msgstr "만약 네트워크 --interfacename 가 'vlan'으로 시작하면, 유효한 vlan id가 "
-"제시되어야 합니다."
+msgstr ""
+"만약 네트워크 --interfacename 가 'vlan'으로 시작하면, 유효한 vlan id가 제시되"
+"어야 합니다."
 
 #: ../pykickstart/base.py:222
 #, python-format
@@ -359,10 +362,10 @@ msgid ""
 "releases, which will result in a fatal error from kickstart.  Please modify "
 "your kickstart file to remove this command."
 msgstr ""
-"%(lineno)s 번째 줄에서 앞으로 삭제될 명령은 무시됩니다.  %(cmd)s 명령은 "
-"삭제되었으며 더 이상 아무런 효과를 가지고 있지 않습니다.  kickstart에서 "
-"치명적인 오류를 가져오는 이 명령은 다음 배포판부터 완전히 삭제될 것입니다. "
-"이 명령을 제거하기 위해 kickstart 파일을 수정해 주시기 바랍니다."
+"%(lineno)s 번째 줄에서 앞으로 삭제될 명령은 무시됩니다.  %(cmd)s 명령은 삭제"
+"되었으며 더 이상 아무런 효과를 가지고 있지 않습니다.  kickstart에서 치명적인 "
+"오류를 가져오는 이 명령은 다음 배포판부터 완전히 삭제될 것입니다. 이 명령을 "
+"제거하기 위해 kickstart 파일을 수정해 주시기 바랍니다."
 
 #: ../pykickstart/options.py:202
 #, python-format
@@ -372,10 +375,10 @@ msgid ""
 "releases, which will result in a fatal error from kickstart. Please modify "
 "your kickstart file to remove this option."
 msgstr ""
-"%(lineno)s 번째 줄에서 앞으로 더 이상 사용하지 않는 옵션 무시하기. %(option)"
-"s 옵션은 더 이상 사용하지 않으며 어떤 효과를 가지고 있지 않습니다. kickstart "
-"에서 치명적인 오류를 가져오는 것으로, 다음 출시에서 제거 될 수 있습니다. 이 "
-"옵션을 제거하려면 자신의 kickstart 파일을 수정하세요."
+"%(lineno)s 번째 줄에서 앞으로 더 이상 사용하지 않는 옵션 무시하기. "
+"%(option)s 옵션은 더 이상 사용하지 않으며 어떤 효과를 가지고 있지 않습니다. "
+"kickstart 에서 치명적인 오류를 가져오는 것으로, 다음 출시에서 제거 될 수 있습"
+"니다. 이 옵션을 제거하려면 자신의 kickstart 파일을 수정하세요."
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -384,9 +387,9 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
-"행 %s 에서 더 이상 사용되지 않는 옵션을 무시하기. zerombr 명령은 더 이상 "
-"옵션을 사용하지 않습니다. 이 후 출시에서는 kickstart 에서 치명적인 오류가 "
-"발생합니다.  모든 옵션을 제거하려면 자신의 킥스타트 파일을 수정하세요."
+"행 %s 에서 더 이상 사용되지 않는 옵션을 무시하기. zerombr 명령은 더 이상 옵션"
+"을 사용하지 않습니다. 이 후 출시에서는 kickstart 에서 치명적인 오류가 발생합"
+"니다.  모든 옵션을 제거하려면 자신의 킥스타트 파일을 수정하세요."
 
 #: ../pykickstart/parser.py:86
 #, python-format
@@ -459,7 +462,8 @@ msgstr "킥스타트 명령 %s 하나의 독립변수가 필요합니다"
 
 #: ../pykickstart/commands/displaymode.py:110
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
-msgstr "Kickstart 명령 cmdline 는 --non-interactive 매개 변수를 지원하지 않습니다"
+msgstr ""
+"Kickstart 명령 cmdline 는 --non-interactive 매개 변수를 지원하지 않습니다"
 
 #: ../pykickstart/commands/eula.py:68
 msgid "Kickstart command eula expects the --agreed option"
@@ -506,7 +510,8 @@ msgstr "-%(options_list)s 옵션 중 하나는 repo 명령을 위해 지정해�
 #, python-format
 msgid ""
 "One of -%(options_list)s options must be specified for timesource command."
-msgstr "-%(options_list)s 옵션 중 하나는 timesource 명령을 위해 지정해야 합니다."
+msgstr ""
+"-%(options_list)s 옵션 중 하나는 timesource 명령을 위해 지정해야 합니다."
 
 #: ../pykickstart/commands/url.py:193
 #, python-format
@@ -547,8 +552,9 @@ msgstr ""
 msgid ""
 "One of --xlayouts, --vckeymap options with value(s) or argument is expected "
 "for the keyboard command"
-msgstr "값 또는 인수가 있는 --xlayouts, --vckeymap 옵션 중 하나는 keyboard 명령을 "
-"위해 필요합니다"
+msgstr ""
+"값 또는 인수가 있는 --xlayouts, --vckeymap 옵션 중 하나는 keyboard 명령을 위"
+"해 필요합니다"
 
 #: ../pykickstart/commands/harddrive.py:90
 msgid "One of biospart or partition options must be specified."
@@ -568,13 +574,15 @@ msgstr "--wwpn 와 --fcplun 가 있는 --devnum 또는 --devnum 만 허용됩니
 #: ../pykickstart/commands/repo.py:286
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for repo command."
-msgstr "%(options_list)s 옵션 중 하나만 repo 명령을 위하여 지정 될 수 있습니다."
+msgstr ""
+"%(options_list)s 옵션 중 하나만 repo 명령을 위하여 지정 될 수 있습니다."
 
 #: ../pykickstart/commands/timesource.py:139
 #, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for timesource command."
-msgstr "%(options_list)s 옵션 중 하나만 timesource 명령을 위하여 지정 될 수 있습니다."
+msgstr ""
+"%(options_list)s 옵션 중 하나만 timesource 명령을 위하여 지정 될 수 있습니다."
 
 #: ../pykickstart/commands/url.py:196
 #, python-format
@@ -603,7 +611,8 @@ msgstr "--namespace 및 --blockdevs 장치 사양 중 하나만 사용 할 수 �
 #: ../pykickstart/commands/rescue.py:77
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
-msgstr "--nomount 및 --romount 중 하나만 rescue 명령을 위하여 지정 될 수 있습니다."
+msgstr ""
+"--nomount 및 --romount 중 하나만 rescue 명령을 위하여 지정 될 수 있습니다."
 
 #: ../pykickstart/commands/autopart.py:596
 msgid "Only one of --noswap and --hibernation can be specified."
@@ -718,9 +727,9 @@ msgid ""
 "releases. Please modify your kickstart file to replace this option with its "
 "preferred alias %(new_option)s."
 msgstr ""
-"행 %(lineno)s에 있는 %(option)s 옵션은 다음 출시에서 더 이상 사용되지 "
-"않습니다. 별칭 %(new_option)s으로 언급되는 것과 같은 이 선택을 대체하는 "
-"당신의 kickstart 파일로 수정해주세요."
+"행 %(lineno)s에 있는 %(option)s 옵션은 다음 출시에서 더 이상 사용되지 않습니"
+"다. 별칭 %(new_option)s으로 언급되는 것과 같은 이 선택을 대체하는 당신의 "
+"kickstart 파일로 수정해주세요."
 
 #: ../pykickstart/sections.py:928
 #, python-format
@@ -735,7 +744,8 @@ msgstr "%s 및 %s 명령은 동시에 사용 될 수 없습니다."
 #: ../pykickstart/commands/partition.py:652
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
-msgstr "--fstype=tmpfs 옵션은 --grow 또는 --maxsize 와 함께 사용 할 수 없습니다"
+msgstr ""
+"--fstype=tmpfs 옵션은 --grow 또는 --maxsize 와 함께 사용 할 수 없습니다"
 
 #: ../pykickstart/commands/module.py:139
 msgid "The enable module command does not take position arguments!"
@@ -795,8 +805,8 @@ msgid ""
 "The option --isUtc will be deprecated in future releases. Please modify your "
 "kickstart file to replace this option with its preferred alias --utc."
 msgstr ""
-"옵션 --isUtc 는 미래의 출시에서 없어질 것입니다. 언급되어진 별칭 --utc 와 "
-"함께 이 선택은 대체하는 kickstart 파일을 수정해주기 바랍니다."
+"옵션 --isUtc 는 미래의 출시에서 없어질 것입니다. 언급되어진 별칭 --utc 와 함"
+"께 이 선택은 대체하는 kickstart 파일을 수정해주기 바랍니다."
 
 #: ../pykickstart/commands/timezone.py:446
 msgid ""
@@ -804,8 +814,8 @@ msgid ""
 "kickstart file to replace this option with timesource --ntp-disable command "
 "invocation."
 msgstr ""
-"옵션 --nontp 는 미래 출시에서 사라질 것입니다. 시간원 --ntp-disable 명령 "
-"호출과 함께 이 선택을 대체하기 위해 kickstart 파일을 수정해주세요."
+"옵션 --nontp 는 미래 출시에서 사라질 것입니다. 시간원 --ntp-disable 명령 호출"
+"과 함께 이 선택을 대체하기 위해 kickstart 파일을 수정해주세요."
 
 #: ../pykickstart/commands/timezone.py:440
 msgid ""
@@ -900,9 +910,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "지원되지 않는 realm '%s' 명령"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
-#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
-#: ../pykickstart/version.py:230
+#: ../pykickstart/version.py:151 ../pykickstart/version.py:160
+#: ../pykickstart/version.py:163 ../pykickstart/version.py:179
+#: ../pykickstart/version.py:232
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "지원되지 않는 버전 지정: %s"
@@ -943,8 +953,9 @@ msgstr "autopart --fstype 은 --type=btrfs 와 함께 사용 될 수 없습니�
 
 #: ../pykickstart/commands/autopart.py:357
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
-msgstr "autopart --fstype=btrfs 는 유효한 fstype이 아니며, 대신에 --type=btrfs 를 "
-"사용하세요"
+msgstr ""
+"autopart --fstype=btrfs 는 유효한 fstype이 아니며, 대신에 --type=btrfs 를 사"
+"용하세요"
 
 #: ../pykickstart/commands/autopart.py:541
 #: ../pykickstart/commands/autopart.py:611
@@ -1060,8 +1071,8 @@ msgstr "volgroup 은 파티션 목록이 제공되어야 합니다"
 #~ "The %(option)s option was introduced in version %(intro)s, but you are "
 #~ "using kickstart syntax version %(version)s."
 #~ msgstr ""
-#~ "%(option)s 옵션은 버전 %(intro)s에서 소개되었지만  kickstart 구문 버전 "
-#~ "%(version)s을(를) 사용하고 있습니다. "
+#~ "%(option)s 옵션은 버전 %(intro)s에서 소개되었지만  kickstart 구문 버전 %"
+#~ "(version)s을(를) 사용하고 있습니다. "
 
 #~ msgid "The %(option)s option is no longer supported."
 #~ msgstr "옵션 %(option)s 는 더이상 지원되지 않습니다."
@@ -1070,5 +1081,5 @@ msgstr "volgroup 은 파티션 목록이 제공되어야 합니다"
 #~ "The %(option)s option was removed in version %(removed)s, but you are "
 #~ "using kickstart syntax version %(version)s."
 #~ msgstr ""
-#~ "%(option)s 옵션은 버전 %(removed)s에서 제거되었지만 kickstart 구문 버전 "
-#~ "%(version)s을(를) 사용하고 있습니다. "
+#~ "%(option)s 옵션은 버전 %(removed)s에서 제거되었지만 kickstart 구문 버전 %"
+#~ "(version)s을(를) 사용하고 있습니다. "
