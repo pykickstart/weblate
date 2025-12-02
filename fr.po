@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 10:46-0700\n"
+"POT-Creation-Date: 2025-12-02 10:56-0800\n"
 "PO-Revision-Date: 2025-04-10 02:09+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
@@ -290,7 +290,7 @@ msgstr ""
 "Le périphérique « %(device)s » est déjà utilisé dans le périphérique sur "
 "chemins multiples « %(multipathdev)s »"
 
-#: ../pykickstart/commands/rhsm.py:109
+#: ../pykickstart/commands/rhsm.py:118
 msgid "Empty string is not a valid activation key."
 msgstr "Une chaîne vide n’est pas une clé d’activation valide."
 
@@ -964,9 +964,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Commande « %s » de domaine non pris en charge"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
-#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
-#: ../pykickstart/version.py:230
+#: ../pykickstart/version.py:151 ../pykickstart/version.py:160
+#: ../pykickstart/version.py:163 ../pykickstart/version.py:179
+#: ../pykickstart/version.py:232
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "La version spécifiée n’est pas prise en charge : %s"
@@ -1151,8 +1151,8 @@ msgstr "volgroup doit obtenir une liste de partitions"
 #~ "using kickstart syntax version %(version)s."
 #~ msgstr ""
 #~ "L'option %(option)s a été implémentée dans la version %(intro)s, mais "
-#~ "vous utilisez la syntaxe de kickstart correspondant à la version "
-#~ "%(version)s."
+#~ "vous utilisez la syntaxe de kickstart correspondant à la version %"
+#~ "(version)s."
 
 #~ msgid "The %(option)s option is no longer supported."
 #~ msgstr "L'option %(option)s n'est plus prise en charge."
@@ -1162,8 +1162,8 @@ msgstr "volgroup doit obtenir une liste de partitions"
 #~ "using kickstart syntax version %(version)s."
 #~ msgstr ""
 #~ "L'option %(option)s a été supprimée dans la version %(removed)s, mais "
-#~ "vous utilisez la syntaxe de kickstart correspondant à la version "
-#~ "%(version)s."
+#~ "vous utilisez la syntaxe de kickstart correspondant à la version %"
+#~ "(version)s."
 
 #~ msgid "Invalid snapshot when parameter: %s"
 #~ msgstr "Snapshot non valide avec le paramètre : %s"

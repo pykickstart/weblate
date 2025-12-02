@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 10:46-0700\n"
+"POT-Creation-Date: 2025-12-02 10:56-0800\n"
 "PO-Revision-Date: 2025-08-11 20:22+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -279,7 +279,7 @@ msgstr ""
 "Dispositivo \"%(device)s\" já está utilizado em multipath "
 "\"%(multipathdev)s\""
 
-#: ../pykickstart/commands/rhsm.py:109
+#: ../pykickstart/commands/rhsm.py:118
 msgid "Empty string is not a valid activation key."
 msgstr "String vazia não é uma chave de ativação válida."
 
@@ -948,9 +948,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "'%s' não é suportado pelo comando realm"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
-#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
-#: ../pykickstart/version.py:230
+#: ../pykickstart/version.py:151 ../pykickstart/version.py:160
+#: ../pykickstart/version.py:163 ../pykickstart/version.py:179
+#: ../pykickstart/version.py:232
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Versão especificada não suportada: %s"

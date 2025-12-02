@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-25 10:46-0700\n"
+"POT-Creation-Date: 2025-12-02 10:56-0800\n"
 "PO-Revision-Date: 2025-04-09 01:53+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -261,7 +261,7 @@ msgstr "無法指定--port而不使用--host。"
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
 msgstr "設備'%(device)s'已用於多路徑'%(multipathdev)s“"
 
-#: ../pykickstart/commands/rhsm.py:109
+#: ../pykickstart/commands/rhsm.py:118
 msgid "Empty string is not a valid activation key."
 msgstr "空字串不是有效的啟動金鑰。"
 
@@ -875,9 +875,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "不支持的領域'%s'命令"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:149 ../pykickstart/version.py:158
-#: ../pykickstart/version.py:161 ../pykickstart/version.py:177
-#: ../pykickstart/version.py:230
+#: ../pykickstart/version.py:151 ../pykickstart/version.py:160
+#: ../pykickstart/version.py:163 ../pykickstart/version.py:179
+#: ../pykickstart/version.py:232
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "指定了不支援的版本：%s"
