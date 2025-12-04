@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-02 09:30-0800\n"
+"POT-Creation-Date: 2025-12-04 09:19-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,7 +250,7 @@ msgstr ""
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
 msgstr ""
 
-#: ../pykickstart/commands/rhsm.py:109
+#: ../pykickstart/commands/rhsm.py:118
 msgid "Empty string is not a valid activation key."
 msgstr ""
 
