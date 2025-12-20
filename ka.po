@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-02 10:56-0800\n"
-"PO-Revision-Date: 2025-09-08 03:54+0000\n"
+"PO-Revision-Date: 2025-12-20 23:30+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.2\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -426,7 +426,7 @@ msgstr ""
 #: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/hmc.py:46
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
-msgstr ""
+msgstr "Kickstart-ის ბრძანება %s არგუმენტებს არ იღებს"
 
 #: ../pykickstart/commands/updates.py:66
 #, python-format
@@ -476,6 +476,8 @@ msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, --"
 "size, --percent, or --hibernation."
 msgstr ""
+"ლოგიკური ტომის ზომა მითითებული არაა. გამოიყენეთ ერთ-ერთი პარამეტრებიდან --"
+"useexisting, --noformat, --size, --percent, ან --hibernation."
 
 #: ../pykickstart/commands/repo.py:283
 #, python-format
