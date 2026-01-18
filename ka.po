@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:38-0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-01-19 02:58+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
+"pykickstart/rhel9-branch/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -35,7 +37,7 @@ msgstr ""
 #: ../pykickstart/commands/network.py:1048
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
-msgstr ""
+msgstr "--bindto=%s მხარდაუჭერელია ამ ტიპის მოწყობილობებისთვის"
 
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:330
@@ -52,7 +54,7 @@ msgstr ""
 
 #: ../pykickstart/sections.py:771
 msgid "--default and --nocore cannot be used together"
-msgstr ""
+msgstr "--default და --nocore ერთად ვერ გამოიყენება"
 
 #: ../pykickstart/commands/logvol.py:815 ../pykickstart/commands/logvol.py:872
 #: ../pykickstart/commands/partition.py:685 ../pykickstart/commands/raid.py:725
@@ -86,7 +88,7 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:787
 msgid "--size and --percent cannot both be specified for the same logvol"
-msgstr ""
+msgstr "--size და --percent ერთი და იგივე logvol-ზე მითითებული ვერ იქნება"
 
 #: ../pykickstart/commands/logvol.py:629 ../pykickstart/commands/logvol.py:739
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
@@ -94,7 +96,7 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:634 ../pykickstart/commands/logvol.py:743
 msgid "--thin requires --poolname to specify pool name"
-msgstr ""
+msgstr "--thin -ს --poolname სჭირდება, პულის სახელისთვის"
 
 #: ../pykickstart/commands/dmraid.py:91
 #, python-format
@@ -111,12 +113,12 @@ msgstr ""
 #: ../pykickstart/commands/raid.py:458
 #, python-format
 msgid "A RAID device with the name %s has already been defined."
-msgstr ""
+msgstr "RAID მოწყობილობა სახელით %s უკვე აღწერილია."
 
 #: ../pykickstart/commands/btrfs.py:233
 #, python-format
 msgid "A btrfs volume with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "Btrfs ტომი მიმაგრების წერტილით %s უკვე აღწერილია."
 
 #: ../pykickstart/commands/group.py:95
 #, python-format
@@ -143,12 +145,12 @@ msgstr ""
 #: ../pykickstart/commands/partition.py:448
 #, python-format
 msgid "A partition with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "დანაყოფი მიმაგრების წერტილით %s უკვე აღწერილია."
 
 #: ../pykickstart/commands/repo.py:294
 #, python-format
 msgid "A repo with the name %s has already been defined."
-msgstr ""
+msgstr "რეპო სახელით %s უკვე აღწერილია."
 
 #: ../pykickstart/commands/keyboard.py:163 ../pykickstart/commands/rootpw.py:85
 #: ../pykickstart/commands/rootpw.py:142 ../pykickstart/commands/sshpw.py:160
@@ -200,7 +202,7 @@ msgstr ""
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
-msgstr ""
+msgstr "ქმედება %(action)s სახელების სივრცეზე %(namespace)s უკვე აღწერილია."
 
 #: ../pykickstart/commands/sshkey.py:120 ../pykickstart/commands/sshpw.py:170
 #, python-format
@@ -231,7 +233,7 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:861
 msgid "Cache needs to have size specified"
-msgstr ""
+msgstr "ქეშს ზომის მითითება სჭირდება"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
@@ -260,7 +262,7 @@ msgstr ""
 #: ../pykickstart/load.py:99
 #, python-format
 msgid "Error opening file: %s"
-msgstr ""
+msgstr "ფაილის გახსნის შეცდომა: %s"
 
 #: ../tools/ksvalidator.py:88
 #, python-format
@@ -357,7 +359,7 @@ msgstr ""
 #: ../tools/ksshell.py:224
 #, python-format
 msgid "Internal command %s not recognized."
-msgstr ""
+msgstr "შიდა ბრძანება %s უცნობია."
 
 #: ../pykickstart/commands/autopart.py:285
 #, python-format
@@ -372,7 +374,7 @@ msgstr ""
 #: ../pykickstart/commands/logvol.py:865
 #, python-format
 msgid "Invalid cache mode given: %s"
-msgstr ""
+msgstr "ქეშის მითითებული რეჟიმი არასწორია: %s"
 
 #: ../pykickstart/commands/mount.py:184
 #, python-format
@@ -392,7 +394,7 @@ msgstr ""
 #: ../pykickstart/commands/realm.py:63
 #, python-format
 msgid "Invalid realm arguments: %s"
-msgstr ""
+msgstr "რეალმის არასწორი არგუმენტები: %s"
 
 #: ../pykickstart/commands/upgrade.py:104
 #, python-format
@@ -423,7 +425,7 @@ msgstr ""
 
 #: ../pykickstart/commands/eula.py:68
 msgid "Kickstart command eula expects the --agreed option"
-msgstr ""
+msgstr "Kickstart ის ბრძანება eula --agreed პარამეტრს მოელოდა"
 
 #: ../tools/ksflatten.py:38
 msgid "Kickstart version to use for interpreting config"
@@ -628,7 +630,7 @@ msgstr ""
 
 #: ../pykickstart/commands/realm.py:66
 msgid "Specify only one realm to join"
-msgstr ""
+msgstr "შესაძლებელია მხოლოდ ერთი რეალმის მითითება"
 
 #: ../pykickstart/sections.py:798
 #, python-format
@@ -917,7 +919,7 @@ msgstr ""
 
 #: ../tools/ksvalidator.py:53
 msgid "filename or URL to read from"
-msgstr ""
+msgstr "ფაილი ან URL, საიდანაც უნდა წავიკითხო"
 
 #: ../tools/ksvalidator.py:55
 msgid "halt after the first error or warning"
