@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:38-0800\n"
-"PO-Revision-Date: 2026-01-19 02:58+0000\n"
+"PO-Revision-Date: 2026-01-27 09:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel9-branch/ka/>\n"
@@ -123,7 +123,7 @@ msgstr "Btrfs ტომი მიმაგრების წერტილი�
 #: ../pykickstart/commands/group.py:95
 #, python-format
 msgid "A group with the name %s has already been defined."
-msgstr ""
+msgstr "ჯგუფი სახელით %s უკვე აღწერილია."
 
 #: ../pykickstart/commands/logvol.py:482
 #, python-format
@@ -389,7 +389,7 @@ msgstr ""
 #: ../pykickstart/commands/raid.py:348
 #, python-format
 msgid "Invalid raid level: %s"
-msgstr ""
+msgstr "RAID-ის მითითებული დონე არასწორია: %s"
 
 #: ../pykickstart/commands/realm.py:63
 #, python-format
@@ -899,7 +899,7 @@ msgstr ""
 
 #: ../pykickstart/commands/btrfs.py:224
 msgid "btrfs must be given a list of partitions"
-msgstr ""
+msgstr "btrfs-ს დანაყოფების სია უნდა გადაეცეს"
 
 #: ../pykickstart/commands/btrfs.py:215
 msgid "btrfs must be given a mountpoint"
