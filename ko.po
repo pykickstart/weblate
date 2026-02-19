@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:39-0800\n"
-"PO-Revision-Date: 2025-08-15 09:53+0000\n"
+"PO-Revision-Date: 2026-02-19 06:43+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel10-branch/ko/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.16\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -390,7 +390,7 @@ msgstr ""
 #: ../pykickstart/parser.py:83
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
-msgstr "%%ksappend의 잘못된 URL: %s"
+msgstr "%%ksappend의 잘못된 url: %s"
 
 #: ../tools/ksshell.py:225
 #, python-format
@@ -478,7 +478,7 @@ msgstr "멤버는 기존의 볼륨그룹을 위하여 지정 될 수 없습니�
 
 #: ../pykickstart/commands/repo.py:342
 msgid "Method must be a url to be added to the repo list."
-msgstr "Method는 저장소 목록에 추가 할 URL이어야 합니다."
+msgstr "Method는 저장소 목록에 추가 할 url이어야 합니다."
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
@@ -866,7 +866,7 @@ msgstr "버전 %s는 pykickstart에 의해 지원되지 않습니다"
 #: ../pykickstart/commands/network.py:1026
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
-msgstr "vlan ID이 %(minimum)d-%(maximum)d vlan id 범위 밖에 있습니다."
+msgstr "vlan id 부분은 %(minimum)d-%(maximum)d vlan id 범위 밖에 있습니다."
 
 #: ../pykickstart/commands/volgroup.py:222
 msgid "The volgroup and autopart commands can't be used at the same time"
