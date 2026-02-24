@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-16 09:30-0700\n"
-"PO-Revision-Date: 2026-01-27 09:58+0000\n"
+"PO-Revision-Date: 2026-02-25 05:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/ka/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16\n"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
@@ -169,7 +169,7 @@ msgstr ""
 
 #: ../pykickstart/commands/zfcp.py:132
 msgid "A zfcp with this information has already been defined."
-msgstr ""
+msgstr "ZFCP ამ ინფორმაციით უკვე აღწერტილია."
 
 #: ../pykickstart/commands/nvdimm.py:155
 #, python-format
@@ -206,7 +206,7 @@ msgstr "ქმედება %(action)s სახელების სივ�
 #: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
-msgstr ""
+msgstr "SSH მომხმარებელი სახელით %s უკვე არსებობს."
 
 #: ../pykickstart/commands/timezone.py:266
 #: ../pykickstart/commands/timezone.py:341
@@ -317,11 +317,14 @@ msgstr ""
 #: ../pykickstart/commands/network.py:954
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
+"თუ ქსელის --interfacename შეიცავს წერტილს, ამას სწორი VLAN ID უნდა "
+"მოჰყვებოდეს."
 
 #: ../pykickstart/commands/network.py:963
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
+"თუ ქსელის --interfacename \"vlan\"-ით იწყება, სწორი VLAN ID უნდა მოჰყვებოდეს."
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -361,7 +364,7 @@ msgstr ""
 #: ../pykickstart/parser.py:92
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
-msgstr ""
+msgstr "%%ksappend -ის არასწორი URL: %s"
 
 #: ../tools/ksshell.py:218
 #, python-format
