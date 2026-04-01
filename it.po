@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-02 10:56-0800\n"
+"POT-Creation-Date: 2026-04-01 14:01-0700\n"
 "PO-Revision-Date: 2016-09-08 05:40+0000\n"
 "Last-Translator: Andrea Masala <andrea.masala87@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/pykickstart/"
@@ -870,9 +870,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Realm di comando '%s' non supportato"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:151 ../pykickstart/version.py:160
-#: ../pykickstart/version.py:163 ../pykickstart/version.py:179
-#: ../pykickstart/version.py:232
+#: ../pykickstart/version.py:152 ../pykickstart/version.py:161
+#: ../pykickstart/version.py:164 ../pykickstart/version.py:180
+#: ../pykickstart/version.py:233
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Versione specificata non supportata: %s"
