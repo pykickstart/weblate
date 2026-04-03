@@ -13,13 +13,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Transtats <suanand@redhat.com>, 2023.
 # Jingge Chen <mariocanfly@hotmail.com>, 2023.
+# 耗子 <haozi@loli.email>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-01 14:01-0700\n"
-"PO-Revision-Date: 2023-12-10 09:44+0000\n"
-"Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
+"PO-Revision-Date: 2026-04-02 23:58+0000\n"
+"Last-Translator: 耗子 <haozi@loli.email>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/pykickstart/master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -600,13 +601,9 @@ msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr "只能指定 --pbkdf-time 和 --pbkdf-iterations 中的一个。"
 
 #: ../pykickstart/commands/bootloader.py:550
-#, fuzzy
-#| msgid ""
-#| "Only one of --biospart and --source may be specified for driverdisk "
-#| "command."
 msgid ""
 "Only one of --sdboot and --extlinux may be specified for bootloader command."
-msgstr "driverdisk 命令可指定 --biospart 和 --source 之一。"
+msgstr "bootloader 命令只能指定 --sdboot 和 --extlinux 中的一个。"
 
 #: ../pykickstart/commands/driverdisk.py:138
 #: ../pykickstart/commands/driverdisk.py:179
@@ -710,13 +707,12 @@ msgstr ""
 #: ../pykickstart/sections.py:928
 #, python-format
 msgid "The %certificate section is empty"
-msgstr ""
+msgstr "%certificate 节为空"
 
 #: ../pykickstart/base.py:449
-#, fuzzy, python-format
-#| msgid "The %s and reqpart commands can't be used at the same time"
+#, python-format
 msgid "The %s and %s commands can't be used at the same time."
-msgstr "无法同时使用 %s 和 reqpart 命令"
+msgstr "%s 和 %s 命令不能同时使用。"
 
 #: ../pykickstart/commands/partition.py:652
 msgid ""
@@ -964,7 +960,7 @@ msgstr "在第一次错误或警告时停止"
 #: ../pykickstart/commands/partition.py:812
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
-msgstr ""
+msgstr "hw-passphrase 仅可用于 LUKSv2 HW-OPAL 加密设备"
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
