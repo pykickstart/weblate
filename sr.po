@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-20 09:11-0700\n"
-"PO-Revision-Date: 2026-04-18 07:58+0000\n"
+"PO-Revision-Date: 2026-04-22 13:58+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/sr/>\n"
@@ -56,11 +56,11 @@ msgstr "--bindto=%s није подржано за ову врсту уређа�
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:329
 msgid "--boot-drive accepts only one argument"
-msgstr "--boot-drive прима само један аргумент"
+msgstr "--boot-drive прихвата само један аргумент"
 
 #: ../pykickstart/commands/logvol.py:635 ../pykickstart/commands/logvol.py:745
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr "--chunksize и --metadatasize су само за thin базене"
+msgstr "--chunksize и --metadatasize су само за танке депое"
 
 #: ../pykickstart/sections.py:797
 msgid "--default and --nobase cannot be used together"
@@ -86,19 +86,19 @@ msgstr "--mkfsoptions са --noformat или --useexisting нема дејств
 
 #: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr "--resize може да се користи само уз --onpart"
+msgstr "--resize може бити коришћено само заједно са --onpart"
 
 #: ../pykickstart/commands/logvol.py:679
 msgid "--resize can only be used in conjunction with --useexisting"
-msgstr "--resize може да се користи само уз --useexisting"
+msgstr "--resize се може користити само заједно са --useexisting"
 
 #: ../pykickstart/commands/logvol.py:682
 msgid "--resize requires --size to indicate new size"
-msgstr "--resize захтева --size да назначи нову величину"
+msgstr "--resize захтева --size за указивање на нову величину"
 
 #: ../pykickstart/commands/partition.py:619
 msgid "--resize requires --size to specify new size"
-msgstr "--resize захтева --size да назначи нову величину"
+msgstr "--resize захтева --size за навођење нове величине"
 
 #: ../pykickstart/commands/logvol.py:774
 msgid "--size and --percent cannot both be specified for the same logvol"
@@ -106,7 +106,7 @@ msgstr "--size и --percent не могу заједно бити назначе
 
 #: ../pykickstart/commands/logvol.py:625 ../pykickstart/commands/logvol.py:736
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
-msgstr "--thin и --thinpool не могу бити заједно наведени за исти logvol"
+msgstr "--thin и --thinpool не могу бити наведени истовремено за исти logvol"
 
 #: ../pykickstart/commands/logvol.py:630 ../pykickstart/commands/logvol.py:740
 msgid "--thin requires --poolname to specify pool name"
@@ -123,7 +123,7 @@ msgstr ""
 #: ../pykickstart/commands/fcoe.py:149
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
-msgstr "FCOE уређај са именом %s је већ дефинисан."
+msgstr "FCoE уређај са називом %s је већ дефинисан."
 
 #: ../pykickstart/commands/raid.py:458
 #, python-format
@@ -152,12 +152,12 @@ msgstr ""
 #: ../pykickstart/commands/device.py:156
 #, python-format
 msgid "A module with the name %s has already been defined."
-msgstr "Модул са именом %s је већ дефинисан."
+msgstr "Модул са називом %s је већ дефинисан."
 
 #: ../pykickstart/commands/network.py:497
 #, python-format
 msgid "A network device with the name %s has already been defined."
-msgstr "Мрежни уређај са именом %s је већ дефинисан."
+msgstr "Мрежни уређај са називом %s је већ дефинисан."
 
 #: ../pykickstart/commands/partition.py:461
 #, python-format
@@ -178,16 +178,16 @@ msgstr "Један аргумент се очекује за наредбу %s"
 #: ../pykickstart/commands/user.py:205
 #, python-format
 msgid "A user with the name %s has already been defined."
-msgstr "Корисник са именом %s је већ дефинисан."
+msgstr "Корисник са именом %s је већ одређен."
 
 #: ../pykickstart/commands/volgroup.py:186
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
-msgstr "volgroup са именом %s је већ дефинисан."
+msgstr "„volgroup“ са називом %s је већ одређен."
 
 #: ../pykickstart/commands/zfcp.py:135
 msgid "A zfcp with this information has already been defined."
-msgstr "zfcp са овим информацијама је већ дефинисан."
+msgstr "zfcp са овим подацима је већ дефинисан."
 
 #: ../pykickstart/commands/nvdimm.py:154
 #, python-format
@@ -259,13 +259,12 @@ msgstr "Кеш мора имати наведену величину"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
-msgstr "Не може се назначити --port без --host."
+msgstr "Не могу навести --port без --host."
 
 #: ../pykickstart/commands/multipath.py:98
 #, python-format
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
-msgstr ""
-"Уређаји '%(device)s' су већ употребљени у вишелинијском '%(multipathdev)s'"
+msgstr "Уређај „%(device)s“ се већ користи у multipath-у „%(multipathdev)s“"
 
 #: ../pykickstart/commands/rhsm.py:118
 msgid "Empty string is not a valid activation key."
@@ -338,7 +337,7 @@ msgstr "Општа грешка у улазној датотеци:  %s"
 
 #: ../tools/ksvalidator.py:136
 msgid "General kickstart error in input file"
-msgstr "Општа kickstart грешка у улазној датотеци"
+msgstr "Општа кикстарт грешка у улазној датотеци"
 
 #: ../pykickstart/parser.py:481
 msgid "Group cannot specify both --nodefaults and --optional"
@@ -347,15 +346,14 @@ msgstr "Група не може назначити и --nodefaults и --optiona
 #: ../pykickstart/commands/network.py:1015
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
-"Ако мрежни --interfacename садржи '.', исправан vlan id би требао ићи после "
-"тога."
+"Ако network --interfacename садржи „.“, треба да следи исправан vlan id."
 
 #: ../pykickstart/commands/network.py:1024
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
-"Ако мрежни --interfacename почиње са 'vlan', исправан vlan id би треба ићи "
-"после тога."
+"Ако network --interfacename почиње са „vlan“, треба да следи исправан vlan "
+"id."
 
 #: ../pykickstart/base.py:222
 #, python-format
@@ -478,15 +476,15 @@ msgstr "Кикстарт издање за тумачење подешавања
 
 #: ../pykickstart/commands/raid.py:440
 msgid "Members may not be specified for preexisting RAID device"
-msgstr "Чланови не требају бити назначени за постојеће RAID уређаје"
+msgstr "Чланови не могу бити наведени за већ постојећи РАИД уређај"
 
 #: ../pykickstart/commands/volgroup.py:178
 msgid "Members may not be specified for preexisting volgroup"
-msgstr "Чланови не треба да буду одређени за већ постојеће volgroup-е"
+msgstr "Чланови не могу бити наведени за већ постојећи „volgroup“"
 
 #: ../pykickstart/commands/repo.py:342
 msgid "Method must be a url to be added to the repo list."
-msgstr "Метод мора бити url за додавање на листу ризница."
+msgstr "Начин мора бити адреса (url) да би био додат на списак ризница."
 
 #: ../pykickstart/commands/realm.py:45
 msgid "Missing realm command arguments"
@@ -526,7 +524,7 @@ msgstr ""
 
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
-msgstr "Једно од --disabled или --enabled мора бити назначено."
+msgstr "Једно од --disabled или --enabled мора бити наведено."
 
 #: ../pykickstart/commands/ignoredisk.py:131
 msgid ""
@@ -683,7 +681,7 @@ msgstr "Могућности --nontp и --ntpservers се међусобно и�
 #: ../pykickstart/commands/raid.py:438
 #, python-format
 msgid "Partitions required for %s"
-msgstr "Партиције су неопходне за %s"
+msgstr "Партиције су обавезне за %s"
 
 #: ../tools/ksflatten.py:33
 msgid "Path to kickstart config file"
@@ -947,8 +945,8 @@ msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."
 msgstr ""
-"Када користите <prefix>.<vlan id> номенклатуру имена интерфејса, <prefix> не "
-"сме бити 'vlan'."
+"Када се користи <prefix>.<vlan id> запис назива интерфејса, <prefix> не може "
+"бити једнак „vlan“."
 
 #: ../tools/ksflatten.py:37
 msgid "Write flattened config to OUTPUT"
@@ -960,7 +958,7 @@ msgstr "Морате навести два издања синтаксе."
 
 #: ../tools/ksshell.py:153
 msgid "a basis file to use for seeding the kickstart data (optional)"
-msgstr "основна датотека за употребу при дељењу kickstart података (опционо)"
+msgstr "основна датотека за употребу при дељењу kickstart података (необавезно)"
 
 #: ../pykickstart/commands/autopart.py:360
 msgid "autopart --fstype cannot be used with --type=btrfs"
@@ -969,8 +967,8 @@ msgstr "autopart --fstype се не може користити са --type=btrf
 #: ../pykickstart/commands/autopart.py:357
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr ""
-"autopart --fstype=btrfs није исправан fstype, користите --type=btrfs уместо "
-"тога"
+"autopart --fstype=btrfs није исправна врста система датотека, користите --"
+"type=btrfs уместо тога"
 
 #: ../pykickstart/commands/autopart.py:541
 #: ../pykickstart/commands/autopart.py:611
@@ -987,11 +985,11 @@ msgstr "btrfs-у се мора дати тачка качења"
 
 #: ../pykickstart/commands/btrfs.py:226
 msgid "btrfs subvol requires specification of parent volume"
-msgstr "btrfs subvol захтева да родитељски диск буде наведен"
+msgstr "btrfs subvol захтева навођење родитељског тома"
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
-msgstr "btrfs subvolume захтева име"
+msgstr "btrfs подтом захтева назив"
 
 #: ../pykickstart/commands/device.py:115
 msgid "device command requires two arguments: module type and name"
@@ -1045,7 +1043,7 @@ msgstr "volgroup-у се мора дати VG име"
 
 #: ../pykickstart/commands/volgroup.py:176
 msgid "volgroup must be given a list of partitions"
-msgstr "volgroup-у се мора дати списак партиција"
+msgstr "volgroup-у мора бити дат списак партиција"
 
 #~ msgid "The logvol and autopart commands can't be used at the same time"
 #~ msgstr "Команде logvol и autopart не могу бити употребљене истовремено"
