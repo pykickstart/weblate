@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-28 10:37-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-05-13 11:00+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.fedoraproject.org/projects/pykickstart/"
+"rhel7-branch/lo/>\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -25,45 +27,48 @@ msgid ""
 "releases, which will result in a fatal error from kickstart.  Please modify "
 "your kickstart file to remove this command."
 msgstr ""
+"ກຳລັງລະເວັ້ນຄຳສັ່ງທີ່ຍົກເລີກແລ້ວໃນແຖວ %(lineno)s: ຄຳສັ່ງ %(cmd)s ຖືກຍົກເລີກແລ້ວ ແລະ ບໍ່ມີຜົນໃດໆອີ"
+"ກ. ມັນອາດຈະຖືກລຶບອອກໃນເວີຊັນໜ້າ, ເຊິ່ງຈະເຮັດໃຫ້ເກີດຂໍ້ຜິດພາດຮ້າຍແຮງໃນ kickstart. ກະລຸນາແກ້ໄຂໄຟ"
+"ລ໌ kickstart ຂອງທ່ານເພື່ອລຶບຄຳສັ່ງນີ້ອອກ."
 
 #: ../pykickstart/base.py:418
 #, python-format
 msgid "Unknown command: %s"
-msgstr ""
+msgstr "ບໍ່ຮູ້ຈັກຄຳສັ່ງ: %s"
 
 #: ../pykickstart/parser.py:88
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
-msgstr ""
+msgstr "URL ບໍ່ຖືກຕ້ອງສຳລັບ %%ksappend: %s"
 
 #: ../pykickstart/parser.py:93
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
-msgstr ""
+msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ %%ksappend ໄດ້: %s"
 
 #: ../pykickstart/parser.py:99 ../pykickstart/parser.py:101
 #, python-format
 msgid "Unable to open %%ksappend file"
-msgstr ""
+msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ %%ksappend ໄດ້"
 
 #: ../pykickstart/parser.py:134 ../pykickstart/parser.py:762
 #, python-format
 msgid "Unable to open input kickstart file: %s"
-msgstr ""
+msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ນຳເຂົ້າ kickstart ໄດ້: %s"
 
 #: ../pykickstart/parser.py:385
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr ""
+msgstr "ກຸ່ມບໍ່ສາມາດລະບຸທັງ --nodefaults ແລະ --optional ພ້ອມກັນໄດ້"
 
 #: ../pykickstart/parser.py:566 ../pykickstart/parser.py:607
 #, python-format
 msgid "Section %s does not end with %%end."
-msgstr ""
+msgstr "ສ່ວນ (section) %s ບໍ່ໄດ້ຈົບດ້ວຍ %%end."
 
 #: ../pykickstart/parser.py:701
 #, python-format
 msgid "Unknown kickstart section: %s"
-msgstr ""
+msgstr "ບໍ່ຮູ້ຈັກສ່ວນ (section) ຂອງ kickstart: %s"
 
 #. If we are ignoring unknown section errors, just create a new
 #. NullSection for the header we just saw.  Then nothing else
@@ -72,7 +77,7 @@ msgstr ""
 #: ../pykickstart/parser.py:707
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
-msgstr ""
+msgstr "ພົບສ່ວນ (section) ທີ່ອາດຈະບໍ່ຮູ້ຈັກໃນແຖວ %(lineno)s: %(sectionName)s"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:114 ../pykickstart/version.py:123
@@ -80,12 +85,12 @@ msgstr ""
 #: ../pykickstart/version.py:196
 #, python-format
 msgid "Unsupported version specified: %s"
-msgstr ""
+msgstr "ເວີຊັນທີ່ລະບຸບໍ່ໄດ້ຮັບການຮອງຮັບ: %s"
 
 #: ../pykickstart/options.py:82
 #, python-format
 msgid "Option %s is required"
-msgstr ""
+msgstr "ຕົວເລືອກ %s ແມ່ນຈຳເປັນ"
 
 #: ../pykickstart/options.py:86
 #, python-format
@@ -93,11 +98,13 @@ msgid ""
 "The %(option)s option was introduced in version %(intro)s, but you are using "
 "kickstart syntax version %(version)s."
 msgstr ""
+"ຕົວເລືອກ %(option)s ຖືກນຳໃຊ້ຄັ້ງທຳອິດໃນເວີຊັນ %(intro)s, ແຕ່ທ່ານກຳລັງໃຊ້ syntax ຂອງ "
+"kickstart ເວີຊັນ %(version)s."
 
 #: ../pykickstart/options.py:92
 #, python-format
 msgid "The %(option)s option is no longer supported."
-msgstr ""
+msgstr "ຕົວເລືອກ %(option)s ບໍ່ໄດ້ຮັບການຮອງຮັບອີກຕໍ່ໄປ."
 
 #: ../pykickstart/options.py:94
 #, python-format
@@ -105,6 +112,8 @@ msgid ""
 "The %(option)s option was removed in version %(removed)s, but you are using "
 "kickstart syntax version %(version)s."
 msgstr ""
+"ຕົວເລືອກ %(option)s ຖືກລຶບອອກໃນເວີຊັນ %(removed)s, ແຕ່ທ່ານກຳລັງໃຊ້ syntax ຂອງ "
+"kickstart ເວີຊັນ %(version)s."
 
 #: ../pykickstart/options.py:97
 #, python-format
@@ -114,28 +123,31 @@ msgid ""
 "releases, which will result in a fatal error from kickstart.  Please modify "
 "your kickstart file to remove this option."
 msgstr ""
+"ກຳລັງລະເວັ້ນຕົວເລືອກທີ່ຍົກເລີກແລ້ວໃນແຖວ %(lineno)s: ຕົວເລືອກ %(option)s ຖືກຍົກເລີກແລ້ວ ແລະ ບໍ່ມີ"
+"ຜົນໃດໆອີກ. ມັນອາດຈະຖືກລຶບອອກໃນເວີຊັນໜ້າ, ເຊິ່ງຈະເຮັດໃຫ້ເກີດຂໍ້ຜິດພາດຮ້າຍແຮງໃນ kickstart. ກະລຸນາ"
+"ແກ້ໄຂໄຟລ໌ kickstart ຂອງທ່ານເພື່ອລຶບຕົວເລືອກນີ້ອອກ."
 
 #: ../pykickstart/options.py:136
 #, python-format
 msgid "Option %(opt)s: invalid boolean value: %(value)r"
-msgstr ""
+msgstr "ຕົວເລືອກ %(opt)s: ຄ່າ boolean ບໍ່ຖືກຕ້ອງ: %(value)r"
 
 #: ../pykickstart/options.py:141
 #, python-format
 msgid "Option %(opt)s: invalid string value: %(value)r"
-msgstr ""
+msgstr "ຕົວເລືອກ %(opt)s: ຄ່າ string ບໍ່ຖືກຕ້ອງ: %(value)r"
 
 #: ../pykickstart/options.py:178
 msgid "Required flag set for option that doesn't take a value"
-msgstr ""
+msgstr "ມີການຕັ້ງຄ່າ flag ທີ່ຈຳເປັນສຳລັບຕົວເລືອກທີ່ບໍ່ຮັບຄ່າ"
 
 #: ../pykickstart/sections.py:270
 msgid "--default and --nobase cannot be used together"
-msgstr ""
+msgstr "--default ແລະ --nobase ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/sections.py:272
 msgid "--default and --nocore cannot be used together"
-msgstr ""
+msgstr "--default ແລະ --nocore ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/errors.py:46
 #, python-format
@@ -144,63 +156,67 @@ msgid ""
 "\n"
 "%(msg)s\n"
 msgstr ""
+"ເກີດບັນຫາຕໍ່ໄປນີ້ໃນແຖວ %(lineno)s ຂອງໄຟລ໌ kickstart:\n"
+"\n"
+"%(msg)s\n"
 
 #: ../pykickstart/errors.py:48
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr ""
+msgstr "ເກີດບັນຫາໃນການອ່ານຈາກແຖວ %s ຂອງໄຟລ໌ kickstart"
 
 #: ../pykickstart/commands/snapshot.py:101
 msgid "Snapshot origin must be specified!"
-msgstr ""
+msgstr "ຕ້ອງລະບຸຕົ້ນສະບັບຂອງ Snapshot!"
 
 #: ../pykickstart/commands/snapshot.py:104
 msgid "Snapshot origin can be specified only once!"
-msgstr ""
+msgstr "ຕົ້ນສະບັບຂອງ Snapshot ສາມາດລະບຸໄດ້ພຽງຄັ້ງດຽວເທົ່ານັ້ນ!"
 
 #: ../pykickstart/commands/snapshot.py:114
 #, python-format
 msgid "Snapshot with the name %s has been already defined!"
-msgstr ""
+msgstr "Snapshot ທີ່ມີຊື່ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ!"
 
 #: ../pykickstart/commands/snapshot.py:118
 msgid "Snapshot \"when\" parameter must be specified!"
-msgstr ""
+msgstr "ຕ້ອງລະບຸພາຣາມິເຕີ \"when\" ຂອງ Snapshot!"
 
 #: ../pykickstart/commands/snapshot.py:123
 #, python-format
 msgid "Snapshot origin %s must be specified by VG/LV!"
-msgstr ""
+msgstr "ຕົ້ນສະບັບ Snapshot %s ຕ້ອງລະບຸໂດຍ VG/LV!"
 
 #: ../pykickstart/commands/snapshot.py:128
 #, python-format
 msgid "Snapshot when param must have one of these values %s!"
-msgstr ""
+msgstr "ພາຣາມິເຕີ Snapshot when ຕ້ອງມີຄ່າໃດໜຶ່ງໃນ %s ນີ້!"
 
 #: ../pykickstart/commands/repo.py:206 ../pykickstart/commands/firewall.py:118
 #: ../pykickstart/commands/fcoe.py:116 ../pykickstart/commands/iscsi.py:145
 #: ../pykickstart/commands/xconfig.py:99
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
-msgstr ""
+msgstr "ພົບຕົວກຳນົດທີ່ບໍ່ຄາດຄິດໃນຄຳສັ່ງ %(command)s: %(options)s"
 
 #: ../pykickstart/commands/repo.py:211
 msgid ""
 "Only one of --baseurl and --mirrorlist may be specified for repo command."
 msgstr ""
+"ສາມາດລະບຸໄດ້ພຽງຢ່າງໃດຢ່າງໜຶ່ງລະຫວ່າງ --baseurl ແລະ --mirrorlist ສຳລັບຄຳສັ່ງ repo."
 
 #: ../pykickstart/commands/repo.py:214
 msgid "One of --baseurl or --mirrorlist must be specified for repo command."
-msgstr ""
+msgstr "ຕ້ອງລະບຸ --baseurl ຫຼື --mirrorlist ຢ່າງໃດຢ່າງໜຶ່ງສຳລັບຄຳສັ່ງ repo."
 
 #: ../pykickstart/commands/repo.py:222
 #, python-format
 msgid "A repo with the name %s has already been defined."
-msgstr ""
+msgstr "ຄັງເກັບ (repo) ທີ່ມີຊື່ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/repo.py:255
 msgid "Method must be a url to be added to the repo list."
-msgstr ""
+msgstr "ວິທີການ (Method) ຕ້ອງເປັນ URL ເພື່ອທີ່ຈະເພີ່ມເຂົ້າໃນລາຍຊື່ repo."
 
 #: ../pykickstart/commands/cdrom.py:51 ../pykickstart/commands/skipx.py:51
 #: ../pykickstart/commands/upgrade.py:57 ../pykickstart/commands/upgrade.py:94
@@ -213,157 +229,161 @@ msgstr ""
 #: ../pykickstart/commands/lilocheck.py:51
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
-msgstr ""
+msgstr "ຄຳສັ່ງ kickstart %s ບໍ່ຮອງຮັບຕົວກຳນົດໃດໆ"
 
 #: ../pykickstart/commands/iscsiname.py:52 ../pykickstart/commands/key.py:60
 #: ../pykickstart/commands/keyboard.py:52 ../pykickstart/commands/mouse.py:63
 #: ../pykickstart/commands/lang.py:51
 #, python-format
 msgid "Kickstart command %s requires one argument"
-msgstr ""
+msgstr "ຄຳສັ່ງ kickstart %s ຕ້ອງການໜຶ່ງຕົວກຳນົດ"
 
 #: ../pykickstart/commands/harddrive.py:76
 msgid "One of biospart or partition options must be specified."
-msgstr ""
+msgstr "ຕ້ອງລະບຸຕົວເລືອກ biospart ຫຼື partition ຢ່າງໃດຢ່າງໜຶ່ງ."
 
 #: ../pykickstart/commands/updates.py:54
 #, python-format
 msgid "Kickstart command %s only takes one argument"
-msgstr ""
+msgstr "ຄຳສັ່ງ kickstart %s ຮອງຮັບພຽງແຕ່ຕົວກຳນົດດຽວເທົ່ານັ້ນ"
 
 #: ../pykickstart/commands/ignoredisk.py:84
 msgid "One of --drives or --only-use must be specified for ignoredisk command."
-msgstr ""
+msgstr "ຕ້ອງລະບຸ --drives ຫຼື --only-use ຢ່າງໃດຢ່າງໜຶ່ງສຳລັບຄຳສັ່ງ ignoredisk."
 
 #: ../pykickstart/commands/ignoredisk.py:139
 msgid ""
 "One of --drives , --only-use , or --interactive must be specified for "
 "ignoredisk command."
 msgstr ""
+"ຕ້ອງລະບຸ --drives, --only-use, ຫຼື --interactive ຢ່າງໃດຢ່າງໜຶ່ງສຳລັບຄຳສັ່ງ ignoredisk."
 
 #: ../pykickstart/commands/nvdimm.py:118
 #, python-format
 msgid "Unexpected arguments to nvdimm command: %(arguments)s"
-msgstr ""
+msgstr "ພົບຕົວກຳນົດທີ່ບໍ່ຄາດຄິດໃນຄຳສັ່ງ nvdimm: %(arguments)s"
 
 #: ../pykickstart/commands/nvdimm.py:122
 msgid "Action argument is required for nvdimm command"
-msgstr ""
+msgstr "ຕ້ອງການຕົວກຳນົດການກະທຳ (action argument) ສຳລັບຄຳສັ່ງ nvdimm"
 
 #: ../pykickstart/commands/nvdimm.py:128
 #, python-format
 msgid "Invalid action argument (choose from '%(valid_arguments)s')"
-msgstr ""
+msgstr "ຕົວກຳນົດການກະທຳບໍ່ຖືກຕ້ອງ (ເລືອກຈາກ '%(valid_arguments)s')"
 
 #: ../pykickstart/commands/nvdimm.py:138
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
+"ສາມາດໃຊ້ການລະບຸອຸປະກອນໄດ້ພຽງຢ່າງໃດຢ່າງໜຶ່ງລະຫວ່າງ --namespace ແລະ --blockdevs"
 
 #: ../pykickstart/commands/nvdimm.py:144
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
-msgstr ""
+msgstr "ການກະທຳ %(action)s ໃນ namespace %(namespace)s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/nvdimm.py:147
 #, python-format
 msgid "An action %(action)s on devices %(blockdevs)s has already been defined."
-msgstr ""
+msgstr "ການກະທຳ %(action)s ໃນອຸປະກອນ %(blockdevs)s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/nvdimm.py:152
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr ""
+msgstr "ການກະທຳ %(action)s ຕ້ອງການໃຫ້ກຳນົດຕົວກຳນົດ --namespace"
 
 #: ../pykickstart/commands/nvdimm.py:156
 #, python-format
 msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be set"
 msgstr ""
+"ການກະທຳ %(action)s ດ້ວຍໂໝດ %(mode)s ຕ້ອງການໃຫ້ກຳນົດຕົວກຳນົດ --sectorsize"
 
 #: ../pykickstart/commands/nvdimm.py:161
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
-msgstr ""
+msgstr "ການກະທຳ %(action)s ຕ້ອງການໃຫ້ກຳນົດຕົວກຳນົດ --namespace ຫຼື --blockdevs"
 
 #: ../pykickstart/commands/sshkey.py:90 ../pykickstart/commands/keyboard.py:124
 #: ../pykickstart/commands/rootpw.py:65 ../pykickstart/commands/rootpw.py:112
 #: ../pykickstart/commands/timezone.py:63 ../pykickstart/commands/sshpw.py:128
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr ""
+msgstr "ຄາດຫວັງຕົວກຳນົດດຽວສຳລັບຄຳສັ່ງ %s"
 
 #: ../pykickstart/commands/sshkey.py:94 ../pykickstart/commands/sshpw.py:133
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
-msgstr ""
+msgstr "ຜູ້ໃຊ້ ssh ທີ່ມີຊື່ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/volgroup.py:133
 msgid "volgroup must be given a VG name"
-msgstr ""
+msgstr "volgroup ຕ້ອງໄດ້ຮັບຊື່ VG"
 
 #: ../pykickstart/commands/volgroup.py:136
 msgid "volgroup must be given a list of partitions"
-msgstr ""
+msgstr "volgroup ຕ້ອງໄດ້ຮັບລາຍຊື່ຂອງພາທິຊັນ"
 
 #: ../pykickstart/commands/volgroup.py:138
 msgid "Members may not be specified for preexisting volgroup"
-msgstr ""
+msgstr "ບໍ່ສາມາດລະບຸສະມາຊິກສຳລັບກຸ່ມວໍລຸມທີ່ມີຢູ່ແລ້ວໄດ້"
 
 #: ../pykickstart/commands/volgroup.py:147
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
-msgstr ""
+msgstr "ກຸ່ມວໍລຸມ (volgroup) ທີ່ມີຊື່ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/volgroup.py:183
 #: ../pykickstart/commands/volgroup.py:196
 msgid "The volgroup and autopart commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ volgroup ແລະ autopart ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/volgroup.py:200
 msgid "The volgroup and mount commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ volgroup ແລະ mount ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/rescue.py:64
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
 msgstr ""
+"ສາມາດລະບຸໄດ້ພຽງຢ່າງໃດຢ່າງໜຶ່ງລະຫວ່າງ --nomount ແລະ --romount ສຳລັບຄຳສັ່ງ rescue."
 
 #: ../pykickstart/commands/upgrade.py:97
 #, python-format
 msgid "Kickstart command %s does not accept empty parameter %s"
-msgstr ""
+msgstr "ຄຳສັ່ງ kickstart %s ບໍ່ຍອມຮັບພາຣາມິເຕີ %s ທີ່ຫວ່າງເປົ່າ"
 
 #: ../pykickstart/commands/eula.py:67
 msgid "Kickstart command eula expects the --agreed option"
-msgstr ""
+msgstr "ຄຳສັ່ງ kickstart eula ຄາດຫວັງໃຫ້ມີຕົວເລືອກ --agreed"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/mount.py:124
 #, python-format
 msgid "The '%s' and 'mount' commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ '%s' ແລະ 'mount' ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/mount.py:132
 #, python-format
 msgid "Device and mount point required for %s"
-msgstr ""
+msgstr "ຕ້ອງການອຸປະກອນ ແລະ ຈຸດຕິດຕັ້ງສຳລັບ %s"
 
 #: ../pykickstart/commands/mount.py:136
 #, python-format
 msgid "Invalid mount point '%s' given"
-msgstr ""
+msgstr "ຈຸດຕິດຕັ້ງ '%s' ທີ່ລະບຸບໍ່ຖືກຕ້ອງ"
 
 #: ../pykickstart/commands/mount.py:140
 msgid "'--mkfsoptions' requires --reformat"
-msgstr ""
+msgstr "'--mkfsoptions' ຕ້ອງການ --reformat"
 
 #: ../pykickstart/commands/monitor.py:67
 #, python-format
 msgid "Unexpected arguments to %(cmd)s command: %(options)s"
-msgstr ""
+msgstr "ພົບຕົວກຳນົດທີ່ບໍ່ຄາດຄິດໃນຄຳສັ່ງ %(cmd)s: %(options)s"
 
 #: ../pykickstart/commands/zerombr.py:54
 #, python-format
@@ -372,389 +392,404 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
+"ກຳລັງລະເວັ້ນຕົວເລືອກທີ່ຍົກເລີກແລ້ວໃນແຖວ %s: ຄຳສັ່ງ zerombr ບໍ່ຮອງຮັບຕົວເລືອກໃດໆອີກແລ້ວ. ໃນເວີຊັນໜ້"
+"າ, ນີ້ຈະເຮັດໃຫ້ເກີດຂໍ້ຜິດພາດຮ້າຍແຮງໃນ kickstart. ກະລຸນາແກ້ໄຂໄຟລ໌ kickstart ຂອງທ່ານເພື່ອລຶບຕົວເ"
+"ລືອກຕ່າງໆອອກ."
 
 #: ../pykickstart/commands/bootloader.py:248
 msgid "--boot-drive accepts only one argument"
-msgstr ""
+msgstr "--boot-drive ຍອມຮັບພຽງແຕ່ຕົວກຳນົດດຽວເທົ່ານັ້ນ"
 
 #: ../pykickstart/commands/user.py:170
 #, python-format
 msgid "A user with the name %s has already been defined."
-msgstr ""
+msgstr "ຜູ້ໃຊ້ທີ່ມີຊື່ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/vnc.py:125
 msgid "VNC password must be six to eight characters long"
-msgstr ""
+msgstr "ລະຫັດຜ່ານ VNC ຕ້ອງມີຄວາມຍາວແຕ່ 6 ຫາ 8 ຕົວອັກສອນ"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:181
 #: ../pykickstart/commands/autopart.py:341
 #, python-format
 msgid "The %s and autopart commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ %s ແລະ autopart ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/autopart.py:379
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr ""
+"autopart --fstype=btrfs ບໍ່ແມ່ນ fstype ທີ່ຖືກຕ້ອງ, ກະລຸນາໃຊ້ --type=btrfs ແທນ"
 
 #: ../pykickstart/commands/autopart.py:383
 msgid "autopart --fstype cannot be used with --type=btrfs"
-msgstr ""
+msgstr "autopart --fstype ບໍ່ສາມາດໃຊ້ຮ່ວມກັບ --type=btrfs ໄດ້"
 
 #: ../pykickstart/commands/services.py:69
 msgid "One of --disabled or --enabled must be provided."
-msgstr ""
+msgstr "ຕ້ອງລະບຸ --disabled ຫຼື --enabled ຢ່າງໃດຢ່າງໜຶ່ງ."
 
 #: ../pykickstart/commands/dmraid.py:91
 #, python-format
 msgid ""
 "A DM RAID device with the name %s and devices %s has already been defined."
-msgstr ""
+msgstr "ອຸປະກອນ DM RAID ທີ່ມີຊື່ %s ແລະ ອຸປະກອນ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/keyboard.py:129
 msgid ""
 "One of --xlayouts, --vckeymap options with value(s) or argument is expected "
 "for the keyboard command"
 msgstr ""
+"ຄາດຫວັງຕົວເລືອກ --xlayouts, --vckeymap ພ້ອມກັບຄ່າ ຫຼື ຕົວກຳນົດ ສຳລັບຄຳສັ່ງ keyboard"
 
 #: ../pykickstart/commands/driverdisk.py:117
 #: ../pykickstart/commands/driverdisk.py:149
 msgid "Only one partition may be specified for driverdisk command."
-msgstr ""
+msgstr "ສາມາດລະບຸໄດ້ພຽງໜຶ່ງ partition ສຳລັບຄຳສັ່ງ driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:120
 #: ../pykickstart/commands/driverdisk.py:152
 msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
 msgstr ""
+"ສາມາດລະບຸໄດ້ພຽງຢ່າງໃດຢ່າງໜຶ່ງລະຫວ່າງ --source ແລະ partition ສຳລັບຄຳສັ່ງ driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:123
 msgid "One of --source or partition must be specified for driverdisk command."
-msgstr ""
+msgstr "ຕ້ອງລະບຸ --source ຫຼື partition ຢ່າງໃດຢ່າງໜຶ່ງສຳລັບຄຳສັ່ງ driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:154
 msgid ""
 "Only one of --biospart and partition may be specified for driverdisk command."
 msgstr ""
+"ສາມາດລະບຸໄດ້ພຽງຢ່າງໃດຢ່າງໜຶ່ງລະຫວ່າງ --biospart ແລະ partition ສຳລັບຄຳສັ່ງ driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:156
 msgid ""
 "Only one of --biospart and --source may be specified for driverdisk command."
 msgstr ""
+"ສາມາດລະບຸໄດ້ພຽງຢ່າງໃດຢ່າງໜຶ່ງລະຫວ່າງ --biospart ແລະ --source ສຳລັບຄຳສັ່ງ driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:159
 msgid ""
 "One of --source, --biospart, or partition must be specified for driverdisk "
 "command."
 msgstr ""
+"ຕ້ອງລະບຸ --source, --biospart, ຫຼື partition ຢ່າງໃດຢ່າງໜຶ່ງສຳລັບຄຳສັ່ງ driverdisk."
 
 #: ../pykickstart/commands/zfcp.py:111
 msgid "A zfcp with this information has already been defined."
-msgstr ""
+msgstr "zfcp ທີ່ມີຂໍ້ມູນນີ້ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/url.py:170
 msgid "Only one of --url and --mirrorlist may be specified for url command."
 msgstr ""
+"ສາມາດລະບຸໄດ້ພຽງຢ່າງໃດຢ່າງໜຶ່ງລະຫວ່າງ --url ແລະ --mirrorlist ສຳລັບຄຳສັ່ງ url."
 
 #: ../pykickstart/commands/url.py:173
 msgid "One of --url or --mirrorlist must be specified for url command."
-msgstr ""
+msgstr "ຕ້ອງລະບຸ --url ຫຼື --mirrorlist ຢ່າງໃດຢ່າງໜຶ່ງສຳລັບຄຳສັ່ງ url."
 
 #: ../pykickstart/commands/raid.py:322 ../pykickstart/commands/logvol.py:350
 #: ../pykickstart/commands/partition.py:314
 #, python-format
 msgid "Mount point required for %s"
-msgstr ""
+msgstr "ຕ້ອງການຈຸດຕິດຕັ້ງສຳລັບ %s"
 
 #: ../pykickstart/commands/raid.py:325
 #, python-format
 msgid "Partitions required for %s"
-msgstr ""
+msgstr "ຕ້ອງການພາທິຊັນສຳລັບ %s"
 
 #: ../pykickstart/commands/raid.py:327
 msgid "Members may not be specified for preexisting RAID device"
-msgstr ""
+msgstr "ບໍ່ສາມາດລະບຸສະມາຊິກສຳລັບອຸປະກອນ RAID ທີ່ມີຢູ່ແລ້ວໄດ້"
 
 #: ../pykickstart/commands/raid.py:345
 #, python-format
 msgid "A RAID device with the name %s has already been defined."
-msgstr ""
+msgstr "ອຸປະກອນ RAID ທີ່ມີຊື່ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/raid.py:447 ../pykickstart/commands/raid.py:489
 msgid "The raid and autopart commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ raid ແລະ autopart ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/raid.py:493
 msgid "The raid and mount commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ raid ແລະ mount ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/raid.py:511 ../pykickstart/commands/logvol.py:569
 #: ../pykickstart/commands/partition.py:507
 msgid "--mkfsoptions with --noformat has no effect."
-msgstr ""
+msgstr "--mkfsoptions ທີ່ໃຊ້ຮ່ວມກັບ --noformat ຈະບໍ່ມີຜົນຫຍັງ."
 
 #: ../pykickstart/commands/raid.py:514 ../pykickstart/commands/logvol.py:572
 #: ../pykickstart/commands/partition.py:510
 msgid "--mkfsoptions and --fsprofile cannot be used together."
-msgstr ""
+msgstr "--mkfsoptions ແລະ --fsprofile ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້."
 
 #: ../pykickstart/commands/device.py:98
 msgid "device command requires two arguments: module type and name"
-msgstr ""
+msgstr "ຄຳສັ່ງ device ຕ້ອງການສອງຕົວກຳນົດ: module type ແລະ name"
 
 #: ../pykickstart/commands/device.py:124
 #, python-format
 msgid "%s command requires a single argument: %s"
-msgstr ""
+msgstr "ຄຳສັ່ງ %s ຕ້ອງການຕົວກຳນົດດຽວ: %s"
 
 #: ../pykickstart/commands/device.py:133
 #, python-format
 msgid "A module with the name %s has already been defined."
-msgstr ""
+msgstr "ໂມດູນທີ່ມີຊື່ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/logvol.py:359
 #, python-format
 msgid ""
 "A logical volume with the name %s has already been defined in volume group "
 "%s."
-msgstr ""
+msgstr "ວໍລຸມໂລຈິກທີ່ມີຊື່ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວໃນກຸ່ມວໍລຸມ %s."
 
 #: ../pykickstart/commands/logvol.py:428 ../pykickstart/commands/logvol.py:511
 msgid "The logvol and autopart commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ logvol ແລະ autopart ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/logvol.py:460
 msgid "--resize can only be used in conjunction with --useexisting"
-msgstr ""
+msgstr "--resize ສາມາດໃຊ້ໄດ້ສະເພາະຮ່ວມກັບ --useexisting ເທົ່ານັ້ນ"
 
 #: ../pykickstart/commands/logvol.py:463
 msgid "--resize requires --size to indicate new size"
-msgstr ""
+msgstr "--resize ຕ້ອງການ --size ເພື່ອລະບຸຂະໜາດໃໝ່"
 
 #: ../pykickstart/commands/logvol.py:491
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
-msgstr ""
+msgstr "--thin ແລະ --thinpool ບໍ່ສາມາດລະບຸທັງສອງຢ່າງໃຫ້ກັບ logvol ດຽວກັນໄດ້"
 
 #: ../pykickstart/commands/logvol.py:497
 msgid "--thin requires --poolname to specify pool name"
-msgstr ""
+msgstr "--thin ຕ້ອງການ --poolname ເພື່ອລະບຸຊື່ pool"
 
 #: ../pykickstart/commands/logvol.py:504
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr ""
+msgstr "--chunksize ແລະ --metadatasize ແມ່ນໃຊ້ສຳລັບ thin pools ເທົ່ານັ້ນ"
 
 #: ../pykickstart/commands/logvol.py:515
 msgid "The logvol and mount commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ logvol ແລະ mount ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/logvol.py:519
 msgid "Size required"
-msgstr ""
+msgstr "ຕ້ອງລະບຸຂະໜາດ"
 
 #: ../pykickstart/commands/logvol.py:523
 msgid "Percentage must be between 0 and 100."
-msgstr ""
+msgstr "ເປີເຊັນຕ້ອງຢູ່ລະຫວ່າງ 0 ຫາ 100."
 
 #: ../pykickstart/commands/logvol.py:540
 msgid "--size and --percent cannot both be specified for the same logvol"
-msgstr ""
+msgstr "--size ແລະ --percent ບໍ່ສາມາດລະບຸທັງສອງຢ່າງໃຫ້ກັບ logvol ດຽວກັນໄດ້"
 
 #: ../pykickstart/commands/logvol.py:576
 msgid "Adding a cache to an existing logical volume is not supported"
-msgstr ""
+msgstr "ບໍ່ຮອງຮັບການເພີ່ມ cache ໃສ່ວໍລຸມໂລຈິກທີ່ມີຢູ່ແລ້ວ"
 
 #: ../pykickstart/commands/logvol.py:580
 msgid "Thin volumes cannot be cached"
-msgstr ""
+msgstr "Thin volumes ບໍ່ສາມາດເຮັດ cache ໄດ້"
 
 #: ../pykickstart/commands/logvol.py:584
 msgid "Cache needs to have a list of (fast) PVs specified"
-msgstr ""
+msgstr "Cache ຈຳເປັນຕ້ອງມີການລະບຸລາຍຊື່ຂອງ (fast) PVs"
 
 #: ../pykickstart/commands/logvol.py:588
 msgid "Cache needs to have size specified"
-msgstr ""
+msgstr "Cache ຈຳເປັນຕ້ອງມີການລະບຸຂະໜາດ"
 
 #: ../pykickstart/commands/logvol.py:592
 #, python-format
 msgid "Invalid cache mode given: %s"
-msgstr ""
+msgstr "ໂໝດ cache ທີ່ລະບຸບໍ່ຖືກຕ້ອງ: %s"
 
 #: ../pykickstart/commands/fcoe.py:123
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
-msgstr ""
+msgstr "ອຸປະກອນ FCOE ທີ່ມີຊື່ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/reqpart.py:60
 #, python-format
 msgid "The %s and reqpart commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ %s ແລະ reqpart ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/reqpart.py:65
 msgid "The mount and reqpart commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ mount ແລະ reqpart ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/partition.py:323
 #, python-format
 msgid "A partition with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "ພາທິຊັນທີ່ມີຈຸດຕິດຕັ້ງ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/partition.py:431
 #: ../pykickstart/commands/partition.py:478
 msgid "The part/partition and autopart commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ part/partition ແລະ autopart ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/partition.py:456
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr ""
+msgstr "--resize ສາມາດໃຊ້ໄດ້ສະເພາະຮ່ວມກັບ --onpart ເທົ່ານັ້ນ"
 
 #: ../pykickstart/commands/partition.py:459
 msgid "--resize requires --size to specify new size"
-msgstr ""
+msgstr "--resize ຕ້ອງການ --size ເພື່ອລະບຸຂະໜາດໃໝ່"
 
 #: ../pykickstart/commands/partition.py:482
 msgid "The part/partition and mount commands can't be used at the same time"
-msgstr ""
+msgstr "ຄຳສັ່ງ part/partition ແລະ mount ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/partition.py:488
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
-msgstr ""
+msgstr "ຕົວເລືອກ --fstype=tmpfs ບໍ່ສາມາດໃຊ້ຮ່ວມກັບ --grow ຫຼື --maxsize ໄດ້"
 
 #: ../pykickstart/commands/logging.py:69
 msgid "Can't specify --port without --host."
-msgstr ""
+msgstr "ບໍ່ສາມາດລະບຸ --port ໂດຍບໍ່ມີ --host ໄດ້."
 
 #: ../pykickstart/commands/group.py:87
 #, python-format
 msgid "A group with the name %s has already been defined."
-msgstr ""
+msgstr "ກຸ່ມທີ່ມີຊື່ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/network.py:379
 #, python-format
 msgid "A network device with the name %s has already been defined."
-msgstr ""
+msgstr "ອຸປະກອນເຄືອຂ່າຍທີ່ມີຊື່ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/network.py:542
 #: ../pykickstart/commands/network.py:669
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr ""
+msgstr "ຕົວເລືອກ --bridgeopts ຕ້ອງການໃຫ້ລະບຸ --bridgeslaves"
 
 #: ../pykickstart/commands/network.py:549
 #: ../pykickstart/commands/network.py:676
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr ""
+"ຮູບແບບຂອງ --bridgeopts ບໍ່ຖືກຕ້ອງ, ຕ້ອງເປັນຕົວເລືອກ key=value ທີ່ຂັ້ນດ້ວຍ ','"
 
 #: ../pykickstart/commands/network.py:617
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be "
 "equal to 'vlan'."
 msgstr ""
+"ເມື່ອໃຊ້ຮູບແບບຊື່ interface ແບບ <prefix>.<vlan id>, <prefix> ບໍ່ສາມາດເປັນ 'vlan' ໄດ້."
 
 #: ../pykickstart/commands/network.py:621
 msgid "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
+"ຖ້າ network --interfacename ມີເຄື່ອງໝາຍ '.', ຕ້ອງມີ vlan id ທີ່ຖືກຕ້ອງຕາມຫຼັງ."
 
 #: ../pykickstart/commands/network.py:630
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
+"ຖ້າ network --interfacename ເລີ່ມຕົ້ນດ້ວຍ 'vlan', ຕ້ອງມີ vlan id ທີ່ຖືກຕ້ອງຕາມຫຼັງ."
 
 #: ../pykickstart/commands/network.py:635
 #, python-format
 msgid "The vlan id out of the %d-%d vlan id range."
-msgstr ""
+msgstr "ຄ່າ vlan id ຢູ່ນອກໄລຍະ %d-%d."
 
 #: ../pykickstart/commands/network.py:681
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
-msgstr ""
+msgstr "--bindto=%s ບໍ່ຮອງຮັບສຳລັບອຸປະກອນປະເພດນີ້"
 
 #: ../pykickstart/commands/multipath.py:98
 #, python-format
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
-msgstr ""
+msgstr "ອຸປະກອນ '%(device)s' ຖືກໃຊ້ໃນ multipath '%(multipathdev)s' ແລ້ວ"
 
 #: ../pykickstart/commands/btrfs.py:162
 msgid "btrfs must be given a mountpoint"
-msgstr ""
+msgstr "btrfs ຕ້ອງໄດ້ຮັບຈຸດຕິດຕັ້ງ (mountpoint)"
 
 #: ../pykickstart/commands/btrfs.py:165
 msgid "btrfs must be given a list of partitions"
-msgstr ""
+msgstr "btrfs ຕ້ອງໄດ້ຮັບລາຍຊື່ຂອງພາທິຊັນ"
 
 #: ../pykickstart/commands/btrfs.py:167
 msgid "btrfs subvol requires specification of parent volume"
-msgstr ""
+msgstr "btrfs subvol ຕ້ອງການການລະບຸວໍລຸມຫຼັກ (parent volume)"
 
 #: ../pykickstart/commands/btrfs.py:170
 msgid "btrfs subvolume requires a name"
-msgstr ""
+msgstr "btrfs subvolume ຕ້ອງການຊື່"
 
 #: ../pykickstart/commands/btrfs.py:177
 #, python-format
 msgid "A btrfs volume with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "ວໍລຸມ btrfs ທີ່ມີຈຸດຕິດຕັ້ງ %s ໄດ້ຖືກກຳນົດໄວ້ແລ້ວ."
 
 #: ../pykickstart/commands/btrfs.py:198
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
 msgstr ""
+"--mkfsoptions ທີ່ໃຊ້ຮ່ວມກັບ --noformat ຫຼື --useexisting ຈະບໍ່ມີຜົນຫຍັງ."
 
 #: ../pykickstart/commands/timezone.py:140
 #: ../pykickstart/commands/timezone.py:175
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr ""
+msgstr "ຕົວເລືອກ --nontp ແລະ --ntpservers ບໍ່ສາມາດໃຊ້ຮ່ວມກັນໄດ້"
 
 #: ../pykickstart/commands/timezone.py:157
 #, python-format
 msgid "At least one option and/or an argument are expected for the  %s command"
-msgstr ""
+msgstr "ຄາດຫວັງຢ່າງໜ້ອຍໜຶ່ງຕົວເລືອກ ແລະ/ຫຼື ຕົວກຳນົດ ສຳລັບຄຳສັ່ງ %s"
 
 #: ../pykickstart/commands/timezone.py:168
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
-msgstr ""
+msgstr "ຄາດຫວັງໜຶ່ງ ຫຼື ບໍ່ມີຕົວກຳນົດເລີຍສຳລັບຄຳສັ່ງ %s"
 
 #: ../pykickstart/commands/realm.py:44
 msgid "The realm command 'join' should only be specified once"
-msgstr ""
+msgstr "ຄຳສັ່ງ realm 'join' ຄວນຖືກລະບຸພຽງຄັ້ງດຽວເທົ່ານັ້ນ"
 
 #: ../pykickstart/commands/realm.py:48
 msgid "Missing realm command arguments"
-msgstr ""
+msgstr "ຂາດຕົວກຳນົດສຳລັບຄຳສັ່ງ realm"
 
 #: ../pykickstart/commands/realm.py:54
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr ""
+msgstr "ບໍ່ຮອງຮັບຄຳສັ່ງ realm '%s'"
 
 #: ../pykickstart/commands/realm.py:67
 #, python-format
 msgid "Invalid realm arguments: %s"
-msgstr ""
+msgstr "ຕົວກຳນົດ realm ບໍ່ຖືກຕ້ອງ: %s"
 
 #: ../pykickstart/commands/realm.py:71
 msgid "Specify only one realm to join"
-msgstr ""
+msgstr "ລະບຸພຽງແຕ່ໜຶ່ງ realm ເພື່ອເຂົ້າຮ່ວມ"
 
 #: ../tools/ksshell:147
 msgid "a basis file to use for seeding the kickstart data (optional)"
-msgstr ""
+msgstr "ໄຟລ໌ພື້ນຖານທີ່ຈະໃຊ້ສຳລັບການເລີ່ມຕົ້ນຂໍ້ມູນ kickstart (ເລືອກໄດ້)"
 
 #: ../tools/ksshell:149
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
-msgstr ""
+msgstr "ສະຖານທີ່ທີ່ຈະຂຽນໄຟລ໌ kickstart ທີ່ສຳເລັດແລ້ວ, ຫຼື stdout ຖ້າບໍ່ໄດ້ລະບຸ"
 
 #: ../tools/ksshell:151 ../tools/ksvalidator:61
 msgid "version of kickstart syntax to validate against"
-msgstr ""
+msgstr "ເວີຊັນຂອງ kickstart syntax ທີ່ຈະໃຊ້ໃນການກວດສອບ"
 
 #: ../tools/ksshell:162 ../tools/ksverdiff:67 ../tools/ksvalidator:85
 #, python-format
 msgid "The version %s is not supported by pykickstart"
-msgstr ""
+msgstr "ເວີຊັນ %s ບໍ່ໄດ້ຮັບການຮອງຮັບໂດຍ pykickstart"
 
 #. Errors should just dump you to the prompt anyway.
 #: ../tools/ksshell:174
@@ -763,93 +798,95 @@ msgid ""
 "Warning:  The following error occurred when processing the input file:\n"
 "%s\n"
 msgstr ""
+"ຄຳເຕືອນ: ເກີດຂໍ້ຜິດພາດຕໍ່ໄປນີ້ໃນຂະນະທີ່ປະມວນຜົນໄຟລ໌ນຳເຂົ້າ:\n"
+"%s\n"
 
 #: ../tools/ksshell:219
 #, python-format
 msgid "Internal command %s not recognized."
-msgstr ""
+msgstr "ບໍ່ຮູ້ຈັກຄຳສັ່ງພາຍໃນ %s."
 
 #: ../tools/ksverdiff:49 ../tools/ksvalidator:59
 msgid "list the available versions of kickstart syntax"
-msgstr ""
+msgstr "ສະແດງລາຍຊື່ເວີຊັນຂອງ kickstart syntax ທີ່ມີໃຫ້ໃຊ້"
 
 #: ../tools/ksverdiff:60
 msgid "You must specify two syntax versions."
-msgstr ""
+msgstr "ທ່ານຕ້ອງລະບຸເວີຊັນ syntax ສອງເວີຊັນ."
 
 #: ../tools/ksverdiff:74
 #, python-format
 msgid "The following commands were removed in %s:"
-msgstr ""
+msgstr "ຄຳສັ່ງຕໍ່ໄປນີ້ໄດ້ຖືກລຶບອອກໃນ %s:"
 
 #: ../tools/ksverdiff:77
 #, python-format
 msgid "The following commands were deprecated in %s:"
-msgstr ""
+msgstr "ຄຳສັ່ງຕໍ່ໄປນີ້ໄດ້ຖືກຍົກເລີກໃນ %s:"
 
 #: ../tools/ksverdiff:80
 #, python-format
 msgid "The following commands were added in %s:"
-msgstr ""
+msgstr "ຄຳສັ່ງຕໍ່ໄປນີ້ໄດ້ຖືກເພີ່ມເຂົ້າໃນ %s:"
 
 #: ../tools/ksverdiff:106
 #, python-format
 msgid "The following options were added to the %s command in %s:"
-msgstr ""
+msgstr "ຕົວເລືອກຕໍ່ໄປນີ້ໄດ້ຖືກເພີ່ມເຂົ້າໃນຄຳສັ່ງ %s ໃນ %s:"
 
 #: ../tools/ksverdiff:111
 #, python-format
 msgid "The following options were deprecated from the %s command in %s:"
-msgstr ""
+msgstr "ຕົວເລືອກຕໍ່ໄປນີ້ໄດ້ຖືກຍົກເລີກຈາກຄຳສັ່ງ %s ໃນ %s:"
 
 #: ../tools/ksverdiff:116
 #, python-format
 msgid "The following options were removed from the %s command in %s:"
-msgstr ""
+msgstr "ຕົວເລືອກຕໍ່ໄປນີ້ໄດ້ຖືກລຶບອອກຈາກຄຳສັ່ງ %s ໃນ %s:"
 
 #: ../tools/ksflatten:38
 msgid "Path to kickstart config file"
-msgstr ""
+msgstr "ເສັ້ນທາງ (path) ໄປຫາໄຟລ໌ຕັ້ງຄ່າ kickstart"
 
 #: ../tools/ksflatten:40
 msgid "Kickstart version to use for interpreting config"
-msgstr ""
+msgstr "ເວີຊັນຂອງ kickstart ທີ່ຈະໃຊ້ໃນການຕີຄວາມໝາຍການຕັ້ງຄ່າ"
 
 #: ../tools/ksflatten:42
 msgid "Write flattened config to OUTPUT"
-msgstr ""
+msgstr "ຂຽນການຕັ້ງຄ່າທີ່ເຮັດໃຫ້ຮາບພຽງແລ້ວລົງໃນ OUTPUT"
 
 #: ../tools/ksflatten:49
 msgid "Need to specify a config to flatten"
-msgstr ""
+msgstr "ຈຳເປັນຕ້ອງລະບຸການຕັ້ງຄ່າທີ່ຈະເຮັດໃຫ້ຮາບພຽງ (flatten)"
 
 #: ../tools/ksflatten:57
 #, python-format
 msgid "Failed to read kickstart file '%s' : %s"
-msgstr ""
+msgstr "ການອ່ານໄຟລ໌ kickstart '%s' ຫຼົ້ມເຫຼວ: %s"
 
 #: ../tools/ksflatten:60
 #, python-format
 msgid "Failed to parse kickstart file '%s' : %s"
-msgstr ""
+msgstr "ການວິເຄາະ (parse) ໄຟລ໌ kickstart '%s' ຫຼົ້ມເຫຼວ: %s"
 
 #: ../tools/ksflatten:67
 #, python-format
 msgid "Failed to open output file '%s' : %s"
-msgstr ""
+msgstr "ການເປີດໄຟລ໌ຂາອອກ '%s' ຫຼົ້ມເຫຼວ: %s"
 
 #: ../tools/ksvalidator:51
 msgid "filename or URL to read from"
-msgstr ""
+msgstr "ຊື່ໄຟລ໌ ຫຼື URL ທີ່ຈະອ່ານຂໍ້ມູນ"
 
 #: ../tools/ksvalidator:53
 msgid "halt after the first error or warning"
-msgstr ""
+msgstr "ຢຸດການເຮັດງານຫຼັງຈາກພົບຂໍ້ຜິດພາດ ຫຼື ຄຳເຕືອນທຳອິດ"
 
 #: ../tools/ksvalidator:56
 #, python-format
 msgid "parse include files when %%include is seen"
-msgstr ""
+msgstr "ວິເຄາະ (parse) ໄຟລ໌ທີ່ລວມເຂົ້າມາ ເມື່ອພົບ %%include"
 
 #: ../tools/ksvalidator:79
 #, python-format
@@ -857,6 +894,8 @@ msgid ""
 "Error reading %s:\n"
 "%s"
 msgstr ""
+"ເກີດຂໍ້ຜິດພາດໃນການອ່ານ %s:\n"
+"%s"
 
 #: ../tools/ksvalidator:101
 #, python-format
@@ -864,12 +903,14 @@ msgid ""
 "File uses a deprecated option or command.\n"
 "%s"
 msgstr ""
+"ໄຟລ໌ມີການໃຊ້ຕົວເລືອກ ຫຼື ຄຳສັ່ງທີ່ຖືກຍົກເລີກແລ້ວ.\n"
+"%s"
 
 #: ../tools/ksvalidator:107
 msgid "General kickstart error in input file"
-msgstr ""
+msgstr "ເກີດຂໍ້ຜິດພາດ kickstart ທົ່ວໄປໃນໄຟລ໌ນຳເຂົ້າ"
 
 #: ../tools/ksvalidator:110
 #, python-format
 msgid "General error in input file:  %s"
-msgstr ""
+msgstr "ເກີດຂໍ້ຜິດພາດທົ່ວໄປໃນໄຟລ໌ນຳເຂົ້າ: %s"
