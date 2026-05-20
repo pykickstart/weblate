@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 09:11-0700\n"
+"POT-Creation-Date: 2026-05-20 08:52-0700\n"
 "PO-Revision-Date: 2023-03-02 08:20+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -262,7 +262,8 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:918
 #: ../pykickstart/commands/partition.py:746
-#: ../pykickstart/commands/partition.py:778 ../pykickstart/commands/raid.py:777
+#: ../pykickstart/commands/partition.py:778
+#: ../pykickstart/commands/partition.py:824 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
 msgstr "Btrfs ファイルシステムはサポートしていません"
 
@@ -360,7 +361,7 @@ msgstr "入力ファイル内の一般的なエラー: %s"
 msgid "General kickstart error in input file"
 msgstr "kickstart ファイル内の一般的なエラー"
 
-#: ../pykickstart/parser.py:481
+#: ../pykickstart/parser.py:488
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "--nodefaults と --optional の両方のグループは指定できません"
 
@@ -547,6 +548,15 @@ msgstr ""
 msgid "One of -%(options_list)s options must be specified for url command."
 msgstr ""
 "-%(options_list)s オプションの 1 つを url コマンドに指定する必要があります。"
+
+#: ../pykickstart/sections.py:942
+#, fuzzy, python-format
+#| msgid ""
+#| "One of --drives or --only-use must be specified for ignoredisk command."
+msgid "One of --dir or --type must be specified for %certificate"
+msgstr ""
+"ignoredisk コマンドに、--drives または --only-use のいずれかを指定する必要が"
+"あります。"
 
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
@@ -739,14 +749,14 @@ msgstr "0 から 100 の間のパーセンテージを入れてください。"
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:802
+#: ../pykickstart/parser.py:809
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
 "%(lineno)s 行に、不明な可能性があるセクションが見つかりました: "
 "%(sectionName)s"
 
-#: ../pykickstart/parser.py:660 ../pykickstart/parser.py:701
+#: ../pykickstart/parser.py:667 ../pykickstart/parser.py:708
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "kickstart セクション %s は %%end で終了していません。"
@@ -789,7 +799,7 @@ msgstr ""
 "キックスタートファイルを変更して、このオプションを希望のエイリアス "
 "%(new_option)s に置き換えてください。"
 
-#: ../pykickstart/sections.py:928
+#: ../pykickstart/sections.py:965
 #, python-format
 msgid "The %certificate section is empty"
 msgstr ""
@@ -807,7 +817,7 @@ msgstr ""
 "--fstype=tmpfs オプションを、--grow または --maxsize と併用することはできませ"
 "ん"
 
-#: ../pykickstart/commands/module.py:139
+#: ../pykickstart/commands/module.py:140
 msgid "The enable module command does not take position arguments!"
 msgstr "有効なモジュールコマンドは、位置引数を取りません!"
 
@@ -924,7 +934,7 @@ msgstr "シンボリュームのキャッシュを作成することはできま
 msgid "Unable to open %%ksappend file: %s"
 msgstr "%%ksappend ファイルを開けません: %s"
 
-#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:857
+#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:864
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "指定された kickstart ファイルを開けません: %s"
@@ -962,7 +972,7 @@ msgstr "不明のコマンド %s"
 msgid "Unknown command: %s"
 msgstr "不明なコマンド: %s"
 
-#: ../pykickstart/parser.py:796
+#: ../pykickstart/parser.py:803
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "不明な kickstart セクションが見つかりました: %s"
@@ -973,9 +983,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "レルムの '%s' コマンドがありません"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:152 ../pykickstart/version.py:161
-#: ../pykickstart/version.py:164 ../pykickstart/version.py:180
-#: ../pykickstart/version.py:233
+#: ../pykickstart/version.py:155 ../pykickstart/version.py:164
+#: ../pykickstart/version.py:167 ../pykickstart/version.py:183
+#: ../pykickstart/version.py:236
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "サポートされていないバージョンが指定されています: %s"

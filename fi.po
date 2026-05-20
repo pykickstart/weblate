@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 09:11-0700\n"
+"POT-Creation-Date: 2026-05-20 08:52-0700\n"
 "PO-Revision-Date: 2025-10-30 17:38+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -250,7 +250,8 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:918
 #: ../pykickstart/commands/partition.py:746
-#: ../pykickstart/commands/partition.py:778 ../pykickstart/commands/raid.py:777
+#: ../pykickstart/commands/partition.py:778
+#: ../pykickstart/commands/partition.py:824 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
 msgstr "Btrfs-tiedostojärjestelmää ei tueta"
 
@@ -345,7 +346,7 @@ msgstr "Yleinen virhe syötetiedostossa: %s"
 msgid "General kickstart error in input file"
 msgstr "Yleinen kickstart-virhe syötetiedostossa"
 
-#: ../pykickstart/parser.py:481
+#: ../pykickstart/parser.py:488
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Ryhmä ei voi määrittää sekä --nodefaults että --optional"
 
@@ -527,6 +528,15 @@ msgstr ""
 msgid "One of -%(options_list)s options must be specified for url command."
 msgstr "Yksi -%(options_list)s -vaihtoehdoista on määritettävä url-komennolle."
 
+#: ../pykickstart/sections.py:942
+#, fuzzy, python-format
+#| msgid ""
+#| "One of --drives or --only-use must be specified for ignoredisk command."
+msgid "One of --dir or --type must be specified for %certificate"
+msgstr ""
+"Yksi seuraavista: --drives tai --only-use on määritettävä ignoredisk-"
+"komennolle."
+
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
 msgstr "Täytyy antaa joko --disabled tai --enabled."
@@ -704,12 +714,12 @@ msgstr "Prosenttiosuuden on oltava 0–100."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:802
+#: ../pykickstart/parser.py:809
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr "Mahdollisesti tuntematon osa nähty rivillä %(lineno)s: %(sectionName)s"
 
-#: ../pykickstart/parser.py:660 ../pykickstart/parser.py:701
+#: ../pykickstart/parser.py:667 ../pykickstart/parser.py:708
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "Osio %s ei pääty merkinnällä %%end."
@@ -748,7 +758,7 @@ msgstr ""
 "julkaisuissa. Muokkaa kickstart-tiedostoa korvaamalla tämä vaihtoehto sen "
 "ensisijaisella aliaksella %(new_option)s."
 
-#: ../pykickstart/sections.py:928
+#: ../pykickstart/sections.py:965
 #, python-format
 msgid "The %certificate section is empty"
 msgstr "%certificate -osio on tyhjä"
@@ -765,7 +775,7 @@ msgstr ""
 "Vaihtoehtoa --fstype=tmpfs ei voi käyttää yhdessä parametrien --grow tai --"
 "maxsize kanssa"
 
-#: ../pykickstart/commands/module.py:139
+#: ../pykickstart/commands/module.py:140
 msgid "The enable module command does not take position arguments!"
 msgstr "Enable module -komento ei ota sijaintiin perustuvia parametreja!"
 
@@ -884,7 +894,7 @@ msgstr "Ohuita taltioita ei voida tallentaa välimuistiin"
 msgid "Unable to open %%ksappend file: %s"
 msgstr "Tiedostoa %%ksappend ei voi avata: %s"
 
-#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:857
+#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:864
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "Tiedostoa kickstart-syötetiedostoa ei voi avata: %s"
@@ -922,7 +932,7 @@ msgstr "Tuntematon komento: %s"
 msgid "Unknown command: %s"
 msgstr "Tuntematon komento: %s"
 
-#: ../pykickstart/parser.py:796
+#: ../pykickstart/parser.py:803
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Tuntematon kickstart-osio: %s"
@@ -933,9 +943,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Ei-tuettu realm-komento '%s'"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:152 ../pykickstart/version.py:161
-#: ../pykickstart/version.py:164 ../pykickstart/version.py:180
-#: ../pykickstart/version.py:233
+#: ../pykickstart/version.py:155 ../pykickstart/version.py:164
+#: ../pykickstart/version.py:167 ../pykickstart/version.py:183
+#: ../pykickstart/version.py:236
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Tukematon versio määritetty: %s"

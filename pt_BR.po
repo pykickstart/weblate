@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 09:11-0700\n"
+"POT-Creation-Date: 2026-05-20 08:52-0700\n"
 "PO-Revision-Date: 2025-08-11 20:22+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -256,7 +256,8 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:918
 #: ../pykickstart/commands/partition.py:746
-#: ../pykickstart/commands/partition.py:778 ../pykickstart/commands/raid.py:777
+#: ../pykickstart/commands/partition.py:778
+#: ../pykickstart/commands/partition.py:824 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
 msgstr "O sistema de arquivos Btrfs não é suportado"
 
@@ -351,7 +352,7 @@ msgstr "Erro geral no arquivo de entrada:  %s"
 msgid "General kickstart error in input file"
 msgstr "Erro geral do kickstart no arquivo de entrada"
 
-#: ../pykickstart/parser.py:481
+#: ../pykickstart/parser.py:488
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Grupo não pode especificar tanto o --nodefaults como o --optional"
 
@@ -536,6 +537,14 @@ msgid "One of -%(options_list)s options must be specified for url command."
 msgstr ""
 "Uma das opções -%(options_list)s deve ser especificada para o comando url."
 
+#: ../pykickstart/sections.py:942
+#, fuzzy, python-format
+#| msgid ""
+#| "One of --drives or --only-use must be specified for ignoredisk command."
+msgid "One of --dir or --type must be specified for %certificate"
+msgstr ""
+"Um de --drives ou --only-use deve ser especificado para o comando ignoredisk."
+
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
 msgstr "Um de --disabled ou --enabled deve ser fornecido."
@@ -715,13 +724,13 @@ msgstr "A percentagem deve estar entre 0 e 100."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:802
+#: ../pykickstart/parser.py:809
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
 "Seção possivelmente desconhecida vista na linha %(lineno)s: %(sectionName)s"
 
-#: ../pykickstart/parser.py:660 ../pykickstart/parser.py:701
+#: ../pykickstart/parser.py:667 ../pykickstart/parser.py:708
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "Seção %s não termina com %%end."
@@ -760,7 +769,7 @@ msgstr ""
 "futuras. Por favor, modifique seu arquivo kickstart para substituir esta "
 "opção por seu apelido preferido %(new_option)s."
 
-#: ../pykickstart/sections.py:928
+#: ../pykickstart/sections.py:965
 #, python-format
 msgid "The %certificate section is empty"
 msgstr "A seção %certificate está vazia"
@@ -777,7 +786,7 @@ msgstr ""
 "A opção --fstype=tmpfs não pode ser utilizada em conjunto com --grow ou --"
 "maxsize"
 
-#: ../pykickstart/commands/module.py:139
+#: ../pykickstart/commands/module.py:140
 msgid "The enable module command does not take position arguments!"
 msgstr "O comando module para habilitação não aceita argumentos posicionais!"
 
@@ -899,7 +908,7 @@ msgstr "Volumes thin não podem ser colocados no cache"
 msgid "Unable to open %%ksappend file: %s"
 msgstr "Não foi possível abrir o arquivo %%ksappend %s"
 
-#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:857
+#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:864
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "Não foi possível abrir o arquivo kickstart: %s"
@@ -937,7 +946,7 @@ msgstr "Comando desconhecido %s"
 msgid "Unknown command: %s"
 msgstr "Comando desconhecido: %s"
 
-#: ../pykickstart/parser.py:796
+#: ../pykickstart/parser.py:803
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Seção desconhecida do kickstart: %s"
@@ -948,9 +957,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "'%s' não é suportado pelo comando realm"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:152 ../pykickstart/version.py:161
-#: ../pykickstart/version.py:164 ../pykickstart/version.py:180
-#: ../pykickstart/version.py:233
+#: ../pykickstart/version.py:155 ../pykickstart/version.py:164
+#: ../pykickstart/version.py:167 ../pykickstart/version.py:183
+#: ../pykickstart/version.py:236
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Versão especificada não suportada: %s"
