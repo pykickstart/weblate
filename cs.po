@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 09:11-0700\n"
+"POT-Creation-Date: 2026-05-20 08:52-0700\n"
 "PO-Revision-Date: 2018-02-20 03:38+0000\n"
 "Last-Translator: Zdenek <chmelarz@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/pykickstart/"
@@ -254,7 +254,8 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:918
 #: ../pykickstart/commands/partition.py:746
-#: ../pykickstart/commands/partition.py:778 ../pykickstart/commands/raid.py:777
+#: ../pykickstart/commands/partition.py:778
+#: ../pykickstart/commands/partition.py:824 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
 msgstr "Souborový systém Btrfs není podporován."
 
@@ -348,7 +349,7 @@ msgstr "Chyba ve vstupním souboru: %s"
 msgid "General kickstart error in input file"
 msgstr "Kickstart chyba ve vstupním souboru"
 
-#: ../pykickstart/parser.py:481
+#: ../pykickstart/parser.py:488
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Skupina nemůže mít zároveň --nodefaults a --optional"
 
@@ -540,6 +541,15 @@ msgstr "V příkazu url musí být použita jedna z voleb -%(options_list)s."
 msgid "One of -%(options_list)s options must be specified for url command."
 msgstr "V příkazu url musí být použita jedna z voleb -%(options_list)s."
 
+#: ../pykickstart/sections.py:942
+#, fuzzy, python-format
+#| msgid ""
+#| "One of --drives or --only-use must be specified for ignoredisk command."
+msgid "One of --dir or --type must be specified for %certificate"
+msgstr ""
+"V příkazu ignoredisk musí být použita jedna z voleb  --drives nebo --only-"
+"use."
+
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
 msgstr "Musí být použita jedna z voleb --disabled nebo --enabled."
@@ -730,12 +740,12 @@ msgstr "Procento musí být mezi 0 a 100."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:802
+#: ../pykickstart/parser.py:809
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr "Potenciálně neznámá část viděna na řádku %(lineno)s: %(sectionName)s"
 
-#: ../pykickstart/parser.py:660 ../pykickstart/parser.py:701
+#: ../pykickstart/parser.py:667 ../pykickstart/parser.py:708
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "Sekce %s nekončí příkazem %%end."
@@ -771,7 +781,7 @@ msgid ""
 "preferred alias %(new_option)s."
 msgstr ""
 
-#: ../pykickstart/sections.py:928
+#: ../pykickstart/sections.py:965
 #, python-format
 msgid "The %certificate section is empty"
 msgstr ""
@@ -787,7 +797,7 @@ msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
 msgstr "Volba --fstype=tmpfs nelze použít současně s --grow nebo --maxsize"
 
-#: ../pykickstart/commands/module.py:139
+#: ../pykickstart/commands/module.py:140
 msgid "The enable module command does not take position arguments!"
 msgstr ""
 
@@ -900,7 +910,7 @@ msgstr "Malé svazky nelze uložit do vyrovnávací paměti"
 msgid "Unable to open %%ksappend file: %s"
 msgstr "Nelze otevřít %%ksappend soubor: %s"
 
-#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:857
+#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:864
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "Nelze otevřít kickstart soubor: %s"
@@ -938,7 +948,7 @@ msgstr "Neznámý příkaz %s"
 msgid "Unknown command: %s"
 msgstr "Neznámý příkaz: %s"
 
-#: ../pykickstart/parser.py:796
+#: ../pykickstart/parser.py:803
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Neznámá sekce kickstartu: %s"
@@ -949,9 +959,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Nepodporovaný realm příkaz '%s'"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:152 ../pykickstart/version.py:161
-#: ../pykickstart/version.py:164 ../pykickstart/version.py:180
-#: ../pykickstart/version.py:233
+#: ../pykickstart/version.py:155 ../pykickstart/version.py:164
+#: ../pykickstart/version.py:167 ../pykickstart/version.py:183
+#: ../pykickstart/version.py:236
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Použita nepodporovaná verze: %s"

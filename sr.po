@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-20 09:11-0700\n"
+"POT-Creation-Date: 2026-05-20 08:52-0700\n"
 "PO-Revision-Date: 2026-04-22 13:58+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/"
@@ -245,7 +245,8 @@ msgstr ""
 
 #: ../pykickstart/commands/logvol.py:918
 #: ../pykickstart/commands/partition.py:746
-#: ../pykickstart/commands/partition.py:778 ../pykickstart/commands/raid.py:777
+#: ../pykickstart/commands/partition.py:778
+#: ../pykickstart/commands/partition.py:824 ../pykickstart/commands/raid.py:777
 msgid "Btrfs file system is not supported"
 msgstr "Btrfs систем датотека није подржан"
 
@@ -339,7 +340,7 @@ msgstr "Општа грешка у улазној датотеци:  %s"
 msgid "General kickstart error in input file"
 msgstr "Општа кикстарт грешка у улазној датотеци"
 
-#: ../pykickstart/parser.py:481
+#: ../pykickstart/parser.py:488
 msgid "Group cannot specify both --nodefaults and --optional"
 msgstr "Група не може назначити и --nodefaults и --optional"
 
@@ -522,6 +523,14 @@ msgid "One of -%(options_list)s options must be specified for url command."
 msgstr ""
 "Једна од могућности -%(options_list)s мора бити наведена за наредбу „url“."
 
+#: ../pykickstart/sections.py:942
+#, fuzzy, python-format
+#| msgid ""
+#| "One of --drives or --only-use must be specified for ignoredisk command."
+msgid "One of --dir or --type must be specified for %certificate"
+msgstr ""
+"Једно од --drives или --only-use мора бити назначено за ignoredisk наредбу."
+
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
 msgstr "Једно од --disabled или --enabled мора бити наведено."
@@ -695,12 +704,12 @@ msgstr "Проценти морају бити између 0 и 100."
 #. NullSection for the header we just saw.  Then nothing else
 #. needs to change.  You can turn this warning into an error via
 #. ksvalidator, or the warnings module.
-#: ../pykickstart/parser.py:802
+#: ../pykickstart/parser.py:809
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr "Потенцијално непознат одељак виђен у реду %(lineno)s: %(sectionName)s"
 
-#: ../pykickstart/parser.py:660 ../pykickstart/parser.py:701
+#: ../pykickstart/parser.py:667 ../pykickstart/parser.py:708
 #, python-format
 msgid "Section %s does not end with %%end."
 msgstr "Одељак %s не завршава са %%end."
@@ -739,7 +748,7 @@ msgstr ""
 "Измените вашу кикстарт датотеку да замените ову могућност њеним пожељним "
 "псеудонимом %(new_option)s."
 
-#: ../pykickstart/sections.py:928
+#: ../pykickstart/sections.py:965
 #, python-format
 msgid "The %certificate section is empty"
 msgstr "Одељак %certificate је празан"
@@ -756,7 +765,7 @@ msgstr ""
 "--fstype=tmpfs могућност не може да се користи заједно са --grow или --"
 "maxsize"
 
-#: ../pykickstart/commands/module.py:139
+#: ../pykickstart/commands/module.py:140
 msgid "The enable module command does not take position arguments!"
 msgstr "Наредба за омогућавање модула не прихвата позиционе аргументе!"
 
@@ -874,7 +883,7 @@ msgstr "Танки томови не могу бити кеширани"
 msgid "Unable to open %%ksappend file: %s"
 msgstr "Није могуће отворити %%ksappend датотеку: %s"
 
-#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:857
+#: ../pykickstart/parser.py:119 ../pykickstart/parser.py:864
 #, python-format
 msgid "Unable to open input kickstart file: %s"
 msgstr "Није могуће отворити kickstart датотеку: %s"
@@ -912,7 +921,7 @@ msgstr "Непозната наредба %s"
 msgid "Unknown command: %s"
 msgstr "Непозната наредба: %s"
 
-#: ../pykickstart/parser.py:796
+#: ../pykickstart/parser.py:803
 #, python-format
 msgid "Unknown kickstart section: %s"
 msgstr "Непознат kickstart одељак: %s"
@@ -923,9 +932,9 @@ msgid "Unsupported realm '%s' command"
 msgstr "Неподржана realm наредба '%s'"
 
 #. If nothing else worked, we're out of options.
-#: ../pykickstart/version.py:152 ../pykickstart/version.py:161
-#: ../pykickstart/version.py:164 ../pykickstart/version.py:180
-#: ../pykickstart/version.py:233
+#: ../pykickstart/version.py:155 ../pykickstart/version.py:164
+#: ../pykickstart/version.py:167 ../pykickstart/version.py:183
+#: ../pykickstart/version.py:236
 #, python-format
 msgid "Unsupported version specified: %s"
 msgstr "Назначено је неподржано издање: %s"
@@ -958,7 +967,8 @@ msgstr "Морате навести два издања синтаксе."
 
 #: ../tools/ksshell.py:153
 msgid "a basis file to use for seeding the kickstart data (optional)"
-msgstr "основна датотека за употребу при дељењу kickstart података (необавезно)"
+msgstr ""
+"основна датотека за употребу при дељењу kickstart података (необавезно)"
 
 #: ../pykickstart/commands/autopart.py:360
 msgid "autopart --fstype cannot be used with --type=btrfs"
