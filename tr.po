@@ -7,13 +7,13 @@
 # Şenol Korkmaz <senol.korkmaz@gmail.com>, 2011
 # Chris Lumens <clumens@redhat.com>, 2015. #zanata
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
-# Oğuz Ersen <oguz@ersen.moe>, 2022, 2023, 2024, 2025.
+# Oğuz Ersen <oguz@ersen.moe>, 2022, 2023, 2024, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-20 08:52-0700\n"
-"PO-Revision-Date: 2025-10-05 13:54+0000\n"
+"PO-Revision-Date: 2026-05-24 17:01+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/tr/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -537,13 +537,10 @@ msgstr ""
 "url komutu için -%(options_list)s seçeneklerinden biri belirtilmelidir."
 
 #: ../pykickstart/sections.py:942
-#, fuzzy, python-format
-#| msgid ""
-#| "One of --drives or --only-use must be specified for ignoredisk command."
+#, python-format
 msgid "One of --dir or --type must be specified for %certificate"
 msgstr ""
-"ignoredisk komutu için --drives veya --only-use seçeneklerinden biri "
-"belirtilmelidir."
+"%certificate için --dir veya --type seçeneklerinden biri belirtilmelidir"
 
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
