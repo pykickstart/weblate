@@ -13,13 +13,14 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021, 2024.
 # Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021, 2024.
 # Luna Jernberg <bittin@reimu.nl>, 2022, 2023, 2025.
+# Luna Jernberg <droidbittin@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-20 08:52-0700\n"
-"PO-Revision-Date: 2025-04-10 15:47+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"PO-Revision-Date: 2026-05-26 10:01+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/sv/>\n"
 "Language: sv\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -530,11 +531,9 @@ msgid "One of -%(options_list)s options must be specified for url command."
 msgstr "En av flaggorna -%(options_list)s måste anges för kommandot url."
 
 #: ../pykickstart/sections.py:942
-#, fuzzy, python-format
-#| msgid ""
-#| "One of --drives or --only-use must be specified for ignoredisk command."
+#, python-format
 msgid "One of --dir or --type must be specified for %certificate"
-msgstr "En av --drives eller --only-use måste anges för kommandot ignoredisk."
+msgstr "En av --dir eller --type måste specificeras för %ccertifikat"
 
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
