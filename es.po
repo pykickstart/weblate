@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2025-10-13 08:54+0000\n"
+"PO-Revision-Date: 2026-05-30 18:02+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/es/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -48,7 +48,7 @@ msgstr "Comando desconocido: %s"
 #: ../pykickstart/parser.py:88
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
-msgstr "URL ilegal para %%ksappend: %s"
+msgstr "Url ilegal para %%ksappend: %s"
 
 #: ../pykickstart/parser.py:93
 #, python-format
@@ -238,7 +238,7 @@ msgstr "Ya se ha definido un repositorio con el nombre %s."
 # pykickstart-2, DocId: pykickstart
 #: ../pykickstart/commands/repo.py:255
 msgid "Method must be a url to be added to the repo list."
-msgstr "Method debe ser una URL para añadirla a la lista de repositorios."
+msgstr "Method debe ser una url para añadirla a la lista de repositorios."
 
 # auto translated by TM merge from project: Pykickstart, version: master,
 # DocId: pykickstart
@@ -591,7 +591,7 @@ msgstr ""
 # DocId: pykickstart
 #: ../pykickstart/commands/zfcp.py:111
 msgid "A zfcp with this information has already been defined."
-msgstr "Ya ha sido definido un zFCP con esta información."
+msgstr "Ya ha sido definido un zfcp con esta información."
 
 # auto translated by TM merge from project: Pykickstart, version: master,
 # DocId: pykickstart
