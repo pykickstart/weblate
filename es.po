@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-27 10:39-0800\n"
-"PO-Revision-Date: 2025-10-13 08:54+0000\n"
+"PO-Revision-Date: 2026-05-30 18:01+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel10-branch/es/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -195,7 +195,7 @@ msgstr "Ya se ha definido un grupo de volúmenes de nombre %s."
 
 #: ../pykickstart/commands/zfcp.py:132
 msgid "A zfcp with this information has already been defined."
-msgstr "Ya ha sido definido un zFCP con esta información."
+msgstr "Ya ha sido definido un zfcp con esta información."
 
 #: ../pykickstart/commands/nvdimm.py:155
 #, python-format
@@ -412,7 +412,7 @@ msgstr ""
 #: ../pykickstart/parser.py:83
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
-msgstr "URL no válida para %%ksappend: %s"
+msgstr "Url ilegal para %%ksappend: %s"
 
 #: ../tools/ksshell.py:225
 #, python-format
@@ -502,7 +502,7 @@ msgstr "No se pueden indicar miembros para grupos ya existentes"
 
 #: ../pykickstart/commands/repo.py:342
 msgid "Method must be a url to be added to the repo list."
-msgstr "Method debe ser una URL para añadirla a la lista de repositorios."
+msgstr "Method debe ser una url para añadirla a la lista de repositorios."
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
