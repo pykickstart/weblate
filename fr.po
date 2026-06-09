@@ -16,13 +16,13 @@
 # Julien Humbert <julroy67@gmail.com>, 2020, 2021.
 # Transtats <suanand@redhat.com>, 2023.
 # grimst <grimaitres@gmail.com>, 2023.
-# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025.
+# Léane GRASSER <leane.grasser@proton.me>, 2024, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-20 08:52-0700\n"
-"PO-Revision-Date: 2025-04-10 02:09+0000\n"
+"PO-Revision-Date: 2026-06-09 09:04+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fr/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -555,11 +555,9 @@ msgstr ""
 "Une des options -%(options_list)s doit être définie pour la commande url."
 
 #: ../pykickstart/sections.py:942
-#, fuzzy, python-format
-#| msgid ""
-#| "One of --drives or --only-use must be specified for ignoredisk command."
+#, python-format
 msgid "One of --dir or --type must be specified for %certificate"
-msgstr "--drives ou --only-use doit être spécifié pour la commande ignoredisk."
+msgstr "--dir ou --type doit être spécifié pour %certificate"
 
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
