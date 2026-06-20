@@ -14,13 +14,14 @@
 # Transtats <suanand@redhat.com>, 2023.
 # Jingge Chen <mariocanfly@hotmail.com>, 2023.
 # 耗子 <haozi@loli.email>, 2026.
+# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-20 08:52-0700\n"
-"PO-Revision-Date: 2026-04-02 23:58+0000\n"
-"Last-Translator: 耗子 <haozi@loli.email>\n"
+"PO-Revision-Date: 2026-06-20 10:10+0000\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/pykickstart/master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -28,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -715,7 +716,7 @@ msgstr ""
 #: ../pykickstart/sections.py:965
 #, python-format
 msgid "The %certificate section is empty"
-msgstr "%certificate 节为空"
+msgstr ""
 
 #: ../pykickstart/base.py:449
 #, python-format
@@ -968,7 +969,7 @@ msgstr "在第一次错误或警告时停止"
 #: ../pykickstart/commands/partition.py:812
 msgid ""
 "hw-passphrase may be specified only with LUKSv2 HW-OPAL encrypted devices"
-msgstr "hw-passphrase 仅可用于 LUKSv2 HW-OPAL 加密设备"
+msgstr ""
 
 #: ../pykickstart/options.py:67 ../pykickstart/options.py:69
 #, python-format
