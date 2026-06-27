@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-17 09:32-0800\n"
-"PO-Revision-Date: 2021-08-26 03:04+0000\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"PO-Revision-Date: 2026-06-28 16:18+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel8-branch/id/>\n"
 "Language: id\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: ../pykickstart/base.py:215
 #, python-format
@@ -31,69 +31,69 @@ msgid ""
 " your kickstart file to remove this command."
 msgstr ""
 "Mengabaikan perintah usang pada baris %(lineno)s: Perintah %(cmd)s telah "
-"usang dan tidak memiliki efek apapun. Perintah ini mungkin akan dihilangkan "
-"dari rilis selanjutnya, yang akan mengakibatkan kesalahan fatal dari "
-"kickstart. Silakan modifikasi berkas kickstart untuk menghapus perintah ini."
+"usang dan tidak lagi memiliki efek. Perintah ini dapat dihapus pada rilis "
+"mendatang, yang akan menyebabkan kesalahan fatal dari kickstart. Harap ubah "
+"file kickstart Anda untuk menghapus perintah ini."
 
 #: ../pykickstart/base.py:372
 #, python-format
 msgid "Unknown command: %s"
-msgstr "Perintah tidak ada: %s"
+msgstr "Perintah tidak dikenal: %s"
 
 #: ../pykickstart/load.py:66
 #, python-format
 msgid "Error writing file \"%s\":"
-msgstr ""
+msgstr "Kesalahan saat menulis file \"%s\":"
 
 #: ../pykickstart/load.py:79
 #, python-format
 msgid "Error securely accessing URL \"%s\""
-msgstr ""
+msgstr "Kesalahan saat mengakses URL \"%s\" secara aman"
 
 #. pylint: disable=no-member
 #: ../pykickstart/load.py:81 ../pykickstart/load.py:84
 #, python-format
 msgid "Error accessing URL \"%s\""
-msgstr ""
+msgstr "Kesalahan saat mengakses URL \"%s\""
 
 #: ../pykickstart/load.py:99
 #, python-format
 msgid "Error opening file: %s"
-msgstr ""
+msgstr "Kesalahan saat membuka file: %s"
 
 #: ../pykickstart/load.py:109
 #, python-format
 msgid "Error copying file: %s"
-msgstr ""
+msgstr "Kesalahan saat menyalin file: %s"
 
 #: ../pykickstart/parser.py:92
 #, python-format
 msgid "Illegal url for %%ksappend: %s"
-msgstr "Url ilegal untuk %%ksappend: %s"
+msgstr "URL tidak valid untuk %%ksappend: %s"
 
 #: ../pykickstart/parser.py:97
 #, python-format
 msgid "Unable to open %%ksappend file: %s"
-msgstr "Tidak dapat membuka %%ksappend berkas: %s"
+msgstr "Tidak dapat membuka file %%ksappend: %s"
 
 #: ../pykickstart/parser.py:125 ../pykickstart/parser.py:815
 #, python-format
 msgid "Unable to open input kickstart file: %s"
-msgstr ""
+msgstr "Tidak dapat membuka file kickstart input: %s"
 
 #: ../pykickstart/parser.py:439
 msgid "Group cannot specify both --nodefaults and --optional"
-msgstr "Group tidak menemukan spesifikasi untuk --nodefaults dan --optional"
+msgstr "Group tidak dapat menentukan --nodefaults dan --optional sekaligus"
 
 #: ../pykickstart/parser.py:618 ../pykickstart/parser.py:659
 #, python-format
 msgid "Section %s does not end with %%end."
-msgstr ""
+msgstr "Bagian %s tidak diakhiri dengan %%end."
 
 #: ../pykickstart/parser.py:754
 #, python-format
 msgid "Unknown kickstart section: %s"
-msgstr ""
+msgstr "Bagian kickstart tidak dikenal: %s"
 
 #. If we are ignoring unknown section errors, just create a new
 #. NullSection for the header we just saw.  Then nothing else
@@ -103,6 +103,8 @@ msgstr ""
 #, python-format
 msgid "Potentially unknown section seen at line %(lineno)s: %(sectionName)s"
 msgstr ""
+"Bagian yang mungkin tidak dikenal terlihat pada baris %(lineno)s: %"
+"(sectionName)s"
 
 #. If nothing else worked, we're out of options.
 #: ../pykickstart/version.py:132 ../pykickstart/version.py:141
@@ -110,7 +112,7 @@ msgstr ""
 #: ../pykickstart/version.py:212
 #, python-format
 msgid "Unsupported version specified: %s"
-msgstr "Versi yang tidak didukung: %s"
+msgstr "Versi yang ditentukan tidak didukung: %s"
 
 #: ../pykickstart/options.py:66 ../pykickstart/options.py:68
 #, python-format
@@ -152,11 +154,11 @@ msgstr ""
 
 #: ../pykickstart/sections.py:625
 msgid "--default and --nobase cannot be used together"
-msgstr ""
+msgstr "--default dan --nobase tidak dapat digunakan bersamaan"
 
 #: ../pykickstart/sections.py:627
 msgid "--default and --nocore cannot be used together"
-msgstr ""
+msgstr "--default dan --nocore tidak dapat digunakan bersamaan"
 
 #: ../pykickstart/errors.py:70
 #, python-format
@@ -165,14 +167,14 @@ msgid ""
 "\n"
 "%(msg)s\n"
 msgstr ""
-"Masalah berikut ini terdapat pada baris %(lineno)s dalam berkas kickstart:\n"
+"Masalah berikut terjadi pada baris %(lineno)s dari file kickstart:\n"
 "\n"
 "%(msg)s\n"
 
 #: ../pykickstart/errors.py:73
 #, python-format
 msgid "There was a problem reading from line %s of the kickstart file"
-msgstr "Ada masalah pada saat membaca dari baris %s dalam berkas kickstart"
+msgstr "Terjadi masalah saat membaca dari baris %s file kickstart"
 
 #: ../pykickstart/commands/iscsiname.py:61
 #: ../pykickstart/commands/sshkey.py:102
@@ -191,23 +193,27 @@ msgstr "Ada masalah pada saat membaca dari baris %s dalam berkas kickstart"
 #: ../pykickstart/commands/key.py:64 ../pykickstart/commands/sshpw.py:163
 #, python-format
 msgid "Unexpected arguments to %(command)s command: %(options)s"
-msgstr ""
+msgstr "Argumen yang tidak diharapkan untuk perintah %(command)s: %(options)s"
 
 #: ../pykickstart/commands/harddrive.py:88
 msgid "One of biospart or partition options must be specified."
-msgstr ""
+msgstr "Salah satu dari opsi biospart atau partition harus ditentukan."
 
 #: ../pykickstart/commands/ignoredisk.py:90
 #: ../pykickstart/commands/ignoredisk.py:175
 msgid ""
 "One of --drives or --only-use must be specified for ignoredisk command."
 msgstr ""
+"Salah satu dari --drives atau --only-use harus ditentukan untuk perintah "
+"ignoredisk."
 
 #: ../pykickstart/commands/ignoredisk.py:133
 msgid ""
 "One of --drives , --only-use , or --interactive must be specified for "
 "ignoredisk command."
 msgstr ""
+"Salah satu dari --drives, --only-use, atau --interactive harus ditentukan "
+"untuk perintah ignoredisk."
 
 #: ../pykickstart/commands/ignoredisk.py:165
 #, python-format
@@ -225,24 +231,24 @@ msgstr ""
 #: ../pykickstart/commands/sshkey.py:109 ../pykickstart/commands/sshpw.py:170
 #, python-format
 msgid "An ssh user with the name %s has already been defined."
-msgstr ""
+msgstr "Pengguna ssh dengan nama %s sudah didefinisikan."
 
 #: ../pykickstart/commands/volgroup.py:167
 msgid "volgroup must be given a VG name"
-msgstr ""
+msgstr "volgroup harus diberi nama VG"
 
 #: ../pykickstart/commands/volgroup.py:170
 msgid "volgroup must be given a list of partitions"
-msgstr ""
+msgstr "volgroup harus diberi daftar partisi"
 
 #: ../pykickstart/commands/volgroup.py:172
 msgid "Members may not be specified for preexisting volgroup"
-msgstr ""
+msgstr "Anggota tidak boleh ditentukan untuk volgroup yang sudah ada"
 
 #: ../pykickstart/commands/volgroup.py:180
 #, python-format
 msgid "A volgroup with the name %s has already been defined."
-msgstr ""
+msgstr "Volgroup dengan nama %s sudah didefinisikan."
 
 #: ../pykickstart/commands/volgroup.py:219
 msgid "The volgroup and autopart commands can't be used at the same time"
@@ -257,7 +263,7 @@ msgstr ""
 #: ../pykickstart/commands/timezone.py:283
 #: ../pykickstart/commands/timezone.py:358
 msgid "Options --nontp and --ntpservers are mutually exclusive"
-msgstr ""
+msgstr "Opsi --nontp dan --ntpservers saling eksklusif"
 
 #: ../pykickstart/commands/timezone.py:266
 #: ../pykickstart/commands/timezone.py:341
@@ -270,23 +276,24 @@ msgstr ""
 #: ../pykickstart/commands/timezone.py:354
 #, python-format
 msgid "One or zero arguments are expected for the %s command"
-msgstr ""
+msgstr "Satu atau nol argumen diharapkan untuk perintah %s"
 
 #: ../pykickstart/commands/upgrade.py:104
 #, python-format
 msgid ""
 "Kickstart command %(command)s does not accept empty parameter %(parameter)s"
 msgstr ""
+"Perintah kickstart %(command)s tidak menerima parameter kosong %(parameter)s"
 
 #: ../pykickstart/commands/eula.py:65 ../pykickstart/commands/autopart.py:47
 #: ../pykickstart/commands/hmc.py:46 ../pykickstart/commands/cdrom.py:41
 #, python-format
 msgid "Kickstart command %s does not take any arguments"
-msgstr ""
+msgstr "Perintah kickstart %s tidak menerima argumen apa pun"
 
 #: ../pykickstart/commands/eula.py:68
 msgid "Kickstart command eula expects the --agreed option"
-msgstr ""
+msgstr "Perintah kickstart eula mengharapkan opsi --agreed"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/autopart.py:212
@@ -300,25 +307,29 @@ msgstr ""
 #: ../pykickstart/commands/autopart.py:285
 #, python-format
 msgid "Invalid autopart type: %s"
-msgstr ""
+msgstr "Jenis autopart tidak valid: %s"
 
 #: ../pykickstart/commands/autopart.py:420
 msgid "autopart --fstype=btrfs is not valid fstype, use --type=btrfs instead"
 msgstr ""
+"autopart --fstype=btrfs bukan fstype yang valid, gunakan --type=btrfs "
+"sebagai gantinya"
 
 #: ../pykickstart/commands/autopart.py:423
 msgid "autopart --fstype cannot be used with --type=btrfs"
-msgstr ""
+msgstr "autopart --fstype tidak dapat digunakan dengan --type=btrfs"
 
 #: ../pykickstart/commands/autopart.py:615 ../pykickstart/commands/raid.py:787
 #: ../pykickstart/commands/logvol.py:917
 #: ../pykickstart/commands/partition.py:737
 msgid "Only one of --pbkdf-time and --pbkdf-iterations can be specified."
 msgstr ""
+"Hanya salah satu dari --pbkdf-time dan --pbkdf-iterations yang dapat "
+"ditentukan."
 
 #: ../pykickstart/commands/autopart.py:630
 msgid "autopart --type=btrfs is not supported"
-msgstr ""
+msgstr "autopart --type=btrfs tidak didukung"
 
 #. allow for translation of the error message
 #: ../pykickstart/commands/mount.py:167
@@ -329,15 +340,15 @@ msgstr ""
 #: ../pykickstart/commands/mount.py:184
 #, python-format
 msgid "Invalid mount point '%s' given"
-msgstr ""
+msgstr "Mount point '%s' yang diberikan tidak valid"
 
 #: ../pykickstart/commands/mount.py:187
 msgid "'--mkfsoptions' requires --reformat"
-msgstr ""
+msgstr "'--mkfsoptions' memerlukan --reformat"
 
 #: ../pykickstart/commands/syspurpose.py:86
 msgid "The syspurpose command does not take positional arguments!"
-msgstr ""
+msgstr "Perintah syspurpose tidak menerima argumen posisional!"
 
 #: ../pykickstart/commands/zerombr.py:62
 #, python-format
@@ -346,20 +357,23 @@ msgid ""
 "any options.  In future releases, this will result in a fatal error from "
 "kickstart.  Please modify your kickstart file to remove any options."
 msgstr ""
+"Mengabaikan opsi usang pada baris %s: Perintah zerombr tidak lagi menerima "
+"opsi apa pun. Pada rilis mendatang, ini akan menyebabkan kesalahan fatal "
+"dari kickstart. Harap ubah file kickstart Anda untuk menghapus semua opsi."
 
 #. pylint: disable=no-member
 #: ../pykickstart/commands/bootloader.py:323
 msgid "--boot-drive accepts only one argument"
-msgstr ""
+msgstr "--boot-drive hanya menerima satu argumen"
 
 #: ../pykickstart/commands/user.py:202
 #, python-format
 msgid "A user with the name %s has already been defined."
-msgstr ""
+msgstr "Pengguna dengan nama %s sudah didefinisikan."
 
 #: ../pykickstart/commands/services.py:76
 msgid "One of --disabled or --enabled must be provided."
-msgstr ""
+msgstr "Salah satu dari --disabled atau --enabled harus diberikan."
 
 #: ../pykickstart/commands/dmraid.py:91
 #, python-format
@@ -367,42 +381,46 @@ msgid ""
 "A DM RAID device with the name %(name)s and devices %(devices)s has already "
 "been defined."
 msgstr ""
+"Perangkat DM RAID dengan nama %(name)s dan perangkat %(devices)s sudah "
+"didefinisikan."
 
 #: ../pykickstart/commands/displaymode.py:64
 #, python-format
 msgid "Unknown command %s"
-msgstr ""
+msgstr "Perintah %s tidak dikenal"
 
 #: ../pykickstart/commands/displaymode.py:108
 msgid "Kickstart command cmdline does not support --non-interactive parameter"
-msgstr ""
+msgstr "Perintah kickstart cmdline tidak mendukung parameter --non-interactive"
 
 #: ../pykickstart/commands/nvdimm.py:132
 #, python-format
 msgid "Unexpected arguments to nvdimm command: %(arguments)s"
-msgstr ""
+msgstr "Argumen yang tidak diharapkan untuk perintah nvdimm: %(arguments)s"
 
 #: ../pykickstart/commands/nvdimm.py:142
 msgid ""
 "Only one of --namespace and --blockdevs device specifications can be used"
 msgstr ""
+"Hanya salah satu dari spesifikasi perangkat --namespace dan --blockdevs yang "
+"dapat digunakan"
 
 #: ../pykickstart/commands/nvdimm.py:147
 #, python-format
 msgid ""
 "An action %(action)s on namespace %(namespace)s has already been defined."
-msgstr ""
+msgstr "Aksi %(action)s pada namespace %(namespace)s sudah didefinisikan."
 
 #: ../pykickstart/commands/nvdimm.py:150
 #, python-format
 msgid ""
 "An action %(action)s on devices %(blockdevs)s has already been defined."
-msgstr ""
+msgstr "Aksi %(action)s pada perangkat %(blockdevs)s sudah didefinisikan."
 
 #: ../pykickstart/commands/nvdimm.py:155
 #, python-format
 msgid "Action %(action)s requires --namespace argument to be set"
-msgstr ""
+msgstr "Aksi %(action)s memerlukan argumen --namespace untuk ditetapkan"
 
 #: ../pykickstart/commands/nvdimm.py:158
 #, python-format
@@ -410,105 +428,126 @@ msgid ""
 "Action %(action)s with mode %(mode)s requires --sectorsize argument to be "
 "set"
 msgstr ""
+"Aksi %(action)s dengan mode %(mode)s memerlukan argumen --sectorsize untuk "
+"ditetapkan"
 
 #: ../pykickstart/commands/nvdimm.py:162
 #, python-format
 msgid ""
 "Action %(action)s requires --namespace or --blockdevs argument to be set"
 msgstr ""
+"Aksi %(action)s memerlukan argumen --namespace atau --blockdevs untuk "
+"ditetapkan"
 
 #: ../pykickstart/commands/rescue.py:77
 msgid ""
 "Only one of --nomount and --romount may be specified for rescue command."
 msgstr ""
+"Hanya salah satu dari --nomount dan --romount yang boleh ditentukan untuk "
+"perintah rescue."
 
 #: ../pykickstart/commands/keyboard.py:56 ../pykickstart/commands/mouse.py:65
 #: ../pykickstart/commands/key.py:61
 #, python-format
 msgid "Kickstart command %s requires one argument"
-msgstr ""
+msgstr "Perintah kickstart %s memerlukan satu argumen"
 
 #: ../pykickstart/commands/keyboard.py:163
 #: ../pykickstart/commands/rootpw.py:85 ../pykickstart/commands/rootpw.py:142
 #: ../pykickstart/commands/sshpw.py:160
 #, python-format
 msgid "A single argument is expected for the %s command"
-msgstr ""
+msgstr "Satu argumen diharapkan untuk perintah %s"
 
 #: ../pykickstart/commands/keyboard.py:169
 msgid ""
 "One of --xlayouts, --vckeymap options with value(s) or argument is expected "
 "for the keyboard command"
 msgstr ""
+"Salah satu dari opsi --xlayouts, --vckeymap dengan nilai, atau argumen "
+"diharapkan untuk perintah keyboard"
 
 #: ../pykickstart/commands/driverdisk.py:129
 #: ../pykickstart/commands/driverdisk.py:170
 msgid "Only one partition may be specified for driverdisk command."
-msgstr ""
+msgstr "Hanya satu partition yang boleh ditentukan untuk perintah driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:135
 #: ../pykickstart/commands/driverdisk.py:176
 msgid ""
 "Only one of --source and partition may be specified for driverdisk command."
 msgstr ""
+"Hanya salah satu dari --source dan partition yang boleh ditentukan untuk "
+"perintah driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:138
 msgid "One of --source or partition must be specified for driverdisk command."
 msgstr ""
+"Salah satu dari --source atau partition harus ditentukan untuk perintah "
+"driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:178
 msgid ""
 "Only one of --biospart and partition may be specified for driverdisk "
 "command."
 msgstr ""
+"Hanya salah satu dari --biospart dan partition yang boleh ditentukan untuk "
+"perintah driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:180
 msgid ""
 "Only one of --biospart and --source may be specified for driverdisk command."
 msgstr ""
+"Hanya salah satu dari --biospart dan --source yang boleh ditentukan untuk "
+"perintah driverdisk."
 
 #: ../pykickstart/commands/driverdisk.py:183
 msgid ""
 "One of --source, --biospart, or partition must be specified for driverdisk "
 "command."
 msgstr ""
+"Salah satu dari --source, --biospart, atau partition harus ditentukan untuk "
+"perintah driverdisk."
 
 #: ../pykickstart/commands/zfcp.py:120
 msgid "A zfcp with this information has already been defined."
-msgstr ""
+msgstr "zfcp dengan informasi ini sudah didefinisikan."
 
 #: ../pykickstart/commands/url.py:194
 #, python-format
 msgid "One of -%(options_list)s options must be specified for url command."
 msgstr ""
+"Salah satu dari opsi -%(options_list)s harus ditentukan untuk perintah url."
 
 #: ../pykickstart/commands/url.py:197
 #, python-format
 msgid "Only one of %(options_list)s options may be specified for url command."
 msgstr ""
+"Hanya salah satu dari opsi %(options_list)s yang boleh ditentukan untuk "
+"perintah url."
 
 #: ../pykickstart/commands/rhsm.py:109
 msgid "Empty string is not a valid activation key."
-msgstr ""
+msgstr "String kosong bukan activation key yang valid."
 
 #: ../pykickstart/commands/raid.py:348
 #, python-format
 msgid "Invalid raid level: %s"
-msgstr ""
+msgstr "Level RAID tidak valid: %s"
 
 #: ../pykickstart/commands/raid.py:438
 #, python-format
 msgid "Partitions required for %s"
-msgstr ""
+msgstr "Partisi yang diperlukan untuk %s"
 
 #: ../pykickstart/commands/raid.py:440
 msgid "Members may not be specified for preexisting RAID device"
-msgstr ""
+msgstr "Anggota tidak boleh ditentukan untuk perangkat RAID yang sudah ada"
 
 #: ../pykickstart/commands/raid.py:458
 #, python-format
 msgid "A RAID device with the name %s has already been defined."
-msgstr ""
+msgstr "Perangkat RAID dengan nama %s sudah didefinisikan."
 
 #: ../pykickstart/commands/raid.py:640 ../pykickstart/commands/raid.py:694
 msgid "The raid and autopart commands can't be used at the same time"
@@ -522,32 +561,32 @@ msgstr ""
 #: ../pykickstart/commands/logvol.py:867
 #: ../pykickstart/commands/partition.py:682
 msgid "--mkfsoptions with --noformat has no effect."
-msgstr ""
+msgstr "--mkfsoptions dengan --noformat tidak berpengaruh."
 
 #: ../pykickstart/commands/raid.py:725 ../pykickstart/commands/logvol.py:813
 #: ../pykickstart/commands/logvol.py:870
 #: ../pykickstart/commands/partition.py:685
 msgid "--mkfsoptions and --fsprofile cannot be used together."
-msgstr ""
+msgstr "--mkfsoptions dan --fsprofile tidak dapat digunakan bersamaan."
 
 #: ../pykickstart/commands/raid.py:799 ../pykickstart/commands/logvol.py:929
 #: ../pykickstart/commands/partition.py:749
 msgid "Btrfs file system is not supported"
-msgstr ""
+msgstr "Sistem file Btrfs tidak didukung"
 
 #: ../pykickstart/commands/device.py:115
 msgid "device command requires two arguments: module type and name"
-msgstr ""
+msgstr "Perintah device memerlukan dua argumen: jenis modul dan nama"
 
 #: ../pykickstart/commands/device.py:144
 #, python-format
 msgid "%(command)s command requires a single argument: %(argument)s"
-msgstr ""
+msgstr "Perintah %(command)s memerlukan satu argumen: %(argument)s"
 
 #: ../pykickstart/commands/device.py:156
 #, python-format
 msgid "A module with the name %s has already been defined."
-msgstr ""
+msgstr "Modul dengan nama %s sudah didefinisikan."
 
 #: ../pykickstart/commands/logvol.py:480
 #, python-format
@@ -555,6 +594,8 @@ msgid ""
 "A logical volume with the name %(logical_volume_name)s has already been "
 "defined in volume group %(volume_group)s."
 msgstr ""
+"Logical volume dengan nama %(logical_volume_name)s sudah didefinisikan dalam "
+"volume group %(volume_group)s."
 
 #: ../pykickstart/commands/logvol.py:623 ../pykickstart/commands/logvol.py:752
 msgid "The logvol and autopart commands can't be used at the same time"
@@ -563,22 +604,23 @@ msgstr ""
 #: ../pykickstart/commands/logvol.py:627 ../pykickstart/commands/logvol.py:737
 msgid "--thin and --thinpool cannot both be specified for the same logvol"
 msgstr ""
+"--thin dan --thinpool tidak dapat keduanya ditentukan untuk logvol yang sama"
 
 #: ../pykickstart/commands/logvol.py:632 ../pykickstart/commands/logvol.py:741
 msgid "--thin requires --poolname to specify pool name"
-msgstr ""
+msgstr "--thin memerlukan --poolname untuk menentukan nama pool"
 
 #: ../pykickstart/commands/logvol.py:637 ../pykickstart/commands/logvol.py:746
 msgid "--chunksize and --metadatasize are for thin pools only"
-msgstr ""
+msgstr "--chunksize dan --metadatasize hanya untuk thin pool"
 
 #: ../pykickstart/commands/logvol.py:681
 msgid "--resize can only be used in conjunction with --useexisting"
-msgstr ""
+msgstr "--resize hanya dapat digunakan bersama --useexisting"
 
 #: ../pykickstart/commands/logvol.py:684
 msgid "--resize requires --size to indicate new size"
-msgstr ""
+msgstr "--resize memerlukan --size untuk menunjukkan ukuran baru"
 
 #: ../pykickstart/commands/logvol.py:756
 msgid "The logvol and mount commands can't be used at the same time"
@@ -589,40 +631,43 @@ msgid ""
 "No size given for logical volume. Use one of --useexisting, --noformat, "
 "--size, --percent, or --hibernation."
 msgstr ""
+"Tidak ada ukuran yang diberikan untuk logical volume. Gunakan salah satu "
+"dari --useexisting, --noformat, --size, --percent, atau --hibernation."
 
 #: ../pykickstart/commands/logvol.py:764
 msgid "Percentage must be between 0 and 100."
-msgstr ""
+msgstr "Persentase harus berada antara 0 dan 100."
 
 #: ../pykickstart/commands/logvol.py:785
 msgid "--size and --percent cannot both be specified for the same logvol"
 msgstr ""
+"--size dan --percent tidak dapat keduanya ditentukan untuk logvol yang sama"
 
 #: ../pykickstart/commands/logvol.py:847
 msgid "Adding a cache to an existing logical volume is not supported"
-msgstr ""
+msgstr "Menambahkan cache ke logical volume yang sudah ada tidak didukung"
 
 #: ../pykickstart/commands/logvol.py:851
 msgid "Thin volumes cannot be cached"
-msgstr ""
+msgstr "Thin volume tidak dapat di-cache"
 
 #: ../pykickstart/commands/logvol.py:855
 msgid "Cache needs to have a list of (fast) PVs specified"
-msgstr ""
+msgstr "Cache harus memiliki daftar PV (cepat) yang ditentukan"
 
 #: ../pykickstart/commands/logvol.py:859
 msgid "Cache needs to have size specified"
-msgstr ""
+msgstr "Ukuran cache harus ditentukan"
 
 #: ../pykickstart/commands/logvol.py:863
 #, python-format
 msgid "Invalid cache mode given: %s"
-msgstr ""
+msgstr "Mode cache yang diberikan tidak valid: %s"
 
 #: ../pykickstart/commands/fcoe.py:143
 #, python-format
 msgid "A FCOE device with the name %s has already been defined."
-msgstr ""
+msgstr "Perangkat FCOE dengan nama %s sudah didefinisikan."
 
 #: ../pykickstart/commands/reqpart.py:78
 #, python-format
@@ -635,12 +680,12 @@ msgstr ""
 
 #: ../pykickstart/commands/module.py:134
 msgid "The enable module command does not take position arguments!"
-msgstr ""
+msgstr "Perintah enable module tidak menerima argumen posisional!"
 
 #: ../pykickstart/commands/partition.py:448
 #, python-format
 msgid "A partition with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "Partisi dengan mount point %s sudah didefinisikan."
 
 #: ../pykickstart/commands/partition.py:579
 #: ../pykickstart/commands/partition.py:645
@@ -650,11 +695,11 @@ msgstr ""
 
 #: ../pykickstart/commands/partition.py:611
 msgid "--resize can only be used in conjunction with --onpart"
-msgstr ""
+msgstr "--resize hanya dapat digunakan bersama --onpart"
 
 #: ../pykickstart/commands/partition.py:614
 msgid "--resize requires --size to specify new size"
-msgstr ""
+msgstr "--resize memerlukan --size untuk menentukan ukuran baru"
 
 #: ../pykickstart/commands/partition.py:649
 msgid "The part/partition and mount commands can't be used at the same time"
@@ -663,121 +708,130 @@ msgstr ""
 #: ../pykickstart/commands/partition.py:655
 msgid ""
 "The --fstype=tmpfs option can't be used together with --grow or --maxsize"
-msgstr ""
+msgstr "Opsi --fstype=tmpfs tidak dapat digunakan bersama --grow atau --maxsize"
 
 #: ../pykickstart/commands/logging.py:80
 msgid "Can't specify --port without --host."
-msgstr ""
+msgstr "Tidak dapat menentukan --port tanpa --host."
 
 #: ../pykickstart/commands/updates.py:64
 #, python-format
 msgid "Kickstart command %s only takes one argument"
-msgstr ""
+msgstr "Perintah kickstart %s hanya menerima satu argumen"
 
 #: ../pykickstart/commands/group.py:95
 #, python-format
 msgid "A group with the name %s has already been defined."
-msgstr ""
+msgstr "Grup dengan nama %s sudah didefinisikan."
 
 #: ../pykickstart/commands/network.py:478
 #, python-format
 msgid "A network device with the name %s has already been defined."
-msgstr ""
+msgstr "Perangkat jaringan dengan nama %s sudah didefinisikan."
 
 #: ../pykickstart/commands/network.py:746
 #: ../pykickstart/commands/network.py:1049
 msgid "Option --bridgeopts requires --bridgeslaves to be specified"
-msgstr ""
+msgstr "Opsi --bridgeopts mengharuskan --bridgeslaves untuk ditentukan"
 
 #: ../pykickstart/commands/network.py:752
 #: ../pykickstart/commands/network.py:1055
 msgid ""
 "Bad format of --bridgeopts, expecting key=value options separated by ','"
 msgstr ""
+"Format --bridgeopts tidak valid, diharapkan opsi key=value yang dipisahkan "
+"dengan ','"
 
 #: ../pykickstart/commands/network.py:834
 #: ../pykickstart/commands/network.py:1060
 #, python-format
 msgid "--bindto=%s is not supported for this type of device"
-msgstr ""
+msgstr "--bindto=%s tidak didukung untuk jenis perangkat ini"
 
 #: ../pykickstart/commands/network.py:950
 msgid ""
 "When using the <prefix>.<vlan id> interface name notation, <prefix> can't be"
 " equal to 'vlan'."
 msgstr ""
+"Saat menggunakan notasi nama antarmuka <prefix>.<vlan id>, <prefix> tidak "
+"boleh sama dengan 'vlan'."
 
 #: ../pykickstart/commands/network.py:954
 msgid ""
 "If network --interfacename contains a '.', valid vlan id should follow."
 msgstr ""
+"Jika network --interfacename berisi '.', ID VLAN yang valid harus "
+"mengikutinya."
 
 #: ../pykickstart/commands/network.py:963
 msgid ""
 "If network --interfacename starts with 'vlan', valid vlan id should follow."
 msgstr ""
+"Jika network --interfacename diawali dengan 'vlan', ID VLAN yang valid harus "
+"mengikutinya."
 
 #: ../pykickstart/commands/network.py:968
 #, python-format
 msgid "The vlan id is out of the %(minimum)d-%(maximum)d vlan id range."
-msgstr ""
+msgstr "ID VLAN berada di luar rentang ID VLAN %(minimum)d-%(maximum)d."
 
 #: ../pykickstart/commands/multipath.py:98
 #, python-format
 msgid "Device '%(device)s' is already used in multipath '%(multipathdev)s'"
 msgstr ""
+"Perangkat '%(device)s' sudah digunakan dalam multipath '%(multipathdev)s'"
 
 #: ../pykickstart/commands/btrfs.py:129
 #, python-format
 msgid "Invalid btrfs level: %s"
-msgstr ""
+msgstr "Level btrfs tidak valid: %s"
 
 #: ../pykickstart/commands/btrfs.py:215
 msgid "btrfs must be given a mountpoint"
-msgstr ""
+msgstr "btrfs harus diberi mount point"
 
 #: ../pykickstart/commands/btrfs.py:224
 msgid "btrfs must be given a list of partitions"
-msgstr ""
+msgstr "btrfs harus diberi daftar partisi"
 
 #: ../pykickstart/commands/btrfs.py:226
 msgid "btrfs subvol requires specification of parent volume"
-msgstr ""
+msgstr "Subvolume btrfs memerlukan spesifikasi volume induk"
 
 #: ../pykickstart/commands/btrfs.py:229
 msgid "btrfs subvolume requires a name"
-msgstr ""
+msgstr "Subvolume btrfs memerlukan nama"
 
 #: ../pykickstart/commands/btrfs.py:233
 #, python-format
 msgid "A btrfs volume with the mountpoint %s has already been defined."
-msgstr ""
+msgstr "Volume btrfs dengan mount point %s sudah didefinisikan."
 
 #: ../pykickstart/commands/btrfs.py:264
 msgid "--mkfsoptions with --noformat or --useexisting has no effect."
-msgstr ""
+msgstr "--mkfsoptions dengan --noformat atau --useexisting tidak berpengaruh."
 
 #: ../pykickstart/commands/realm.py:43
 msgid "The realm command 'join' should only be specified once"
-msgstr ""
+msgstr "Perintah realm 'join' hanya boleh ditentukan sekali"
 
 #: ../pykickstart/commands/realm.py:46
 msgid "Missing realm command arguments"
-msgstr ""
+msgstr "Argumen perintah realm tidak ada"
 
 #: ../pykickstart/commands/realm.py:51
 #, python-format
 msgid "Unsupported realm '%s' command"
-msgstr ""
+msgstr "Perintah realm '%s' tidak didukung"
 
 #: ../pykickstart/commands/realm.py:63
 #, python-format
 msgid "Invalid realm arguments: %s"
-msgstr ""
+msgstr "Argumen realm tidak valid: %s"
 
 #: ../pykickstart/commands/realm.py:66
 msgid "Specify only one realm to join"
-msgstr ""
+msgstr "Tentukan hanya satu realm untuk di-join"
 
 #: ../pykickstart/commands/snapshot.py:90
 #, python-format
@@ -795,49 +849,54 @@ msgstr ""
 #: ../pykickstart/commands/snapshot.py:127
 #, python-format
 msgid "Snapshot with the name %s has been already defined!"
-msgstr ""
+msgstr "Snapshot dengan nama %s sudah didefinisikan!"
 
 #: ../pykickstart/commands/snapshot.py:131
 msgid "Snapshot \"when\" parameter must be specified!"
-msgstr ""
+msgstr "Parameter \"when\" untuk snapshot harus ditentukan!"
 
 #: ../pykickstart/commands/snapshot.py:136
 #, python-format
 msgid "Snapshot origin %s must be specified by VG/LV!"
-msgstr ""
+msgstr "Asal snapshot %s harus ditentukan dengan VG/LV!"
 
 #: ../pykickstart/commands/snapshot.py:141
 #, python-format
 msgid "Snapshot when param must have one of these values %s!"
 msgstr ""
+"Parameter when untuk snapshot harus memiliki salah satu dari nilai berikut "
+"%s!"
 
 #: ../pykickstart/commands/repo.py:280
 #, python-format
 msgid "One of -%(options_list)s options must be specified for repo command."
 msgstr ""
+"Salah satu dari opsi -%(options_list)s harus ditentukan untuk perintah repo."
 
 #: ../pykickstart/commands/repo.py:283
 #, python-format
 msgid ""
 "Only one of %(options_list)s options may be specified for repo command."
 msgstr ""
+"Hanya salah satu dari opsi %(options_list)s yang boleh ditentukan untuk "
+"perintah repo."
 
 #: ../pykickstart/commands/repo.py:291
 #, python-format
 msgid "A repo with the name %s has already been defined."
-msgstr ""
+msgstr "Repo dengan nama %s sudah didefinisikan."
 
 #: ../pykickstart/commands/repo.py:337
 msgid "Method must be a url to be added to the repo list."
-msgstr ""
+msgstr "Method harus berupa URL agar dapat ditambahkan ke daftar repo."
 
 #: ../tools/ksverdiff.py:45 ../tools/ksvalidator.py:60
 msgid "list the available versions of kickstart syntax"
-msgstr ""
+msgstr "daftarkan versi sintaks kickstart yang tersedia"
 
 #: ../tools/ksverdiff.py:56
 msgid "You must specify two syntax versions."
-msgstr ""
+msgstr "Anda harus menentukan dua versi sintaks."
 
 #: ../tools/ksverdiff.py:62 ../tools/ksverdiff.py:68 ../tools/ksflatten.py:53
 #: ../tools/ksvalidator.py:93 ../tools/ksshell.py:161
@@ -848,17 +907,17 @@ msgstr "Versi %s tidak didukung oleh pykickstart"
 #: ../tools/ksverdiff.py:75
 #, python-format
 msgid "The following commands were removed in %s:"
-msgstr ""
+msgstr "Perintah berikut dihapus dalam %s:"
 
 #: ../tools/ksverdiff.py:78
 #, python-format
 msgid "The following commands were deprecated in %s:"
-msgstr ""
+msgstr "Perintah berikut menjadi usang dalam %s:"
 
 #: ../tools/ksverdiff.py:81
 #, python-format
 msgid "The following commands were added in %s:"
-msgstr ""
+msgstr "Perintah berikut ditambahkan dalam %s:"
 
 #: ../tools/ksverdiff.py:107
 #, python-format
@@ -866,6 +925,7 @@ msgid ""
 "The following options were added to the %(command_name)s command in "
 "%(version)s:"
 msgstr ""
+"Opsi berikut ditambahkan ke perintah %(command_name)s dalam %(version)s:"
 
 #: ../tools/ksverdiff.py:112
 #, python-format
@@ -873,65 +933,66 @@ msgid ""
 "The following options were deprecated from the %(command_name)s command in "
 "%(version)s:"
 msgstr ""
+"Opsi berikut menjadi usang dari perintah %(command_name)s dalam %(version)s:"
 
 #: ../tools/ksverdiff.py:117
 #, python-format
 msgid ""
 "The following options were removed from the %(command_name)s command in "
 "%(version)s:"
-msgstr ""
+msgstr "Opsi berikut dihapus dari perintah %(command_name)s dalam %(version)s:"
 
 #: ../tools/ksflatten.py:36
 msgid "Path to kickstart config file"
-msgstr ""
+msgstr "Path ke file konfigurasi kickstart"
 
 #: ../tools/ksflatten.py:38
 msgid "Kickstart version to use for interpreting config"
-msgstr ""
+msgstr "Versi kickstart yang digunakan untuk menafsirkan konfigurasi"
 
 #: ../tools/ksflatten.py:40
 msgid "Write flattened config to OUTPUT"
-msgstr ""
+msgstr "Tulis konfigurasi yang telah diratakan ke OUTPUT"
 
 #: ../tools/ksflatten.py:47
 msgid "Need to specify a config to flatten"
-msgstr ""
+msgstr "Perlu menentukan konfigurasi untuk diratakan"
 
 #: ../tools/ksflatten.py:60
 #, python-format
 msgid "Failed to read kickstart file '%(filename)s' : %(error_msg)s"
-msgstr ""
+msgstr "Gagal membaca file kickstart '%(filename)s' : %(error_msg)s"
 
 #: ../tools/ksflatten.py:63
 #, python-format
 msgid "Failed to parse kickstart file '%(filename)s' : %(error_msg)s"
-msgstr ""
+msgstr "Gagal mengurai file kickstart '%(filename)s' : %(error_msg)s"
 
 #: ../tools/ksflatten.py:70
 #, python-format
 msgid "Failed to open output file '%(filename)s' : %(error_msg)s"
-msgstr ""
+msgstr "Gagal membuka file keluaran '%(filename)s' : %(error_msg)s"
 
 #: ../tools/ksvalidator.py:52
 msgid "filename or URL to read from"
-msgstr ""
+msgstr "nama file atau URL untuk dibaca"
 
 #: ../tools/ksvalidator.py:54
 msgid "halt after the first error or warning"
-msgstr "halt setelah kesalahan atau peringatan pertama"
+msgstr "hentikan setelah kesalahan atau peringatan pertama"
 
 #: ../tools/ksvalidator.py:57
 #, python-format
 msgid "parse include files when %%include is seen"
-msgstr ""
+msgstr "urai file include saat %%include ditemukan"
 
 #: ../tools/ksvalidator.py:62 ../tools/ksshell.py:150
 msgid "version of kickstart syntax to validate against"
-msgstr "versi dari sintak kickstart yang akan divalidasi"
+msgstr "versi sintaks kickstart yang akan divalidasi"
 
 #: ../tools/ksvalidator.py:64
 msgid "show this help message and exit"
-msgstr ""
+msgstr "tampilkan pesan bantuan ini dan keluar"
 
 #: ../tools/ksvalidator.py:87
 #, python-format
@@ -939,6 +1000,8 @@ msgid ""
 "Error reading %(filename)s:\n"
 "%(version)s"
 msgstr ""
+"Kesalahan saat membaca %(filename)s:\n"
+"%(version)s"
 
 #: ../tools/ksvalidator.py:109
 #, python-format
@@ -946,26 +1009,28 @@ msgid ""
 "File uses a deprecated option or command.\n"
 "%s"
 msgstr ""
-"Berkas mempergunakan opsi atau perintah usang.\n"
+"File menggunakan opsi atau perintah yang sudah usang.\n"
 "%s"
 
 #: ../tools/ksvalidator.py:114
 msgid "General kickstart error in input file"
-msgstr "Kesalahan kickstart yang umum pada berkas masukan"
+msgstr "Kesalahan umum kickstart dalam file masukan"
 
 #: ../tools/ksvalidator.py:117
 #, python-format
 msgid "General error in input file:  %s"
-msgstr "Kesalahan umum pada berkas masukan: %s"
+msgstr "Kesalahan umum dalam file masukan: %s"
 
 #: ../tools/ksshell.py:146
 msgid "a basis file to use for seeding the kickstart data (optional)"
-msgstr ""
+msgstr "file basis yang digunakan untuk menyemai data kickstart (opsional)"
 
 #: ../tools/ksshell.py:148
 msgid ""
 "the location to write the finished kickstart file, or stdout if not given"
 msgstr ""
+"lokasi untuk menulis file kickstart yang telah selesai, atau stdout jika "
+"tidak diberikan"
 
 #. Errors should just dump you to the prompt anyway.
 #: ../tools/ksshell.py:173
@@ -974,8 +1039,10 @@ msgid ""
 "Warning:  The following error occurred when processing the input file:\n"
 "%s\n"
 msgstr ""
+"Peringatan: Kesalahan berikut terjadi saat memproses file input:\n"
+"%s\n"
 
 #: ../tools/ksshell.py:218
 #, python-format
 msgid "Internal command %s not recognized."
-msgstr ""
+msgstr "Perintah internal %s tidak dikenali."
