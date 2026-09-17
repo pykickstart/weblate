@@ -17,13 +17,13 @@
 # Georg Hasibether <georg@hasibether.at>, 2016. #zanata
 # Lisa Stemmler <lstemmle@redhat.com>, 2016. #zanata
 # Roman Spirgi <bigant@fedoraproject.org>, 2017. #zanata
-# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-03 09:43-0700\n"
-"PO-Revision-Date: 2022-08-01 13:19+0000\n"
+"PO-Revision-Date: 2026-09-17 20:17+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/de/>\n"
@@ -32,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -79,10 +79,8 @@ msgid "--default and --nocore cannot be used together"
 msgstr "--default und --nocore können nicht zusammen verwendet werden"
 
 #: ../pykickstart/commands/stratisfs.py:147
-#, fuzzy
-#| msgid "'--mkfsoptions' requires --reformat"
 msgid "--maxsize requires --grow"
-msgstr "'--mkfsoptions' erfordert --reformat"
+msgstr "--maxsize erfordert --grow"
 
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
 #: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:703
@@ -100,10 +98,8 @@ msgstr ""
 "--mkfsoptions mit --noformat oder --useexisting hat keine Auswirkungen."
 
 #: ../pykickstart/commands/stratispool.py:147
-#, fuzzy
-#| msgid "--resize can only be used in conjunction with --onpart"
 msgid "--passphrase can only be used with --encrypted"
-msgstr "--resize kann nur im Zusammenhang mit --onpart verwendet werden"
+msgstr "--passphrase kann nur im Zusammenhang mit --encrypted verwendet werden"
 
 #: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
