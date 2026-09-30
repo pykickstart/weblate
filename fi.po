@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-03 09:43-0700\n"
-"PO-Revision-Date: 2026-06-23 19:17+0000\n"
+"PO-Revision-Date: 2026-09-30 18:17+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "pykickstart/master/fi/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.1\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: ../tools/ksvalidator.py:102
 #, python-format
@@ -71,10 +71,8 @@ msgid "--default and --nocore cannot be used together"
 msgstr "'--default' ja '--nocore' ei voida käyttää yhdessä"
 
 #: ../pykickstart/commands/stratisfs.py:147
-#, fuzzy
-#| msgid "'--mkfsoptions' requires --reformat"
 msgid "--maxsize requires --grow"
-msgstr "'--mkfsoptions' vaatii '--reformat'"
+msgstr "--maxsize vaatii valinnan --grow"
 
 #: ../pykickstart/commands/logvol.py:802 ../pykickstart/commands/logvol.py:859
 #: ../pykickstart/commands/partition.py:682 ../pykickstart/commands/raid.py:703
@@ -93,10 +91,8 @@ msgstr ""
 "vaikutusta."
 
 #: ../pykickstart/commands/stratispool.py:147
-#, fuzzy
-#| msgid "--resize can only be used in conjunction with --onpart"
 msgid "--passphrase can only be used with --encrypted"
-msgstr "'--resize' voidaan käyttää vain yhdessä '--onpart':n kanssa"
+msgstr "-passphrase-valitsinta voi käyttää vain --encrypted-valitsimen kanssa"
 
 #: ../pykickstart/commands/partition.py:616
 msgid "--resize can only be used in conjunction with --onpart"
@@ -192,22 +188,17 @@ msgid "A single argument is expected for the %s command"
 msgstr "Komennolle %s odotetaan yhtä argumenttia"
 
 #: ../pykickstart/commands/stratisfs.py:151
-#, fuzzy, python-format
-#| msgid ""
-#| "A logical volume with the name %(logical_volume_name)s has already been "
-#| "defined in volume group %(volume_group)s."
+#, python-format
 msgid ""
 "A stratisfs with the name %(stratisfs_name)s has already been defined in "
 "pool %(pool_name)s."
 msgstr ""
-"Looginen taltio nimeltä %(logical_volume_name)s on jo määritelty "
-"taltioryhmässä %(volume_group)s."
+"Stratisfs nimellä %(stratisfs_name)s on jo määritetty pooliin %(pool_name)s."
 
 #: ../pykickstart/commands/stratispool.py:156
-#, fuzzy, python-format
-#| msgid "A repo with the name %s has already been defined."
+#, python-format
 msgid "A stratispool with the name %s has already been defined."
-msgstr "Ohjelmistolähde nimeltä %s on jo määritelty."
+msgstr "Stratis-pooli nimellä %s on jo määritetty."
 
 #: ../pykickstart/commands/user.py:205
 #, python-format
@@ -517,10 +508,8 @@ msgid "Members may not be specified for preexisting RAID device"
 msgstr "Jäseniä ei voida määrittää olemassa olevalle RAID-laitteelle"
 
 #: ../pykickstart/commands/stratispool.py:144
-#, fuzzy
-#| msgid "Members may not be specified for preexisting volgroup"
 msgid "Members may not be specified for preexisting stratispool"
-msgstr "Jäseniä ei voida määrittää olemassa olevalle volyymiryhmälle"
+msgstr "Jäseniä ei voida määrittää olemassa olevalle stratis-poolille"
 
 #: ../pykickstart/commands/volgroup.py:178
 msgid "Members may not be specified for preexisting volgroup"
@@ -829,7 +818,7 @@ msgstr "Seuraavat komennot poistettiin versiossa %s:"
 #: ../pykickstart/commands/autopart.py:715
 #, python-format
 msgid "The following options are not compatible with --type=stratis: %s"
-msgstr ""
+msgstr "Seuraavat valinnat eivät ole yhteensopivia --type=stratis kanssa: %s"
 
 #: ../tools/ksverdiff.py:106
 #, python-format
@@ -1088,16 +1077,12 @@ msgid "show this help message and exit"
 msgstr "näytä tämä ohjeviesti ja poistu"
 
 #: ../pykickstart/commands/stratispool.py:142
-#, fuzzy
-#| msgid "btrfs must be given a list of partitions"
 msgid "stratispool must be given a list of blockdevs"
-msgstr "btrfs:lle on annettava luettelo osioista"
+msgstr "stratispoolille on annettava luettelo lohkokehitysohjelmista"
 
 #: ../pykickstart/commands/stratispool.py:139
-#, fuzzy
-#| msgid "volgroup must be given a VG name"
 msgid "stratispool must be given a pool name"
-msgstr "volgroupille on annettava VG-nimi"
+msgstr "stratispoolille on annettava poolin nimi"
 
 #: ../tools/ksshell.py:155
 msgid ""
