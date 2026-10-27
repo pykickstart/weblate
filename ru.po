@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-03 15:45-0700\n"
-"PO-Revision-Date: 2026-08-04 23:28+0000\n"
+"PO-Revision-Date: 2026-10-28 21:18+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
 "pykickstart/rhel7-branch/ru/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.8\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: ../pykickstart/base.py:187
 #, python-format
@@ -812,7 +812,7 @@ msgstr "Укажите только одну область (realm) для пр�
 
 #: ../tools/ksflatten:38
 msgid "Path to kickstart config file"
-msgstr "Путь к файлу конфигурации кикстарта"
+msgstr "Путь к файлу конфигурации kickstart"
 
 #: ../tools/ksflatten:40
 msgid "Kickstart version to use for interpreting config"
